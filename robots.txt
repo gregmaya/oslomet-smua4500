@@ -1,1 +1,1 @@
-Sitemap: https://github.com/Pakillo/quarto-course-website-template/sitemap.xml
+Sitemap: https://gregmaya.github.io/oslomet-smua4500/sitemap.xml
