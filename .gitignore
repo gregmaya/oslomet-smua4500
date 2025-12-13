@@ -4,3 +4,6 @@
 .Ruserdata
 /.quarto/
 docs
+
+# ignore adobe illustrator files
+*.ai

@@ -1,0 +1,24 @@
+---
+title: "Schedule"
+---
+
+|  Week         |                Theme                                         |
+|:-------------:|--------------------------------------------------------------|
+| [2](week2.qmd)| Introduction to smart cities                                 |
+| [3](week3.qmd)| Sustainable smart cities                                     |
+|   4           | IoT and City Dashboards                                      |
+|   5           | Smart city Skarnes in Norway and collecting data with drones |
+|   6           | Self-study week                                              |
+|   7           | Sensors in the city                                          |
+|   8           | _-No teaching at OsloMet-_                                   |
+|   9           | Citizen Science                                              |
+|   10          | Fieldwork                                                    |
+|   11          | Data spaces and data protection                              |
+|   12          | Collecting data with a drone                                 |
+|   13          | Introduction to 3D modelling                                 |
+|   14          | Self-study                                                   |
+|   15          | **Interim Presentations**                                    |
+|   16 - 17     | _Easter holidays_                                            |
+|   18          | Practical with supervision                                   |
+|   19 - 20     | Trouble shoorting                                            |
+|   21 - 23     | **Final Presentations**                                      |

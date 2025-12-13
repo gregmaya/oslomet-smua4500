@@ -1,5 +1,23 @@
 ---
-title: "Course Title"
+title: "Course Guide"
 ---
 
-Course info & details here
+![](images/smartcity.png)
+
+> One of the biggest challenges we are facing globally is climate change. Given that our world is becoming more computable opens up the opportunity for applying new technologies to achieve smart cities to fulfil sustainability goals. The current Smart City paradigm has evolved from a technology-only driven approach to a human-centred approach, in which a variety of technological tools help to improve quality of life for people. The main aim of the smart city is to enhance the existing built environment. Nowadays smart cities are geared towards facing future multifaced environmental, social, economic and political challenges of societies. Residents are coming to the forefront in the co-creating of cities, expressing their needs with increasing interest and influencing the design of livable, sustainable cities. An integrated understanding has an enormous impact in the planning of smart cities and policy recommendations to achieve livability in urban areas, quality of life for residents and equity in cities.
+
+:::::: {.columns}
+::: {.column}
+### Course Coordinator: 
+[Prof. Claudia van der Laag](https://www.oslomet.no/en/about/employee/claudiah/)
+:::
+::: {.column}
+### Lecturers: 
+- Prof. Claudia van der Laag
+- Greg Maya 
+- _Guests_
+:::
+::: 
+
+
+

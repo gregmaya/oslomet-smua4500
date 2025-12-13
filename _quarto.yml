@@ -3,31 +3,49 @@ project:
   output-dir: docs
 
 website:
-  title: "Course Title"
+  title: "SMUA4500 - Smart Cities"
+  description: "Course website for SMUA4500 - Smart Cities at Oslo Metropolitan University"
+  navbar:
+    search: true
+    background: "#FFDC00"
+  search:
+    location: navbar
+    type: overlay
   sidebar:
-    background: primary
-    # logo: "images/logo.png"
+    logo: "images/mini-Logo_OsloMet.png"
     pinned: true
     align: center
     tools:
       - icon: github
-        href: https://github.com/Pakillo/quarto-course-website-template
+        href: https://github.com/gregmaya/oslomet-smua4500
         text: GitHub
     style: docked
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Home
-      - href: schedule.qmd
-        text: Schedule
-      - href: materials.qmd
-        text: Materials
-      - href: https://github.com/Pakillo/quarto-course-website-template/discussions
+      # Main weekly expansion happening here
+      - section: Schedule
+        href: schedule/index.qmd
+        contents: 
+          - href: schedule/week2.qmd
+            text : "Week 2"
+          - href: schedule/week3.qmd
+            text : "Week 3"
+      - href: datasets.qmd
+        text: Datasets
+      - href: resources.qmd
+        text : "Additional Resources"
+      - href: https://github.com/gregmaya/oslomet-smua4500/discussions
         text: Forum
+
+favicon: "images/mini-Logo_OsloMet.png"
 
 format:
   html:
-    theme: cosmo
-    # css: styles.css
+    theme: default
+    css: styles.css
+    mainfont: "Moderat, Arial"
     toc: true
 
 execute:
