@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gregmaya.github.io/oslomet-smua4500/materials.html</loc>
-    <lastmod>2025-12-13T13:08:57.255Z</lastmod>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/resources.html</loc>
+    <lastmod>2025-12-14T11:24:57.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/schedule/week2.html</loc>
+    <lastmod>2025-12-14T11:24:57.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/schedule/week3.html</loc>
+    <lastmod>2025-12-14T11:24:57.447Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/index.html</loc>
-    <lastmod>2025-12-13T13:08:57.255Z</lastmod>
+    <lastmod>2025-12-14T11:24:57.447Z</lastmod>
   </url>
   <url>
-    <loc>https://gregmaya.github.io/oslomet-smua4500/schedule.html</loc>
-    <lastmod>2025-12-13T13:08:57.255Z</lastmod>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/schedule/index.html</loc>
+    <lastmod>2025-12-14T11:24:57.447Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/datasets.html</loc>
+    <lastmod>2025-12-14T11:24:57.443Z</lastmod>
   </url>
 </urlset>

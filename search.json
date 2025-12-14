@@ -1,30 +1,30 @@
 [
   {
-    "objectID": "materials.html",
-    "href": "materials.html",
-    "title": "Course Materials",
+    "objectID": "resources.html",
+    "href": "resources.html",
+    "title": "Additional Resources",
     "section": "",
-    "text": "Datasets\nSlides",
+    "text": "Papers\n\n\nArticles\n\nWhat’s a Smart City\n\n\n\nVideos",
     "crumbs": [
-      "Materials"
+      "Additional Resources"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Course Title",
+    "title": "Course Guide",
     "section": "",
-    "text": "Course info & details here",
+    "text": "One of the biggest challenges we are facing globally is climate change. Given that our world is becoming more computable opens up the opportunity for applying new technologies to achieve smart cities to fulfil sustainability goals. The current Smart City paradigm has evolved from a technology-only driven approach to a human-centred approach, in which a variety of technological tools help to improve quality of life for people. The main aim of the smart city is to enhance the existing built environment. Nowadays smart cities are geared towards facing future multifaced environmental, social, economic and political challenges of societies. Residents are coming to the forefront in the co-creating of cities, expressing their needs with increasing interest and influencing the design of livable, sustainable cities. An integrated understanding has an enormous impact in the planning of smart cities and policy recommendations to achieve livability in urban areas, quality of life for residents and equity in cities.\n\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
     "crumbs": [
       "Home"
     ]
   },
   {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
+    "objectID": "schedule/index.html",
+    "href": "schedule/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Example schedule:\n\n\n\n\n\n\n\n\n\nMorning\nAfternoon\n\n\n\n\nL\nIntro + Data manipulation\ngit / GitHub\n\n\nM\nGeneralised Linear Models\nData visualisation\n\n\nX\nMixed models / GAM / Bayes\nFunctional programming + Students work\n\n\nJ\nMultivariate analyses\nReproducible workflows\n\n\nV\nUsing R as GIS + Students work\nProject presentations",
+    "text": "Week\nTheme\n\n\n\n\n2\nIntroduction to smart cities\n\n\n3\nSustainable smart cities\n\n\n4\nIoT and City Dashboards\n\n\n5\nSmart city Skarnes in Norway and collecting data with drones\n\n\n6\nSelf-study week\n\n\n7\nSensors in the city\n\n\n8\n-No teaching at OsloMet-\n\n\n9\nCitizen Science\n\n\n10\nFieldwork\n\n\n11\nData spaces and data protection\n\n\n12\nCollecting data with a drone\n\n\n13\nIntroduction to 3D modelling\n\n\n14\nSelf-study\n\n\n15\nInterim Presentations\n\n\n16 - 17\nEaster holidays\n\n\n18\nPractical with supervision\n\n\n19 - 20\nTrouble shoorting\n\n\n21 - 23\nFinal Presentations",
     "crumbs": [
       "Schedule"
     ]
