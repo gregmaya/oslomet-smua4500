@@ -1,0 +1,36 @@
+name: Publish student notebooks branch
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Prepare student tree
+        shell: bash
+        run: |
+          shopt -s extglob
+          # Remove everything except what students should see
+          rm -rf .github .quarto .venv images \
+                 _quarto.yml .gitignore .python-version \
+                 index.qmd resources.qmd styles.css uv.lock \
+                 !(src|data|README.md|pyproject.toml|requirements.txt|LICENSE)
+
+      - name: Create students-notebooks branch (orphan) and push
+        run: |
+          git checkout --orphan students-notebooks
+          git add -A
+          git commit -m "Update student notebooks from main [ci skip]"
+          git push -f origin students-notebooks
