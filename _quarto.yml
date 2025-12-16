@@ -26,20 +26,24 @@ website:
         text: Home
       # Main weekly expansion happening here
       - section: Schedule
-        href: schedule/index.qmd
+        href: src/index.qmd
         contents: 
-          - href: schedule/week2.qmd
+          - href: src/week2.qmd
             text : "Week 2"
-          - href: schedule/week3.qmd
+          - href: src/week3.qmd
             text : "Week 3"
-      - href: datasets.qmd
+      - href: data/index.qmd
         text: Datasets
       - href: resources.qmd
         text : "Additional Resources"
       - href: https://github.com/gregmaya/oslomet-smua4500/discussions
         text: Forum
+  page-footer:
+    center:
+      - text: "Content released under CC0 1.0 Universal"
+        href: LICENSE  # or "LICENSE.html" or the CC0 URL
 
-favicon: "images/mini-Logo_OsloMet.png"
+favicon: "images/oslomet-favicon.png"
 
 format:
   html:
