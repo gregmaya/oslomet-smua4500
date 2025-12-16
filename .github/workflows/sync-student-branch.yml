@@ -22,9 +22,9 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Merge main into student-notebooks
+      - name: Merge main into students-notebooks
         run: |
           git fetch origin
-          git checkout student-notebooks
+          git checkout students-notebooks
           git merge origin/main --no-edit || true
-          git push origin student-notebooks
+          git push origin students-notebooks
