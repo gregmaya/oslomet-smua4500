@@ -28,6 +28,11 @@ jobs:
                  index.qmd resources.qmd styles.css uv.lock \
                  !(src|data|README.md|pyproject.toml|requirements.txt|LICENSE)
 
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
       - name: Create students-notebooks branch (orphan) and push
         run: |
           git checkout --orphan students-notebooks
