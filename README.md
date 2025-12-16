@@ -37,12 +37,7 @@ Once you've cloned the `student-notebooks` branch, the folder structure should l
 │   └── ...
 ├── data/
 │   ├── demography/
-│   │   ├── oslo_population.shp
-│   │   ├── oslo_population.dbf
-│   │   ├── oslo_population.prj
-│   │   └── oslo_population.shx
 │   ├── traffic/
-│   │   └── oslo_metro.gpckg
 │   └── ...
 ├── requirements.txt
 ├── pyproject.toml
