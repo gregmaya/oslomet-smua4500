@@ -10,23 +10,53 @@
     ]
   },
   {
+    "objectID": "deliverables.html",
+    "href": "deliverables.html",
+    "title": "Deliverables",
+    "section": "",
+    "text": "Report length: approx. 5,000 words (excluding references)\n\nInclude: maps, diagrams, and figures\n\nRequirements: clear structure and planning logic\n\nReferences: academic references and policy documents",
+    "crumbs": [
+      "Deliverables & Evaluation"
+    ]
+  },
+  {
+    "objectID": "deliverables.html#evaluation",
+    "href": "deliverables.html#evaluation",
+    "title": "Deliverables",
+    "section": "Evaluation",
+    "text": "Evaluation\nA letter grade (A–F) will be assigned based on the following parts:\n\nFinal Report: 80%\n\nPresentation: 20%",
+    "crumbs": [
+      "Deliverables & Evaluation"
+    ]
+  },
+  {
+    "objectID": "deliverables.html#assessment-criteria",
+    "href": "deliverables.html#assessment-criteria",
+    "title": "Deliverables",
+    "section": "Assessment Criteria",
+    "text": "Assessment Criteria\n\nProject Report\n\n\n\n\n\n\n\n\nCriterion\nFocus\nWeight\n\n\n\n\nProblem framing & planning relevance\nClarity and relevance of the planning problem; linkage to planning objectives, policy goals and societal challenges\n20%\n\n\nSpatial analysis\nQuality and appropriateness of spatial analysis; use of planning-relevant indicators; critical reflection on data and methods\n20%\n\n\nUse of Smart City approaches as planning instrument\nJustification and integration of Smart City tools as support for planning and decision-making\n20%\n\n\nPlanning strategy and spatial measures\nCoherence, feasibility, and spatial clarity of proposed planning measures; link between analysis and strategy\n15%\n\n\nGovernance and ethics\nConsideration of governance arrangements, stakeholder roles, ethical issues, and inclusiveness\n10%\n\n\nAcademic quality and communication\nStructure of the report, clarity, use of references, and quality of maps, figures and visual material; command of English\n15%\n\n\nTOTAL – Project report\n\n100% (×0.8)\n\n\n\n\n\n\nGroup Presentation\n\n\n\n\n\n\n\n\nCriterion\nFocus\nWeight\n\n\n\n\nPlanning argument and content\nClarity and coherence of the planning narrative; consistency between problem, analysis, and strategy\n25%\n\n\nVisualisation and spatial communication\nQuality and effectiveness of maps, diagrams, and visual material in communicating planning ideas\n25%\n\n\nDelivery, teamwork and discussion\nStructure of presentation, team coordination, time management, and ability to respond to questions\n50%\n\n\nTOTAL – Presentation\n\n100% (×0.2)",
+    "crumbs": [
+      "Deliverables & Evaluation"
+    ]
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Course Guide",
+    "section": "Content",
+    "text": "Content\nThis course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. In this course, the student will gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment. Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders. This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor.\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "src/index.html",
     "href": "src/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Week\nTheme\n\n\n\n\n2\nIntroduction to smart cities\n\n\n3\nSustainable smart cities\n\n\n4\nIoT and City Dashboards\n\n\n5\nSmart city Skarnes in Norway and collecting data with drones\n\n\n6\nSelf-study week\n\n\n7\nSensors in the city\n\n\n8\n-No teaching at OsloMet-\n\n\n9\nCitizen Science\n\n\n10\nFieldwork\n\n\n11\nData spaces and data protection\n\n\n12\nCollecting data with a drone\n\n\n13\nIntroduction to 3D modelling\n\n\n14\nSelf-study\n\n\n15\nInterim Presentations\n\n\n16 - 17\nEaster holidays\n\n\n18\nPractical with supervision\n\n\n19 - 20\nTrouble shoorting\n\n\n21 - 23\nFinal Presentations",
+    "text": "Smart Cities Course Schedule 2026\n\n\n\nUnit\nDate(s)\nTheme\nLead by\n\n\n\n\n1\n06–07/01\nIntroduction to Smart Cities\n—\n\n\n2\n12/01\nIntroduction to Smart Cities – The Evolution of the Smart City\nC. v.d. Laag\n\n\n3\n19/01\nUrban Challenges and Systems Thinking\nG. Maya\n\n\n4\n26/01\nDigital Infrastructure and Digital Twins\nC. v.d. Laag / M. Zarei / S. Krappmann\n\n\n5\n09/02\nArtificial Intelligence and the Smart City\nG. Maya\n\n\n6\n23/02\nEthics, Law & Planning Responsibility\nC. v.d. Laag\n\n\n7\n02/03\nProject Studio and Supervision\nG. Maya\n\n\n8\n09/03\nSelf-study Week\n—\n\n\n9\n16/03\nExcursion\nC. v.d. Laag\n\n\n10\n23/03\nGovernance, Policy and Planning Institutions\nG. Maya\n\n\n11\n13/04\nSmart Cities in Planning Practice\nC. v.d. Laag / S. Krappmann\n\n\n12\n20/04\nProject Studio and Supervision\nG. Maya\n\n\n13\n27/04\nA Planner’s Role in the Smart City\nC. v.d. Laag\n\n\n14\n04/05\nTrouble Shooting\nC. v.d. Laag / G. Maya\n\n\n21–24\n18/05–10/06\nFinal Group Presentations & Discussion (Exam)\n—",
     "crumbs": [
       "Schedule"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course Guide",
-    "section": "",
-    "text": "One of the biggest challenges we are facing globally is climate change. Given that our world is becoming more computable opens up the opportunity for applying new technologies to achieve smart cities to fulfil sustainability goals. The current Smart City paradigm has evolved from a technology-only driven approach to a human-centred approach, in which a variety of technological tools help to improve quality of life for people. The main aim of the smart city is to enhance the existing built environment. Nowadays smart cities are geared towards facing future multifaced environmental, social, economic and political challenges of societies. Residents are coming to the forefront in the co-creating of cities, expressing their needs with increasing interest and influencing the design of livable, sustainable cities. An integrated understanding has an enormous impact in the planning of smart cities and policy recommendations to achieve livability in urban areas, quality of life for residents and equity in cities.\n\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
-    "crumbs": [
-      "Home"
     ]
   }
 ]
