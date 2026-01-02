@@ -4,7 +4,14 @@ title: "Course Guide"
 
 ![](images/smartcity.png)
 
-> One of the biggest challenges we are facing globally is climate change. Given that our world is becoming more computable opens up the opportunity for applying new technologies to achieve smart cities to fulfil sustainability goals. The current Smart City paradigm has evolved from a technology-only driven approach to a human-centred approach, in which a variety of technological tools help to improve quality of life for people. The main aim of the smart city is to enhance the existing built environment. Nowadays smart cities are geared towards facing future multifaced environmental, social, economic and political challenges of societies. Residents are coming to the forefront in the co-creating of cities, expressing their needs with increasing interest and influencing the design of livable, sustainable cities. An integrated understanding has an enormous impact in the planning of smart cities and policy recommendations to achieve livability in urban areas, quality of life for residents and equity in cities.
+## Content
+
+This course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. 
+In this course, the student will
+gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate
+applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment.
+Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders.
+This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor. 
 
 :::::: {.columns}
 ::: {.column}
@@ -18,6 +25,9 @@ title: "Course Guide"
 - _Guests_
 :::
 ::: 
+
+
+
 
 
 

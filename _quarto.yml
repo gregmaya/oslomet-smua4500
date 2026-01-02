@@ -28,22 +28,19 @@ website:
       - section: Schedule
         href: src/index.qmd
         contents: 
-          - href: src/week2.qmd
-            text : "Week 2"
-          - href: src/week3.qmd
-            text : "Week 3"
-      - href: data/index.qmd
-        text: Datasets
+          - href: src/unit_1.qmd
+          - href: src/unit_2.qmd
+      # - href: data/index.qmd
+      #   text: Datasets
+      - href: deliverables.qmd
+        text: Deliverables & Evaluation
       - href: resources.qmd
         text : "Additional Resources"
-      - href: https://github.com/gregmaya/oslomet-smua4500/discussions
-        text: Forum
   page-footer:
     center:
       - text: "Content released under CC0 1.0 Universal"
         href: LICENSE  # or "LICENSE.html" or the CC0 URL
 
-favicon: "images/oslomet-favicon.png"
 
 format:
   html:
@@ -51,6 +48,7 @@ format:
     css: styles.css
     mainfont: "Moderat, Arial"
     toc: true
+    favicon: /images/favicon.ico
 
 execute:
   freeze: auto

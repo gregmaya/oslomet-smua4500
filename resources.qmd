@@ -7,9 +7,9 @@ title : Additional Resources
 
 # Articles
 
-- [What's a Smart City](https://www.ibm.com/topics/smart-city) 
+- [What's a Smart City](https://www.ibm.com/topics/smart-city){target="_blank"}
 
-- [Here & Now - Digital Cities - Autumn 2025](https://issuu.com/theaou/docs/here_and_now_-_autumn_2025_-_digital_cities)
+- [Here & Now - Digital Cities - Autumn 2025](https://issuu.com/theaou/docs/here_and_now_-_autumn_2025_-_digital_cities){target="_blank"}
     - Article (p.6-7): "Three questions to test new digital planning approaches against" - Ed Parham
        
 
