@@ -4,7 +4,7 @@
     "href": "resources.html",
     "title": "Additional Resources",
     "section": "",
-    "text": "Papers\n\n\nArticles\n\nWhat’s a Smart City\nHere & Now - Digital Cities - Autumn 2025\n\nArticle (p.6-7): “Three questions to test new digital planning approaches against” - Ed Parham\n\n\n\n\nVideos",
+    "text": "Papers\n\n\nArticles\n\nWhat’s a Smart City\nHere & Now - Digital Cities - Autumn 2025\n\nArticle (p.6-7): “Three questions to test new digital planning approaches against” - Ed Parham\n\nThe New Science of Cities by Michael Batty 2017 # Videos",
     "crumbs": [
       "Additional Resources"
     ]
@@ -119,36 +119,6 @@
     ]
   },
   {
-    "objectID": "deliverables.html",
-    "href": "deliverables.html",
-    "title": "Deliverables",
-    "section": "",
-    "text": "Report length: approx. 5,000 words (excluding references)\n\nInclude: maps, diagrams, and figures\n\nRequirements: clear structure and planning logic\n\nReferences: academic references and policy documents",
-    "crumbs": [
-      "Deliverables & Evaluation"
-    ]
-  },
-  {
-    "objectID": "deliverables.html#evaluation",
-    "href": "deliverables.html#evaluation",
-    "title": "Deliverables",
-    "section": "Evaluation",
-    "text": "Evaluation\nA letter grade (A–F) will be assigned based on the following parts:\n\nFinal Report: 80%\n\nPresentation: 20%",
-    "crumbs": [
-      "Deliverables & Evaluation"
-    ]
-  },
-  {
-    "objectID": "deliverables.html#assessment-criteria",
-    "href": "deliverables.html#assessment-criteria",
-    "title": "Deliverables",
-    "section": "Assessment Criteria",
-    "text": "Assessment Criteria\n\nProject Report\n\n\n\n\n\n\n\n\nCriterion\nFocus\nWeight\n\n\n\n\nProblem framing & planning relevance\nClarity and relevance of the planning problem; linkage to planning objectives, policy goals and societal challenges\n20%\n\n\nSpatial analysis\nQuality and appropriateness of spatial analysis; use of planning-relevant indicators; critical reflection on data and methods\n20%\n\n\nUse of Smart City approaches as planning instrument\nJustification and integration of Smart City tools as support for planning and decision-making\n20%\n\n\nPlanning strategy and spatial measures\nCoherence, feasibility, and spatial clarity of proposed planning measures; link between analysis and strategy\n15%\n\n\nGovernance and ethics\nConsideration of governance arrangements, stakeholder roles, ethical issues, and inclusiveness\n10%\n\n\nAcademic quality and communication\nStructure of the report, clarity, use of references, and quality of maps, figures and visual material; command of English\n15%\n\n\nTOTAL – Project report\n\n100% (×0.8)\n\n\n\n\n\n\nGroup Presentation\n\n\n\n\n\n\n\n\nCriterion\nFocus\nWeight\n\n\n\n\nPlanning argument and content\nClarity and coherence of the planning narrative; consistency between problem, analysis, and strategy\n25%\n\n\nVisualisation and spatial communication\nQuality and effectiveness of maps, diagrams, and visual material in communicating planning ideas\n25%\n\n\nDelivery, teamwork and discussion\nStructure of presentation, team coordination, time management, and ability to respond to questions\n50%\n\n\nTOTAL – Presentation\n\n100% (×0.2)",
-    "crumbs": [
-      "Deliverables & Evaluation"
-    ]
-  },
-  {
     "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
     "href": "src/unit_3/1_system_thinking.html#session-roadmap",
     "title": "Systems Thinking",
@@ -161,11 +131,23 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-as-a-complex-system",
-    "href": "src/unit_3/1_system_thinking.html#the-city-as-a-complex-system",
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-system",
+    "href": "src/unit_3/1_system_thinking.html#the-city-complex-system",
     "title": "Systems Thinking",
-    "section": "The City as a Complex System",
-    "text": "The City as a Complex System\n\nA city is not a machine with predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox: * We have new technical capabilities (Big Data, sensors, AI).\n\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
+    "section": "The City = Complex System",
+    "text": "The City = Complex System\n\nA city is decomposable into predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox: * We have new technical capabilities (Big Data, sensors, AI).\n\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#section",
+    "href": "src/unit_3/1_system_thinking.html#section",
+    "title": "Systems Thinking",
+    "section": "",
+    "text": "The city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -177,7 +159,7 @@
     "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
     "title": "Systems Thinking",
     "section": "What the Smart City is NOT",
-    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.\n\n\n\nThis is your “Warning” slide. Insist on the idea that models are fallible. Because of urban complexity (non-linearity and emergence), we can’t predict exactly what a city will do. If a student thinks a model gives “The Answer,” they are misrepresenting what a model is. It’s a tool for exploration, not a decree.",
+    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.\n\n\n\n\nmodels are fallible.\nBecause of urban complexity (non-linearity and emergence), we can’t predict exactly what a city will do.\n“The Answer,” they are misrepresenting what a model is. It’s a tool for exploration, not a decree.",
     "crumbs": [
       "Schedule",
       "Unit 3",
