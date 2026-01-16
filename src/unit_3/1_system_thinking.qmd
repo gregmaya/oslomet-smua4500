@@ -50,17 +50,6 @@ _Part I_
 - "Smart" doesn't mean "New." Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.
 :::
 
-##
-
-<section>
-  <iframe data-src="https://www.youtube.com/watch?v=CrWM2lc1oRA" width="800" height="450"></iframe>
-</section>
-
-::: {.notes}
-- The city is the ultimate complex system. 
-- "Smart" doesn't mean "New." Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.
-:::
-
 
 ## What the Smart City is NOT {background-color="#FF8100"}
 :::{.incremental}
@@ -78,25 +67,29 @@ _Part I_
 - "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
+## The Living City {background-video="https://www.youtube.com/embed/CrWM2lc1oRA?autoplay=1&mute=1&loop=1" background-video-loop="true"}
+
+::: {.notes}
+Tell the students: "Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
+:::
 
 
 ## The Science of Cities
 
 :::::: {.columns}
-::: {.column}
-> "[...] cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather ... than locations [...] **location is, in effect, a synthesis of interactions.**"
+::: {.column width="60%"}
+> "...cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather ... than locations [...] **location is, in effect, a synthesis of interactions.**"
+>
+> — *Michael Batty, 2013*
 :::
-::: {.column}
-![Michael Batty, 2017](img/batty_book1.png)
+::: {.column width="40%"}
+![](img/batty_book1.png){height="500px" fig-alt="Michael Batty, The New Science of Cities"}
 :::
+::::::
+
+::: {.notes}
+Use this to transition into the modeling heuristics. If location is just a "synthesis of interactions," then to model a city, we shouldn't just map where things *are* (static), but how things *move and relate* (dynamic). This justifies why we look at things like Networks and Agent-Based models.
 :::
-
-
-
-
-
-
-
 
 
 ## The "Wicked" Problem
@@ -112,10 +105,9 @@ For their assignments: help them see that their chosen problem (e.g., housing or
 :::
 
 
-
 ## The "Brain" of the Smart City
-* **The Back-end (Today):** The heuristics, logic, and models.
-* **The Front-end (Next Lecture):** Dashboards, visualizations, and stakeholder apps.
+* **_The Back-end_:** The heuristics, logic, and models.
+* **_The Front-end_:** Dashboards, visualizations, and stakeholder apps.
 * **The Principle:** Logic must precede display.
 
 ::: {.notes}
@@ -133,8 +125,6 @@ Contrast the two ways of thinking. Linear thinking says: "Traffic is bad, widen 
 This is the fundamental shift required for the rest of the lecture.
 :::
 
-
-
 ## Modeling as a Heuristic
 * A model is not "The Truth."
 * It is a **Heuristic**: a mental shortcut or tool for discovery.
@@ -143,4 +133,3 @@ This is the fundamental shift required for the rest of the lecture.
 ::: {.notes}
 This is a friendly way to lower the "technical" barrier. You aren't asking them to be data scientists today; you are asking them to use models as "thinking tools" to simplify a reality that is too complex to hold in their heads all at once.
 :::
-
