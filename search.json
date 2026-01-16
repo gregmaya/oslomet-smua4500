@@ -143,18 +143,6 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#section",
-    "href": "src/unit_3/1_system_thinking.html#section",
-    "title": "Systems Thinking",
-    "section": "",
-    "text": "The city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
     "objectID": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
     "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
     "title": "Systems Thinking",
@@ -167,11 +155,23 @@
     ]
   },
   {
+    "objectID": "src/unit_3/1_system_thinking.html#the-living-city",
+    "href": "src/unit_3/1_system_thinking.html#the-living-city",
+    "title": "Systems Thinking",
+    "section": "The Living City",
+    "text": "The Living City\n\nTell the students: “Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn’t. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the ‘organized complexity’ Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
     "objectID": "src/unit_3/1_system_thinking.html#the-science-of-cities",
     "href": "src/unit_3/1_system_thinking.html#the-science-of-cities",
     "title": "Systems Thinking",
     "section": "The Science of Cities",
-    "text": "The Science of Cities\n\n\n\n“[…] cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n\n\n\n\n\nMichael Batty, 2017",
+    "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013\n\n\n\n\n\nUse this to transition into the modeling heuristics. If location is just a “synthesis of interactions,” then to model a city, we shouldn’t just map where things are (static), but how things move and relate (dynamic). This justifies why we look at things like Networks and Agent-Based models.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -195,7 +195,7 @@
     "href": "src/unit_3/1_system_thinking.html#the-brain-of-the-smart-city",
     "title": "Systems Thinking",
     "section": "The “Brain” of the Smart City",
-    "text": "The “Brain” of the Smart City\n\nThe Back-end (Today): The heuristics, logic, and models.\nThe Front-end (Next Lecture): Dashboards, visualizations, and stakeholder apps.\nThe Principle: Logic must precede display.\n\n\nUse the “Brain” analogy to ground the lecture. The “Front-end” is what people see (the dashboard), but the “Brain” is the modeling logic we are discussing today. If the logic (the model) is flawed, the visualization is just “fancy misinformation.” Today is about building the intellectual back-end.",
+    "text": "The “Brain” of the Smart City\n\nThe Back-end: The heuristics, logic, and models.\nThe Front-end: Dashboards, visualizations, and stakeholder apps.\nThe Principle: Logic must precede display.\n\n\nUse the “Brain” analogy to ground the lecture. The “Front-end” is what people see (the dashboard), but the “Brain” is the modeling logic we are discussing today. If the logic (the model) is flawed, the visualization is just “fancy misinformation.” Today is about building the intellectual back-end.",
     "crumbs": [
       "Schedule",
       "Unit 3",
