@@ -35,10 +35,6 @@ website:
               - text: Lesson 2
                 href: src/unit_3/2_decision_support.qmd
 
-      # - href: data/index.qmd
-      #   text: Datasets
-      - href: deliverables.qmd
-        text: Deliverables & Evaluation
       - href: resources.qmd
         text : "Additional Resources"
   page-footer:

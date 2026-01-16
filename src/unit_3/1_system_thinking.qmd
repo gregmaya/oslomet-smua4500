@@ -36,10 +36,11 @@ scrollable: true
 - Part III links the "Brain" back to reality: How does this logic serve stakeholders and talk to data?
 :::
 
-# Part I: The Landscape of Urban Complexity
+# The Landscape of Urban Complexity
+_Part I_
 
-## The City as a Complex System {background-iframe="https://www.youtube.com/watch?v=CrWM2lc1oRA"}
-* A city is not a machine with predictable parts.
+## The City = Complex System 
+* A city is decomposable into predictable parts.
 * It is a dynamic process of **organized complexity**.
 * **The Smart City Paradox:** * We have new **technical capabilities** (Big Data, sensors, AI).
     * But they rely on **modelling techniques** devised decades ago to solve social problems.
@@ -49,16 +50,32 @@ scrollable: true
 - "Smart" doesn't mean "New." Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.
 :::
 
-## What the Smart City is NOT {background-color=""}
+##
+
+<section>
+  <iframe data-src="https://www.youtube.com/watch?v=CrWM2lc1oRA" width="800" height="450"></iframe>
+</section>
+
+::: {.notes}
+- The city is the ultimate complex system. 
+- "Smart" doesn't mean "New." Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.
+:::
+
+
+## What the Smart City is NOT {background-color="#FF8100"}
+:::{.incremental}
 * It is **not** a crystal ball for perfect prediction.
 * It is **not** a digital twin that *is* the reality.
 * **The Map is not the Territory:**
     * Models are simplified representations.
     * In a complex system, "Total Control" is an illusion.
     * We model to *understand* potentiality, not to *dictate* outcomes.
+:::
 
 ::: {.notes}
-This is your "Warning" slide. Insist on the idea that models are fallible. Because of urban complexity (non-linearity and emergence), we can't predict exactly what a city will do. If a student thinks a model gives "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
+- models are fallible. 
+- Because of urban complexity (non-linearity and emergence), we can't predict exactly what a city will do.
+- "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
 
