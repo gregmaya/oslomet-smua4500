@@ -69,11 +69,12 @@ _Part I_
 - "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
-## The Living City {background-video="https://www.youtube.com/embed/CrWM2lc1oRA" background-video-loop="true"}
+## The Living City {background-iframe="https://www.youtube.com/watch?v=CrWM2lc1oRA"}
 
 ::: {.notes}
 Tell the students: "Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
 :::
+
 
 
 ## The Science of Cities
@@ -85,7 +86,7 @@ Tell the students: "Look at this. To a computer or a traditional top-down planne
 > — *Michael Batty, 2013*
 :::
 ::: {.column width="40%"}
-![](img/batty_book1.png){height="500px" fig-alt="Michael Batty, The New Science of Cities"}
+![](img/batty_book1.png){height="400px" fig-alt="Michael Batty, The New Science of Cities"}
 :::
 ::::::
 
