@@ -1,0 +1,83 @@
+/*-- scss:defaults --*/
+
+// --- OsloMet Brand Colors from styles.css ---
+$oslomet-yellow:    #FFDC00;
+$oslomet-red:       #E02D00;
+$oslomet-blue:      #007ACC;
+$oslomet-lightblue: #40E4FF;
+$oslomet-burgundy:  #99002B;
+$oslomet-darkblue:  #000064;
+$oslomet-orange:    #FF8100;
+$oslomet-black:     #000000;
+
+// --- Base Presentation Settings ---
+$body-bg: #2b2b2b; // Your preferred dark grey background
+$body-color: #eee;   // Off-white text for high contrast on dark grey
+
+// --- Typography (from styles.css) ---
+// Font stack uses "Moderat" as primary brand font
+$font-family-sans-serif: "Moderat", Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+$presentation-font-size-root: 30px;
+
+//footers in greyscale
+$presentation-footer-color: #999;
+
+// --- Headings ---
+$presentation-heading-font: $font-family-sans-serif;
+$presentation-heading-color: #eee;
+$presentation-heading-font-weight: 700; // Bold headings per styles.css
+$presentation-heading-text-transform: uppercase;
+
+// --- Links & Interactivity (Mapped to OsloMet Palette) ---
+$link-color: $oslomet-lightblue;       // Using lightblue for better visibility on dark grey
+$link-color-hover: $oslomet-yellow;    // Brand yellow on hover
+
+// --- Text Selection ---
+$selection-bg: $oslomet-blue;
+$selection-color: #fff;
+
+// --- Heading Sizes ---
+$presentation-h1-font-size: 3.77em;
+$presentation-h2-font-size: 2.11em;
+$presentation-h3-font-size: 1.55em;
+$presentation-h4-font-size: 1.00em;
+
+/*-- scss:rules --*/
+
+// Style the title slide to match the "hero" branding in styles.css
+.reveal .title-slide {
+  background-color: $oslomet-yellow;
+  color: $oslomet-black;
+  
+  h1, h2, h3, .subtitle, .author, .date {
+    color: $oslomet-black !important;
+    text-shadow: none;
+  }
+}
+
+// Blockquote styling from styles.css
+.reveal blockquote {
+  font-style: italic;
+  color: $oslomet-lightblue; // Lightened OsloMet darkblue for dark background
+  border-left: 4px solid $oslomet-yellow;
+  box-shadow: none;
+}
+
+// Progress bar and UI elements
+.reveal .progress {
+  color: $oslomet-yellow;
+}
+
+.reveal .controls {
+  color: $oslomet-yellow;
+}
+
+// Code blocks (Fira Code/Source Code Pro stack)
+.reveal pre, .reveal code {
+  font-family: "Fira Code", "Source Code Pro", Menlo, Monaco, Consolas, monospace;
+}
+
+.reveal pre {
+  border: 1px solid $oslomet-blue;
+  background-color: #1e1e1e; // Darker background for code on dark theme
+}

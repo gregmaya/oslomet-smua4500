@@ -1,4 +1,0 @@
----
-title : "Introduction to Smart Cities"
-subtitle: "The Evolution of the Smart City"
---- 

@@ -1,0 +1,22 @@
+---
+title : Decision support tools 
+subtitle : Approaching urban challenges with indicators, dashboards, and decision support
+format: 
+    revealjs:
+       slide-number: true
+       preview-links: auto
+       css: styles.css
+       footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+embed-resources: true
+# width: 1500
+scrollable: true
+
+---
+
+## Slide 1
+
+## Slide 2
+
+## Slide 3
+
+
