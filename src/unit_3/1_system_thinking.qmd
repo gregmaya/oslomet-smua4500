@@ -8,6 +8,7 @@ format:
         center: true
         transition: fade
         footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+        incremental: true
 title-slide-attributes: 
   data-background-image: img/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
@@ -19,7 +20,7 @@ scrollable: true
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
 
-::: {.incremental .center}
+::: {.center}
 - **Part I: The Landscape of Urban Complexity**
     - The "Brain" of the Smart City & 4 Heuristics
 - **Part II: The Logics of Systems**
@@ -39,10 +40,11 @@ scrollable: true
 # The Landscape of Urban Complexity
 _Part I_
 
-## The City = Complex System 
-* A city is decomposable into predictable parts.
+## The City = Complex Systems
+* A city is decomposable into semi-predictable parts.
 * It is a dynamic process of **organized complexity**.
-* **The Smart City Paradox:** * We have new **technical capabilities** (Big Data, sensors, AI).
+* **The Smart City Paradox:** 
+    * We have new **technical capabilities** (Big Data, sensors, AI).
     * But they rely on **modelling techniques** devised decades ago to solve social problems.
 
 ::: {.notes}
@@ -52,14 +54,14 @@ _Part I_
 
 
 ## What the Smart City is NOT {background-color="#FF8100"}
-:::{.incremental}
+
 * It is **not** a crystal ball for perfect prediction.
 * It is **not** a digital twin that *is* the reality.
 * **The Map is not the Territory:**
     * Models are simplified representations.
     * In a complex system, "Total Control" is an illusion.
     * We model to *understand* potentiality, not to *dictate* outcomes.
-:::
+
 
 ::: {.notes}
 - models are fallible. 
@@ -67,7 +69,7 @@ _Part I_
 - "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
-## The Living City {background-video="https://www.youtube.com/embed/CrWM2lc1oRA?autoplay=1&mute=1&loop=1" background-video-loop="true"}
+## The Living City {background-video="https://www.youtube.com/embed/CrWM2lc1oRA" background-video-loop="true"}
 
 ::: {.notes}
 Tell the students: "Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
@@ -126,10 +128,35 @@ This is the fundamental shift required for the rest of the lecture.
 :::
 
 ## Modeling as a Heuristic
+
 * A model is not "The Truth."
 * It is a **Heuristic**: a mental shortcut or tool for discovery.
-* "All models are wrong, but some are useful" (George Box).
+* >"All models are wrong, but some are useful" (George Box).
 
 ::: {.notes}
 This is a friendly way to lower the "technical" barrier. You aren't asking them to be data scientists today; you are asking them to use models as "thinking tools" to simplify a reality that is too complex to hold in their heads all at once.
+:::
+
+## Jane Jacobs: Organized Complexity
+* Cities are not problems of **Simplicity** (2 variables).
+* Cities are not problems of **Disorganized Complexity** (millions of random variables).
+* They are problems of **Organized Complexity**:
+    * A huge number of factors which are interrelated into an **organic whole**.
+
+::: {.notes}
+Jane Jacobs (1961) borrowed this term from Warren Weaver. 
+Explain the difference: 
+- Simplicity: A falling stone (gravity).
+- Disorganized: A gas (billions of atoms behaving randomly).
+- Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).
+:::
+
+## The Interconnection of Parts
+* "The city is not a work of art... the city is a process."
+* It is a **Bottom-Up** system.
+* Small, local interactions $\rightarrow$ Large, global patterns.
+
+::: {.notes}
+Highlight that both Jane Jacobs and Christopher Alexander saw the "interconnection of parts" as the central issue. 
+For the students' projects: Tell them that when they model a "Smart City" intervention, they aren't just adding a "part" to a machine; they are intervening in a "living process" that will react in unpredictable ways.
 :::
