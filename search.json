@@ -131,11 +131,11 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-system",
-    "href": "src/unit_3/1_system_thinking.html#the-city-complex-system",
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
+    "href": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
     "title": "Systems Thinking",
-    "section": "The City = Complex System",
-    "text": "The City = Complex System\n\nA city is decomposable into predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox: * We have new technical capabilities (Big Data, sensors, AI).\n\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
+    "section": "The City = Complex Systems",
+    "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -219,7 +219,31 @@
     "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
     "title": "Systems Thinking",
     "section": "Modeling as a Heuristic",
-    "text": "Modeling as a Heuristic\n\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n“All models are wrong, but some are useful” (George Box).\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
+    "text": "Modeling as a Heuristic\n\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n“All models are wrong, but some are useful” (George Box).\n\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#jane-jacobs-organized-complexity",
+    "href": "src/unit_3/1_system_thinking.html#jane-jacobs-organized-complexity",
+    "title": "Systems Thinking",
+    "section": "Jane Jacobs: Organized Complexity",
+    "text": "Jane Jacobs: Organized Complexity\n\nCities are not problems of Simplicity (2 variables).\nCities are not problems of Disorganized Complexity (millions of random variables).\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.\n\n\n\nJane Jacobs (1961) borrowed this term from Warren Weaver. Explain the difference: - Simplicity: A falling stone (gravity). - Disorganized: A gas (billions of atoms behaving randomly). - Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "href": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "title": "Systems Thinking",
+    "section": "The Interconnection of Parts",
+    "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.”\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.\n\n\nHighlight that both Jane Jacobs and Christopher Alexander saw the “interconnection of parts” as the central issue. For the students’ projects: Tell them that when they model a “Smart City” intervention, they aren’t just adding a “part” to a machine; they are intervening in a “living process” that will react in unpredictable ways.",
     "crumbs": [
       "Schedule",
       "Unit 3",
