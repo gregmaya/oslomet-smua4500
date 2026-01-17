@@ -13,13 +13,9 @@ title-slide-attributes:
   data-background-image: img/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
 scroll-view: true
-# embed-resources: true # incompatible with the chalkboard option
-# width: 1500
-
 ---
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
-
 ::: {.center}
 - **Part I: The Landscape of Urban Complexity**
     - The "Brain" of the Smart City & 4 Heuristics
@@ -52,9 +48,16 @@ _Part I_
 - "Smart" doesn't mean "New." Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.
 :::
 
+## Complexity alive
+:::{.r-stretch} 
+{{< video https://www.youtube.com/watch?v=CrWM2lc1oRA width="900" height="500" >}}
+:::
+
+::: {.notes}
+ To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
+:::
 
 ## What the Smart City is NOT {background-color="#FF8100"}
-
 * It is **not** a crystal ball for perfect prediction.
 * It is **not** a digital twin that *is* the reality.
 * **The Map is not the Territory:**
@@ -62,24 +65,13 @@ _Part I_
     * In a complex system, "Total Control" is an illusion.
     * We model to *understand* potentiality, not to *dictate* outcomes.
 
-
 ::: {.notes}
 - models are fallible. 
 - Because of urban complexity (non-linearity and emergence), we can't predict exactly what a city will do.
 - "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
-## Organized Complexity
-
-{{< video https://www.youtube.com/watch?v=CrWM2lc1oRA width="800" height="450" >}}
-
-::: {.notes}
-Tell the students: "Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
-:::
-
-
 ## The Science of Cities
-
 :::::: {.columns}
 ::: {.column width="60%"}
 > "...cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather ... than locations [...] **location is, in effect, a synthesis of interactions.**"
@@ -96,18 +88,135 @@ Use this to transition into the modeling heuristics. If location is just a "synt
 :::
 
 
-## The "Wicked" Problem
-* Urban challenges are not **puzzles** (with one right answer).
-* They are **Wicked Problems**:
-    * They are interconnected: solving one creates another.
-    * They have no "stopping rule" or perfect solution.
-    * They are better or worse, not right or wrong.
+## Organized Complexity {background-image="img/San-Marco.png" background-opacity="0.5"}
+_Jane Jacobs_
+
+:::: {.columns}
+::: {.column}
+Cities are not:
+
+- Problems of ~~Simplicity~~
+- Problems of ~~Disorganized Complexity~~ (millions of random variables).
+:::
+::: {.column}
+They are problems of [Organized Complexity]():
+
+- A huge number of factors which are interrelated into an **organic whole**.
+:::
+:::: 
+
 
 ::: {.notes}
-Refer to Rittel and Webber’s definition. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
-For their assignments: help them see that their chosen problem (e.g., housing or pollution) is "wicked" because it's tied to a dozen other factors.
+Jane Jacobs (1961) borrowed this term from Warren Weaver. 
+Explain the difference: 
+- Simplicity: A falling stone (gravity).
+- Disorganized: A gas (billions of atoms behaving randomly).
+- Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).
 :::
 
+## The Interconnection of Parts {background-image="img/San-Marco.png" background-opacity="0.5"}
+> "The city is not a work of art... the city is a process." -- J.Jacobs
+
+* It is a **Bottom-Up** system.
+* Small, local interactions $\rightarrow$ Large, global patterns.
+
+::: {.notes}
+Highlight that both Jane Jacobs and Christopher Alexander saw the "interconnection of parts" as the central issue. 
+For the students' projects: Tell them that when they model a "Smart City" intervention, they aren't just adding a "part" to a machine; they are intervening in a "living process" that will react in unpredictable ways.
+:::
+
+## Complexity Science {background-image="img/San-Marco.png" background-opacity="0.5"}
+**The Reductionist Shortcut:** 
+
+- A mental habit of breaking the city into isolated "parts" to make it easier to manage.
+
+**The Complexity Reality:** 
+
+- Science not of the "atoms" (buildings, roads, people), but of the **connections** between them.
+
+:::{.fragment .highlight-red}
+**Cross-Scale Interactions**
+
+- Single street-level decisions ripples up to the metropolitan scale.
+:::
+
+::: {.notes}
+ "Reductionism is a form of mental lazy gymnastics. Our brains are hardwired to simplify: we see a 'housing problem' or a 'transport problem' as separate buckets because it’s cognitively cheaper to process."
+- But cities don't work in buckets. Complexity science is about the 'glue'—the flows and communications that Michael Batty mentioned. 
+- Emphasize that we aren't studying the 'atoms' (the physical objects) but the 'chemistry' (how they react when they touch). This is why the 'Brain' of the city needs to be a systems-thinking brain, not just a spreadsheet of isolated parts.
+:::
+
+
+## Systems {background-color="#FF8100"}
+::: {.columns}
+::: {.column}
+### Complex
+- Adaptive relationships.
+- Emergent outcomes.
+- More than the sum of its parts.
+:::
+::: {.column}
+### Complicated
+- Fixed relationships.
+- Predictable outcomes.
+- The sum of its parts.
+:::
+::: 
+
+![forest](img/forest.png){.fragment .absolute top=200 left=10 width="300" }
+![engine](img/engine.png){.fragment .absolute top=200 right=150 width="300" }
+![city](img/madrid.png){.fragment .absolute top=200 left=10 width="300" }
+![chip](img/chip.png){.fragment .absolute top=200 right=150 width="300" }
+
+::: {.notes}
+A Boeing 747 is complicated; it's difficult to understand, but it's reliable and linear. A city is complex; it is alive. In a complicated system, if you remove a part, you just have a broken machine. In a complex system, if you remove a part, the system adapts or collapses entirely.
+:::
+
+## _The City is not a Tree_ {background-image="img/tree_alexander.png"}
+:::{.fragment}
+> “It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation ... it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” -- Christooher Alexander
+:::
+
+## Systems Thinking 101 {background-color="#40E4FF"}
+:::: {.columns}
+::: {.column .fragment} 
+**Systems Thinking** 
+
+Seeing the **Web** of interactions
+:::
+::: {.column .fragment}
+**Linear Thinking** 
+
+A $\rightarrow$ B (Cause and Effect)
+:::
+::::
+
+:::{.fragment .r-fit-text} 
+**FOCUS ON THE RELATIONSHIP BETWEEN PARTS**
+
+**NOT JUST PARTS THEMSELVES.**
+:::
+
+::: {.notes}
+Contrast the two ways of thinking. Linear thinking says: "Traffic is bad, widen the road." Systems thinking asks: "If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?" 
+This is the fundamental shift required for the rest of the lecture.
+:::
+
+## Modeling as a Heuristic  {background-color="#40E4FF"}
+A model is not "The Truth."
+
+It is a **Heuristic**: a mental shortcut or tool for discovery.
+
+::: {.fragment .highlight-blue}
+- **_"All models are wrong, but some are useful"_** (George Box).
+:::
+
+::: {.notes}
+This is a friendly way to lower the "technical" barrier. You aren't asking them to be data scientists today; you are asking them to use models as "thinking tools" to simplify a reality that is too complex to hold in their heads all at once.
+:::
+
+# The Logics of Systems
+_Part II_
 
 ## The "Brain" of the Smart City
 * **_The Back-end_:** The heuristics, logic, and models.
@@ -119,66 +228,20 @@ Use the "Brain" analogy to ground the lecture. The "Front-end" is what people se
 If the logic (the model) is flawed, the visualization is just "fancy misinformation." Today is about building the intellectual back-end.
 :::
 
-## Systems Thinking 101 {background-color="#FFDC00"}
 
-::: {.columns}
-::: {.column .fragment}
-**Linear Thinking** 
-
-A $\rightarrow$ B (Cause and Effect)
-:::
-::: {.column .fragment} 
-**Systems Thinking** 
-
-Seeing the **Web** of interactions
-:::
+# Workshop
+::: {.r-fit-text}
+Mapping your wicked problem
 :::
 
-:::{.fragment .r-fit-text .center} 
-**FOCUS ON THE RELATIONSHIP BETWEEN PARTS**
-
-**NOT JUST PARTS THEMSELVES.**
-:::
+## The "Wicked" Problem
+* Urban challenges are not **puzzles** (with one right answer).
+* They are **Wicked Problems**:
+    * They are interconnected: solving one creates another.
+    * They have no "stopping rule" or perfect solution.
+    * They are better or worse, not right or wrong.
 
 ::: {.notes}
-Contrast the two ways of thinking. Linear thinking says: "Traffic is bad, widen the road." Systems thinking asks: "If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?" 
-This is the fundamental shift required for the rest of the lecture.
-:::
-
-## Modeling as a Heuristic  {background-color="#FFDC00"}
-
-A model is not "The Truth."
-
-It is a **Heuristic**: a mental shortcut or tool for discovery.
-
-::: {.fragment .highlight-blue}
-* **_"All models are wrong, but some are useful"_** (George Box).
-:::
-
-::: {.notes}
-This is a friendly way to lower the "technical" barrier. You aren't asking them to be data scientists today; you are asking them to use models as "thinking tools" to simplify a reality that is too complex to hold in their heads all at once.
-:::
-
-## Jane Jacobs: Organized Complexity
-* Cities are not problems of **Simplicity** (2 variables).
-* Cities are not problems of **Disorganized Complexity** (millions of random variables).
-* They are problems of **Organized Complexity**:
-    * A huge number of factors which are interrelated into an **organic whole**.
-
-::: {.notes}
-Jane Jacobs (1961) borrowed this term from Warren Weaver. 
-Explain the difference: 
-- Simplicity: A falling stone (gravity).
-- Disorganized: A gas (billions of atoms behaving randomly).
-- Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).
-:::
-
-## The Interconnection of Parts
-* "The city is not a work of art... the city is a process."
-* It is a **Bottom-Up** system.
-* Small, local interactions $\rightarrow$ Large, global patterns.
-
-::: {.notes}
-Highlight that both Jane Jacobs and Christopher Alexander saw the "interconnection of parts" as the central issue. 
-For the students' projects: Tell them that when they model a "Smart City" intervention, they aren't just adding a "part" to a machine; they are intervening in a "living process" that will react in unpredictable ways.
+Refer to Rittel and Webber’s definition. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
+For their assignments: help them see that their chosen problem (e.g., housing or pollution) is "wicked" because it's tied to a dozen other factors.
 :::
