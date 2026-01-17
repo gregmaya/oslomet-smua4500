@@ -155,11 +155,11 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-living-city",
-    "href": "src/unit_3/1_system_thinking.html#the-living-city",
+    "objectID": "src/unit_3/1_system_thinking.html#organized-complexity",
+    "href": "src/unit_3/1_system_thinking.html#organized-complexity",
     "title": "Systems Thinking",
-    "section": "The Living City",
-    "text": "The Living City\n\nTell the students: “Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn’t. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the ‘organized complexity’ Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model.”",
+    "section": "Organized Complexity",
+    "text": "Organized Complexity\n\n\nTell the students: “Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn’t. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the ‘organized complexity’ Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model.”",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -207,7 +207,7 @@
     "href": "src/unit_3/1_system_thinking.html#systems-thinking-101",
     "title": "Systems Thinking",
     "section": "Systems Thinking 101",
-    "text": "Systems Thinking 101\n\nLinear Thinking: A \\(\\rightarrow\\) B (Cause and Effect).\nSystems Thinking: Seeing the Web of interactions.\nFocus on the relationships between parts, not just the parts themselves.\n\n\nContrast the two ways of thinking. Linear thinking says: “Traffic is bad, widen the road.” Systems thinking asks: “If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?” This is the fundamental shift required for the rest of the lecture.",
+    "text": "Systems Thinking 101\n\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\nSystems Thinking\nSeeing the Web of interactions\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.\n\n\nContrast the two ways of thinking. Linear thinking says: “Traffic is bad, widen the road.” Systems thinking asks: “If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?” This is the fundamental shift required for the rest of the lecture.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -219,7 +219,7 @@
     "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
     "title": "Systems Thinking",
     "section": "Modeling as a Heuristic",
-    "text": "Modeling as a Heuristic\n\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n“All models are wrong, but some are useful” (George Box).\n\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
+    "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).\n\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
     "crumbs": [
       "Schedule",
       "Unit 3",
