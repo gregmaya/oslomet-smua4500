@@ -12,10 +12,10 @@ format:
 title-slide-attributes: 
   data-background-image: img/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
-
+scroll-view: true
 # embed-resources: true # incompatible with the chalkboard option
 # width: 1500
-scrollable: true
+
 ---
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
@@ -69,12 +69,13 @@ _Part I_
 - "The Answer," they are misrepresenting what a model is. It’s a tool for exploration, not a decree.
 :::
 
-## The Living City {background-iframe="https://www.youtube.com/watch?v=CrWM2lc1oRA"}
+## Organized Complexity
+
+{{< video https://www.youtube.com/watch?v=CrWM2lc1oRA width="800" height="450" >}}
 
 ::: {.notes}
 Tell the students: "Look at this. To a computer or a traditional top-down planner, this looks like total disorder. But it isn't. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the 'organized complexity' Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model."
 :::
-
 
 
 ## The Science of Cities
@@ -118,21 +119,41 @@ Use the "Brain" analogy to ground the lecture. The "Front-end" is what people se
 If the logic (the model) is flawed, the visualization is just "fancy misinformation." Today is about building the intellectual back-end.
 :::
 
-## Systems Thinking 101
-* **Linear Thinking:** A $\rightarrow$ B (Cause and Effect).
-* **Systems Thinking:** Seeing the **Web** of interactions.
-* Focus on the **relationships** between parts, not just the parts themselves.
+## Systems Thinking 101 {background-color="#FFDC00"}
+
+::: {.columns}
+::: {.column .fragment}
+**Linear Thinking** 
+
+A $\rightarrow$ B (Cause and Effect)
+:::
+::: {.column .fragment} 
+**Systems Thinking** 
+
+Seeing the **Web** of interactions
+:::
+:::
+
+:::{.fragment .r-fit-text .center} 
+**FOCUS ON THE RELATIONSHIP BETWEEN PARTS**
+
+**NOT JUST PARTS THEMSELVES.**
+:::
 
 ::: {.notes}
 Contrast the two ways of thinking. Linear thinking says: "Traffic is bad, widen the road." Systems thinking asks: "If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?" 
 This is the fundamental shift required for the rest of the lecture.
 :::
 
-## Modeling as a Heuristic
+## Modeling as a Heuristic  {background-color="#FFDC00"}
 
-* A model is not "The Truth."
-* It is a **Heuristic**: a mental shortcut or tool for discovery.
-* >"All models are wrong, but some are useful" (George Box).
+A model is not "The Truth."
+
+It is a **Heuristic**: a mental shortcut or tool for discovery.
+
+::: {.fragment .highlight-blue}
+* **_"All models are wrong, but some are useful"_** (George Box).
+:::
 
 ::: {.notes}
 This is a friendly way to lower the "technical" barrier. You aren't asking them to be data scientists today; you are asking them to use models as "thinking tools" to simplify a reality that is too complex to hold in their heads all at once.
