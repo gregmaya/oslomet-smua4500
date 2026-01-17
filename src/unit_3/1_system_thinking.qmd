@@ -16,7 +16,6 @@ scroll-view: true
 ---
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
-::: {.center}
 - **Part I: The Landscape of Urban Complexity**
     - The "Brain" of the Smart City & 4 Heuristics
 - **Part II: The Logics of Systems**
@@ -24,7 +23,6 @@ scroll-view: true
     - **Workshop I:** Mapping Your Wicked Problem
 - **Part III: Decision Support Tools**
     - **Workshop II:** Stakeholders and Data
-:::
 
 ::: {.notes}
 - Start by managing expectations: Today we move from theory to logic to practice.
@@ -218,16 +216,182 @@ This is a friendly way to lower the "technical" barrier. You aren't asking them 
 # The Logics of Systems
 _Part II_
 
-## The "Brain" of the Smart City
-* **_The Back-end_:** The heuristics, logic, and models.
-* **_The Front-end_:** Dashboards, visualizations, and stakeholder apps.
-* **The Principle:** Logic must precede display.
+## The "Brain" of the Smart City {background-image="img/brain.jpg"}
+
+::: {.columns}
+::: {.column}
+### _The Back-end_
+
+The heuristics, logic, and models.
+:::
+::: {.column}
+### _The Front-end_
+
+Dashboards, visualizations, and stakeholder apps.
+:::
+:::
+
+:::{.fragment .r-fit-text}
+[Logic must precede display.]()
+:::
+
 
 ::: {.notes}
 Use the "Brain" analogy to ground the lecture. The "Front-end" is what people see (the dashboard), but the "Brain" is the modeling logic we are discussing today. 
 If the logic (the model) is flawed, the visualization is just "fancy misinformation." Today is about building the intellectual back-end.
 :::
 
+
+## The Dimensions {background-gradient="linear-gradient(to bottom, #2b2b2b, #FFDC00)"}
+_of most urban logic modelling_
+
+<br> 
+
+::: {.columns}
+::: {.column}
+#### SPATIAL
+
+#### RELATIONAL
+:::
+::: {.column}
+#### TEMPORAL
+
+#### SYSTEMIC
+:::
+::: 
+
+
+## 1. The Spatial Dimension
+
+* **The Logic of "Where":** Focuses on geometry, distance, and density.
+* **Key Question:** How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?
+* **Core Concept:** **Social Physics.** Just like gravity, "mass" (high-density jobs or housing) exerts a pull on the surrounding area.
+
+::: {.notes}
+Spatial logic is the traditional bread and butter of planning. It’s about the map. It assumes that proximity equals interaction.
+:::
+
+## 2. The Relational Dimension
+
+* **The Logic of "Connection":** Focuses on topology and network hierarchy.
+* **Key Question:** How is the city "wired"? Is it about how far you are in meters, or how many turns you are from the main network?
+* **Core Concept:** **Graph Theory.** The city as nodes (intersections) and edges (streets).
+
+## 3. The Temporal Dimension
+
+* **The Logic of "When":** Focuses on change, evolution, and path dependency.
+* **Key Question:** How did the city get here, and how fast is it changing?
+* **Core Concept:** **Dynamics.** Recognizing that an urban intervention today might take 10 years to show its true impact (lag times).
+
+## 4. The Systemic Dimension
+
+* **The Logic of "Why":** Focuses on causality and interdependencies.
+* **Key Question:** What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?
+* **Core Concept:** **Feedback Loops.** Circular causality where an output of a system becomes an input for the next cycle.
+
+
+## The Models {background-gradient="linear-gradient(to bottom, #2b2b2b, #FFDC00)"}
+_only some..._
+
+<br>
+
+::: {.columns}
+::: {.column}
+#### Land-Use Transport
+:::
+::: {.column}
+#### Network Models
+:::
+::: {.column}
+#### System Dynamics
+:::
+::: {.column}
+#### Agent Based Models
+:::
+::: 
+
+## Land-Use Transport (LUT) {background-image="img/gravity.jpeg"}
+
+### *The Anatomy*
+
+* **Primary Dimensions:** **Spatial (High)** + **Relational (Medium)**.
+* **The Engine:** **Spatial Interaction Models.** Uses gravity equations to find a state of "Equilibrium" between where people live, where they work, and how they travel.
+* **Input/Output:** Zonal data (population/jobs)  Predicted traffic flows and land-use shifts.
+
+## Land-Use Transport (LUT)  {background-image="img/gravity.jpeg"}
+
+### *Example & Critique*
+
+* **Example:** Predicting the impact of a new Metro line on residential density in a suburban fringe.
+* **Pros:** Excellent for long-term strategic planning and infrastructure "stress testing."
+* **Cons:** Highly aggregate (treats people as masses) and mostly static (ignores the "chaos" of daily life).
+* **What it lacks:** **Temporal and Systemic feedback.** It assumes a city is a puzzle that can be "solved" into a perfect balance.
+
+---
+
+## Network Models {background-image="img/syntax_bog.png" background-opacity="0.3"}
+_eg. Space Syntax_
+
+### *The Anatomy*
+
+* **Primary Dimensions:** **Relational (High)** + **Spatial (Low)**.
+* **The Engine:** **Topological Analysis.** It measures "Integration" (how accessible a street is) and "Choice" (how likely a street is to be used as a shortcut).
+* **Input/Output:** Street centerlines  Heatmaps of predicted pedestrian and vehicular movement.
+
+## Network Models {background-image="img/syntax_bog.png" background-opacity="0.3"}
+
+### *Example & Critique*
+
+* **Example:** Redesigning a town center to increase footfall for local shops by improving topological connectivity.
+* **Pros:** Very high correlation with real-world human movement; requires minimal data (just the map).
+* **Cons:** Can be "blind" to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.
+* **What it lacks:** **Systemic "Attractors."** It prioritizes the *shape* of the container over the *content* inside it.
+
+---
+
+## System Dynamics {background-image="img/sd_background.jpg" background-opacity="0.3"}
+
+### *The Anatomy*
+
+* **Primary Dimensions:** **Temporal (High)** + **Systemic (High)**.
+* **The Engine:** **Stocks and Flows.** Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).
+* **Input/Output:** Causal variables  Policy "flight simulators" showing 20-year trajectories.
+
+## System Dynamics {background-image="img/sd_background.jpg" background-opacity="0.3"}
+
+### *Example & Critique*
+
+* **Example:** Modeling how a city-wide "Air Quality Zone" affects car ownership and public health over two decades.
+* **Pros:** Unrivaled for identifying "Levers"—small changes that lead to massive systemic shifts.
+* **Cons:** Non-spatial. It can tell you *how much* change will happen, but it cannot tell you *where* on the map it will happen.
+* **What it lacks:** **Spatial Granularity.** It treats the whole city as one big "bucket" of variables.
+
+---
+
+## Agent-Based Models {background-image="img/abm.gif" background-opacity="0.5"}
+
+### *The Anatomy*
+
+* **Primary Dimensions:** **Spatial (High)** + **Systemic (High)** + **Temporal (High)**.
+* **The Engine:** **Bottom-up Micro-simulation.** Individual "Agents" are given simple rules. The city’s patterns "Emerge" from thousands of these local interactions.
+* **Input/Output:** Behavioral rules  Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).
+
+
+:::{.notes}
+Visit https://softologyblog.wordpress.com/category/agent-based-modeling/
+
+https://www.washingtonpost.com/graphics/2020/world/corona-simulator/
+:::
+
+
+## Agent-Based Models {background-image="img/abm.gif" background-opacity="0.5"}
+
+### *Example & Critique*
+
+* **Example:** Simulating how individual shoppers choose between a physical high street and online delivery during a pandemic.
+* **Pros:** Captures "Emergence" and "Surprise"—the unintended side effects of human behavior.
+* **Cons:** Extremely "noisy" and computationally expensive. Small errors in individual rules lead to massive distortions.
+* **What it lacks:** **Predictive Certainty.** Because it's stochastic (random), it gives you a range of possibilities rather than a single "right" answer.
 
 # Workshop
 ::: {.r-fit-text}
@@ -245,3 +409,21 @@ Mapping your wicked problem
 Refer to Rittel and Webber’s definition. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
 For their assignments: help them see that their chosen problem (e.g., housing or pollution) is "wicked" because it's tied to a dozen other factors.
 :::
+
+
+## Feedback Loops {background-color="#ffffff"}
+
+<iframe width="800" height="600" frameborder="0" src="https://ncase.me/loopy/v1/?embed=1&data=[[[1,298,372,0.5,%22mo'%2520money%22,4],[3,632,374,0.5,%22price%22,4],[4,786,374,0.5,%22supply%22,5],[5,452,374,0.5,%22mo'%2520problems%22,5]],[[4,3,86,-1,0],[3,4,82,1,0],[5,1,88,1,0],[1,5,85,1,0]],[[376,529,%22POSITIVE%2520FEEDBACK%2520LOOP%250Aone%2520small%2520change%2520amplifies%250Aover%2520time%253A%2520vicious%2520cycle%22],[709,527,%22NEGATIVE%2520FEEDBACK%2520LOOP%250Aany%2520change%2520will%2520be%2520resisted%250Alater%2520in%2520time%253A%2520equilibrium%22],[296,293,%22click%2520here%250A%25E2%2586%2593%22],[630,294,%22and%2520here%250A%25E2%2586%2593%22]],5%5D"></iframe>
+
+
+## Causal loops
+For you excercise:
+- Define the 'boundaries'
+- Could your problem be better defined over a certain timeframe?
+
+- Extact the main elements ('Stocks')
+- Create a causal loop (including Positive or Negative feedback loops)
+
+#### We won't:
+- define Stocks
+- consider rate flows
