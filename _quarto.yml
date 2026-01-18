@@ -30,10 +30,12 @@ website:
         contents: 
           - section: "Unit 3"
             contents:
-              - text: Lesson 1
+              - text: System Thinking
                 href: src/unit_3/1_system_thinking.qmd
-              - text: Lesson 2
+              - text: Decision Support
                 href: src/unit_3/2_decision_support.qmd
+              - text: Data Visualization
+                href: src/unit_3/data_viz.qmd
 
       - href: resources.qmd
         text : "Additional Resources"

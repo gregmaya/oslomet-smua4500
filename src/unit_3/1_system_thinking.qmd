@@ -487,6 +487,8 @@ class A,B yellow
 class C,D,E gray
 
 ```
+
+
 ## Setting the Boundary
 A model is only as good as what you **leave out**.
 * **Endogenous:** Factors the system controls.

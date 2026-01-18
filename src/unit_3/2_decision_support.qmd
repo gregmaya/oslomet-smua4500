@@ -3,20 +3,121 @@ title : Decision support tools
 subtitle : Approaching urban challenges with indicators, dashboards, and decision support
 format: 
     revealjs:
-       slide-number: true
-       preview-links: auto
-       css: styles.css
-       footer: "SMUA 4500 Smart Cities - Greg Maya ©"
-embed-resources: true
-# width: 1500
-scrollable: true
+        slide-number: true
+        theme: oslomet-pres.scss
+        center: true
+        transition: fade
+        footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+        incremental: true
+title-slide-attributes: 
+  data-background-image: img/air-traffic-control-1826798.jpg
+  data-background-opacity: "0.5"
 
 ---
 
-## Slide 1
+## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
 
-## Slide 2
+::: {.columns}
+::: {.column}
+### _The Back-end_
 
-## Slide 3
+The heuristics, logic, and models.
+:::
+::: {.column}
+### _The Front-end_
+
+Dashboards, visualizations, and stakeholder apps.
+:::
+:::
+
+:::{.fragment .r-fit-text}
+### GOAL
+
+[To reduce the "Cognitive Load"]()
+
+[without oversimplifying the "Wicked" reality.]()
+:::
 
 
+::: {.notes}
+- Remind them of the "Brain" analogy. A brain is useless if it can't move the body.
+- Decision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say "If we do X, then Y happens."
+- Crucial point: A good DST doesn't hide complexity; it manages it.
+:::
+
+## Dashboard's Anathomy {background-color="#40E4FF"}
+
+::: {.columns }
+::: {.column .fragment width=33%}
+### [**Indicators**]() 
+
+The "Vital Signs" of the city (Air quality, traffic flow, energy use).
+:::
+::: {.column .fragment width=33%}
+### [**"What-If" Engine**]() 
+
+Moving from static data to interactive simulation.
+:::
+::: {.column .fragment width=33%}
+### [**Contextual Narratives**]() 
+
+Data is meaningless without the "Story" of the place.
+:::
+:::
+
+::: {.notes}
+- Refer to your Data Viz notes: "Identifying patterns, trends, and outliers."
+- In an urban context, a dashboard shouldn't just be a "report card" of the past. It should be a "flight simulator" for the future.
+- Example: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you "delete" a parking lot and see the CO2 drop in real-time is a Decision Support Tool.
+:::
+
+## The "Misleading" Interface {background-color="#FF8100"}
+
+::: {.columns }
+::: {.column .fragment width=33%}
+### Aesthetic Trap
+
+Just because a dashboard is "shiny" or 3D doesn't mean it's accurate.
+:::
+::: {.column .fragment width=33%}
+### Truncated Realities
+
+What is *not* being measured? (e.g., social capital, happiness).
+:::
+::: {.column .fragment width=33%}
+### Cognitive Biases
+
+How "Visual Narratives" can accidentally (or intentionally) nudge decisions the wrong way.
+:::
+::: 
+
+::: {.notes}
+- Connect this to your Viz Pitfalls: "Misleading graphs, improper scaling."
+- In Smart Cities, there is a risk of "Technological Solutionism." If it's on a high-res screen, people tend to believe it's "The Truth."
+- As curators of these tools, the students must ensure the visualization doesn't lie about the model's uncertainty.
+:::
+
+## Who is the Pilot?  {background-gradient="linear-gradient(to bottom, #2b2b2b, #000000)"}
+
+::: {.columns }
+::: {.column .fragment width=30%}
+### High-Level Ops
+
+Real-time management (Emergency response, traffic control).
+::: 
+::: {.column .fragment width=30%}
+### Strategic Planning
+
+10–20 year horizons (Housing, Climate adaptation).
+::: 
+::: {.column .fragment width=40%}
+### Public Participation
+
+Transparency and "Co-design" with citizens.
+::: 
+
+::: {.notes}
+- Different users need different "Front-ends." 
+- A technician needs a "Technical" viz. A citizen needs a "Human-centric" viz.
+- Workshop II Preview: We will look at how to tailor your "Wicked Problem" map into a tool that a specific stakeholder can actually use to make a choice.
+:::

@@ -1,17 +1,12 @@
 ---
-title: "Data Visualisation"
-date-format: long
-date-modified: last-modified
-lang: en
-language:
-  title-block-modified: "Last update"
+title: "Data Visualisation Principles"
 ---
 
 ## Introduction
 
 Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.**By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.**
 
-:::::: {.callout-tip}
+::: {.callout-tip}
 In this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.
 :::
 
@@ -87,12 +82,12 @@ Selecting the right chart type enhances the narrative and helps the audience int
 
 ![NYTimes Chart Doctor Poster](https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/poster.png)
 
-:::::: {.callout-tip title="Aim for..."}
+:::: {.callout-tip title="Aim for..."}
 
 - **Clarity and simplicity:** Avoid clutter and focus on the message.
 - **Accuracy and integrity:** Represent data truthfully.
 - **Aesthetics and engagement:** Use colors, fonts, and layouts strategically.
-  :::
+::::
 
 ::: {.callout-warning title="Common Pitfalls"}
 
@@ -111,4 +106,4 @@ As the field continues to evolve, it is crucial to stay curious and experiment w
 ::: {#refs}
 
 - Wagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. [https://doi.org/10.1037/a0029333](https://doi.org/10.1037/a0029333)
-  :::
+:::
