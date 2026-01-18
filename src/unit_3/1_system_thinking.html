@@ -548,57 +548,93 @@
 <h2>The Models</h2>
 <p><em>only some…</em></p>
 <p><br></p>
+<div class="r-fit-text">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th><strong>Land-Use Transport</strong></th>
+<th><strong>Network Models</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>System Dynamics</strong></td>
+<td><strong>Agent-based Models</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<section id="land-use-transport" class="slide level2 nonincremental center" data-background-image="img/gravity.jpeg">
+<h2>Land-Use Transport</h2>
+<p>LUTI</p>
+<div title="Primary Dimensions:">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Primary Dimensions:</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Spatial</strong> (High) + <strong>Relational</strong> (Medium)</p>
+</div>
+</div>
+</div>
+</div>
 <div class="columns">
 <div class="column">
-<h4 id="land-use-transport">Land-Use Transport</h4>
+<h3 id="the-anatomy">The Anatomy</h3>
+<ul>
+<li class="fragment">Land-Use data</li>
+<li class="fragment">Transport</li>
+</ul>
 </div><div class="column">
-<h4 id="network-models">Network Models</h4>
-</div><div class="column">
-<h4 id="system-dynamics">System Dynamics</h4>
-</div><div class="column">
-<h4 id="agent-based-models">Agent Based Models</h4>
+<h3 id="the-engine">The Engine</h3>
+<p>Uses gravity equations to find a state of “<a href="">Equilibrium</a>” between where people live, where they work, and how they travel.</p>
 </div></div>
+<aside class="notes">
+<ul>
+<li>LUTI is the “Strategic Planner’s” model.</li>
+<li>It assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.</li>
+<li>It is great for long-term infrastructure but often misses “sudden” social shifts.</li>
+<li><strong>Input/Output:</strong> Zonal data (population/jobs) Predicted traffic flows and land-use shifts.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="land-use-transport-1" class="slide level2 center" data-background-image="img/gravity.jpeg">
 <h2>Land-Use Transport</h2>
-<p>LUTI ### The Anatomy</p>
-<ul>
-<li class="fragment"><strong>Primary Dimensions:</strong> <strong>Spatial (High)</strong> + <strong>Relational (Medium)</strong>.</li>
-<li class="fragment"><strong>The Engine:</strong> <strong>Spatial Interaction Models.</strong> Uses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.</li>
-<li class="fragment"><strong>Input/Output:</strong> Zonal data (population/jobs) Predicted traffic flows and land-use shifts.</li>
-</ul>
-<aside class="notes">
-<ul>
-<li>LUTI is the “Strategic Planner’s” model.</li>
-<li>It assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.</li>
-<li>It is great for long-term infrastructure but often misses “sudden” social shifts.</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="land-use-transport-2" class="slide level2 center" data-background-image="img/gravity.jpeg">
-<h2>Land-Use Transport</h2>
+<blockquote>
 <p><em>eg. Predicting the impact of a new Metro line on residential density in a suburban area.</em></p>
+</blockquote>
 <div class="columns">
-<div class="column">
+<div class="column fragment">
 <h4 id="pros">Pros</h4>
 <p>Excellent for long-term strategic planning and infrastructure “stress testing.”</p>
-</div><div class="column">
+</div><div class="column fragment">
 <h4 id="cons">Cons</h4>
 <p>Highly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).</p>
 </div></div>
-<ul>
-<li class="fragment"><strong>What it lacks:</strong> <strong>Temporal and Systemic feedback.</strong> It assumes a city is a puzzle that can be “solved” into a perfect balance.</li>
-</ul>
+<div class="fragment" title="What it lacks">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>What it lacks</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Temporal and Systemic feedback.</strong> It assumes a city is a puzzle that can be “solved” into a perfect balance.</p>
+</div>
+</div>
+</div>
+</div>
 <aside class="notes">
 <ul>
 <li>LUTI is the “Strategic Planner’s” model.</li>
@@ -617,57 +653,93 @@
           display:block!important;
       }</style></aside>
 </section>
+<section id="network-models" class="slide level2 center" data-background-image="img/syntax_bog.png" data-background-opacity="0.3">
+<h2>Network Models</h2>
+<p><em>NM eg. Space Syntax</em></p>
+<div title="Primary Dimensions:">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Primary Dimensions:</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Relational</strong> (High) + <strong>Spatial</strong> (Medium)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column fragment">
+<h3 id="the-anatomy-1">The Anatomy</h3>
+<ul>
+<li class="fragment">Nodes</li>
+<li class="fragment">Edges</li>
+</ul>
+</div><div class="column fragment">
+<h3 id="the-engine-1">The Engine</h3>
+<p><strong>Topological Analysis.</strong> It measures “<a href="">centralities</a>” to determine expected movement hierarchies.</p>
+</div></div>
+</section>
 <section id="network-models-1" class="slide level2 center" data-background-image="img/syntax_bog.png" data-background-opacity="0.3">
 <h2>Network Models</h2>
-<p><em>eg. Space Syntax</em></p>
-<h3 id="the-anatomy"><em>The Anatomy</em></h3>
-<ul>
-<li class="fragment"><strong>Primary Dimensions:</strong> <strong>Relational (High)</strong> + <strong>Spatial (Low)</strong>.</li>
-<li class="fragment"><strong>The Engine:</strong> <strong>Topological Analysis.</strong> It measures “Integration” (how accessible a street is) and “Choice” (how likely a street is to be used as a shortcut).</li>
-<li class="fragment"><strong>Input/Output:</strong> Street centerlines Heatmaps of predicted pedestrian and vehicular movement.</li>
-</ul>
+<blockquote>
+<p><em>eg. Redesigning a town center to increase footfall for local shops by improving topological connectivity.</em></p>
+</blockquote>
+<div class="columns">
+<div class="column fragment">
+<h4 id="pros-1">Pros</h4>
+<p>Very high correlation with real-world human movement; requires minimal data (just the map).</p>
+</div><div class="column fragment">
+<h4 id="cons-1">Cons</h4>
+<p>Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.</p>
+</div></div>
+<div class="fragment" title="What it lacks">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>What it lacks</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Systemic “Attractors.”</strong> It prioritizes the <em>shape</em> of the container over the <em>content</em> inside it.</p>
+</div>
+</div>
+</div>
+</div>
 </section>
-<section id="network-models-2" class="slide level2 center" data-background-image="img/syntax_bog.png" data-background-opacity="0.3">
-<h2>Network Models</h2>
-<p><em>NM</em> ### <em>Example &amp; Critique</em></p>
-<ul>
-<li class="fragment"><strong>Example:</strong> Redesigning a town center to increase footfall for local shops by improving topological connectivity.</li>
-<li class="fragment"><strong>Pros:</strong> Very high correlation with real-world human movement; requires minimal data (just the map).</li>
-<li class="fragment"><strong>Cons:</strong> Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.</li>
-<li class="fragment"><strong>What it lacks:</strong> <strong>Systemic “Attractors.”</strong> It prioritizes the <em>shape</em> of the container over the <em>content</em> inside it.</li>
-</ul>
-</section>
-<section id="system-dynamics-1" class="slide level2 center" data-background-image="img/sd_background.jpg" data-background-opacity="0.3">
+<section id="system-dynamics" class="slide level2 center" data-background-image="img/sd_background.jpg" data-background-opacity="0.3">
 <h2>System Dynamics</h2>
-<p><em>SD</em> ### <em>The Anatomy</em></p>
+<p><em>SD eg. The Forrester Model</em></p>
+<div title="Primary Dimensions:">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Primary Dimensions:</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Temporal</strong> (High) + <strong>Relational</strong> (High)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column fragment">
+<h3 id="the-anatomy-2">The Anatomy</h3>
 <ul>
-<li class="fragment"><strong>Primary Dimensions:</strong> <strong>Temporal (High)</strong> + <strong>Systemic (High)</strong>.</li>
-<li class="fragment"><strong>The Engine:</strong> <strong>Stocks and Flows.</strong> Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).</li>
-<li class="fragment"><strong>Input/Output:</strong> Causal variables Policy “flight simulators” showing 20-year trajectories.</li>
+<li class="fragment">Stocks (Accumulations)</li>
+<li class="fragment">Flows (Rates of change)</li>
+<li class="fragment">Feedback Loops</li>
 </ul>
-</section>
-<section id="system-dynamics-2" class="slide level2 center" data-background-image="img/sd_background.jpg" data-background-opacity="0.3">
-<h2>System Dynamics</h2>
-<h3 id="example-critique"><em>Example &amp; Critique</em></h3>
-<ul>
-<li class="fragment"><strong>Example:</strong> Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.</li>
-<li class="fragment"><strong>Pros:</strong> Unrivaled for identifying “Levers”—small changes that lead to massive systemic shifts.</li>
-<li class="fragment"><strong>Cons:</strong> Non-spatial. It can tell you <em>how much</em> change will happen, but it cannot tell you <em>where</em> on the map it will happen.</li>
-<li class="fragment"><strong>What it lacks:</strong> <strong>Spatial Granularity.</strong> It treats the whole city as one big “bucket” of variables.</li>
-</ul>
-</section>
-<section id="agent-based-models-1" class="slide level2 center" data-background-image="img/abm.gif" data-background-opacity="0.5">
-<h2>Agent-Based Models</h2>
-<p><em>ABM &amp; Celullar Automata (CA)</em></p>
-<h3 id="the-anatomy-1"><em>The Anatomy</em></h3>
-<ul>
-<li class="fragment"><strong>Primary Dimensions:</strong> <strong>Spatial (High)</strong> + <strong>Systemic (High)</strong> + <strong>Temporal (High)</strong>.</li>
-<li class="fragment"><strong>The Engine:</strong> <strong>Bottom-up Micro-simulation.</strong> Individual “Agents” are given simple rules. The city’s patterns “Emerge” from thousands of these local interactions.</li>
-<li class="fragment"><strong>Input/Output:</strong> Behavioral rules Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).</li>
-</ul>
+</div><div class="column fragment">
+<h3 id="the-engine-2">The Engine</h3>
+<p><strong>Differential Equations.</strong> It simulates how quantities (stocks) change <a href="">over time</a> based on rates of change (e.g., construction rate).</p>
+</div></div>
 <aside class="notes">
-<p>Visit https://softologyblog.wordpress.com/category/agent-based-modeling/</p>
-<p>https://www.washingtonpost.com/graphics/2020/world/corona-simulator/</p>
+<ul>
+<li>This is the “Macro” view or the “Policy-maker’s” brain.</li>
+<li>It originates from Jay Forrester’s work at MIT in the 1960s.</li>
+<li>Unlike LUTI, it doesn’t care where a specific building is; it cares about the <em>total number</em> of buildings and how fast they are being built or decaying.</li>
+<li>It’s designed to find “counter-intuitive” results where obvious social policies might fail.</li>
+</ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -680,15 +752,133 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="agent-based-models-2" class="slide level2 center" data-background-image="img/abm.gif" data-background-opacity="0.5">
-<h2>Agent-Based Models</h2>
-<h3 id="example-critique-1"><em>Example &amp; Critique</em></h3>
+<section id="system-dynamics-1" class="slide level2 center" data-background-image="img/sd_background.jpg" data-background-opacity="0.3">
+<h2>System Dynamics</h2>
+<blockquote>
+<p><em>eg. Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.</em></p>
+</blockquote>
+<div class="columns">
+<div class="column fragment">
+<h4 id="pros-2">Pros</h4>
+<p>Powerful for identifying “Policy Resistance” and understanding long-term, non-linear consequences.</p>
+</div><div class="column fragment">
+<h4 id="cons-2">Cons</h4>
+<p>“Spatially Blind”—it treats the entire city (or zone) as a single bucket, ignoring internal geography.</p>
+</div></div>
+<div class="fragment" title="What it lacks">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>What it lacks</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Spatial Granularity.</strong> It assumes a city is a “well-mixed” vat of variables rather than a physical place with unique neighborhoods.</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
 <ul>
-<li class="fragment"><strong>Example:</strong> Simulating how individual shoppers choose between a physical high street and online delivery during a pandemic.</li>
-<li class="fragment"><strong>Pros:</strong> Captures “Emergence” and “Surprise”—the unintended side effects of human behavior.</li>
-<li class="fragment"><strong>Cons:</strong> Extremely “noisy” and computationally expensive. Small errors in individual rules lead to massive distortions.</li>
-<li class="fragment"><strong>What it lacks:</strong> <strong>Predictive Certainty.</strong> Because it’s stochastic (random), it gives you a range of possibilities rather than a single “right” answer.</li>
+<li>Mention the “Urban Decay” example from the Forrester paper.</li>
+<li>Explain that SD is about the “Plumbing” of the city. If you pour a policy in one end, where does it leak out?</li>
+<li>It is the primary tool for recognizing the “System Archetypes” (like Fixes that Fail) that we will discuss in the workshop.</li>
 </ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="agent-based-models" class="slide level2 center" data-background-image="img/abm.gif" data-background-opacity="0.5">
+<h2>Agent-Based Models</h2>
+<p><em>ABM &amp; Celullar Automata (CA)</em></p>
+<div title="Primary Dimensions:">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>Primary Dimensions:</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Spatial</strong> (High) + <strong>Systemic</strong> (High) + <strong>Temporal</strong> (Medium).</p>
+</div>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column fragment">
+<h3 id="the-anatomy-3">The Anatomy</h3>
+<ul>
+<li class="fragment">Agents: (People, vehicles, firms) with unique attributes.</li>
+<li class="fragment">Rules: Simple “If/Then” behaviors.</li>
+<li class="fragment">Environment: The grid or network they inhabit.</li>
+</ul>
+</div><div class="column fragment">
+<h3 id="the-engine-3">The Engine</h3>
+<p><strong>Bottom-up Micro-simulation.</strong> Simple rules from the agents give rise to “<a href="">emergent</a>” states from thousands of these local interactions.</p>
+</div></div>
+<aside class="notes">
+<p>Visit https://softologyblog.wordpress.com/category/agent-based-modeling/</p>
+<p>https://www.washingtonpost.com/graphics/2020/world/corona-simulator/</p>
+<p>It rejects the idea of “Equilibrium.” Instead, it looks for “Emergence”—how simple individual rules lead to complex, collective patterns.</p>
+<p>Famous example: Thomas Schelling showed that even if individuals have a very mild preference for neighbors like themselves, the entire city will eventually become highly segregated. The “Brain” here is decentralized.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="agent-based-models-1" class="slide level2 center" data-background-image="img/abm.gif" data-background-opacity="0.5">
+<h2>Agent-Based Models</h2>
+<blockquote>
+<p>_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify “bottlenecks” that traditional flow models miss.</p>
+</blockquote>
+<div class="columns">
+<div class="column fragment">
+<h4 id="pros-3">Pros</h4>
+<p>Captures “Emergent Phenomena” and diversity; allows for the modeling of irrational or “human” behaviors.</p>
+</div><div class="column fragment">
+<h4 id="cons-3">Cons</h4>
+<p>Computationally expensive; very difficult to “validate” because small changes in rules can lead to wildly different outcomes.</p>
+</div></div>
+<div class="fragment" title="What it lacks">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>What it lacks</strong></p>
+</div>
+<div class="callout-content">
+<p>Predictive Certainty. Because it is stochastic (probabilistic), it gives you a range of “possible futures” rather than a single definitive answer.</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>Emphasize that ABM is the ultimate tool for “Complexity” as Jane Jacobs described it.</p>
+<p>It treats the city as a living laboratory.</p>
+<p>For their projects: If they are looking at social equity or behavior change (like recycling habits or walking vs.&nbsp;driving), this is the logic they are implicitly using.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="section" class="slide level2 center" data-background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)">
 <h2></h2>
@@ -745,6 +935,7 @@
 <ul>
 <li><code>Systemic</code> can be considered as CAUSAL - CAUSALITY</li>
 </ul>
+<p>LUTI: The Strategic Balance (Spatial Focus). NM (Network): The Logic of Connection (Relational Focus). SD (System Dynamics): The Feedback Plumbing (Temporal/Policy Focus). ABM: The Emergent Behavior (Individual/Social Focus).</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -937,18 +1128,76 @@ class C,D,E gray
           display:block!important;
       }</style></aside>
 </section>
-<section id="excercise" class="slide level2 center" data-background-color="#ffffff">
-<h2>Excercise</h2>
-<p>For you excercise: - Define the ‘boundaries’ - Could your problem be better defined over a certain timeframe? which?</p>
+<section id="workshop-mapping-the-logic" class="slide level2 nonincremental center" data-background-color="#FFDC00">
+<h2>Workshop: Mapping the Logic</h2>
+<p><em>Tool: <a href="https://ncase.me/loopy/">ncase.me/loopy</a></em></p>
+<div title="The Mission">
+<div class="callout callout-none no-icon callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<p><strong>The Mission</strong></p>
+</div>
+<div class="callout-content">
+<p>Translate your “Wicked Problem” from a vague concept into a functional <strong>Causal Loop Diagram</strong>.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column">
+<h3 id="set-the-frame">1. Set the Frame</h3>
 <ul>
-<li class="fragment">Extact the main components</li>
-<li class="fragment">Create a causal loop (including Positive or Negative feedback loops)</li>
+<li class="fragment"><strong>Define Boundaries:</strong> What is <em>in</em> your system? What is exogenous “noise”?</li>
+<li class="fragment"><strong>Temporal Scale:</strong> Is this a 24-hour traffic cycle or a 20-year gentrification process?</li>
 </ul>
-<h4 id="we-wont">We won’t:</h4>
+</div><div class="column">
+<h3 id="build-the-logic">2. Build the Logic</h3>
 <ul>
-<li class="fragment">define stocks</li>
-<li class="fragment">consider flows rates</li>
+<li class="fragment"><strong>Extract Nodes:</strong> Identify the 5–8 core variables (Social &amp; Technical).</li>
+<li class="fragment"><strong>Connect &amp; Loop:</strong> Draw the arrows. Is the relationship (+) or (-)?</li>
+<li class="fragment"><strong>Find the Archetype:</strong> Can you spot a “Fix that Fail” or “Limits to Growth”?</li>
 </ul>
+</div></div>
+</section>
+<section id="workshop-what-we-are-doing" class="slide level2 center" data-background-color="#FFDC00">
+<h2>Workshop: What we are doing</h2>
+<blockquote>
+<p>Focus on the <strong>Logic</strong>, not the math.</p>
+</blockquote>
+<div class="columns">
+<div class="column fragment">
+<h4 id="the-focus">🎯 The Focus</h4>
+<ul>
+<li class="fragment"><strong>Relationships:</strong> How A affects B.</li>
+<li class="fragment"><strong>Feedback:</strong> Identifying reinforcing and balancing loops.</li>
+<li class="fragment"><strong>Communication:</strong> Making the “invisible” logic visible.</li>
+</ul>
+</div><div class="column fragment">
+<h4 id="not-today">🛑 Not Today</h4>
+<ul>
+<li class="fragment"><strong>Stocks:</strong> We aren’t measuring exact “buckets” of volume.</li>
+<li class="fragment"><strong>Flow Rates:</strong> We aren’t calculating precise liters/people per second.</li>
+<li class="fragment"><strong>Validation:</strong> We are mapping <em>theories</em>, not yet proving them.</li>
+</ul>
+</div></div>
+<aside class="notes">
+<ul>
+<li>Direct the students to Loopy. Remind them it’s a “thinking tool,” not a simulation engine.</li>
+<li>Step 1: Boundaries. If they are talking about “Smart Parking,” does the system boundary stop at the curb, or does it include the driver’s frustration level?</li>
+<li>Step 2: Connection. This is where they identify the “Brain” of their problem.</li>
+<li>Reiterate the “Not Today” section: Many students get bogged down trying to find “real data.” Tell them to focus on the <em>direction</em> of the arrows first. If we increase “Surveillance,” does “Privacy” go up or down? That is a logic choice, not a data choice.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 
 
 </section></section>
