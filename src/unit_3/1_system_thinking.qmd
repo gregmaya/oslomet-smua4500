@@ -214,7 +214,7 @@ This is a friendly way to lower the "technical" barrier. You aren't asking them 
 # The Logics of Systems
 _Part II_
 
-## The "Brain" of the Smart City {background-image="img/brain.jpg"}
+## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
 
 ::: {.columns}
 ::: {.column}
@@ -259,7 +259,7 @@ _of most urban logic modelling_
 ::: 
 
 
-## 1. The Spatial Dimension
+## 1. The Spatial Dimension {background-image="img/dim_space.png"}
 
 * **The Logic of "Where":** Focuses on geometry, distance, and density.
 * **Key Question:** How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?
@@ -269,19 +269,19 @@ _of most urban logic modelling_
 Spatial logic is the traditional bread and butter of planning. It’s about the map. It assumes that proximity equals interaction.
 :::
 
-## 2. The Relational Dimension
+## 2. The Relational Dimension {background-image="img/dim_relation.png"}
 
 * **The Logic of "Connection":** Focuses on topology and network hierarchy.
 * **Key Question:** How is the city "wired"? Is it about how far you are in meters, or how many turns you are from the main network?
-* **Core Concept:** **Graph Theory.** The city as nodes (intersections) and edges (streets).
+* **Core Concept:** **Graph Theory.** The city as nodes and edges.
 
-## 3. The Temporal Dimension
+## 3. The Temporal Dimension {background-image="img/dim_temp.png"}
 
 * **The Logic of "When":** Focuses on change, evolution, and path dependency.
 * **Key Question:** How did the city get here, and how fast is it changing?
-* **Core Concept:** **Dynamics.** Recognizing that an urban intervention today might take 10 years to show its true impact (lag times).
+* **Core Concept:** **Dynamics.** Recognizing that an urban intervention today might take 10 years to show its true impact (_delays_).
 
-## 4. The Systemic Dimension
+## 4. The Systemic Dimension {background-image="img/dim_systemic.png"}
 
 * **The Logic of "Why":** Focuses on causality and interdependencies.
 * **Key Question:** What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?
@@ -438,7 +438,7 @@ One model strength is the other model's weakness
 Mapping your wicked problem
 :::
 
-## The "Wicked" Problem
+## The "Wicked" Problem {background-image="img/wicked.png" background-opacity="0.3"}
 * Urban challenges are not **puzzles** (with one right answer).
 * They are **Wicked Problems**:
     * They are interconnected: solving one creates another.
@@ -446,8 +446,15 @@ Mapping your wicked problem
     * They are better or worse, not right or wrong.
 
 ::: {.notes}
-Refer to Rittel and Webber’s definition. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
+Refer to Rittel and Webber’s definition 1973. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
 For their assignments: help them see that their chosen problem (e.g., housing or pollution) is "wicked" because it's tied to a dozen other factors.
+
+#### Key Characteristics of Wicked Problems:
+- No definitive formulation: The problem itself is hard to define.
+- No "stopping rule": There's no clear point at which you know it's solved.
+- Solutions aren't true/false: They are only "good" or "bad," not objectively correct.
+- Irreversible consequences: Every attempt to solve it has lasting impacts, making "trials count".
+- Interconnectedness: Solving one part often creates or reveals other problems.
 :::
 
 ## Beyond the Mental Model
@@ -499,14 +506,10 @@ A model is only as good as what you **leave out**.
 Enable the discovery of :
 
 - `emergence`
-- `path prediction`
+- `path dependency`
 - `tiping points`
 - `equilibrium` / `oscilation`
 
-:::{.notes}
-- emergence
-- path prediction
-:::
 
 ## Feedback Loops {background-color="#ffffff"}
 [_loopy_](https://ncase.me/loopy)
