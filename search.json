@@ -10,39 +10,481 @@
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#slide-1",
-    "href": "src/unit_3/2_decision_support.html#slide-1",
+    "objectID": "src/unit_3/2_decision_support.html#smart-citys-brain",
+    "href": "src/unit_3/2_decision_support.html#smart-citys-brain",
     "title": "Decision support tools",
-    "section": "Slide 1",
-    "text": "Slide 1",
+    "section": "Smart City’s brain",
+    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nGOAL\nTo reduce the “Cognitive Load”\nwithout oversimplifying the “Wicked” reality.\n\n\n\nRemind them of the “Brain” analogy. A brain is useless if it can’t move the body.\nDecision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say “If we do X, then Y happens.”\nCrucial point: A good DST doesn’t hide complexity; it manages it.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 2"
+      "Decision Support"
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#slide-2",
-    "href": "src/unit_3/2_decision_support.html#slide-2",
+    "objectID": "src/unit_3/2_decision_support.html#dashboards-anathomy",
+    "href": "src/unit_3/2_decision_support.html#dashboards-anathomy",
     "title": "Decision support tools",
-    "section": "Slide 2",
-    "text": "Slide 2",
+    "section": "Dashboard’s Anathomy",
+    "text": "Dashboard’s Anathomy\n\n\nIndicators\nThe “Vital Signs” of the city (Air quality, traffic flow, energy use).\n\n“What-If” Engine\nMoving from static data to interactive simulation.\n\nContextual Narratives\nData is meaningless without the “Story” of the place.\n\n\n\nRefer to your Data Viz notes: “Identifying patterns, trends, and outliers.”\nIn an urban context, a dashboard shouldn’t just be a “report card” of the past. It should be a “flight simulator” for the future.\nExample: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you “delete” a parking lot and see the CO2 drop in real-time is a Decision Support Tool.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 2"
+      "Decision Support"
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#slide-3",
-    "href": "src/unit_3/2_decision_support.html#slide-3",
+    "objectID": "src/unit_3/2_decision_support.html#the-misleading-interface",
+    "href": "src/unit_3/2_decision_support.html#the-misleading-interface",
     "title": "Decision support tools",
-    "section": "Slide 3",
-    "text": "Slide 3",
+    "section": "The “Misleading” Interface",
+    "text": "The “Misleading” Interface\n\n\nAesthetic Trap\nJust because a dashboard is “shiny” or 3D doesn’t mean it’s accurate.\n\nTruncated Realities\nWhat is not being measured? (e.g., social capital, happiness).\n\nCognitive Biases\nHow “Visual Narratives” can accidentally (or intentionally) nudge decisions the wrong way.\n\n\n\nConnect this to your Viz Pitfalls: “Misleading graphs, improper scaling.”\nIn Smart Cities, there is a risk of “Technological Solutionism.” If it’s on a high-res screen, people tend to believe it’s “The Truth.”\nAs curators of these tools, the students must ensure the visualization doesn’t lie about the model’s uncertainty.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 2"
+      "Decision Support"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/2_decision_support.html#who-is-the-pilot",
+    "href": "src/unit_3/2_decision_support.html#who-is-the-pilot",
+    "title": "Decision support tools",
+    "section": "Who is the Pilot?",
+    "text": "Who is the Pilot?\n\n\nHigh-Level Ops\nReal-time management (Emergency response, traffic control).\n\nStrategic Planning\n10–20 year horizons (Housing, Climate adaptation).\n\nPublic Participation\nTransparency and “Co-design” with citizens.\n\n\nDifferent users need different “Front-ends.”\nA technician needs a “Technical” viz. A citizen needs a “Human-centric” viz.\nWorkshop II Preview: We will look at how to tailor your “Wicked Problem” map into a tool that a specific stakeholder can actually use to make a choice.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Decision Support"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
+    "href": "src/unit_3/1_system_thinking.html#session-roadmap",
+    "title": "Systems Thinking",
+    "section": "Session Roadmap",
+    "text": "Session Roadmap\n\nPart I: The Landscape of Urban Complexity\n\nThe “Brain” of the Smart City & 4 Heuristics\n\nPart II: The Logics of Systems\n\nDeep Dive into Feedback Loops\nWorkshop I: Mapping Your Wicked Problem\n\nPart III: Decision Support Tools\n\nWorkshop II: Stakeholders and Data\n\n\n\n\nStart by managing expectations: Today we move from theory to logic to practice.\nPart I is the ‘Why’ (Complexity) and the ‘How’ (The 4 Heuristics). It sets the conceptual stage.\nPart II is the ‘Deep Dive’. We get hands-on with System Dynamics logic to help them deconstruct the specific course assignments they are working on.\nPart III links the “Brain” back to reality: How does this logic serve stakeholders and talk to data?",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
+    "href": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
+    "title": "Systems Thinking",
+    "section": "The City = Complex Systems",
+    "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#complexity-alive",
+    "href": "src/unit_3/1_system_thinking.html#complexity-alive",
+    "title": "Systems Thinking",
+    "section": "Complexity alive",
+    "text": "Complexity alive\n\n\n\n\nTo a computer or a traditional top-down planner, this looks like total disorder. But it isn’t. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the ‘organized complexity’ Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
+    "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
+    "title": "Systems Thinking",
+    "section": "What the Smart City is NOT",
+    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.\n\n\n\n\nmodels are fallible.\nBecause of urban complexity (non-linearity and emergence), we can’t predict exactly what a city will do.\n“The Answer,” they are misrepresenting what a model is. It’s a tool for exploration, not a decree.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-science-of-cities",
+    "href": "src/unit_3/1_system_thinking.html#the-science-of-cities",
+    "title": "Systems Thinking",
+    "section": "The Science of Cities",
+    "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013\n\n\n\n\n\nUse this to transition into the modeling heuristics. If location is just a “synthesis of interactions,” then to model a city, we shouldn’t just map where things are (static), but how things move and relate (dynamic). This justifies why we look at things like Networks and Agent-Based models.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#organized-complexity",
+    "href": "src/unit_3/1_system_thinking.html#organized-complexity",
+    "title": "Systems Thinking",
+    "section": "Organized Complexity",
+    "text": "Organized Complexity\nJane Jacobs\n\n\nCities are not:\n\nProblems of Simplicity\nProblems of Disorganized Complexity (millions of random variables).\n\n\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.\n\n\n\nJane Jacobs (1961) borrowed this term from Warren Weaver. Explain the difference: - Simplicity: A falling stone (gravity). - Disorganized: A gas (billions of atoms behaving randomly). - Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "href": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "title": "Systems Thinking",
+    "section": "The Interconnection of Parts",
+    "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.” – J.Jacobs\n\n\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.\n\n\nHighlight that both Jane Jacobs and Christopher Alexander saw the “interconnection of parts” as the central issue. For the students’ projects: Tell them that when they model a “Smart City” intervention, they aren’t just adding a “part” to a machine; they are intervening in a “living process” that will react in unpredictable ways.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#complexity-science",
+    "href": "src/unit_3/1_system_thinking.html#complexity-science",
+    "title": "Systems Thinking",
+    "section": "Complexity Science",
+    "text": "Complexity Science\nThe Reductionist Shortcut:\n\nA mental habit of breaking the city into isolated “parts” to make it easier to manage.\n\nThe Complexity Reality:\n\nScience not of the “atoms” (buildings, roads, people), but of the connections between them.\n\n\nCross-Scale Interactions\n\nSingle street-level decisions ripples up to the metropolitan scale.\n\n\n\n“Reductionism is a form of mental lazy gymnastics. Our brains are hardwired to simplify: we see a ‘housing problem’ or a ‘transport problem’ as separate buckets because it’s cognitively cheaper to process.” - But cities don’t work in buckets. Complexity science is about the ‘glue’—the flows and communications that Michael Batty mentioned. - Emphasize that we aren’t studying the ‘atoms’ (the physical objects) but the ‘chemistry’ (how they react when they touch). This is why the ‘Brain’ of the city needs to be a systems-thinking brain, not just a spreadsheet of isolated parts.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#systems",
+    "href": "src/unit_3/1_system_thinking.html#systems",
+    "title": "Systems Thinking",
+    "section": "Systems",
+    "text": "Systems\n\n\nComplex\n\nAdaptive relationships.\nEmergent outcomes.\nMore than the sum of its parts.\n\n\nComplicated\n\nFixed relationships.\nPredictable outcomes.\nThe sum of its parts.\n\n\n   \n\nA Boeing 747 is complicated; it’s difficult to understand, but it’s reliable and linear. A city is complex; it is alive. In a complicated system, if you remove a part, you just have a broken machine. In a complex system, if you remove a part, the system adapts or collapses entirely.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
+    "href": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
+    "title": "Systems Thinking",
+    "section": "The City is not a Tree",
+    "text": "The City is not a Tree\n\n\n“It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation … it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” – Christooher Alexander",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#systems-thinking-101",
+    "href": "src/unit_3/1_system_thinking.html#systems-thinking-101",
+    "title": "Systems Thinking",
+    "section": "Systems Thinking 101",
+    "text": "Systems Thinking 101\n\n\nSystems Thinking\nSeeing the Web of interactions\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.\n\n\nContrast the two ways of thinking. Linear thinking says: “Traffic is bad, widen the road.” Systems thinking asks: “If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?” This is the fundamental shift required for the rest of the lecture.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
+    "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
+    "title": "Systems Thinking",
+    "section": "Modeling as a Heuristic",
+    "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).\n\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#smart-citys-brain",
+    "href": "src/unit_3/1_system_thinking.html#smart-citys-brain",
+    "title": "Systems Thinking",
+    "section": "Smart City’s brain",
+    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nLogic must precede display.\n\n\nUse the “Brain” analogy to ground the lecture. The “Front-end” is what people see (the dashboard), but the “Brain” is the modeling logic we are discussing today. If the logic (the model) is flawed, the visualization is just “fancy misinformation.” Today is about building the intellectual back-end.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-dimensions",
+    "href": "src/unit_3/1_system_thinking.html#the-dimensions",
+    "title": "Systems Thinking",
+    "section": "The Dimensions",
+    "text": "The Dimensions\nof most urban logic modelling\n\n\n\nSPATIAL\nRELATIONAL\n\nTEMPORAL\nSYSTEMIC",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
+    "title": "Systems Thinking",
+    "section": "1. The Spatial Dimension",
+    "text": "1. The Spatial Dimension\n\nThe Logic of “Where”: Focuses on geometry, distance, and density.\nKey Question: How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?\nCore Concept: Social Physics. Just like gravity, “mass” (high-density jobs or housing) exerts a pull on the surrounding area.\n\n\nSpatial logic is the traditional bread and butter of planning. It’s about the map. It assumes that proximity equals interaction.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-relational-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-relational-dimension",
+    "title": "Systems Thinking",
+    "section": "2. The Relational Dimension",
+    "text": "2. The Relational Dimension\n\nThe Logic of “Connection”: Focuses on topology and network hierarchy.\nKey Question: How is the city “wired”? Is it about how far you are in meters, or how many turns you are from the main network?\nCore Concept: Graph Theory. The city as nodes and edges.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
+    "title": "Systems Thinking",
+    "section": "3. The Temporal Dimension",
+    "text": "3. The Temporal Dimension\n\nThe Logic of “When”: Focuses on change, evolution, and path dependency.\nKey Question: How did the city get here, and how fast is it changing?\nCore Concept: Dynamics. Recognizing that an urban intervention today might take 10 years to show its true impact (delays).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
+    "title": "Systems Thinking",
+    "section": "4. The Systemic Dimension",
+    "text": "4. The Systemic Dimension\n\nThe Logic of “Why”: Focuses on causality and interdependencies.\nKey Question: What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?\nCore Concept: Feedback Loops. Circular causality where an output of a system becomes an input for the next cycle.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-models",
+    "href": "src/unit_3/1_system_thinking.html#the-models",
+    "title": "Systems Thinking",
+    "section": "The Models",
+    "text": "The Models\nonly some…\n\n\n\nLand-Use Transport\n\nNetwork Models\n\nSystem Dynamics\n\nAgent Based Models",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-1",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport-1",
+    "title": "Systems Thinking",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\nLUTI ### The Anatomy\n\nPrimary Dimensions: Spatial (High) + Relational (Medium).\nThe Engine: Spatial Interaction Models. Uses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.\nInput/Output: Zonal data (population/jobs) Predicted traffic flows and land-use shifts.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-2",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport-2",
+    "title": "Systems Thinking",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\nWhat it lacks: Temporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#network-models-1",
+    "href": "src/unit_3/1_system_thinking.html#network-models-1",
+    "title": "Systems Thinking",
+    "section": "Network Models",
+    "text": "Network Models\neg. Space Syntax\nThe Anatomy\n\nPrimary Dimensions: Relational (High) + Spatial (Low).\nThe Engine: Topological Analysis. It measures “Integration” (how accessible a street is) and “Choice” (how likely a street is to be used as a shortcut).\nInput/Output: Street centerlines Heatmaps of predicted pedestrian and vehicular movement.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#network-models-2",
+    "href": "src/unit_3/1_system_thinking.html#network-models-2",
+    "title": "Systems Thinking",
+    "section": "Network Models",
+    "text": "Network Models\nNM ### Example & Critique\n\nExample: Redesigning a town center to increase footfall for local shops by improving topological connectivity.\nPros: Very high correlation with real-world human movement; requires minimal data (just the map).\nCons: Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\nWhat it lacks: Systemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-1",
+    "href": "src/unit_3/1_system_thinking.html#system-dynamics-1",
+    "title": "Systems Thinking",
+    "section": "System Dynamics",
+    "text": "System Dynamics\nSD ### The Anatomy\n\nPrimary Dimensions: Temporal (High) + Systemic (High).\nThe Engine: Stocks and Flows. Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).\nInput/Output: Causal variables Policy “flight simulators” showing 20-year trajectories.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-2",
+    "href": "src/unit_3/1_system_thinking.html#system-dynamics-2",
+    "title": "Systems Thinking",
+    "section": "System Dynamics",
+    "text": "System Dynamics\nExample & Critique\n\nExample: Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.\nPros: Unrivaled for identifying “Levers”—small changes that lead to massive systemic shifts.\nCons: Non-spatial. It can tell you how much change will happen, but it cannot tell you where on the map it will happen.\nWhat it lacks: Spatial Granularity. It treats the whole city as one big “bucket” of variables.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-1",
+    "href": "src/unit_3/1_system_thinking.html#agent-based-models-1",
+    "title": "Systems Thinking",
+    "section": "Agent-Based Models",
+    "text": "Agent-Based Models\nABM & Celullar Automata (CA)\nThe Anatomy\n\nPrimary Dimensions: Spatial (High) + Systemic (High) + Temporal (High).\nThe Engine: Bottom-up Micro-simulation. Individual “Agents” are given simple rules. The city’s patterns “Emerge” from thousands of these local interactions.\nInput/Output: Behavioral rules Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).\n\n\nVisit https://softologyblog.wordpress.com/category/agent-based-modeling/\nhttps://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-2",
+    "href": "src/unit_3/1_system_thinking.html#agent-based-models-2",
+    "title": "Systems Thinking",
+    "section": "Agent-Based Models",
+    "text": "Agent-Based Models\nExample & Critique\n\nExample: Simulating how individual shoppers choose between a physical high street and online delivery during a pandemic.\nPros: Captures “Emergence” and “Surprise”—the unintended side effects of human behavior.\nCons: Extremely “noisy” and computationally expensive. Small errors in individual rules lead to massive distortions.\nWhat it lacks: Predictive Certainty. Because it’s stochastic (random), it gives you a range of possibilities rather than a single “right” answer.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#section",
+    "href": "src/unit_3/1_system_thinking.html#section",
+    "title": "Systems Thinking",
+    "section": "",
+    "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\n\nSystemic can be considered as CAUSAL - CAUSALITY",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-wicked-problem",
+    "href": "src/unit_3/1_system_thinking.html#the-wicked-problem",
+    "title": "Systems Thinking",
+    "section": "The “Wicked” Problem",
+    "text": "The “Wicked” Problem\n\nUrban challenges are not puzzles (with one right answer).\nThey are Wicked Problems:\n\nThey are interconnected: solving one creates another.\nThey have no “stopping rule” or perfect solution.\nThey are better or worse, not right or wrong.\n\n\n\nRefer to Rittel and Webber’s definition 1973. Explain that in a smart city context, we often try to “optimize” things. But a city isn’t a machine to be optimized; it’s a wicked problem to be managed. For their assignments: help them see that their chosen problem (e.g., housing or pollution) is “wicked” because it’s tied to a dozen other factors.\nKey Characteristics of Wicked Problems:\n\nNo definitive formulation: The problem itself is hard to define.\nNo “stopping rule”: There’s no clear point at which you know it’s solved.\nSolutions aren’t true/false: They are only “good” or “bad,” not objectively correct.\nIrreversible consequences: Every attempt to solve it has lasting impacts, making “trials count”.\nInterconnectedness: Solving one part often creates or reveals other problems.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
+    "href": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
+    "title": "Systems Thinking",
+    "section": "Beyond the Mental Model",
+    "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#setting-the-boundary",
+    "href": "src/unit_3/1_system_thinking.html#setting-the-boundary",
+    "title": "Systems Thinking",
+    "section": "Setting the Boundary",
+    "text": "Setting the Boundary\nA model is only as good as what you leave out. * Endogenous: Factors the system controls. * Exogenous: Factors outside our influence (the “Environment”).\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.\n\n\n\nThis is the most important part of the workshop.\nUse the “Ecological Footprint” example from your references: London’s boundary isn’t the M25 motorway; its “resource boundary” is the whole world.\nTell students: “Decide today what is inside your ‘Brain’ and what is just ‘Noise’ from the outside.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath dependency\ntiping points\nequilibrium / oscilation",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nloopy",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "href": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "title": "Systems Thinking",
+    "section": "System Archetypes",
+    "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.\n\n\n\n\n\n\nLearning to recognize “The Classics” of urban failure.\nRemind students that these are diagnostic tools.\nThey don’t describe a specific problem, but a family of problems.\nUse these tabs to ask the groups: “Which of these ‘Classics’ best describes the wicked problem you are mapping today?”.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#excercise",
+    "href": "src/unit_3/1_system_thinking.html#excercise",
+    "title": "Systems Thinking",
+    "section": "Excercise",
+    "text": "Excercise\nFor you excercise: - Define the ‘boundaries’ - Could your problem be better defined over a certain timeframe? which?\n\nExtact the main components\nCreate a causal loop (including Positive or Negative feedback loops)\n\nWe won’t:\n\ndefine stocks\nconsider flows rates",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Course Guide",
+    "section": "Content",
+    "text": "Content\nThis course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. In this course, the student will gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment. Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders. This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor.\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
+    "crumbs": [
+      "Home"
     ]
   },
   {
@@ -109,433 +551,75 @@
     "text": "“Evidence-based policy-making”\n“Closing the implementation gap” (helping countries report better)\n“LCZ (Local Climate Zones)” (for heat island analysis)\n“Life-cycle of data management”\n“Knowledge Exchange” (treating Eionet as a two-way street)\n\n\nSure — here is a clean transcription of the text shown in the two images, keeping the original structure, wording, and formatting as closely as possible."
   },
   {
-    "objectID": "index.html#content",
-    "href": "index.html#content",
-    "title": "Course Guide",
-    "section": "Content",
-    "text": "Content\nThis course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. In this course, the student will gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment. Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders. This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor.\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
-    "href": "src/unit_3/1_system_thinking.html#session-roadmap",
-    "title": "Systems Thinking",
-    "section": "Session Roadmap",
-    "text": "Session Roadmap\n\nPart I: The Landscape of Urban Complexity\n\nThe “Brain” of the Smart City & 4 Heuristics\n\nPart II: The Logics of Systems\n\nDeep Dive into Feedback Loops\nWorkshop I: Mapping Your Wicked Problem\n\nPart III: Decision Support Tools\n\nWorkshop II: Stakeholders and Data\n\n\n\n\nStart by managing expectations: Today we move from theory to logic to practice.\nPart I is the ‘Why’ (Complexity) and the ‘How’ (The 4 Heuristics). It sets the conceptual stage.\nPart II is the ‘Deep Dive’. We get hands-on with System Dynamics logic to help them deconstruct the specific course assignments they are working on.\nPart III links the “Brain” back to reality: How does this logic serve stakeholders and talk to data?",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
-    "href": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
-    "title": "Systems Thinking",
-    "section": "The City = Complex Systems",
-    "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.\n\n\n\n\nThe city is the ultimate complex system.\n“Smart” doesn’t mean “New.” Many of the algorithms we use today were born in the 1960s and 70s to address social housing, transport equity, and urban decay. The technology has caught up to the theory, but the focus remains social.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#complexity-alive",
-    "href": "src/unit_3/1_system_thinking.html#complexity-alive",
-    "title": "Systems Thinking",
-    "section": "Complexity alive",
-    "text": "Complexity alive\n\n\n\n\nTo a computer or a traditional top-down planner, this looks like total disorder. But it isn’t. It is a highly efficient, self-organizing system where thousands of individual decisions create a functional flow. This is the ‘organized complexity’ Jane Jacobs spoke about—and it is exactly what we struggle to represent in a static model.”",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
-    "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
-    "title": "Systems Thinking",
-    "section": "What the Smart City is NOT",
-    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.\n\n\n\n\nmodels are fallible.\nBecause of urban complexity (non-linearity and emergence), we can’t predict exactly what a city will do.\n“The Answer,” they are misrepresenting what a model is. It’s a tool for exploration, not a decree.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-science-of-cities",
-    "href": "src/unit_3/1_system_thinking.html#the-science-of-cities",
-    "title": "Systems Thinking",
-    "section": "The Science of Cities",
-    "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013\n\n\n\n\n\nUse this to transition into the modeling heuristics. If location is just a “synthesis of interactions,” then to model a city, we shouldn’t just map where things are (static), but how things move and relate (dynamic). This justifies why we look at things like Networks and Agent-Based models.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#organized-complexity",
-    "href": "src/unit_3/1_system_thinking.html#organized-complexity",
-    "title": "Systems Thinking",
-    "section": "Organized Complexity",
-    "text": "Organized Complexity\nJane Jacobs\n\n\nCities are not:\n\nProblems of Simplicity\nProblems of Disorganized Complexity (millions of random variables).\n\n\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.\n\n\n\nJane Jacobs (1961) borrowed this term from Warren Weaver. Explain the difference: - Simplicity: A falling stone (gravity). - Disorganized: A gas (billions of atoms behaving randomly). - Organized: A city or a living cell. Everything depends on everything else. If you change the park (social), you change the crime rate (social), which changes the property value (economic), which changes the transport needs (technical).",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
-    "href": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
-    "title": "Systems Thinking",
-    "section": "The Interconnection of Parts",
-    "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.” – J.Jacobs\n\n\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.\n\n\nHighlight that both Jane Jacobs and Christopher Alexander saw the “interconnection of parts” as the central issue. For the students’ projects: Tell them that when they model a “Smart City” intervention, they aren’t just adding a “part” to a machine; they are intervening in a “living process” that will react in unpredictable ways.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#complexity-science",
-    "href": "src/unit_3/1_system_thinking.html#complexity-science",
-    "title": "Systems Thinking",
-    "section": "Complexity Science",
-    "text": "Complexity Science\nThe Reductionist Shortcut:\n\nA mental habit of breaking the city into isolated “parts” to make it easier to manage.\n\nThe Complexity Reality:\n\nScience not of the “atoms” (buildings, roads, people), but of the connections between them.\n\n\nCross-Scale Interactions\n\nSingle street-level decisions ripples up to the metropolitan scale.\n\n\n\n“Reductionism is a form of mental lazy gymnastics. Our brains are hardwired to simplify: we see a ‘housing problem’ or a ‘transport problem’ as separate buckets because it’s cognitively cheaper to process.” - But cities don’t work in buckets. Complexity science is about the ‘glue’—the flows and communications that Michael Batty mentioned. - Emphasize that we aren’t studying the ‘atoms’ (the physical objects) but the ‘chemistry’ (how they react when they touch). This is why the ‘Brain’ of the city needs to be a systems-thinking brain, not just a spreadsheet of isolated parts.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#systems",
-    "href": "src/unit_3/1_system_thinking.html#systems",
-    "title": "Systems Thinking",
-    "section": "Systems",
-    "text": "Systems\n\n\nComplex\n\nAdaptive relationships.\nEmergent outcomes.\nMore than the sum of its parts.\n\n\nComplicated\n\nFixed relationships.\nPredictable outcomes.\nThe sum of its parts.\n\n\n   \n\nA Boeing 747 is complicated; it’s difficult to understand, but it’s reliable and linear. A city is complex; it is alive. In a complicated system, if you remove a part, you just have a broken machine. In a complex system, if you remove a part, the system adapts or collapses entirely.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
-    "href": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
-    "title": "Systems Thinking",
-    "section": "The City is not a Tree",
-    "text": "The City is not a Tree\n\n\n“It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation … it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” – Christooher Alexander",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#systems-thinking-101",
-    "href": "src/unit_3/1_system_thinking.html#systems-thinking-101",
-    "title": "Systems Thinking",
-    "section": "Systems Thinking 101",
-    "text": "Systems Thinking 101\n\n\nSystems Thinking\nSeeing the Web of interactions\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.\n\n\nContrast the two ways of thinking. Linear thinking says: “Traffic is bad, widen the road.” Systems thinking asks: “If I widen the road, how does that change land use, and how does that eventually bring more cars back (induced demand)?” This is the fundamental shift required for the rest of the lecture.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
-    "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
-    "title": "Systems Thinking",
-    "section": "Modeling as a Heuristic",
-    "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).\n\n\n\nThis is a friendly way to lower the “technical” barrier. You aren’t asking them to be data scientists today; you are asking them to use models as “thinking tools” to simplify a reality that is too complex to hold in their heads all at once.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-brain-of-the-smart-city",
-    "href": "src/unit_3/1_system_thinking.html#the-brain-of-the-smart-city",
-    "title": "Systems Thinking",
-    "section": "The “Brain” of the Smart City",
-    "text": "The “Brain” of the Smart City\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nLogic must precede display.\n\n\nUse the “Brain” analogy to ground the lecture. The “Front-end” is what people see (the dashboard), but the “Brain” is the modeling logic we are discussing today. If the logic (the model) is flawed, the visualization is just “fancy misinformation.” Today is about building the intellectual back-end.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-dimensions",
-    "href": "src/unit_3/1_system_thinking.html#the-dimensions",
-    "title": "Systems Thinking",
-    "section": "The Dimensions",
-    "text": "The Dimensions\nof most urban logic modelling\n\n\n\nSPATIAL\nRELATIONAL\n\nTEMPORAL\nSYSTEMIC",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
-    "title": "Systems Thinking",
-    "section": "1. The Spatial Dimension",
-    "text": "1. The Spatial Dimension\n\nThe Logic of “Where”: Focuses on geometry, distance, and density.\nKey Question: How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?\nCore Concept: Social Physics. Just like gravity, “mass” (high-density jobs or housing) exerts a pull on the surrounding area.\n\n\nSpatial logic is the traditional bread and butter of planning. It’s about the map. It assumes that proximity equals interaction.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-relational-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-relational-dimension",
-    "title": "Systems Thinking",
-    "section": "2. The Relational Dimension",
-    "text": "2. The Relational Dimension\n\nThe Logic of “Connection”: Focuses on topology and network hierarchy.\nKey Question: How is the city “wired”? Is it about how far you are in meters, or how many turns you are from the main network?\nCore Concept: Graph Theory. The city as nodes (intersections) and edges (streets).",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
-    "title": "Systems Thinking",
-    "section": "3. The Temporal Dimension",
-    "text": "3. The Temporal Dimension\n\nThe Logic of “When”: Focuses on change, evolution, and path dependency.\nKey Question: How did the city get here, and how fast is it changing?\nCore Concept: Dynamics. Recognizing that an urban intervention today might take 10 years to show its true impact (lag times).",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
-    "title": "Systems Thinking",
-    "section": "4. The Systemic Dimension",
-    "text": "4. The Systemic Dimension\n\nThe Logic of “Why”: Focuses on causality and interdependencies.\nKey Question: What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?\nCore Concept: Feedback Loops. Circular causality where an output of a system becomes an input for the next cycle.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-models",
-    "href": "src/unit_3/1_system_thinking.html#the-models",
-    "title": "Systems Thinking",
-    "section": "The Models",
-    "text": "The Models\nonly some…\n\n\n\nLand-Use Transport\n\nNetwork Models\n\nSystem Dynamics\n\nAgent Based Models",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-1",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport-1",
-    "title": "Systems Thinking",
-    "section": "Land-Use Transport",
-    "text": "Land-Use Transport\nLUTI ### The Anatomy\n\nPrimary Dimensions: Spatial (High) + Relational (Medium).\nThe Engine: Spatial Interaction Models. Uses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.\nInput/Output: Zonal data (population/jobs) Predicted traffic flows and land-use shifts.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-2",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport-2",
-    "title": "Systems Thinking",
-    "section": "Land-Use Transport",
-    "text": "Land-Use Transport\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\nWhat it lacks: Temporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#network-models-1",
-    "href": "src/unit_3/1_system_thinking.html#network-models-1",
-    "title": "Systems Thinking",
-    "section": "Network Models",
-    "text": "Network Models\neg. Space Syntax\nThe Anatomy\n\nPrimary Dimensions: Relational (High) + Spatial (Low).\nThe Engine: Topological Analysis. It measures “Integration” (how accessible a street is) and “Choice” (how likely a street is to be used as a shortcut).\nInput/Output: Street centerlines Heatmaps of predicted pedestrian and vehicular movement.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#network-models-2",
-    "href": "src/unit_3/1_system_thinking.html#network-models-2",
-    "title": "Systems Thinking",
-    "section": "Network Models",
-    "text": "Network Models\nNM ### Example & Critique\n\nExample: Redesigning a town center to increase footfall for local shops by improving topological connectivity.\nPros: Very high correlation with real-world human movement; requires minimal data (just the map).\nCons: Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\nWhat it lacks: Systemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-1",
-    "href": "src/unit_3/1_system_thinking.html#system-dynamics-1",
-    "title": "Systems Thinking",
-    "section": "System Dynamics",
-    "text": "System Dynamics\nSD ### The Anatomy\n\nPrimary Dimensions: Temporal (High) + Systemic (High).\nThe Engine: Stocks and Flows. Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).\nInput/Output: Causal variables Policy “flight simulators” showing 20-year trajectories.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-2",
-    "href": "src/unit_3/1_system_thinking.html#system-dynamics-2",
-    "title": "Systems Thinking",
-    "section": "System Dynamics",
-    "text": "System Dynamics\nExample & Critique\n\nExample: Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.\nPros: Unrivaled for identifying “Levers”—small changes that lead to massive systemic shifts.\nCons: Non-spatial. It can tell you how much change will happen, but it cannot tell you where on the map it will happen.\nWhat it lacks: Spatial Granularity. It treats the whole city as one big “bucket” of variables.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-1",
-    "href": "src/unit_3/1_system_thinking.html#agent-based-models-1",
-    "title": "Systems Thinking",
-    "section": "Agent-Based Models",
-    "text": "Agent-Based Models\nABM & Celullar Automata (CA)\nThe Anatomy\n\nPrimary Dimensions: Spatial (High) + Systemic (High) + Temporal (High).\nThe Engine: Bottom-up Micro-simulation. Individual “Agents” are given simple rules. The city’s patterns “Emerge” from thousands of these local interactions.\nInput/Output: Behavioral rules Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).\n\n\nVisit https://softologyblog.wordpress.com/category/agent-based-modeling/\nhttps://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-2",
-    "href": "src/unit_3/1_system_thinking.html#agent-based-models-2",
-    "title": "Systems Thinking",
-    "section": "Agent-Based Models",
-    "text": "Agent-Based Models\nExample & Critique\n\nExample: Simulating how individual shoppers choose between a physical high street and online delivery during a pandemic.\nPros: Captures “Emergence” and “Surprise”—the unintended side effects of human behavior.\nCons: Extremely “noisy” and computationally expensive. Small errors in individual rules lead to massive distortions.\nWhat it lacks: Predictive Certainty. Because it’s stochastic (random), it gives you a range of possibilities rather than a single “right” answer.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#section",
-    "href": "src/unit_3/1_system_thinking.html#section",
-    "title": "Systems Thinking",
+    "objectID": "src/unit_3/data_viz.html",
+    "href": "src/unit_3/data_viz.html",
+    "title": "Data Visualisation Principles",
     "section": "",
-    "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\n\nSystemic can be considered as CAUSAL - CAUSALITY",
+    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-wicked-problem",
-    "href": "src/unit_3/1_system_thinking.html#the-wicked-problem",
-    "title": "Systems Thinking",
-    "section": "The “Wicked” Problem",
-    "text": "The “Wicked” Problem\n\nUrban challenges are not puzzles (with one right answer).\nThey are Wicked Problems:\n\nThey are interconnected: solving one creates another.\nThey have no “stopping rule” or perfect solution.\nThey are better or worse, not right or wrong.\n\n\n\nRefer to Rittel and Webber’s definition. Explain that in a smart city context, we often try to “optimize” things. But a city isn’t a machine to be optimized; it’s a wicked problem to be managed. For their assignments: help them see that their chosen problem (e.g., housing or pollution) is “wicked” because it’s tied to a dozen other factors.",
+    "objectID": "src/unit_3/data_viz.html#introduction",
+    "href": "src/unit_3/data_viz.html#introduction",
+    "title": "Data Visualisation Principles",
+    "section": "",
+    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
-    "href": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
-    "title": "Systems Thinking",
-    "section": "Beyond the Mental Model",
-    "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
+    "objectID": "src/unit_3/data_viz.html#tools-and-technologies",
+    "href": "src/unit_3/data_viz.html#tools-and-technologies",
+    "title": "Data Visualisation Principles",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\nSelecting the right tool for the job involves considering several factors, including how you plan to share the visualisations, the need for ongoing maintenance, and your own level of expertise. If the data is likely to change frequently, choosing a tool that supports dynamic updates or easy revisions is crucial. Additionally, the way you share your visualisations—whether through static reports, interactive dashboards, or embedded in web pages—will influence the tool selection. Finally, your own proficiency and familiarity with the tool should be taken into account to ensure efficiency and effectiveness in creating impactful visualisations.\n\n\n\n\n\n\n\n\n\nCategory\nTools\nPros\nCons\n\n\n\n\nClassic Spreadsheets\nExcel, Google Sheets\nEasy to learn and widely accessible\nLimited customisation and scalability\n\n\nBI Tools\nTableau, Power BI\nPowerful for interactive dashboards and reporting\nCan be expensive; requires learning curve for complex tasks\n\n\nCoding Libraries\nPython (matplotlib, seaborn), D3.js\nHighly customisable and flexible\nSteeper learning curve; requires programming knowledge",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#setting-the-boundary",
-    "href": "src/unit_3/1_system_thinking.html#setting-the-boundary",
-    "title": "Systems Thinking",
-    "section": "Setting the Boundary",
-    "text": "Setting the Boundary\nA model is only as good as what you leave out. * Endogenous: Factors the system controls. * Exogenous: Factors outside our influence (the “Environment”).\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.\n\n\n\nThis is the most important part of the workshop.\nUse the “Ecological Footprint” example from your references: London’s boundary isn’t the M25 motorway; its “resource boundary” is the whole world.\nTell students: “Decide today what is inside your ‘Brain’ and what is just ‘Noise’ from the outside.”",
+    "objectID": "src/unit_3/data_viz.html#exploring-vs.-presenting",
+    "href": "src/unit_3/data_viz.html#exploring-vs.-presenting",
+    "title": "Data Visualisation Principles",
+    "section": "Exploring vs. Presenting",
+    "text": "Exploring vs. Presenting\n\n“Don’t run before you can walk”\n\nStart simple and gradually build complexity. In data visualisation, it’s tempting to jump straight to advanced tools or sophisticated designs, but this can lead to confusion and inefficiency if the basics are not well understood. Begin with simple exploratory analyses to understand your data, then progressively refine and enhance your visualisations as your message becomes clearer and your narrative more defined.\n\n\nExploratory data visualisation\nis about discovering insights, identifying patterns, and asking new questions. It is most useful during the initial stages of data analysis when the goal is to understand the data and its structure. At this stage, it’s not about perfection but about exploration and iteration.\n\n\n\nExplanatory data visualisation\non the other hand, is about communicating a specific message or insight clearly to an audience. It involves polishing the visualisation, ensuring accuracy, and crafting a narrative that guides the viewer to the intended conclusion.\n\n\nLearning when to switch from exploration to presentation is key to managing efforts effectively. Investing time in refining and polishing a visualisation is only worthwhile once the message is clear and impactful.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
-    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
-    "title": "Systems Thinking",
-    "section": "Feedback Loops",
-    "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath prediction\ntiping points\nequilibrium / oscilation\n\n\n\nemergence\npath prediction",
+    "objectID": "src/unit_3/data_viz.html#principles-of-data-visualisation",
+    "href": "src/unit_3/data_viz.html#principles-of-data-visualisation",
+    "title": "Data Visualisation Principles",
+    "section": "Principles of Data Visualisation",
+    "text": "Principles of Data Visualisation\n\nGestalt Principles\nThe Gestalt principles originate from a psychological theory developed by German psychologists in the early 20th century. These principles explain how humans naturally perceive visual elements as organized patterns or wholes, rather than as separate components (see Wagemans 2012). In data visualisation, Gestalt principles help designers arrange information in a way that is easily understood and visually appealing. By leveraging these principles, data visualisations can guide viewers to see relationships, hierarchies, and narratives within the data more intuitively.\n\n\n\n\n\n\n\n\nPrinciple\nDescription\nExample\n\n\n\n\nProximity\nElements that are close to each other are perceived as a group.\n\n\n\nSimilarity\nItems that share visual characteristics are seen as related.\n\n\n\nContinuity\nThe eye follows lines and curves smoothly without abrupt changes.\n\n\n\nClosure\nIncomplete shapes are perceived as complete wholes.\n\n\n\nConnectedness\nItems connected by lines or other visual cues are seen as related.\n\n\n\nColour\nUtilises hues and shades to convey meaning and hierarchy.\n\n\n\nWhite Space\nStrategic use of empty space to enhance readability and focus.\n\n\n\n\nThese (and many other) principles guide visual perception and interpretation by leveraging the brain’s natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer’s attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.\n\n\nChoosing the Right Chart\nMatching data types to the most effective visualisation is essential for conveying the intended message clearly and accurately. Different types of data—such as categorical, numerical, and temporal data—require different visualisation approaches to effectively highlight patterns, trends, and relationships.\n\nCategorical data, which represents discrete groups or categories, is best displayed using bar charts, pie charts, or stacked column charts for comparing proportions or frequencies.\nNumerical data, especially when showing distributions or relationships, is effectively visualised through histograms, scatter plots, or line graphs.\nTemporal data, which involves time series or sequences, is well-suited to line charts or area charts to show trends over time.\n\nSelecting the right chart type enhances the narrative and helps the audience interpret the data more intuitively.\nNYTimes Visual Vocabulary is a comprehensive guide for matching data types to appropriate chart styles.\n\n\n\nNYTimes Chart Doctor Poster\n\n\n\n\n\n\n\n\nTipAim for…\n\n\n\n\nClarity and simplicity: Avoid clutter and focus on the message.\nAccuracy and integrity: Represent data truthfully.\nAesthetics and engagement: Use colors, fonts, and layouts strategically.\n\n\n\n\n\n\n\n\n\nWarningCommon Pitfalls\n\n\n\n\nMisleading graphs (e.g., truncated axes, improper scaling).\nOvercomplicating with too much information.\nChoosing the wrong type of visualisation for the data.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops-1",
-    "href": "src/unit_3/1_system_thinking.html#feedback-loops-1",
-    "title": "Systems Thinking",
-    "section": "Feedback Loops",
-    "text": "Feedback Loops\nloopy",
+    "objectID": "src/unit_3/data_viz.html#final-thoughts",
+    "href": "src/unit_3/data_viz.html#final-thoughts",
+    "title": "Data Visualisation Principles",
+    "section": "Final thoughts",
+    "text": "Final thoughts\nAs the field continues to evolve, it is crucial to stay curious and experiment with new tools and techniques. Exploring different visualisation methods can inspire creativity and enhance your storytelling abilities. Today’s session is design to start visualising data today and adopt a flexible mindset for continuous improvement.\n\nReferences\n\n\nWagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. https://doi.org/10.1037/a0029333",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-archetypes",
-    "href": "src/unit_3/1_system_thinking.html#system-archetypes",
-    "title": "Systems Thinking",
-    "section": "System Archetypes",
-    "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.\n\n\n\n\n\n\nLearning to recognize “The Classics” of urban failure.\nRemind students that these are diagnostic tools.\nThey don’t describe a specific problem, but a family of problems.\nUse these tabs to ask the groups: “Which of these ‘Classics’ best describes the wicked problem you are mapping today?”.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#excercise",
-    "href": "src/unit_3/1_system_thinking.html#excercise",
-    "title": "Systems Thinking",
-    "section": "Excercise",
-    "text": "Excercise\nFor you excercise: - Define the ‘boundaries’ - Could your problem be better defined over a certain timeframe? which?\n\nExtact the main components\nCreate a causal loop (including Positive or Negative feedback loops)\n\nWe won’t:\n\ndefine stocks\nconsider flows rates",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Lesson 1"
+      "Data Visualization"
     ]
   },
   {
