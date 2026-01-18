@@ -347,11 +347,11 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-lut",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport-lut",
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-1",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport-1",
     "title": "Systems Thinking",
-    "section": "Land-Use Transport (LUT)",
-    "text": "Land-Use Transport (LUT)\nThe Anatomy\n\nPrimary Dimensions: Spatial (High) + Relational (Medium).\nThe Engine: Spatial Interaction Models. Uses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.\nInput/Output: Zonal data (population/jobs) Predicted traffic flows and land-use shifts.",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\nLUTI ### The Anatomy\n\nPrimary Dimensions: Spatial (High) + Relational (Medium).\nThe Engine: Spatial Interaction Models. Uses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.\nInput/Output: Zonal data (population/jobs) Predicted traffic flows and land-use shifts.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -359,11 +359,11 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-lut-1",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport-lut-1",
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-2",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport-2",
     "title": "Systems Thinking",
-    "section": "Land-Use Transport (LUT)",
-    "text": "Land-Use Transport (LUT)\nExample & Critique\n\nExample: Predicting the impact of a new Metro line on residential density in a suburban fringe.\nPros: Excellent for long-term strategic planning and infrastructure “stress testing.”\nCons: Highly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\nWhat it lacks: Temporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\nWhat it lacks: Temporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.\n\n\n\nLUTI is the “Strategic Planner’s” model.\nIt assumes the city seeks a balance. If you reduce travel time to the city center, the ‘brain’ of this model calculates that property values will rise.\nIt is great for long-term infrastructure but often misses “sudden” social shifts.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -387,7 +387,7 @@
     "href": "src/unit_3/1_system_thinking.html#network-models-2",
     "title": "Systems Thinking",
     "section": "Network Models",
-    "text": "Network Models\nExample & Critique\n\nExample: Redesigning a town center to increase footfall for local shops by improving topological connectivity.\nPros: Very high correlation with real-world human movement; requires minimal data (just the map).\nCons: Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\nWhat it lacks: Systemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
+    "text": "Network Models\nNM ### Example & Critique\n\nExample: Redesigning a town center to increase footfall for local shops by improving topological connectivity.\nPros: Very high correlation with real-world human movement; requires minimal data (just the map).\nCons: Can be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\nWhat it lacks: Systemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -399,7 +399,7 @@
     "href": "src/unit_3/1_system_thinking.html#system-dynamics-1",
     "title": "Systems Thinking",
     "section": "System Dynamics",
-    "text": "System Dynamics\nThe Anatomy\n\nPrimary Dimensions: Temporal (High) + Systemic (High).\nThe Engine: Stocks and Flows. Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).\nInput/Output: Causal variables Policy “flight simulators” showing 20-year trajectories.",
+    "text": "System Dynamics\nSD ### The Anatomy\n\nPrimary Dimensions: Temporal (High) + Systemic (High).\nThe Engine: Stocks and Flows. Uses differential equations to model how quantities (e.g., housing stock) change over time based on rates of change (e.g., construction rate).\nInput/Output: Causal variables Policy “flight simulators” showing 20-year trajectories.",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -423,7 +423,7 @@
     "href": "src/unit_3/1_system_thinking.html#agent-based-models-1",
     "title": "Systems Thinking",
     "section": "Agent-Based Models",
-    "text": "Agent-Based Models\nThe Anatomy\n\nPrimary Dimensions: Spatial (High) + Systemic (High) + Temporal (High).\nThe Engine: Bottom-up Micro-simulation. Individual “Agents” are given simple rules. The city’s patterns “Emerge” from thousands of these local interactions.\nInput/Output: Behavioral rules Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).\n\n\nVisit https://softologyblog.wordpress.com/category/agent-based-modeling/\nhttps://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
+    "text": "Agent-Based Models\nABM & Celullar Automata (CA)\nThe Anatomy\n\nPrimary Dimensions: Spatial (High) + Systemic (High) + Temporal (High).\nThe Engine: Bottom-up Micro-simulation. Individual “Agents” are given simple rules. The city’s patterns “Emerge” from thousands of these local interactions.\nInput/Output: Behavioral rules Emergent patterns (e.g., segregation, traffic jams, or urban sprawl).\n\n\nVisit https://softologyblog.wordpress.com/category/agent-based-modeling/\nhttps://www.washingtonpost.com/graphics/2020/world/corona-simulator/",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -443,6 +443,18 @@
     ]
   },
   {
+    "objectID": "src/unit_3/1_system_thinking.html#section",
+    "href": "src/unit_3/1_system_thinking.html#section",
+    "title": "Systems Thinking",
+    "section": "",
+    "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\n\nSystemic can be considered as CAUSAL - CAUSALITY",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
     "objectID": "src/unit_3/1_system_thinking.html#the-wicked-problem",
     "href": "src/unit_3/1_system_thinking.html#the-wicked-problem",
     "title": "Systems Thinking",
@@ -455,11 +467,11 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
-    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "objectID": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
+    "href": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
     "title": "Systems Thinking",
-    "section": "Feedback Loops",
-    "text": "Feedback Loops",
+    "section": "Beyond the Mental Model",
+    "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
     "crumbs": [
       "Schedule",
       "Unit 3",
@@ -467,11 +479,59 @@
     ]
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#causal-loops",
-    "href": "src/unit_3/1_system_thinking.html#causal-loops",
+    "objectID": "src/unit_3/1_system_thinking.html#setting-the-boundary",
+    "href": "src/unit_3/1_system_thinking.html#setting-the-boundary",
     "title": "Systems Thinking",
-    "section": "Causal loops",
-    "text": "Causal loops\nFor you excercise: - Define the ‘boundaries’ - Could your problem be better defined over a certain timeframe?\n\nExtact the main elements (‘Stocks’)\nCreate a causal loop (including Positive or Negative feedback loops)\n\nWe won’t:\n\ndefine Stocks\nconsider rate flows",
+    "section": "Setting the Boundary",
+    "text": "Setting the Boundary\nA model is only as good as what you leave out. * Endogenous: Factors the system controls. * Exogenous: Factors outside our influence (the “Environment”).\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.\n\n\n\nThis is the most important part of the workshop.\nUse the “Ecological Footprint” example from your references: London’s boundary isn’t the M25 motorway; its “resource boundary” is the whole world.\nTell students: “Decide today what is inside your ‘Brain’ and what is just ‘Noise’ from the outside.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath prediction\ntiping points\nequilibrium / oscilation\n\n\n\nemergence\npath prediction",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nloopy",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "href": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "title": "Systems Thinking",
+    "section": "System Archetypes",
+    "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.\n\n\n\n\n\n\nLearning to recognize “The Classics” of urban failure.\nRemind students that these are diagnostic tools.\nThey don’t describe a specific problem, but a family of problems.\nUse these tabs to ask the groups: “Which of these ‘Classics’ best describes the wicked problem you are mapping today?”.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Lesson 1"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#excercise",
+    "href": "src/unit_3/1_system_thinking.html#excercise",
+    "title": "Systems Thinking",
+    "section": "Excercise",
+    "text": "Excercise\nFor you excercise: - Define the ‘boundaries’ - Could your problem be better defined over a certain timeframe? which?\n\nExtact the main components\nCreate a causal loop (including Positive or Negative feedback loops)\n\nWe won’t:\n\ndefine stocks\nconsider flows rates",
     "crumbs": [
       "Schedule",
       "Unit 3",
