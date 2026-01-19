@@ -12,7 +12,7 @@ format:
 title-slide-attributes: 
   data-background-image: img/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
-scroll-view: true
+#scroll-view: true
 ---
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
