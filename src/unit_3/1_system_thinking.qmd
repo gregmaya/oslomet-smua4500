@@ -446,14 +446,6 @@ Mapping your wicked problem
     * They have no "stopping rule" or perfect solution.
     * They are better or worse, not right or wrong.
 
-#### Key Characteristics of Wicked Problems:
-- No definitive formulation: The problem itself is hard to define.
-- No "stopping rule": There's no clear point at which you know it's solved.
-- Solutions aren't true/false: They are only "good" or "bad," not objectively correct.
-- Irreversible consequences: Every attempt to solve it has lasting impacts, making "trials count".
-- Interconnectedness: Solving one part often creates or reveals other problems.
-:::
-
 ## Beyond the Mental Model
 
 ```{mermaid}

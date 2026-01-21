@@ -553,7 +553,8 @@ Mapping your wicked problem
     * They have no "stopping rule" or perfect solution.
     * They are better or worse, not right or wrong.
 
-::: {.notes}
+:::{.notes}
+
 Refer to Rittel and Webber’s definition 1973. Explain that in a smart city context, we often try to "optimize" things. But a city isn't a machine to be optimized; it's a wicked problem to be managed. 
 For their assignments: help them see that their chosen problem (e.g., housing or pollution) is "wicked" because it's tied to a dozen other factors.
 
