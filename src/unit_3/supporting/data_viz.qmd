@@ -58,13 +58,13 @@ The Gestalt principles originate from a psychological theory developed by German
 
 | Principle         | Description                                                        |             Example              |
 | ----------------- | ------------------------------------------------------------------ | :------------------------------: |
-| **Proximity**     | Elements that are close to each other are perceived as a group.    |   ![alt](images/Proximity.png)   |
-| **Similarity**    | Items that share visual characteristics are seen as related.       |  ![alt](images/Similarity.png)   |
-| **Continuity**    | The eye follows lines and curves smoothly without abrupt changes.  |  ![alt](images/Continuity.png)   |
-| **Closure**       | Incomplete shapes are perceived as complete wholes.                |    ![alt](images/Closure.png)    |
-| **Connectedness** | Items connected by lines or other visual cues are seen as related. | ![alt](images/Connectedness.png) |
-| **Colour**        | Utilises hues and shades to convey meaning and hierarchy.          |    ![alt](images/Colour.png)     |
-| **White Space**   | Strategic use of empty space to enhance readability and focus.     |  ![alt](images/White Space.png)  |
+| **Proximity**     | Elements that are close to each other are perceived as a group.    |   ![alt](img/Proximity.png)   |
+| **Similarity**    | Items that share visual characteristics are seen as related.       |  ![alt](img/Similarity.png)   |
+| **Continuity**    | The eye follows lines and curves smoothly without abrupt changes.  |  ![alt](img/Continuity.png)   |
+| **Closure**       | Incomplete shapes are perceived as complete wholes.                |    ![alt](img/Closure.png)    |
+| **Connectedness** | Items connected by lines or other visual cues are seen as related. | ![alt](img/Connectedness.png) |
+| **Colour**        | Utilises hues and shades to convey meaning and hierarchy.          |    ![alt](img/Colour.png)     |
+| **White Space**   | Strategic use of empty space to enhance readability and focus.     |  ![alt](img/White Space.png)  |
 
 These (and many other) principles guide visual perception and interpretation by leveraging the brain's natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer's attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.
 

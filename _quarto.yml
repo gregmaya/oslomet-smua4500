@@ -32,10 +32,12 @@ website:
             contents:
               - text: System Thinking
                 href: src/unit_3/1_system_thinking.qmd
-              - text: Decision Support
-                href: src/unit_3/2_decision_support.qmd
-              - text: Data Visualization
-                href: src/unit_3/data_viz.qmd
+              - text : Bibliography
+                href: src/unit_3/references.qmd
+              #- text: Decision Support
+              #  href: src/unit_3/2_decision_support.qmd
+              #- text: Data Visualization
+              #  href: src/unit_3/data_viz.qmd
 
       - href: resources.qmd
         text : "Additional Resources"

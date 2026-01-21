@@ -13,6 +13,8 @@ title-slide-attributes:
   data-background-image: img/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
 #scroll-view: true
+
+bibliography: references.bib
 ---
 
 ## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
@@ -104,7 +106,7 @@ They are problems of [Organized Complexity]():
 
 
 ## Systems {background-color="#FF8100"}
-::: {.columns}
+:::: {.columns}
 ::: {.column}
 ### Complex
 - Adaptive relationships.
@@ -117,7 +119,7 @@ They are problems of [Organized Complexity]():
 - Predictable outcomes.
 - The sum of its parts.
 :::
-::: 
+:::: 
 
 ![forest](img/forest.png){.fragment .absolute top=200 left=10 width="300" }
 ![engine](img/engine.png){.fragment .absolute top=200 right=150 width="300" }
@@ -157,11 +159,12 @@ It is a **Heuristic**: a mental shortcut or tool for discovery.
 - **_"All models are wrong, but some are useful"_** (George Box).
 :::
 
+# The Logics of Systems
 _Part II_
 
 ## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
 
-::: {.columns}
+:::: {.columns}
 ::: {.column}
 ### _The Back-end_
 
@@ -172,7 +175,7 @@ The heuristics, logic, and models.
 
 Dashboards, visualizations, and stakeholder apps.
 :::
-:::
+::::
 
 :::{.fragment .r-fit-text}
 [Logic must precede display.]()
@@ -184,7 +187,7 @@ _of most urban logic modelling_
 
 <br> 
 
-::: {.columns}
+:::: {.columns}
 ::: {.column}
 #### SPATIAL
 
@@ -195,7 +198,7 @@ _of most urban logic modelling_
 
 #### SYSTEMIC
 :::
-::: 
+:::: 
 
 
 ## 1. The Spatial Dimension {background-image="img/dim_space.png"}
@@ -243,7 +246,7 @@ LUTI
 **Spatial** (High) + **Relational** (Medium)
 :::
 
-::: {.columns}
+:::: {.columns}
 ::: {.column}
 ### The Anatomy
 
@@ -254,14 +257,14 @@ LUTI
 ### The Engine
 Uses gravity equations to find a state of "[Equilibrium]()" between where people live, where they work, and how they travel.
 :::
-:::
+::::
 
 
 ## Land-Use Transport {background-image="img/gravity.jpeg"}
 
 >_eg. Predicting the impact of a new Metro line on residential density in a suburban area._
 
-:::::: {.columns}
+:::: {.columns}
 ::: {.column .fragment}
 #### Pros 
 Excellent for long-term strategic planning and infrastructure "stress testing."
@@ -270,7 +273,7 @@ Excellent for long-term strategic planning and infrastructure "stress testing."
 #### Cons 
 Highly aggregate (treats people as masses) and mostly static (ignores the "chaos" of daily life).
 :::
-:::
+::::
 
 ::: {.callout .fragment title="What it lacks"}
 **Temporal and Systemic feedback.** 
@@ -349,7 +352,7 @@ It prioritizes the *shape* of the container over the *content* inside it.
 ## System Dynamics {background-image="img/sd_background.jpg" background-opacity="0.3"}
 > *eg. Modeling how a city-wide "Air Quality Zone" affects car ownership and public health over two decades.*
 
-:::::: {.columns}
+:::: {.columns}
 ::: {.column .fragment}
 #### Pros
 
@@ -360,7 +363,7 @@ Powerful for identifying "Policy Resistance" and understanding long-term, non-li
 
 "Spatially Blind"—it treats the entire city (or zone) as a single bucket, ignoring internal geography.
 :::
-:::
+::::
 
 ::: {.callout .fragment title="What it lacks"}
 **Spatial Granularity.** It assumes a city is a "well-mixed" vat of variables rather than a physical place with unique neighborhoods.
@@ -376,7 +379,7 @@ _ABM & Celullar Automata (CA)_
 :::
 
 
-::: {.columns}
+:::: {.columns}
 ::: {.column .fragment}
 ### The Anatomy
 
@@ -388,14 +391,14 @@ _ABM & Celullar Automata (CA)_
 ### The Engine
 **Bottom-up Micro-simulation.** Simple rules from the agents give rise to "[emergent]()" states from thousands of these local interactions.
 :::
-:::
+::::
 
 
 ## Agent-Based Models {background-image="img/abm.gif" background-opacity="0.5"}
 
 >_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify "bottlenecks" that traditional flow models miss.
 
-:::::: {.columns} 
+:::: {.columns} 
 ::: {.column .fragment}
 #### Pros
 Captures "Emergent Phenomena" and diversity; allows for the modeling of irrational or "human" behaviors. 
@@ -404,7 +407,7 @@ Captures "Emergent Phenomena" and diversity; allows for the modeling of irration
 #### Cons
 Computationally expensive; very difficult to "validate" because small changes in rules can lead to wildly different outcomes. 
 :::
-:::
+::::
 
 ::: {.callout .fragment title="What it lacks"} 
 Predictive Certainty. Because it is stochastic (probabilistic), it gives you a range of "possible futures" rather than a single definitive answer. 
@@ -539,7 +542,7 @@ _Tool: [ncase.me/loopy](https://ncase.me/loopy/)_
 Translate your "Wicked Problem" from a vague concept into a functional **Causal Loop Diagram**.
 :::
 
-:::::: {.columns}
+:::: {.columns}
 ::: {.column}
 ### 1. Set the Frame
 * **Define Boundaries:** What is *in* your system? What is exogenous "noise"?
@@ -552,13 +555,13 @@ Translate your "Wicked Problem" from a vague concept into a functional **Causal 
 * **Connect & Loop:** Draw the arrows. Is the relationship (+) or (-)?
 * **Find the Archetype:** Can you spot a "Fix that Fail" or "Limits to Growth"?
 :::
-::::::
+::::
 
 ## Workshop: What we are doing {background-color="#FFDC00"}
 
 > Focus on the **Logic**, not the math.
 
-:::::: {.columns}
+:::: {.columns}
 ::: {.column .fragment}
 #### 🎯 The Focus
 * **Relationships:** How A affects B.
@@ -571,4 +574,4 @@ Translate your "Wicked Problem" from a vague concept into a functional **Causal 
 * **Flow Rates:** We aren't calculating precise liters/people per second.
 * **Validation:** We are mapping *theories*, not yet proving them.
 :::
-:::
+::::
