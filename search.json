@@ -10,52 +10,575 @@
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#smart-citys-brain",
-    "href": "src/unit_3/2_decision_support.html#smart-citys-brain",
-    "title": "Decision support tools",
+    "objectID": "src/unit_3/references.html",
+    "href": "src/unit_3/references.html",
+    "title": "Bibliography: Smart Cities & Systems Thinking",
+    "section": "",
+    "text": "Alexander, Christopher. 1965. A City Is Not a Tree. Design Council.\n\n\nBatty, Michael. 2013. The New Science of Cities. MIT Press.\n\n\nBettencourt, Luis MA. 2021. Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems. MIT Press.\n\n\nForrester, Jay W. 1969. Urban Dynamics. MIT Press.\n\n\nHillier, Bill, and Julienne Hanson. 1984. The Social Logic of Space. Cambridge University Press.\n\n\nJacobs, Jane. 1961. The Death and Life of Great American Cities. Random House.\n\n\nMeadows, Donella H. 2008. Thinking in Systems: A Primer. Chelsea Green Publishing.\n\n\nRittel, Horst WJ, and Melvin M Webber. 1973. “Dilemmas in a General Theory of Planning.” Policy Sciences 4 (2): 155–69.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Bibliography"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/references.html#specific-to-systems-thinking",
+    "href": "src/unit_3/references.html#specific-to-systems-thinking",
+    "title": "Bibliography: Smart Cities & Systems Thinking",
+    "section": "",
+    "text": "Alexander, Christopher. 1965. A City Is Not a Tree. Design Council.\n\n\nBatty, Michael. 2013. The New Science of Cities. MIT Press.\n\n\nBettencourt, Luis MA. 2021. Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems. MIT Press.\n\n\nForrester, Jay W. 1969. Urban Dynamics. MIT Press.\n\n\nHillier, Bill, and Julienne Hanson. 1984. The Social Logic of Space. Cambridge University Press.\n\n\nJacobs, Jane. 1961. The Death and Life of Great American Cities. Random House.\n\n\nMeadows, Donella H. 2008. Thinking in Systems: A Primer. Chelsea Green Publishing.\n\n\nRittel, Horst WJ, and Melvin M Webber. 1973. “Dilemmas in a General Theory of Planning.” Policy Sciences 4 (2): 155–69.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "Bibliography"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html",
+    "href": "src/unit_3/data_viz.html",
+    "title": "Data Visualisation Principles",
+    "section": "",
+    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives."
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html#introduction",
+    "href": "src/unit_3/data_viz.html#introduction",
+    "title": "Data Visualisation Principles",
+    "section": "",
+    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives."
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html#tools-and-technologies",
+    "href": "src/unit_3/data_viz.html#tools-and-technologies",
+    "title": "Data Visualisation Principles",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\nSelecting the right tool for the job involves considering several factors, including how you plan to share the visualisations, the need for ongoing maintenance, and your own level of expertise. If the data is likely to change frequently, choosing a tool that supports dynamic updates or easy revisions is crucial. Additionally, the way you share your visualisations—whether through static reports, interactive dashboards, or embedded in web pages—will influence the tool selection. Finally, your own proficiency and familiarity with the tool should be taken into account to ensure efficiency and effectiveness in creating impactful visualisations.\n\n\n\n\n\n\n\n\n\nCategory\nTools\nPros\nCons\n\n\n\n\nClassic Spreadsheets\nExcel, Google Sheets\nEasy to learn and widely accessible\nLimited customisation and scalability\n\n\nBI Tools\nTableau, Power BI\nPowerful for interactive dashboards and reporting\nCan be expensive; requires learning curve for complex tasks\n\n\nCoding Libraries\nPython (matplotlib, seaborn), D3.js\nHighly customisable and flexible\nSteeper learning curve; requires programming knowledge"
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html#exploring-vs.-presenting",
+    "href": "src/unit_3/data_viz.html#exploring-vs.-presenting",
+    "title": "Data Visualisation Principles",
+    "section": "Exploring vs. Presenting",
+    "text": "Exploring vs. Presenting\n\n“Don’t run before you can walk”\n\nStart simple and gradually build complexity. In data visualisation, it’s tempting to jump straight to advanced tools or sophisticated designs, but this can lead to confusion and inefficiency if the basics are not well understood. Begin with simple exploratory analyses to understand your data, then progressively refine and enhance your visualisations as your message becomes clearer and your narrative more defined.\n\n\nExploratory data visualisation\nis about discovering insights, identifying patterns, and asking new questions. It is most useful during the initial stages of data analysis when the goal is to understand the data and its structure. At this stage, it’s not about perfection but about exploration and iteration.\n\n\n\nExplanatory data visualisation\non the other hand, is about communicating a specific message or insight clearly to an audience. It involves polishing the visualisation, ensuring accuracy, and crafting a narrative that guides the viewer to the intended conclusion.\n\n\nLearning when to switch from exploration to presentation is key to managing efforts effectively. Investing time in refining and polishing a visualisation is only worthwhile once the message is clear and impactful."
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html#principles-of-data-visualisation",
+    "href": "src/unit_3/data_viz.html#principles-of-data-visualisation",
+    "title": "Data Visualisation Principles",
+    "section": "Principles of Data Visualisation",
+    "text": "Principles of Data Visualisation\n\nGestalt Principles\nThe Gestalt principles originate from a psychological theory developed by German psychologists in the early 20th century. These principles explain how humans naturally perceive visual elements as organized patterns or wholes, rather than as separate components (see Wagemans 2012). In data visualisation, Gestalt principles help designers arrange information in a way that is easily understood and visually appealing. By leveraging these principles, data visualisations can guide viewers to see relationships, hierarchies, and narratives within the data more intuitively.\n\n\n\n\n\n\n\n\nPrinciple\nDescription\nExample\n\n\n\n\nProximity\nElements that are close to each other are perceived as a group.\n\n\n\nSimilarity\nItems that share visual characteristics are seen as related.\n\n\n\nContinuity\nThe eye follows lines and curves smoothly without abrupt changes.\n\n\n\nClosure\nIncomplete shapes are perceived as complete wholes.\n\n\n\nConnectedness\nItems connected by lines or other visual cues are seen as related.\n\n\n\nColour\nUtilises hues and shades to convey meaning and hierarchy.\n\n\n\nWhite Space\nStrategic use of empty space to enhance readability and focus.\n\n\n\n\nThese (and many other) principles guide visual perception and interpretation by leveraging the brain’s natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer’s attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.\n\n\nChoosing the Right Chart\nMatching data types to the most effective visualisation is essential for conveying the intended message clearly and accurately. Different types of data—such as categorical, numerical, and temporal data—require different visualisation approaches to effectively highlight patterns, trends, and relationships.\n\nCategorical data, which represents discrete groups or categories, is best displayed using bar charts, pie charts, or stacked column charts for comparing proportions or frequencies.\nNumerical data, especially when showing distributions or relationships, is effectively visualised through histograms, scatter plots, or line graphs.\nTemporal data, which involves time series or sequences, is well-suited to line charts or area charts to show trends over time.\n\nSelecting the right chart type enhances the narrative and helps the audience interpret the data more intuitively.\nNYTimes Visual Vocabulary is a comprehensive guide for matching data types to appropriate chart styles.\n\n\n\nNYTimes Chart Doctor Poster\n\n\n\n\n\n\n\n\nTipAim for…\n\n\n\n\nClarity and simplicity: Avoid clutter and focus on the message.\nAccuracy and integrity: Represent data truthfully.\nAesthetics and engagement: Use colors, fonts, and layouts strategically.\n\n\n\n\n\n\n\n\n\nWarningCommon Pitfalls\n\n\n\n\nMisleading graphs (e.g., truncated axes, improper scaling).\nOvercomplicating with too much information.\nChoosing the wrong type of visualisation for the data."
+  },
+  {
+    "objectID": "src/unit_3/data_viz.html#final-thoughts",
+    "href": "src/unit_3/data_viz.html#final-thoughts",
+    "title": "Data Visualisation Principles",
+    "section": "Final thoughts",
+    "text": "Final thoughts\nAs the field continues to evolve, it is crucial to stay curious and experiment with new tools and techniques. Exploring different visualisation methods can inspire creativity and enhance your storytelling abilities. Today’s session is design to start visualising data today and adopt a flexible mindset for continuous improvement.\n\nReferences\n\n\nWagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. https://doi.org/10.1037/a0029333"
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
+    "href": "src/unit_3/1_system_thinking.html#session-roadmap",
+    "title": "Systems Thinking",
+    "section": "Session Roadmap",
+    "text": "Session Roadmap\n\nPart I: The Landscape of Urban Complexity\n\nThe “Brain” of the Smart City & 4 Heuristics\n\nPart II: The Logics of Systems\n\nDeep Dive into Feedback Loops\nWorkshop I: Mapping Your Wicked Problem\n\nPart III: Decision Support Tools\n\nWorkshop II: Stakeholders and Data",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
+    "href": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
+    "title": "Systems Thinking",
+    "section": "The City = Complex Systems",
+    "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#complexity-alive",
+    "href": "src/unit_3/1_system_thinking.html#complexity-alive",
+    "title": "Systems Thinking",
+    "section": "Complexity alive",
+    "text": "Complexity alive",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
+    "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
+    "title": "Systems Thinking",
+    "section": "What the Smart City is NOT",
+    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-science-of-cities",
+    "href": "src/unit_3/1_system_thinking.html#the-science-of-cities",
+    "title": "Systems Thinking",
+    "section": "The Science of Cities",
+    "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#organized-complexity",
+    "href": "src/unit_3/1_system_thinking.html#organized-complexity",
+    "title": "Systems Thinking",
+    "section": "Organized Complexity",
+    "text": "Organized Complexity\nJane Jacobs\n\n\nCities are not:\n\nProblems of Simplicity\nProblems of Disorganized Complexity (millions of random variables).\n\n\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "href": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
+    "title": "Systems Thinking",
+    "section": "The Interconnection of Parts",
+    "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.” – J.Jacobs\n\n\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#complexity-science",
+    "href": "src/unit_3/1_system_thinking.html#complexity-science",
+    "title": "Systems Thinking",
+    "section": "Complexity Science",
+    "text": "Complexity Science\nThe Reductionist Shortcut:\n\nA mental habit of breaking the city into isolated “parts” to make it easier to manage.\n\nThe Complexity Reality:\n\nScience not of the “atoms” (buildings, roads, people), but of the connections between them.\n\n\nCross-Scale Interactions\n\nSingle street-level decisions ripples up to the metropolitan scale.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#systems",
+    "href": "src/unit_3/1_system_thinking.html#systems",
+    "title": "Systems Thinking",
+    "section": "Systems",
+    "text": "Systems\n\n\nComplex\n\nAdaptive relationships.\nEmergent outcomes.\nMore than the sum of its parts.\n\n\nComplicated\n\nFixed relationships.\nPredictable outcomes.\nThe sum of its parts.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
+    "href": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
+    "title": "Systems Thinking",
+    "section": "The City is not a Tree",
+    "text": "The City is not a Tree\n\n\n“It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation … it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” – Christooher Alexander",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#systems-thinking-101",
+    "href": "src/unit_3/1_system_thinking.html#systems-thinking-101",
+    "title": "Systems Thinking",
+    "section": "Systems Thinking 101",
+    "text": "Systems Thinking 101\n\n\nSystems Thinking\nSeeing the Web of interactions\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
+    "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
+    "title": "Systems Thinking",
+    "section": "Modeling as a Heuristic",
+    "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#smart-citys-brain",
+    "href": "src/unit_3/1_system_thinking.html#smart-citys-brain",
+    "title": "Systems Thinking",
     "section": "Smart City’s brain",
-    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nGOAL\nTo reduce the “Cognitive Load”\nwithout oversimplifying the “Wicked” reality.\n\n\n\nRemind them of the “Brain” analogy. A brain is useless if it can’t move the body.\nDecision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say “If we do X, then Y happens.”\nCrucial point: A good DST doesn’t hide complexity; it manages it.",
+    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nLogic must precede display.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Decision Support"
+      "System Thinking"
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#dashboards-anathomy",
-    "href": "src/unit_3/2_decision_support.html#dashboards-anathomy",
-    "title": "Decision support tools",
-    "section": "Dashboard’s Anathomy",
-    "text": "Dashboard’s Anathomy\n\n\nIndicators\nThe “Vital Signs” of the city (Air quality, traffic flow, energy use).\n\n“What-If” Engine\nMoving from static data to interactive simulation.\n\nContextual Narratives\nData is meaningless without the “Story” of the place.\n\n\n\nRefer to your Data Viz notes: “Identifying patterns, trends, and outliers.”\nIn an urban context, a dashboard shouldn’t just be a “report card” of the past. It should be a “flight simulator” for the future.\nExample: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you “delete” a parking lot and see the CO2 drop in real-time is a Decision Support Tool.",
+    "objectID": "src/unit_3/1_system_thinking.html#the-dimensions",
+    "href": "src/unit_3/1_system_thinking.html#the-dimensions",
+    "title": "Systems Thinking",
+    "section": "The Dimensions",
+    "text": "The Dimensions\nof most urban logic modelling\n\n\n\nSPATIAL\nRELATIONAL\n\nTEMPORAL\nSYSTEMIC",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Decision Support"
+      "System Thinking"
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#the-misleading-interface",
-    "href": "src/unit_3/2_decision_support.html#the-misleading-interface",
-    "title": "Decision support tools",
-    "section": "The “Misleading” Interface",
-    "text": "The “Misleading” Interface\n\n\nAesthetic Trap\nJust because a dashboard is “shiny” or 3D doesn’t mean it’s accurate.\n\nTruncated Realities\nWhat is not being measured? (e.g., social capital, happiness).\n\nCognitive Biases\nHow “Visual Narratives” can accidentally (or intentionally) nudge decisions the wrong way.\n\n\n\nConnect this to your Viz Pitfalls: “Misleading graphs, improper scaling.”\nIn Smart Cities, there is a risk of “Technological Solutionism.” If it’s on a high-res screen, people tend to believe it’s “The Truth.”\nAs curators of these tools, the students must ensure the visualization doesn’t lie about the model’s uncertainty.",
+    "objectID": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
+    "title": "Systems Thinking",
+    "section": "1. The Spatial Dimension",
+    "text": "1. The Spatial Dimension\n\nThe Logic of “Where”: Focuses on geometry, distance, and density.\nKey Question: How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?\nCore Concept: Social Physics. Just like gravity, “mass” (high-density jobs or housing) exerts a pull on the surrounding area.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Decision Support"
+      "System Thinking"
     ]
   },
   {
-    "objectID": "src/unit_3/2_decision_support.html#who-is-the-pilot",
-    "href": "src/unit_3/2_decision_support.html#who-is-the-pilot",
-    "title": "Decision support tools",
-    "section": "Who is the Pilot?",
-    "text": "Who is the Pilot?\n\n\nHigh-Level Ops\nReal-time management (Emergency response, traffic control).\n\nStrategic Planning\n10–20 year horizons (Housing, Climate adaptation).\n\nPublic Participation\nTransparency and “Co-design” with citizens.\n\n\nDifferent users need different “Front-ends.”\nA technician needs a “Technical” viz. A citizen needs a “Human-centric” viz.\nWorkshop II Preview: We will look at how to tailor your “Wicked Problem” map into a tool that a specific stakeholder can actually use to make a choice.",
+    "objectID": "src/unit_3/1_system_thinking.html#the-relational-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-relational-dimension",
+    "title": "Systems Thinking",
+    "section": "2. The Relational Dimension",
+    "text": "2. The Relational Dimension\n\nThe Logic of “Connection”: Focuses on topology and network hierarchy.\nKey Question: How is the city “wired”? Is it about how far you are in meters, or how many turns you are from the main network?\nCore Concept: Graph Theory. The city as nodes and edges.",
     "crumbs": [
       "Schedule",
       "Unit 3",
-      "Decision Support"
+      "System Thinking"
     ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
+    "title": "Systems Thinking",
+    "section": "3. The Temporal Dimension",
+    "text": "3. The Temporal Dimension\n\nThe Logic of “When”: Focuses on change, evolution, and path dependency.\nKey Question: How did the city get here, and how fast is it changing?\nCore Concept: Dynamics. Recognizing that an urban intervention today might take 10 years to show its true impact (delays).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
+    "href": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
+    "title": "Systems Thinking",
+    "section": "4. The Systemic Dimension",
+    "text": "4. The Systemic Dimension\n\nThe Logic of “Why”: Focuses on causality and interdependencies.\nKey Question: What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?\nCore Concept: Feedback Loops. Circular causality where an output of a system becomes an input for the next cycle.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-models",
+    "href": "src/unit_3/1_system_thinking.html#the-models",
+    "title": "Systems Thinking",
+    "section": "The Models",
+    "text": "The Models\nonly some…\n\n\n\n\n\nLand-Use Transport\nNetwork Models\n\n\n\n\nSystem Dynamics\nAgent-based Models",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport",
+    "title": "Systems Thinking",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\nLUTI\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Relational (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nLand-Use data\nTransport\n\n\nThe Engine\nUses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-1",
+    "href": "src/unit_3/1_system_thinking.html#land-use-transport-1",
+    "title": "Systems Thinking",
+    "section": "Land-Use Transport",
+    "text": "Land-Use Transport\n\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\n\n\n\nWhat it lacks\n\n\nTemporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#network-models",
+    "href": "src/unit_3/1_system_thinking.html#network-models",
+    "title": "Systems Thinking",
+    "section": "Network Models",
+    "text": "Network Models\nNM eg. Space Syntax\n\n\n\n\nPrimary Dimensions:\n\n\nRelational (High) + Spatial (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nNodes\nEdges\n\n\nThe Engine\nTopological Analysis. It measures “centralities” to determine expected movement hierarchies.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#network-models-1",
+    "href": "src/unit_3/1_system_thinking.html#network-models-1",
+    "title": "Systems Thinking",
+    "section": "Network Models",
+    "text": "Network Models\n\neg. Redesigning a town center to increase footfall for local shops by improving topological connectivity.\n\n\n\nPros\nVery high correlation with real-world human movement; requires minimal data (just the map).\n\nCons\nCan be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\n\n\n\n\n\nWhat it lacks\n\n\nSystemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics",
+    "href": "src/unit_3/1_system_thinking.html#system-dynamics",
+    "title": "Systems Thinking",
+    "section": "System Dynamics",
+    "text": "System Dynamics\nSD eg. The Forrester Model\n\n\n\n\nPrimary Dimensions:\n\n\nTemporal (High) + Relational (High)\n\n\n\n\n\n\nThe Anatomy\n\nStocks (Accumulations)\nFlows (Rates of change)\nFeedback Loops\n\n\nThe Engine\nDifferential Equations. It simulates how quantities (stocks) change over time based on rates of change (e.g., construction rate).",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-1",
+    "href": "src/unit_3/1_system_thinking.html#system-dynamics-1",
+    "title": "Systems Thinking",
+    "section": "System Dynamics",
+    "text": "System Dynamics\n\neg. Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.\n\n\n\nPros\nPowerful for identifying “Policy Resistance” and understanding long-term, non-linear consequences.\n\nCons\n“Spatially Blind”—it treats the entire city (or zone) as a single bucket, ignoring internal geography.\n\n\n\n\n\nWhat it lacks\n\n\nSpatial Granularity. It assumes a city is a “well-mixed” vat of variables rather than a physical place with unique neighborhoods.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models",
+    "href": "src/unit_3/1_system_thinking.html#agent-based-models",
+    "title": "Systems Thinking",
+    "section": "Agent-Based Models",
+    "text": "Agent-Based Models\nABM & Celullar Automata (CA)\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Systemic (High) + Temporal (Medium).\n\n\n\n\n\n\nThe Anatomy\n\nAgents: (People, vehicles, firms) with unique attributes.\nRules: Simple “If/Then” behaviors.\nEnvironment: The grid or network they inhabit.\n\n\nThe Engine\nBottom-up Micro-simulation. Simple rules from the agents give rise to “emergent” states from thousands of these local interactions.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-1",
+    "href": "src/unit_3/1_system_thinking.html#agent-based-models-1",
+    "title": "Systems Thinking",
+    "section": "Agent-Based Models",
+    "text": "Agent-Based Models\n\n_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify “bottlenecks” that traditional flow models miss.\n\n\n\nPros\nCaptures “Emergent Phenomena” and diversity; allows for the modeling of irrational or “human” behaviors.\n\nCons\nComputationally expensive; very difficult to “validate” because small changes in rules can lead to wildly different outcomes.\n\n\n\n\n\nWhat it lacks\n\n\nPredictive Certainty. Because it is stochastic (probabilistic), it gives you a range of “possible futures” rather than a single definitive answer.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#section",
+    "href": "src/unit_3/1_system_thinking.html#section",
+    "title": "Systems Thinking",
+    "section": "",
+    "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\\(\\uparrow\\) = high \\(\\~\\) = medium\n\n\n\n\n\n\nImportant\n\n\nMost modern models have figured out a way to incorporate (almost) all dimensions to different degrees. Yet own their heuristic limit their integration efficacy.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#the-wicked-problem",
+    "href": "src/unit_3/1_system_thinking.html#the-wicked-problem",
+    "title": "Systems Thinking",
+    "section": "The “Wicked” Problem",
+    "text": "The “Wicked” Problem\n\nUrban challenges are not puzzles (with one right answer).\nThey are Wicked Problems:\n\nThey are interconnected: solving one creates another.\nThey have no “stopping rule” or perfect solution.\nThey are better or worse, not right or wrong.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
+    "href": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
+    "title": "Systems Thinking",
+    "section": "Beyond the Mental Model",
+    "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#setting-the-boundary",
+    "href": "src/unit_3/1_system_thinking.html#setting-the-boundary",
+    "title": "Systems Thinking",
+    "section": "Setting the Boundary",
+    "text": "Setting the Boundary\nA model is only as good as what you leave out.\n\nEndogenous: Factors the system controls.\nExogenous: Factors outside our influence (the “Environment”).\n\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath dependency\ntiping points\nequilibrium / oscilation",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "href": "src/unit_3/1_system_thinking.html#feedback-loops-1",
+    "title": "Systems Thinking",
+    "section": "Feedback Loops",
+    "text": "Feedback Loops\nloopy",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "href": "src/unit_3/1_system_thinking.html#system-archetypes",
+    "title": "Systems Thinking",
+    "section": "System Archetypes",
+    "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#workshop-mapping-the-logic",
+    "href": "src/unit_3/1_system_thinking.html#workshop-mapping-the-logic",
+    "title": "Systems Thinking",
+    "section": "Workshop: Mapping the Logic",
+    "text": "Workshop: Mapping the Logic\nTool: ncase.me/loopy\n\n\n\n\nThe Mission\n\n\nTranslate your “Wicked Problem” from a vague concept into a functional Causal Loop Diagram.\n\n\n\n\n\n\n1. Set the Frame\n\nDefine Boundaries: What is in your system? What is exogenous “noise”?\nTemporal Scale: Is this a 24-hour traffic cycle or a 20-year gentrification process?\n\n\n2. Build the Logic\n\nExtract Nodes: Identify the 5–8 core variables (Social & Technical).\nConnect & Loop: Draw the arrows. Is the relationship (+) or (-)?\nFind the Archetype: Can you spot a “Fix that Fail” or “Limits to Growth”?",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "src/unit_3/1_system_thinking.html#workshop-what-we-are-doing",
+    "href": "src/unit_3/1_system_thinking.html#workshop-what-we-are-doing",
+    "title": "Systems Thinking",
+    "section": "Workshop: What we are doing",
+    "text": "Workshop: What we are doing\n\nFocus on the Logic, not the math.\n\n\n\n🎯 The Focus\n\nRelationships: How A affects B.\nFeedback: Identifying reinforcing and balancing loops.\nCommunication: Making the “invisible” logic visible.\n\n\n🛑 Not Today\n\nStocks: We aren’t measuring exact “buckets” of volume.\nFlow Rates: We aren’t calculating precise liters/people per second.\nValidation: We are mapping theories, not yet proving them.",
+    "crumbs": [
+      "Schedule",
+      "Unit 3",
+      "System Thinking"
+    ]
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Course Guide",
+    "section": "Content",
+    "text": "Content\nThis course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. In this course, the student will gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment. Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders. This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor.\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "eea_interview.html",
+    "href": "eea_interview.html",
+    "title": "Interview questions",
+    "section": "",
+    "text": "I’ve spent the last decade at the intersection of data science and the built environment. Early on, I realized that while infrastructure is static, human behavior is dynamic. This led me to the Space Syntax approach—essentially using data-driven, graph-based analysis to understand multi-scale networks. It allowed me to bridge the gap between rigorous academic theory and the practical realities of urban consultancy.\nIn terms of technical scale, my experience is quite broad. I’ve managed everything from high-frequency IoT sensor data for real-time indoor movement to architecting the tracking of entire city bus networks modelling scenarios. I’ve applied these insights to everything from local ‘urban acupuncture’ strategies to large-scale masterplans, always focusing on how we can use data to measure social benefits. My work has taken me across the globe—from Colombia to Australia, London, and now Madrid—which has given me a deep appreciation for the cultural nuances required to work effectivily with multinational teams.\nInevitably, working on European urban development leads you to the Net-Zero agenda. Most recently, in 2024, I led a team of eight researchers at the Norman Foster Institute to develop the Climate Action Plan for Athens. This was a major milestone where we had to harmonize environmental data,set plans for reaching carbon emission targets, and greening strategies into a compliant, actionable policy framework.\nThis work led me to what I call my ‘professional obsession’: the link between environmental quality and human health outcomes. I’ve realized that the environment—whether it’s air quality, climate resilience, or the built landscape—is the primary driver of health inequalities. Over the last year, I’ve been focusing on quantifying these links, moving from spectral analysis of country-wide information to advising on transport initiatives that prioritize health outcomes. I want to move beyond just ‘collecting data’ to reducing the environmental inequalities that impact people’s lives.\nThat brings me here. I see this role at the EEA as the ideal next frontier. It’s the one place where I can combine data at scale, health implications, and European policy. I’ve spent my career ‘forcing’ these elements to meet, and I’m eager to bring that integrated perspective to the Agency’s monitoring and evidence-gathering mission.\n\n\n\nThere are three primary reasons why I am sitting here today, ranging from the Agency’s unique mandate to the urgency of our current environmental timeline.\n\nThe Unique Intersection of Science and Policy First, from an institutional perspective, the EEA is unparalleled. There is truly no other organization in the world where high-level science, legislative policy, and ground-level implementation meet with such a rigorous and independent point of view. For a data professional, the opportunity to work within the Eionet framework—translating raw monitoring data into the evidence base that literally steers the European Green Deal—is the highest possible application of my skillset.\nThe Urgency of the Mission Second, on a personal level, I cannot think of a human challenge more pressing than the climate and biodiversity crisis. We saw in the State of the Environment Report (SOER) that while our frameworks are robust, far too few of our targets are currently on track for 2030. This reality doesn’t discourage me; it focuses me. I want to be part of the ‘course correction,’ using data to identify exactly where we are lagging and how we can accelerate progress toward climate neutrality.\nThe Scale of the Challenge Finally, I am genuinely excited by the sheer scale of the challenge. Moving from urban-scale projects to a pan-European monitoring mandate is a significant leap, but it is one I feel prepared for. I am at a stage in my career where I want to contribute at the highest level possible. I am confident that my experience in harmonizing fragmented data across borders and my focus on health outcomes can provide the Agency with the ‘connective tissue’ needed to turn complex monitoring into actionable policy insights.\n\n\n\n\nI view stress not as an individual burden to be hidden, but as a signal to recalibrate our collective focus. My approach to high-pressure situations—such as a tight reporting deadline for a major EEA indicator—is built on three pillars:\n\nAbove all, I am a team player. When pressure mounts, I believe in absolute transparency with my peers. I don’t ‘hide’ from the stress; I bring it to the table so we can address it together. By fostering a supportive environment early on, I ensure that when a crisis hits, the team feels comfortable speaking up about bottlenecks before they become failures.\n(‘Project First’ Mindset) My first instinct in a stressed scenario is to shift the focus from individual tasks to the overall project objective. I lead the team in a rapid prioritization exercise—identifying ‘must-haves’ versus ‘nice-to-haves’ and playing to each person’s strengths. It’s an ‘all hands on deck’ approach where we reallocate resources dynamically to ensure the core mission is met, even if it means shifting secondary individual goals.\n(Proactive Mentorship and Support Networks) I am a firm believer in keeping close mentors and a professional support network. I don’t wait for a crisis to build these relationships. By maintaining regular contact with mentors, I have a ‘ready-to-go’ sounding board when stress hits. This means I can get high-level advice or a second opinion quickly, without needing a full debrief of the situation, allowing for faster decision-making under pressure.\n\nIn short, I manage stress by converting it into structured team action. This ensures that the quality of our evidence remains high, even when the timeline is short.\n\n\n\nI’ve had a very rewarding journey in my current position, and I am proud of the milestones our team has achieved. However, I have reached a professional ceiling where the nature of the work no longer aligns with where I want to make an impact. I am moving toward this role for three main reasons:\n\nMoving from Advice to Implementation and Tracking In consultancy, you often advise up to a certain point, but because there is sometimes a lack of regulatory follow-through on proposals, it is difficult to ensure those suggestions have a sustained, long-term life. I no longer want to just ‘drop’ a project and move to the next; I want to be part of an institution that has the mandate for the long-term monitoring and tracking of those initiatives. I want to see the evidence loop close.\nSeeking a Long-Term Institutional Vision I am looking for a professional environment with a 10- or 20-year horizon, rather than a 6-month project cycle. The EEA’s mission to provide the evidence base for the European Green Deal offers that stability and vision. I want to dedicate my skills to one cohesive, long-term plan where the data I architect today informs policy assessments a decade from now.\nGiving Back and Team Growth I leave my current role on excellent terms. I’ve learned an immense amount, built lasting professional relationships, and found great fulfillment in up-skilling my colleagues and mentoring junior researchers. However, to continue my own growth as an expert in environmental health and data architecture, I need to be in a place where the scale of the challenge matches the scale of the European mission.\n\nClosing Statement: Essentially, I’m not running away from my current role; I am running toward the responsibility and the long-term accountability that comes with being an Expert at the EEA.\nHere is your consolidated EEA Interview Cheat Sheet. This Markdown is designed to be your “Source of Truth.” You can print this out or keep it on a secondary screen during your interview to ensure your narrative hits every institutional and technical requirement.\n\n\n\n\n\nThe Journey: Architect (Bogotá) → Space Syntax/Networks (UCL/London) → Geospatial Data Architect (Global).\nThe Languages: Spanish (Native), English (Fluent), French (Fluent), Portuguese (Advanced). Key for Eionet coordination.\nThe Pivot: Shifting focus to Environmental Health (prevention over cure) and linking urban morphology to climate resilience.\nThe “Why”: Transitioning from Consultancy (Advising) to EEA (Shaping/Implementing). I want to contribute to the “Gold Standard” of European data and help “Course Correct” the 2030 Climate Action Plan.\nThe Stack: Reportnet 3.0 (Modern, cloud-native reporting), Copernicus Land Monitoring Service (CLMS), and the SDI (Spatial Data Infrastructure).\nKey Themes: Human Health & Environment; Circular Economy; Data & Digitalization.\n\n\n\n\n\n\n\n\n\n\n\n\nProject\nTechnical Highlight\nBehavioral/Impact Highlight\n\n\n\n\nAthens Climate Plan\nLeveraged Urban Atlas (Soil Sealing) & Sentinel-3 (LST).\nMoved from “green city” goals to data-driven Nature-Based Solutions.\n\n\nArticle 19 (VDEM)\nManaged “Gold Standard” pipeline for 160 countries.\nData Harmonization: Translated noisy human reports into a clean SQL database.\n\n\nHarvard Research\nArchitected cloud-native DNN/Sentinel ETL pipelines.\nProved ability to scale-up from city-level to country-wide (Colombia).\n\n\nSpace Syntax (London)\nIntegrated TfL, Thames Water, & ARUP data.\nConsensus Building: Acted as the technical translator between conflicting agency standards.\n\n\n\n\n\n\n\nStrength 1: Bilingual Technical Literacy. (I speak “Coder” and “Policy”).\nStrength 2: High-Volume Orchestration. (Experience with large-scale, country-wide data).\nStrength 3: Interdisciplinary Vision. (Linking transport, environment, and health outcomes).\nWeakness 1: Independence over Delegation. Correction: I’ve adopted “Time-boxing”; if I can’t solve it in 2 hours, I reach out to the team for collective efficiency.\nWeakness 2: Routine Motivation. Correction: I use Automation. Instead of doing mundane tasks manually, I build Python scripts to handle the repetition.\nWeakness 3: Communication Density. Correction: I use “Top-Down” communication. Policy impact first, technical details (Neural Networks/Graph Theory) only if requested.\n\n\n\n\n\n“Evidence-based policy-making”\n“Closing the implementation gap” (helping countries report better)\n“LCZ (Local Climate Zones)” (for heat island analysis)\n“Life-cycle of data management”\n“Knowledge Exchange” (treating Eionet as a two-way street)\n\n\nSure — here is a clean transcription of the text shown in the two images, keeping the original structure, wording, and formatting as closely as possible."
+  },
+  {
+    "objectID": "eea_interview.html#tell-me-about-yourself",
+    "href": "eea_interview.html#tell-me-about-yourself",
+    "title": "Interview questions",
+    "section": "",
+    "text": "I’ve spent the last decade at the intersection of data science and the built environment. Early on, I realized that while infrastructure is static, human behavior is dynamic. This led me to the Space Syntax approach—essentially using data-driven, graph-based analysis to understand multi-scale networks. It allowed me to bridge the gap between rigorous academic theory and the practical realities of urban consultancy.\nIn terms of technical scale, my experience is quite broad. I’ve managed everything from high-frequency IoT sensor data for real-time indoor movement to architecting the tracking of entire city bus networks modelling scenarios. I’ve applied these insights to everything from local ‘urban acupuncture’ strategies to large-scale masterplans, always focusing on how we can use data to measure social benefits. My work has taken me across the globe—from Colombia to Australia, London, and now Madrid—which has given me a deep appreciation for the cultural nuances required to work effectivily with multinational teams.\nInevitably, working on European urban development leads you to the Net-Zero agenda. Most recently, in 2024, I led a team of eight researchers at the Norman Foster Institute to develop the Climate Action Plan for Athens. This was a major milestone where we had to harmonize environmental data,set plans for reaching carbon emission targets, and greening strategies into a compliant, actionable policy framework.\nThis work led me to what I call my ‘professional obsession’: the link between environmental quality and human health outcomes. I’ve realized that the environment—whether it’s air quality, climate resilience, or the built landscape—is the primary driver of health inequalities. Over the last year, I’ve been focusing on quantifying these links, moving from spectral analysis of country-wide information to advising on transport initiatives that prioritize health outcomes. I want to move beyond just ‘collecting data’ to reducing the environmental inequalities that impact people’s lives.\nThat brings me here. I see this role at the EEA as the ideal next frontier. It’s the one place where I can combine data at scale, health implications, and European policy. I’ve spent my career ‘forcing’ these elements to meet, and I’m eager to bring that integrated perspective to the Agency’s monitoring and evidence-gathering mission."
+  },
+  {
+    "objectID": "eea_interview.html#motivation",
+    "href": "eea_interview.html#motivation",
+    "title": "Interview questions",
+    "section": "",
+    "text": "There are three primary reasons why I am sitting here today, ranging from the Agency’s unique mandate to the urgency of our current environmental timeline.\n\nThe Unique Intersection of Science and Policy First, from an institutional perspective, the EEA is unparalleled. There is truly no other organization in the world where high-level science, legislative policy, and ground-level implementation meet with such a rigorous and independent point of view. For a data professional, the opportunity to work within the Eionet framework—translating raw monitoring data into the evidence base that literally steers the European Green Deal—is the highest possible application of my skillset.\nThe Urgency of the Mission Second, on a personal level, I cannot think of a human challenge more pressing than the climate and biodiversity crisis. We saw in the State of the Environment Report (SOER) that while our frameworks are robust, far too few of our targets are currently on track for 2030. This reality doesn’t discourage me; it focuses me. I want to be part of the ‘course correction,’ using data to identify exactly where we are lagging and how we can accelerate progress toward climate neutrality.\nThe Scale of the Challenge Finally, I am genuinely excited by the sheer scale of the challenge. Moving from urban-scale projects to a pan-European monitoring mandate is a significant leap, but it is one I feel prepared for. I am at a stage in my career where I want to contribute at the highest level possible. I am confident that my experience in harmonizing fragmented data across borders and my focus on health outcomes can provide the Agency with the ‘connective tissue’ needed to turn complex monitoring into actionable policy insights."
+  },
+  {
+    "objectID": "eea_interview.html#how-do-you-deal-with-stress-and-pressure",
+    "href": "eea_interview.html#how-do-you-deal-with-stress-and-pressure",
+    "title": "Interview questions",
+    "section": "",
+    "text": "I view stress not as an individual burden to be hidden, but as a signal to recalibrate our collective focus. My approach to high-pressure situations—such as a tight reporting deadline for a major EEA indicator—is built on three pillars:\n\nAbove all, I am a team player. When pressure mounts, I believe in absolute transparency with my peers. I don’t ‘hide’ from the stress; I bring it to the table so we can address it together. By fostering a supportive environment early on, I ensure that when a crisis hits, the team feels comfortable speaking up about bottlenecks before they become failures.\n(‘Project First’ Mindset) My first instinct in a stressed scenario is to shift the focus from individual tasks to the overall project objective. I lead the team in a rapid prioritization exercise—identifying ‘must-haves’ versus ‘nice-to-haves’ and playing to each person’s strengths. It’s an ‘all hands on deck’ approach where we reallocate resources dynamically to ensure the core mission is met, even if it means shifting secondary individual goals.\n(Proactive Mentorship and Support Networks) I am a firm believer in keeping close mentors and a professional support network. I don’t wait for a crisis to build these relationships. By maintaining regular contact with mentors, I have a ‘ready-to-go’ sounding board when stress hits. This means I can get high-level advice or a second opinion quickly, without needing a full debrief of the situation, allowing for faster decision-making under pressure.\n\nIn short, I manage stress by converting it into structured team action. This ensures that the quality of our evidence remains high, even when the timeline is short."
+  },
+  {
+    "objectID": "eea_interview.html#why-are-you-looking-to-leave-your-current-role",
+    "href": "eea_interview.html#why-are-you-looking-to-leave-your-current-role",
+    "title": "Interview questions",
+    "section": "",
+    "text": "I’ve had a very rewarding journey in my current position, and I am proud of the milestones our team has achieved. However, I have reached a professional ceiling where the nature of the work no longer aligns with where I want to make an impact. I am moving toward this role for three main reasons:\n\nMoving from Advice to Implementation and Tracking In consultancy, you often advise up to a certain point, but because there is sometimes a lack of regulatory follow-through on proposals, it is difficult to ensure those suggestions have a sustained, long-term life. I no longer want to just ‘drop’ a project and move to the next; I want to be part of an institution that has the mandate for the long-term monitoring and tracking of those initiatives. I want to see the evidence loop close.\nSeeking a Long-Term Institutional Vision I am looking for a professional environment with a 10- or 20-year horizon, rather than a 6-month project cycle. The EEA’s mission to provide the evidence base for the European Green Deal offers that stability and vision. I want to dedicate my skills to one cohesive, long-term plan where the data I architect today informs policy assessments a decade from now.\nGiving Back and Team Growth I leave my current role on excellent terms. I’ve learned an immense amount, built lasting professional relationships, and found great fulfillment in up-skilling my colleagues and mentoring junior researchers. However, to continue my own growth as an expert in environmental health and data architecture, I need to be in a place where the scale of the challenge matches the scale of the European mission.\n\nClosing Statement: Essentially, I’m not running away from my current role; I am running toward the responsibility and the long-term accountability that comes with being an Expert at the EEA.\nHere is your consolidated EEA Interview Cheat Sheet. This Markdown is designed to be your “Source of Truth.” You can print this out or keep it on a secondary screen during your interview to ensure your narrative hits every institutional and technical requirement."
+  },
+  {
+    "objectID": "eea_interview.html#the-standard-narrative-opening-motivation",
+    "href": "eea_interview.html#the-standard-narrative-opening-motivation",
+    "title": "Interview questions",
+    "section": "",
+    "text": "The Journey: Architect (Bogotá) → Space Syntax/Networks (UCL/London) → Geospatial Data Architect (Global).\nThe Languages: Spanish (Native), English (Fluent), French (Fluent), Portuguese (Advanced). Key for Eionet coordination.\nThe Pivot: Shifting focus to Environmental Health (prevention over cure) and linking urban morphology to climate resilience.\nThe “Why”: Transitioning from Consultancy (Advising) to EEA (Shaping/Implementing). I want to contribute to the “Gold Standard” of European data and help “Course Correct” the 2030 Climate Action Plan.\nThe Stack: Reportnet 3.0 (Modern, cloud-native reporting), Copernicus Land Monitoring Service (CLMS), and the SDI (Spatial Data Infrastructure).\nKey Themes: Human Health & Environment; Circular Economy; Data & Digitalization."
+  },
+  {
+    "objectID": "eea_interview.html#super-stories-adaptable-for-technical-behavioural-questions",
+    "href": "eea_interview.html#super-stories-adaptable-for-technical-behavioural-questions",
+    "title": "Interview questions",
+    "section": "",
+    "text": "Project\nTechnical Highlight\nBehavioral/Impact Highlight\n\n\n\n\nAthens Climate Plan\nLeveraged Urban Atlas (Soil Sealing) & Sentinel-3 (LST).\nMoved from “green city” goals to data-driven Nature-Based Solutions.\n\n\nArticle 19 (VDEM)\nManaged “Gold Standard” pipeline for 160 countries.\nData Harmonization: Translated noisy human reports into a clean SQL database.\n\n\nHarvard Research\nArchitected cloud-native DNN/Sentinel ETL pipelines.\nProved ability to scale-up from city-level to country-wide (Colombia).\n\n\nSpace Syntax (London)\nIntegrated TfL, Thames Water, & ARUP data.\nConsensus Building: Acted as the technical translator between conflicting agency standards."
+  },
+  {
+    "objectID": "eea_interview.html#strengths-course-corrected-weaknesses",
+    "href": "eea_interview.html#strengths-course-corrected-weaknesses",
+    "title": "Interview questions",
+    "section": "",
+    "text": "Strength 1: Bilingual Technical Literacy. (I speak “Coder” and “Policy”).\nStrength 2: High-Volume Orchestration. (Experience with large-scale, country-wide data).\nStrength 3: Interdisciplinary Vision. (Linking transport, environment, and health outcomes).\nWeakness 1: Independence over Delegation. Correction: I’ve adopted “Time-boxing”; if I can’t solve it in 2 hours, I reach out to the team for collective efficiency.\nWeakness 2: Routine Motivation. Correction: I use Automation. Instead of doing mundane tasks manually, I build Python scripts to handle the repetition.\nWeakness 3: Communication Density. Correction: I use “Top-Down” communication. Policy impact first, technical details (Neural Networks/Graph Theory) only if requested."
+  },
+  {
+    "objectID": "eea_interview.html#key-keywords-to-drop",
+    "href": "eea_interview.html#key-keywords-to-drop",
+    "title": "Interview questions",
+    "section": "",
+    "text": "“Evidence-based policy-making”\n“Closing the implementation gap” (helping countries report better)\n“LCZ (Local Climate Zones)” (for heat island analysis)\n“Life-cycle of data management”\n“Knowledge Exchange” (treating Eionet as a two-way street)\n\n\nSure — here is a clean transcription of the text shown in the two images, keeping the original structure, wording, and formatting as closely as possible."
   },
   {
     "objectID": "src/unit_3/1_system_thinking_notes.html#session-roadmap",
@@ -310,588 +833,39 @@
     "text": "Workshop: What we are doing\n\nFocus on the Logic, not the math.\n\n\n\n🎯 The Focus\n\nRelationships: How A affects B.\nFeedback: Identifying reinforcing and balancing loops.\nCommunication: Making the “invisible” logic visible.\n\n\n🛑 Not Today\n\nStocks: We aren’t measuring exact “buckets” of volume.\nFlow Rates: We aren’t calculating precise liters/people per second.\nValidation: We are mapping theories, not yet proving them.\n\n\n\n\nDirect the students to Loopy. Remind them it’s a “thinking tool,” not a simulation engine.\nStep 1: Boundaries. If they are talking about “Smart Parking,” does the system boundary stop at the curb, or does it include the driver’s frustration level?\nStep 2: Connection. This is where they identify the “Brain” of their problem.\nReiterate the “Not Today” section: Many students get bogged down trying to find “real data.” Tell them to focus on the direction of the arrows first. If we increase “Surveillance,” does “Privacy” go up or down? That is a logic choice, not a data choice."
   },
   {
-    "objectID": "eea_interview.html",
-    "href": "eea_interview.html",
-    "title": "Interview questions",
-    "section": "",
-    "text": "I’ve spent the last decade at the intersection of data science and the built environment. Early on, I realized that while infrastructure is static, human behavior is dynamic. This led me to the Space Syntax approach—essentially using data-driven, graph-based analysis to understand multi-scale networks. It allowed me to bridge the gap between rigorous academic theory and the practical realities of urban consultancy.\nIn terms of technical scale, my experience is quite broad. I’ve managed everything from high-frequency IoT sensor data for real-time indoor movement to architecting the tracking of entire city bus networks modelling scenarios. I’ve applied these insights to everything from local ‘urban acupuncture’ strategies to large-scale masterplans, always focusing on how we can use data to measure social benefits. My work has taken me across the globe—from Colombia to Australia, London, and now Madrid—which has given me a deep appreciation for the cultural nuances required to work effectivily with multinational teams.\nInevitably, working on European urban development leads you to the Net-Zero agenda. Most recently, in 2024, I led a team of eight researchers at the Norman Foster Institute to develop the Climate Action Plan for Athens. This was a major milestone where we had to harmonize environmental data,set plans for reaching carbon emission targets, and greening strategies into a compliant, actionable policy framework.\nThis work led me to what I call my ‘professional obsession’: the link between environmental quality and human health outcomes. I’ve realized that the environment—whether it’s air quality, climate resilience, or the built landscape—is the primary driver of health inequalities. Over the last year, I’ve been focusing on quantifying these links, moving from spectral analysis of country-wide information to advising on transport initiatives that prioritize health outcomes. I want to move beyond just ‘collecting data’ to reducing the environmental inequalities that impact people’s lives.\nThat brings me here. I see this role at the EEA as the ideal next frontier. It’s the one place where I can combine data at scale, health implications, and European policy. I’ve spent my career ‘forcing’ these elements to meet, and I’m eager to bring that integrated perspective to the Agency’s monitoring and evidence-gathering mission.\n\n\n\nThere are three primary reasons why I am sitting here today, ranging from the Agency’s unique mandate to the urgency of our current environmental timeline.\n\nThe Unique Intersection of Science and Policy First, from an institutional perspective, the EEA is unparalleled. There is truly no other organization in the world where high-level science, legislative policy, and ground-level implementation meet with such a rigorous and independent point of view. For a data professional, the opportunity to work within the Eionet framework—translating raw monitoring data into the evidence base that literally steers the European Green Deal—is the highest possible application of my skillset.\nThe Urgency of the Mission Second, on a personal level, I cannot think of a human challenge more pressing than the climate and biodiversity crisis. We saw in the State of the Environment Report (SOER) that while our frameworks are robust, far too few of our targets are currently on track for 2030. This reality doesn’t discourage me; it focuses me. I want to be part of the ‘course correction,’ using data to identify exactly where we are lagging and how we can accelerate progress toward climate neutrality.\nThe Scale of the Challenge Finally, I am genuinely excited by the sheer scale of the challenge. Moving from urban-scale projects to a pan-European monitoring mandate is a significant leap, but it is one I feel prepared for. I am at a stage in my career where I want to contribute at the highest level possible. I am confident that my experience in harmonizing fragmented data across borders and my focus on health outcomes can provide the Agency with the ‘connective tissue’ needed to turn complex monitoring into actionable policy insights.\n\n\n\n\nI view stress not as an individual burden to be hidden, but as a signal to recalibrate our collective focus. My approach to high-pressure situations—such as a tight reporting deadline for a major EEA indicator—is built on three pillars:\n\nAbove all, I am a team player. When pressure mounts, I believe in absolute transparency with my peers. I don’t ‘hide’ from the stress; I bring it to the table so we can address it together. By fostering a supportive environment early on, I ensure that when a crisis hits, the team feels comfortable speaking up about bottlenecks before they become failures.\n(‘Project First’ Mindset) My first instinct in a stressed scenario is to shift the focus from individual tasks to the overall project objective. I lead the team in a rapid prioritization exercise—identifying ‘must-haves’ versus ‘nice-to-haves’ and playing to each person’s strengths. It’s an ‘all hands on deck’ approach where we reallocate resources dynamically to ensure the core mission is met, even if it means shifting secondary individual goals.\n(Proactive Mentorship and Support Networks) I am a firm believer in keeping close mentors and a professional support network. I don’t wait for a crisis to build these relationships. By maintaining regular contact with mentors, I have a ‘ready-to-go’ sounding board when stress hits. This means I can get high-level advice or a second opinion quickly, without needing a full debrief of the situation, allowing for faster decision-making under pressure.\n\nIn short, I manage stress by converting it into structured team action. This ensures that the quality of our evidence remains high, even when the timeline is short.\n\n\n\nI’ve had a very rewarding journey in my current position, and I am proud of the milestones our team has achieved. However, I have reached a professional ceiling where the nature of the work no longer aligns with where I want to make an impact. I am moving toward this role for three main reasons:\n\nMoving from Advice to Implementation and Tracking In consultancy, you often advise up to a certain point, but because there is sometimes a lack of regulatory follow-through on proposals, it is difficult to ensure those suggestions have a sustained, long-term life. I no longer want to just ‘drop’ a project and move to the next; I want to be part of an institution that has the mandate for the long-term monitoring and tracking of those initiatives. I want to see the evidence loop close.\nSeeking a Long-Term Institutional Vision I am looking for a professional environment with a 10- or 20-year horizon, rather than a 6-month project cycle. The EEA’s mission to provide the evidence base for the European Green Deal offers that stability and vision. I want to dedicate my skills to one cohesive, long-term plan where the data I architect today informs policy assessments a decade from now.\nGiving Back and Team Growth I leave my current role on excellent terms. I’ve learned an immense amount, built lasting professional relationships, and found great fulfillment in up-skilling my colleagues and mentoring junior researchers. However, to continue my own growth as an expert in environmental health and data architecture, I need to be in a place where the scale of the challenge matches the scale of the European mission.\n\nClosing Statement: Essentially, I’m not running away from my current role; I am running toward the responsibility and the long-term accountability that comes with being an Expert at the EEA.\nHere is your consolidated EEA Interview Cheat Sheet. This Markdown is designed to be your “Source of Truth.” You can print this out or keep it on a secondary screen during your interview to ensure your narrative hits every institutional and technical requirement.\n\n\n\n\n\nThe Journey: Architect (Bogotá) → Space Syntax/Networks (UCL/London) → Geospatial Data Architect (Global).\nThe Languages: Spanish (Native), English (Fluent), French (Fluent), Portuguese (Advanced). Key for Eionet coordination.\nThe Pivot: Shifting focus to Environmental Health (prevention over cure) and linking urban morphology to climate resilience.\nThe “Why”: Transitioning from Consultancy (Advising) to EEA (Shaping/Implementing). I want to contribute to the “Gold Standard” of European data and help “Course Correct” the 2030 Climate Action Plan.\nThe Stack: Reportnet 3.0 (Modern, cloud-native reporting), Copernicus Land Monitoring Service (CLMS), and the SDI (Spatial Data Infrastructure).\nKey Themes: Human Health & Environment; Circular Economy; Data & Digitalization.\n\n\n\n\n\n\n\n\n\n\n\n\nProject\nTechnical Highlight\nBehavioral/Impact Highlight\n\n\n\n\nAthens Climate Plan\nLeveraged Urban Atlas (Soil Sealing) & Sentinel-3 (LST).\nMoved from “green city” goals to data-driven Nature-Based Solutions.\n\n\nArticle 19 (VDEM)\nManaged “Gold Standard” pipeline for 160 countries.\nData Harmonization: Translated noisy human reports into a clean SQL database.\n\n\nHarvard Research\nArchitected cloud-native DNN/Sentinel ETL pipelines.\nProved ability to scale-up from city-level to country-wide (Colombia).\n\n\nSpace Syntax (London)\nIntegrated TfL, Thames Water, & ARUP data.\nConsensus Building: Acted as the technical translator between conflicting agency standards.\n\n\n\n\n\n\n\nStrength 1: Bilingual Technical Literacy. (I speak “Coder” and “Policy”).\nStrength 2: High-Volume Orchestration. (Experience with large-scale, country-wide data).\nStrength 3: Interdisciplinary Vision. (Linking transport, environment, and health outcomes).\nWeakness 1: Independence over Delegation. Correction: I’ve adopted “Time-boxing”; if I can’t solve it in 2 hours, I reach out to the team for collective efficiency.\nWeakness 2: Routine Motivation. Correction: I use Automation. Instead of doing mundane tasks manually, I build Python scripts to handle the repetition.\nWeakness 3: Communication Density. Correction: I use “Top-Down” communication. Policy impact first, technical details (Neural Networks/Graph Theory) only if requested.\n\n\n\n\n\n“Evidence-based policy-making”\n“Closing the implementation gap” (helping countries report better)\n“LCZ (Local Climate Zones)” (for heat island analysis)\n“Life-cycle of data management”\n“Knowledge Exchange” (treating Eionet as a two-way street)\n\n\nSure — here is a clean transcription of the text shown in the two images, keeping the original structure, wording, and formatting as closely as possible."
-  },
-  {
-    "objectID": "eea_interview.html#tell-me-about-yourself",
-    "href": "eea_interview.html#tell-me-about-yourself",
-    "title": "Interview questions",
-    "section": "",
-    "text": "I’ve spent the last decade at the intersection of data science and the built environment. Early on, I realized that while infrastructure is static, human behavior is dynamic. This led me to the Space Syntax approach—essentially using data-driven, graph-based analysis to understand multi-scale networks. It allowed me to bridge the gap between rigorous academic theory and the practical realities of urban consultancy.\nIn terms of technical scale, my experience is quite broad. I’ve managed everything from high-frequency IoT sensor data for real-time indoor movement to architecting the tracking of entire city bus networks modelling scenarios. I’ve applied these insights to everything from local ‘urban acupuncture’ strategies to large-scale masterplans, always focusing on how we can use data to measure social benefits. My work has taken me across the globe—from Colombia to Australia, London, and now Madrid—which has given me a deep appreciation for the cultural nuances required to work effectivily with multinational teams.\nInevitably, working on European urban development leads you to the Net-Zero agenda. Most recently, in 2024, I led a team of eight researchers at the Norman Foster Institute to develop the Climate Action Plan for Athens. This was a major milestone where we had to harmonize environmental data,set plans for reaching carbon emission targets, and greening strategies into a compliant, actionable policy framework.\nThis work led me to what I call my ‘professional obsession’: the link between environmental quality and human health outcomes. I’ve realized that the environment—whether it’s air quality, climate resilience, or the built landscape—is the primary driver of health inequalities. Over the last year, I’ve been focusing on quantifying these links, moving from spectral analysis of country-wide information to advising on transport initiatives that prioritize health outcomes. I want to move beyond just ‘collecting data’ to reducing the environmental inequalities that impact people’s lives.\nThat brings me here. I see this role at the EEA as the ideal next frontier. It’s the one place where I can combine data at scale, health implications, and European policy. I’ve spent my career ‘forcing’ these elements to meet, and I’m eager to bring that integrated perspective to the Agency’s monitoring and evidence-gathering mission."
-  },
-  {
-    "objectID": "eea_interview.html#motivation",
-    "href": "eea_interview.html#motivation",
-    "title": "Interview questions",
-    "section": "",
-    "text": "There are three primary reasons why I am sitting here today, ranging from the Agency’s unique mandate to the urgency of our current environmental timeline.\n\nThe Unique Intersection of Science and Policy First, from an institutional perspective, the EEA is unparalleled. There is truly no other organization in the world where high-level science, legislative policy, and ground-level implementation meet with such a rigorous and independent point of view. For a data professional, the opportunity to work within the Eionet framework—translating raw monitoring data into the evidence base that literally steers the European Green Deal—is the highest possible application of my skillset.\nThe Urgency of the Mission Second, on a personal level, I cannot think of a human challenge more pressing than the climate and biodiversity crisis. We saw in the State of the Environment Report (SOER) that while our frameworks are robust, far too few of our targets are currently on track for 2030. This reality doesn’t discourage me; it focuses me. I want to be part of the ‘course correction,’ using data to identify exactly where we are lagging and how we can accelerate progress toward climate neutrality.\nThe Scale of the Challenge Finally, I am genuinely excited by the sheer scale of the challenge. Moving from urban-scale projects to a pan-European monitoring mandate is a significant leap, but it is one I feel prepared for. I am at a stage in my career where I want to contribute at the highest level possible. I am confident that my experience in harmonizing fragmented data across borders and my focus on health outcomes can provide the Agency with the ‘connective tissue’ needed to turn complex monitoring into actionable policy insights."
-  },
-  {
-    "objectID": "eea_interview.html#how-do-you-deal-with-stress-and-pressure",
-    "href": "eea_interview.html#how-do-you-deal-with-stress-and-pressure",
-    "title": "Interview questions",
-    "section": "",
-    "text": "I view stress not as an individual burden to be hidden, but as a signal to recalibrate our collective focus. My approach to high-pressure situations—such as a tight reporting deadline for a major EEA indicator—is built on three pillars:\n\nAbove all, I am a team player. When pressure mounts, I believe in absolute transparency with my peers. I don’t ‘hide’ from the stress; I bring it to the table so we can address it together. By fostering a supportive environment early on, I ensure that when a crisis hits, the team feels comfortable speaking up about bottlenecks before they become failures.\n(‘Project First’ Mindset) My first instinct in a stressed scenario is to shift the focus from individual tasks to the overall project objective. I lead the team in a rapid prioritization exercise—identifying ‘must-haves’ versus ‘nice-to-haves’ and playing to each person’s strengths. It’s an ‘all hands on deck’ approach where we reallocate resources dynamically to ensure the core mission is met, even if it means shifting secondary individual goals.\n(Proactive Mentorship and Support Networks) I am a firm believer in keeping close mentors and a professional support network. I don’t wait for a crisis to build these relationships. By maintaining regular contact with mentors, I have a ‘ready-to-go’ sounding board when stress hits. This means I can get high-level advice or a second opinion quickly, without needing a full debrief of the situation, allowing for faster decision-making under pressure.\n\nIn short, I manage stress by converting it into structured team action. This ensures that the quality of our evidence remains high, even when the timeline is short."
-  },
-  {
-    "objectID": "eea_interview.html#why-are-you-looking-to-leave-your-current-role",
-    "href": "eea_interview.html#why-are-you-looking-to-leave-your-current-role",
-    "title": "Interview questions",
-    "section": "",
-    "text": "I’ve had a very rewarding journey in my current position, and I am proud of the milestones our team has achieved. However, I have reached a professional ceiling where the nature of the work no longer aligns with where I want to make an impact. I am moving toward this role for three main reasons:\n\nMoving from Advice to Implementation and Tracking In consultancy, you often advise up to a certain point, but because there is sometimes a lack of regulatory follow-through on proposals, it is difficult to ensure those suggestions have a sustained, long-term life. I no longer want to just ‘drop’ a project and move to the next; I want to be part of an institution that has the mandate for the long-term monitoring and tracking of those initiatives. I want to see the evidence loop close.\nSeeking a Long-Term Institutional Vision I am looking for a professional environment with a 10- or 20-year horizon, rather than a 6-month project cycle. The EEA’s mission to provide the evidence base for the European Green Deal offers that stability and vision. I want to dedicate my skills to one cohesive, long-term plan where the data I architect today informs policy assessments a decade from now.\nGiving Back and Team Growth I leave my current role on excellent terms. I’ve learned an immense amount, built lasting professional relationships, and found great fulfillment in up-skilling my colleagues and mentoring junior researchers. However, to continue my own growth as an expert in environmental health and data architecture, I need to be in a place where the scale of the challenge matches the scale of the European mission.\n\nClosing Statement: Essentially, I’m not running away from my current role; I am running toward the responsibility and the long-term accountability that comes with being an Expert at the EEA.\nHere is your consolidated EEA Interview Cheat Sheet. This Markdown is designed to be your “Source of Truth.” You can print this out or keep it on a secondary screen during your interview to ensure your narrative hits every institutional and technical requirement."
-  },
-  {
-    "objectID": "eea_interview.html#the-standard-narrative-opening-motivation",
-    "href": "eea_interview.html#the-standard-narrative-opening-motivation",
-    "title": "Interview questions",
-    "section": "",
-    "text": "The Journey: Architect (Bogotá) → Space Syntax/Networks (UCL/London) → Geospatial Data Architect (Global).\nThe Languages: Spanish (Native), English (Fluent), French (Fluent), Portuguese (Advanced). Key for Eionet coordination.\nThe Pivot: Shifting focus to Environmental Health (prevention over cure) and linking urban morphology to climate resilience.\nThe “Why”: Transitioning from Consultancy (Advising) to EEA (Shaping/Implementing). I want to contribute to the “Gold Standard” of European data and help “Course Correct” the 2030 Climate Action Plan.\nThe Stack: Reportnet 3.0 (Modern, cloud-native reporting), Copernicus Land Monitoring Service (CLMS), and the SDI (Spatial Data Infrastructure).\nKey Themes: Human Health & Environment; Circular Economy; Data & Digitalization."
-  },
-  {
-    "objectID": "eea_interview.html#super-stories-adaptable-for-technical-behavioural-questions",
-    "href": "eea_interview.html#super-stories-adaptable-for-technical-behavioural-questions",
-    "title": "Interview questions",
-    "section": "",
-    "text": "Project\nTechnical Highlight\nBehavioral/Impact Highlight\n\n\n\n\nAthens Climate Plan\nLeveraged Urban Atlas (Soil Sealing) & Sentinel-3 (LST).\nMoved from “green city” goals to data-driven Nature-Based Solutions.\n\n\nArticle 19 (VDEM)\nManaged “Gold Standard” pipeline for 160 countries.\nData Harmonization: Translated noisy human reports into a clean SQL database.\n\n\nHarvard Research\nArchitected cloud-native DNN/Sentinel ETL pipelines.\nProved ability to scale-up from city-level to country-wide (Colombia).\n\n\nSpace Syntax (London)\nIntegrated TfL, Thames Water, & ARUP data.\nConsensus Building: Acted as the technical translator between conflicting agency standards."
-  },
-  {
-    "objectID": "eea_interview.html#strengths-course-corrected-weaknesses",
-    "href": "eea_interview.html#strengths-course-corrected-weaknesses",
-    "title": "Interview questions",
-    "section": "",
-    "text": "Strength 1: Bilingual Technical Literacy. (I speak “Coder” and “Policy”).\nStrength 2: High-Volume Orchestration. (Experience with large-scale, country-wide data).\nStrength 3: Interdisciplinary Vision. (Linking transport, environment, and health outcomes).\nWeakness 1: Independence over Delegation. Correction: I’ve adopted “Time-boxing”; if I can’t solve it in 2 hours, I reach out to the team for collective efficiency.\nWeakness 2: Routine Motivation. Correction: I use Automation. Instead of doing mundane tasks manually, I build Python scripts to handle the repetition.\nWeakness 3: Communication Density. Correction: I use “Top-Down” communication. Policy impact first, technical details (Neural Networks/Graph Theory) only if requested."
-  },
-  {
-    "objectID": "eea_interview.html#key-keywords-to-drop",
-    "href": "eea_interview.html#key-keywords-to-drop",
-    "title": "Interview questions",
-    "section": "",
-    "text": "“Evidence-based policy-making”\n“Closing the implementation gap” (helping countries report better)\n“LCZ (Local Climate Zones)” (for heat island analysis)\n“Life-cycle of data management”\n“Knowledge Exchange” (treating Eionet as a two-way street)\n\n\nSure — here is a clean transcription of the text shown in the two images, keeping the original structure, wording, and formatting as closely as possible."
-  },
-  {
-    "objectID": "index.html#content",
-    "href": "index.html#content",
-    "title": "Course Guide",
-    "section": "Content",
-    "text": "Content\nThis course introduces students to the concepts, technologies, governance models, and socio-spatial implications of Smart Cities. It critically examines how digital technologies, data, and urban analytics are applied to address urban challenges such as sustainability, mobility, climate adaptation, inclusion and quality of life. Through a project-based approach, students work in groups to analyse a real or simulated urban case, develop a Smart Cities solution, and reflect on ethical, social and governance dimensions. In this course, the student will gain fundamental theoretical and practical knowledge to understand smart cities, including the relationship to the sustainability debate applies knowledge and skills to a real-life case study involving local communities in the indicator analysis, development of Smart City planning solutions and policy recommendations for the built environment. Be able to critically reflect on Smart City concepts and communicate the results of Smart City strategies to stakeholders. This course utilises acquired knowledge from previous and parallel running courses, such as the advanced methods course, ethics in research, data analysis in GIS, and urban policies, and adds to it the component of smart sustainable cities and the human factor.\n\n\n\nCourse Coordinator:\nProf. Claudia van der Laag\n\n\n\nLecturers:\n\nProf. Claudia van der Laag\nGreg Maya\nGuests",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
-    "href": "src/unit_3/1_system_thinking.html#session-roadmap",
-    "title": "Systems Thinking",
-    "section": "Session Roadmap",
-    "text": "Session Roadmap\n\nPart I: The Landscape of Urban Complexity\n\nThe “Brain” of the Smart City & 4 Heuristics\n\nPart II: The Logics of Systems\n\nDeep Dive into Feedback Loops\nWorkshop I: Mapping Your Wicked Problem\n\nPart III: Decision Support Tools\n\nWorkshop II: Stakeholders and Data",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
-    "href": "src/unit_3/1_system_thinking.html#the-city-complex-systems",
-    "title": "Systems Thinking",
-    "section": "The City = Complex Systems",
-    "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#complexity-alive",
-    "href": "src/unit_3/1_system_thinking.html#complexity-alive",
-    "title": "Systems Thinking",
-    "section": "Complexity alive",
-    "text": "Complexity alive",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
-    "href": "src/unit_3/1_system_thinking.html#what-the-smart-city-is-not",
-    "title": "Systems Thinking",
-    "section": "What the Smart City is NOT",
-    "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-science-of-cities",
-    "href": "src/unit_3/1_system_thinking.html#the-science-of-cities",
-    "title": "Systems Thinking",
-    "section": "The Science of Cities",
-    "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#organized-complexity",
-    "href": "src/unit_3/1_system_thinking.html#organized-complexity",
-    "title": "Systems Thinking",
-    "section": "Organized Complexity",
-    "text": "Organized Complexity\nJane Jacobs\n\n\nCities are not:\n\nProblems of Simplicity\nProblems of Disorganized Complexity (millions of random variables).\n\n\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
-    "href": "src/unit_3/1_system_thinking.html#the-interconnection-of-parts",
-    "title": "Systems Thinking",
-    "section": "The Interconnection of Parts",
-    "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.” – J.Jacobs\n\n\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#complexity-science",
-    "href": "src/unit_3/1_system_thinking.html#complexity-science",
-    "title": "Systems Thinking",
-    "section": "Complexity Science",
-    "text": "Complexity Science\nThe Reductionist Shortcut:\n\nA mental habit of breaking the city into isolated “parts” to make it easier to manage.\n\nThe Complexity Reality:\n\nScience not of the “atoms” (buildings, roads, people), but of the connections between them.\n\n\nCross-Scale Interactions\n\nSingle street-level decisions ripples up to the metropolitan scale.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#systems",
-    "href": "src/unit_3/1_system_thinking.html#systems",
-    "title": "Systems Thinking",
-    "section": "Systems",
-    "text": "Systems\n\n\nComplex\n\nAdaptive relationships.\nEmergent outcomes.\nMore than the sum of its parts.\n\n\nComplicated\n\nFixed relationships.\nPredictable outcomes.\nThe sum of its parts.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
-    "href": "src/unit_3/1_system_thinking.html#the-city-is-not-a-tree",
-    "title": "Systems Thinking",
-    "section": "The City is not a Tree",
-    "text": "The City is not a Tree\n\n\n“It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation … it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” – Christooher Alexander",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#systems-thinking-101",
-    "href": "src/unit_3/1_system_thinking.html#systems-thinking-101",
-    "title": "Systems Thinking",
-    "section": "Systems Thinking 101",
-    "text": "Systems Thinking 101\n\n\nSystems Thinking\nSeeing the Web of interactions\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
-    "href": "src/unit_3/1_system_thinking.html#modeling-as-a-heuristic",
-    "title": "Systems Thinking",
-    "section": "Modeling as a Heuristic",
-    "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).\n\n\nPart II",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#smart-citys-brain",
-    "href": "src/unit_3/1_system_thinking.html#smart-citys-brain",
-    "title": "Systems Thinking",
+    "objectID": "src/unit_3/2_decision_support.html#smart-citys-brain",
+    "href": "src/unit_3/2_decision_support.html#smart-citys-brain",
+    "title": "Decision support tools",
     "section": "Smart City’s brain",
-    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nLogic must precede display.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
+    "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nGOAL\nTo reduce the “Cognitive Load”\nwithout oversimplifying the “Wicked” reality.\n\n\n\nRemind them of the “Brain” analogy. A brain is useless if it can’t move the body.\nDecision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say “If we do X, then Y happens.”\nCrucial point: A good DST doesn’t hide complexity; it manages it."
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-dimensions",
-    "href": "src/unit_3/1_system_thinking.html#the-dimensions",
-    "title": "Systems Thinking",
-    "section": "The Dimensions",
-    "text": "The Dimensions\nof most urban logic modelling\n\n\n\nSPATIAL\nRELATIONAL\n\nTEMPORAL\nSYSTEMIC",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
+    "objectID": "src/unit_3/2_decision_support.html#dashboards-anathomy",
+    "href": "src/unit_3/2_decision_support.html#dashboards-anathomy",
+    "title": "Decision support tools",
+    "section": "Dashboard’s Anathomy",
+    "text": "Dashboard’s Anathomy\n\n\nIndicators\nThe “Vital Signs” of the city (Air quality, traffic flow, energy use).\n\n“What-If” Engine\nMoving from static data to interactive simulation.\n\nContextual Narratives\nData is meaningless without the “Story” of the place.\n\n\n\nRefer to your Data Viz notes: “Identifying patterns, trends, and outliers.”\nIn an urban context, a dashboard shouldn’t just be a “report card” of the past. It should be a “flight simulator” for the future.\nExample: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you “delete” a parking lot and see the CO2 drop in real-time is a Decision Support Tool."
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-spatial-dimension",
-    "title": "Systems Thinking",
-    "section": "1. The Spatial Dimension",
-    "text": "1. The Spatial Dimension\n\nThe Logic of “Where”: Focuses on geometry, distance, and density.\nKey Question: How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?\nCore Concept: Social Physics. Just like gravity, “mass” (high-density jobs or housing) exerts a pull on the surrounding area.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
+    "objectID": "src/unit_3/2_decision_support.html#the-misleading-interface",
+    "href": "src/unit_3/2_decision_support.html#the-misleading-interface",
+    "title": "Decision support tools",
+    "section": "The “Misleading” Interface",
+    "text": "The “Misleading” Interface\n\n\nAesthetic Trap\nJust because a dashboard is “shiny” or 3D doesn’t mean it’s accurate.\n\nTruncated Realities\nWhat is not being measured? (e.g., social capital, happiness).\n\nCognitive Biases\nHow “Visual Narratives” can accidentally (or intentionally) nudge decisions the wrong way.\n\n\n\nConnect this to your Viz Pitfalls: “Misleading graphs, improper scaling.”\nIn Smart Cities, there is a risk of “Technological Solutionism.” If it’s on a high-res screen, people tend to believe it’s “The Truth.”\nAs curators of these tools, the students must ensure the visualization doesn’t lie about the model’s uncertainty."
   },
   {
-    "objectID": "src/unit_3/1_system_thinking.html#the-relational-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-relational-dimension",
-    "title": "Systems Thinking",
-    "section": "2. The Relational Dimension",
-    "text": "2. The Relational Dimension\n\nThe Logic of “Connection”: Focuses on topology and network hierarchy.\nKey Question: How is the city “wired”? Is it about how far you are in meters, or how many turns you are from the main network?\nCore Concept: Graph Theory. The city as nodes and edges.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-temporal-dimension",
-    "title": "Systems Thinking",
-    "section": "3. The Temporal Dimension",
-    "text": "3. The Temporal Dimension\n\nThe Logic of “When”: Focuses on change, evolution, and path dependency.\nKey Question: How did the city get here, and how fast is it changing?\nCore Concept: Dynamics. Recognizing that an urban intervention today might take 10 years to show its true impact (delays).",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
-    "href": "src/unit_3/1_system_thinking.html#the-systemic-dimension",
-    "title": "Systems Thinking",
-    "section": "4. The Systemic Dimension",
-    "text": "4. The Systemic Dimension\n\nThe Logic of “Why”: Focuses on causality and interdependencies.\nKey Question: What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?\nCore Concept: Feedback Loops. Circular causality where an output of a system becomes an input for the next cycle.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-models",
-    "href": "src/unit_3/1_system_thinking.html#the-models",
-    "title": "Systems Thinking",
-    "section": "The Models",
-    "text": "The Models\nonly some…\n\n\n\n\n\nLand-Use Transport\nNetwork Models\n\n\n\n\nSystem Dynamics\nAgent-based Models",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport",
-    "title": "Systems Thinking",
-    "section": "Land-Use Transport",
-    "text": "Land-Use Transport\nLUTI\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Relational (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nLand-Use data\nTransport\n\n\nThe Engine\nUses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#land-use-transport-1",
-    "href": "src/unit_3/1_system_thinking.html#land-use-transport-1",
-    "title": "Systems Thinking",
-    "section": "Land-Use Transport",
-    "text": "Land-Use Transport\n\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\n\n\n\nWhat it lacks\n\n\nTemporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#network-models",
-    "href": "src/unit_3/1_system_thinking.html#network-models",
-    "title": "Systems Thinking",
-    "section": "Network Models",
-    "text": "Network Models\nNM eg. Space Syntax\n\n\n\n\nPrimary Dimensions:\n\n\nRelational (High) + Spatial (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nNodes\nEdges\n\n\nThe Engine\nTopological Analysis. It measures “centralities” to determine expected movement hierarchies.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#network-models-1",
-    "href": "src/unit_3/1_system_thinking.html#network-models-1",
-    "title": "Systems Thinking",
-    "section": "Network Models",
-    "text": "Network Models\n\neg. Redesigning a town center to increase footfall for local shops by improving topological connectivity.\n\n\n\nPros\nVery high correlation with real-world human movement; requires minimal data (just the map).\n\nCons\nCan be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\n\n\n\n\n\nWhat it lacks\n\n\nSystemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics",
-    "href": "src/unit_3/1_system_thinking.html#system-dynamics",
-    "title": "Systems Thinking",
-    "section": "System Dynamics",
-    "text": "System Dynamics\nSD eg. The Forrester Model\n\n\n\n\nPrimary Dimensions:\n\n\nTemporal (High) + Relational (High)\n\n\n\n\n\n\nThe Anatomy\n\nStocks (Accumulations)\nFlows (Rates of change)\nFeedback Loops\n\n\nThe Engine\nDifferential Equations. It simulates how quantities (stocks) change over time based on rates of change (e.g., construction rate).",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-dynamics-1",
-    "href": "src/unit_3/1_system_thinking.html#system-dynamics-1",
-    "title": "Systems Thinking",
-    "section": "System Dynamics",
-    "text": "System Dynamics\n\neg. Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.\n\n\n\nPros\nPowerful for identifying “Policy Resistance” and understanding long-term, non-linear consequences.\n\nCons\n“Spatially Blind”—it treats the entire city (or zone) as a single bucket, ignoring internal geography.\n\n\n\n\n\nWhat it lacks\n\n\nSpatial Granularity. It assumes a city is a “well-mixed” vat of variables rather than a physical place with unique neighborhoods.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models",
-    "href": "src/unit_3/1_system_thinking.html#agent-based-models",
-    "title": "Systems Thinking",
-    "section": "Agent-Based Models",
-    "text": "Agent-Based Models\nABM & Celullar Automata (CA)\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Systemic (High) + Temporal (Medium).\n\n\n\n\n\n\nThe Anatomy\n\nAgents: (People, vehicles, firms) with unique attributes.\nRules: Simple “If/Then” behaviors.\nEnvironment: The grid or network they inhabit.\n\n\nThe Engine\nBottom-up Micro-simulation. Simple rules from the agents give rise to “emergent” states from thousands of these local interactions.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#agent-based-models-1",
-    "href": "src/unit_3/1_system_thinking.html#agent-based-models-1",
-    "title": "Systems Thinking",
-    "section": "Agent-Based Models",
-    "text": "Agent-Based Models\n\n_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify “bottlenecks” that traditional flow models miss.\n\n\n\nPros\nCaptures “Emergent Phenomena” and diversity; allows for the modeling of irrational or “human” behaviors.\n\nCons\nComputationally expensive; very difficult to “validate” because small changes in rules can lead to wildly different outcomes.\n\n\n\n\n\nWhat it lacks\n\n\nPredictive Certainty. Because it is stochastic (probabilistic), it gives you a range of “possible futures” rather than a single definitive answer.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#section",
-    "href": "src/unit_3/1_system_thinking.html#section",
-    "title": "Systems Thinking",
-    "section": "",
-    "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\\(\\uparrow\\) = high \\(\\~\\) = medium\n\n\n\n\n\n\nImportant\n\n\nMost modern models have figured out a way to incorporate (almost) all dimensions to different degrees. Yet own their heuristic limit their integration efficacy.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#the-wicked-problem",
-    "href": "src/unit_3/1_system_thinking.html#the-wicked-problem",
-    "title": "Systems Thinking",
-    "section": "The “Wicked” Problem",
-    "text": "The “Wicked” Problem\n\nUrban challenges are not puzzles (with one right answer).\nThey are Wicked Problems:\n\nThey are interconnected: solving one creates another.\nThey have no “stopping rule” or perfect solution.\nThey are better or worse, not right or wrong.\n\n\nKey Characteristics of Wicked Problems:\n\nNo definitive formulation: The problem itself is hard to define.\nNo “stopping rule”: There’s no clear point at which you know it’s solved.\nSolutions aren’t true/false: They are only “good” or “bad,” not objectively correct.\nIrreversible consequences: Every attempt to solve it has lasting impacts, making “trials count”.\nInterconnectedness: Solving one part often creates or reveals other problems. :::",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
-    "href": "src/unit_3/1_system_thinking.html#beyond-the-mental-model",
-    "title": "Systems Thinking",
-    "section": "Beyond the Mental Model",
-    "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#setting-the-boundary",
-    "href": "src/unit_3/1_system_thinking.html#setting-the-boundary",
-    "title": "Systems Thinking",
-    "section": "Setting the Boundary",
-    "text": "Setting the Boundary\nA model is only as good as what you leave out.\n\nEndogenous: Factors the system controls.\nExogenous: Factors outside our influence (the “Environment”).\n\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops",
-    "href": "src/unit_3/1_system_thinking.html#feedback-loops",
-    "title": "Systems Thinking",
-    "section": "Feedback Loops",
-    "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath dependency\ntiping points\nequilibrium / oscilation",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#feedback-loops-1",
-    "href": "src/unit_3/1_system_thinking.html#feedback-loops-1",
-    "title": "Systems Thinking",
-    "section": "Feedback Loops",
-    "text": "Feedback Loops\nloopy",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#system-archetypes",
-    "href": "src/unit_3/1_system_thinking.html#system-archetypes",
-    "title": "Systems Thinking",
-    "section": "System Archetypes",
-    "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#workshop-mapping-the-logic",
-    "href": "src/unit_3/1_system_thinking.html#workshop-mapping-the-logic",
-    "title": "Systems Thinking",
-    "section": "Workshop: Mapping the Logic",
-    "text": "Workshop: Mapping the Logic\nTool: ncase.me/loopy\n\n\n\n\nThe Mission\n\n\nTranslate your “Wicked Problem” from a vague concept into a functional Causal Loop Diagram.\n\n\n\n\n\n\n1. Set the Frame\n\nDefine Boundaries: What is in your system? What is exogenous “noise”?\nTemporal Scale: Is this a 24-hour traffic cycle or a 20-year gentrification process?\n\n\n2. Build the Logic\n\nExtract Nodes: Identify the 5–8 core variables (Social & Technical).\nConnect & Loop: Draw the arrows. Is the relationship (+) or (-)?\nFind the Archetype: Can you spot a “Fix that Fail” or “Limits to Growth”?",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/1_system_thinking.html#workshop-what-we-are-doing",
-    "href": "src/unit_3/1_system_thinking.html#workshop-what-we-are-doing",
-    "title": "Systems Thinking",
-    "section": "Workshop: What we are doing",
-    "text": "Workshop: What we are doing\n\nFocus on the Logic, not the math.\n\n\n\n🎯 The Focus\n\nRelationships: How A affects B.\nFeedback: Identifying reinforcing and balancing loops.\nCommunication: Making the “invisible” logic visible.\n\n\n🛑 Not Today\n\nStocks: We aren’t measuring exact “buckets” of volume.\nFlow Rates: We aren’t calculating precise liters/people per second.\nValidation: We are mapping theories, not yet proving them.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "System Thinking"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html",
-    "href": "src/unit_3/data_viz.html",
-    "title": "Data Visualisation Principles",
-    "section": "",
-    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html#introduction",
-    "href": "src/unit_3/data_viz.html#introduction",
-    "title": "Data Visualisation Principles",
-    "section": "",
-    "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html#tools-and-technologies",
-    "href": "src/unit_3/data_viz.html#tools-and-technologies",
-    "title": "Data Visualisation Principles",
-    "section": "Tools and Technologies",
-    "text": "Tools and Technologies\nSelecting the right tool for the job involves considering several factors, including how you plan to share the visualisations, the need for ongoing maintenance, and your own level of expertise. If the data is likely to change frequently, choosing a tool that supports dynamic updates or easy revisions is crucial. Additionally, the way you share your visualisations—whether through static reports, interactive dashboards, or embedded in web pages—will influence the tool selection. Finally, your own proficiency and familiarity with the tool should be taken into account to ensure efficiency and effectiveness in creating impactful visualisations.\n\n\n\n\n\n\n\n\n\nCategory\nTools\nPros\nCons\n\n\n\n\nClassic Spreadsheets\nExcel, Google Sheets\nEasy to learn and widely accessible\nLimited customisation and scalability\n\n\nBI Tools\nTableau, Power BI\nPowerful for interactive dashboards and reporting\nCan be expensive; requires learning curve for complex tasks\n\n\nCoding Libraries\nPython (matplotlib, seaborn), D3.js\nHighly customisable and flexible\nSteeper learning curve; requires programming knowledge",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html#exploring-vs.-presenting",
-    "href": "src/unit_3/data_viz.html#exploring-vs.-presenting",
-    "title": "Data Visualisation Principles",
-    "section": "Exploring vs. Presenting",
-    "text": "Exploring vs. Presenting\n\n“Don’t run before you can walk”\n\nStart simple and gradually build complexity. In data visualisation, it’s tempting to jump straight to advanced tools or sophisticated designs, but this can lead to confusion and inefficiency if the basics are not well understood. Begin with simple exploratory analyses to understand your data, then progressively refine and enhance your visualisations as your message becomes clearer and your narrative more defined.\n\n\nExploratory data visualisation\nis about discovering insights, identifying patterns, and asking new questions. It is most useful during the initial stages of data analysis when the goal is to understand the data and its structure. At this stage, it’s not about perfection but about exploration and iteration.\n\n\n\nExplanatory data visualisation\non the other hand, is about communicating a specific message or insight clearly to an audience. It involves polishing the visualisation, ensuring accuracy, and crafting a narrative that guides the viewer to the intended conclusion.\n\n\nLearning when to switch from exploration to presentation is key to managing efforts effectively. Investing time in refining and polishing a visualisation is only worthwhile once the message is clear and impactful.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html#principles-of-data-visualisation",
-    "href": "src/unit_3/data_viz.html#principles-of-data-visualisation",
-    "title": "Data Visualisation Principles",
-    "section": "Principles of Data Visualisation",
-    "text": "Principles of Data Visualisation\n\nGestalt Principles\nThe Gestalt principles originate from a psychological theory developed by German psychologists in the early 20th century. These principles explain how humans naturally perceive visual elements as organized patterns or wholes, rather than as separate components (see Wagemans 2012). In data visualisation, Gestalt principles help designers arrange information in a way that is easily understood and visually appealing. By leveraging these principles, data visualisations can guide viewers to see relationships, hierarchies, and narratives within the data more intuitively.\n\n\n\n\n\n\n\n\nPrinciple\nDescription\nExample\n\n\n\n\nProximity\nElements that are close to each other are perceived as a group.\n\n\n\nSimilarity\nItems that share visual characteristics are seen as related.\n\n\n\nContinuity\nThe eye follows lines and curves smoothly without abrupt changes.\n\n\n\nClosure\nIncomplete shapes are perceived as complete wholes.\n\n\n\nConnectedness\nItems connected by lines or other visual cues are seen as related.\n\n\n\nColour\nUtilises hues and shades to convey meaning and hierarchy.\n\n\n\nWhite Space\nStrategic use of empty space to enhance readability and focus.\n\n\n\n\nThese (and many other) principles guide visual perception and interpretation by leveraging the brain’s natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer’s attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.\n\n\nChoosing the Right Chart\nMatching data types to the most effective visualisation is essential for conveying the intended message clearly and accurately. Different types of data—such as categorical, numerical, and temporal data—require different visualisation approaches to effectively highlight patterns, trends, and relationships.\n\nCategorical data, which represents discrete groups or categories, is best displayed using bar charts, pie charts, or stacked column charts for comparing proportions or frequencies.\nNumerical data, especially when showing distributions or relationships, is effectively visualised through histograms, scatter plots, or line graphs.\nTemporal data, which involves time series or sequences, is well-suited to line charts or area charts to show trends over time.\n\nSelecting the right chart type enhances the narrative and helps the audience interpret the data more intuitively.\nNYTimes Visual Vocabulary is a comprehensive guide for matching data types to appropriate chart styles.\n\n\n\nNYTimes Chart Doctor Poster\n\n\n\n\n\n\n\n\nTipAim for…\n\n\n\n\nClarity and simplicity: Avoid clutter and focus on the message.\nAccuracy and integrity: Represent data truthfully.\nAesthetics and engagement: Use colors, fonts, and layouts strategically.\n\n\n\n\n\n\n\n\n\nWarningCommon Pitfalls\n\n\n\n\nMisleading graphs (e.g., truncated axes, improper scaling).\nOvercomplicating with too much information.\nChoosing the wrong type of visualisation for the data.",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
-  },
-  {
-    "objectID": "src/unit_3/data_viz.html#final-thoughts",
-    "href": "src/unit_3/data_viz.html#final-thoughts",
-    "title": "Data Visualisation Principles",
-    "section": "Final thoughts",
-    "text": "Final thoughts\nAs the field continues to evolve, it is crucial to stay curious and experiment with new tools and techniques. Exploring different visualisation methods can inspire creativity and enhance your storytelling abilities. Today’s session is design to start visualising data today and adopt a flexible mindset for continuous improvement.\n\nReferences\n\n\nWagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. https://doi.org/10.1037/a0029333",
-    "crumbs": [
-      "Schedule",
-      "Unit 3",
-      "Data Visualization"
-    ]
+    "objectID": "src/unit_3/2_decision_support.html#who-is-the-pilot",
+    "href": "src/unit_3/2_decision_support.html#who-is-the-pilot",
+    "title": "Decision support tools",
+    "section": "Who is the Pilot?",
+    "text": "Who is the Pilot?\n\n\nHigh-Level Ops\nReal-time management (Emergency response, traffic control).\n\nStrategic Planning\n10–20 year horizons (Housing, Climate adaptation).\n\nPublic Participation\nTransparency and “Co-design” with citizens.\n\n\nDifferent users need different “Front-ends.”\nA technician needs a “Technical” viz. A citizen needs a “Human-centric” viz.\nWorkshop II Preview: We will look at how to tailor your “Wicked Problem” map into a tool that a specific stakeholder can actually use to make a choice."
   },
   {
     "objectID": "src/index.html",
     "href": "src/index.html",
     "title": "Schedule",
     "section": "",
-    "text": "Smart Cities Course Schedule 2026\n\n\n\nUnit\nDate(s)\nTheme\nLead by\n\n\n\n\n1\n06–07/01\nIntroduction to Smart Cities\n—\n\n\n2\n12/01\nIntroduction to Smart Cities – The Evolution of the Smart City\nC. v.d. Laag\n\n\n3\n19/01\nUrban Challenges and Systems Thinking\nG. Maya\n\n\n4\n26/01\nDigital Infrastructure and Digital Twins\nC. v.d. Laag / M. Zarei / S. Krappmann\n\n\n5\n09/02\nArtificial Intelligence and the Smart City\nG. Maya\n\n\n6\n23/02\nEthics, Law & Planning Responsibility\nC. v.d. Laag\n\n\n7\n02/03\nProject Studio and Supervision\nG. Maya\n\n\n8\n09/03\nSelf-study Week\n—\n\n\n9\n16/03\nExcursion\nC. v.d. Laag\n\n\n10\n23/03\nGovernance, Policy and Planning Institutions\nG. Maya\n\n\n11\n13/04\nSmart Cities in Planning Practice\nC. v.d. Laag / S. Krappmann\n\n\n12\n20/04\nProject Studio and Supervision\nG. Maya\n\n\n13\n27/04\nA Planner’s Role in the Smart City\nC. v.d. Laag\n\n\n14\n04/05\nTrouble Shooting\nC. v.d. Laag / G. Maya\n\n\n21–24\n18/05–10/06\nFinal Group Presentations & Discussion (Exam)\n—",
+    "text": "Smart Cities Course Schedule 2026\n\n\n\n\n\n\n\n\n\nUnit\nDate(s)\nTheme\nLead by\n\n\n\n\n1\n06–07/01\nIntroduction to Smart Cities\n—\n\n\n2\n12/01\nIntroduction to Smart Cities – The Evolution of the Smart City\nC. v.d. Laag\n\n\n3\n19/01\nUrban Challenges and Systems Thinking\nG. Maya\n\n\n4\n26/01\nDigital Infrastructure and Digital Twins\nC. v.d. Laag / M. Zarei / S. Krappmann\n\n\n5\n09/02\nArtificial Intelligence and the Smart City\nG. Maya\n\n\n6\n23/02\nEthics, Law & Planning Responsibility\nC. v.d. Laag\n\n\n7\n02/03\nProject Studio and Supervision\nG. Maya\n\n\n8\n09/03\nSelf-study Week\n—\n\n\n9\n16/03\nExcursion\nC. v.d. Laag\n\n\n10\n23/03\nGovernance, Policy and Planning Institutions\nG. Maya\n\n\n11\n13/04\nSmart Cities in Planning Practice\nC. v.d. Laag / S. Krappmann\n\n\n12\n20/04\nProject Studio and Supervision\nG. Maya\n\n\n13\n27/04\nA Planner’s Role in the Smart City\nC. v.d. Laag\n\n\n14\n04/05\nTrouble Shooting\nC. v.d. Laag / G. Maya\n\n\n21–24\n18/05–10/06\nFinal Group Presentations & Discussion (Exam)\n—",
     "crumbs": [
       "Schedule"
     ]
