@@ -1,0 +1,569 @@
+---
+title:  "Systems Thinking" 
+subtitle: Cities as complex socio-technical systems
+format: 
+    revealjs:
+        slide-number: true
+        theme: oslomet-pres.scss
+        center: true
+        transition: fade
+        footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+        incremental: true
+title-slide-attributes: 
+  data-background-image: img/air-traffic-control-1826798.jpg
+  data-background-opacity: "0.5"
+#scroll-view: true
+
+bibliography: references.bib
+---
+
+## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
+- **Part I: The Landscape of Urban Complexity**
+    - The "Brain" of the Smart City & 4 Heuristics
+- **Part II: The Logics of Systems**
+    - Deep Dive into Feedback Loops
+    - **Workshop I:** Mapping Your Wicked Problem
+- **Part III: Decision Support Tools**
+    - **Workshop II:** Stakeholders and Data
+
+# The Landscape of Urban Complexity
+_Part I_
+
+## The City = Complex Systems
+* A city is decomposable into semi-predictable parts.
+* It is a dynamic process of **organized complexity**.
+* **The Smart City Paradox:** 
+    * We have new **technical capabilities** (Big Data, sensors, AI).
+    * But they rely on **modelling techniques** devised decades ago to solve social problems.
+
+
+## Complexity alive
+:::{.r-stretch} 
+{{< video https://www.youtube.com/watch?v=CrWM2lc1oRA width="900" height="500" >}}
+:::
+
+
+## What the Smart City is NOT {background-color="#FF8100"}
+* It is **not** a crystal ball for perfect prediction.
+* It is **not** a digital twin that *is* the reality.
+* **The Map is not the Territory:**
+    * Models are simplified representations.
+    * In a complex system, "Total Control" is an illusion.
+    * We model to *understand* potentiality, not to *dictate* outcomes.
+
+
+## The Science of Cities
+:::::: {.columns}
+::: {.column width="60%"}
+> "...cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather ... than locations [...] **location is, in effect, a synthesis of interactions.**"
+>
+> — *Michael Batty, 2013*
+:::
+::: {.column width="40%"}
+![](img/batty_book1.png){height="400px" fig-alt="Michael Batty, The New Science of Cities"}
+:::
+::::::
+
+
+## Organized Complexity {background-image="img/San-Marco.png" background-opacity="0.5"}
+_Jane Jacobs_
+
+:::: {.columns}
+::: {.column}
+Cities are not:
+
+- Problems of ~~Simplicity~~
+- Problems of ~~Disorganized Complexity~~ (millions of random variables).
+:::
+::: {.column}
+They are problems of [Organized Complexity]():
+
+- A huge number of factors which are interrelated into an **organic whole**.
+:::
+:::: 
+
+## The Interconnection of Parts {background-image="img/San-Marco.png" background-opacity="0.5"}
+> "The city is not a work of art... the city is a process." -- J.Jacobs
+
+* It is a **Bottom-Up** system.
+* Small, local interactions $\rightarrow$ Large, global patterns.
+
+
+## Complexity Science {background-image="img/San-Marco.png" background-opacity="0.5"}
+**The Reductionist Shortcut:** 
+
+- A mental habit of breaking the city into isolated "parts" to make it easier to manage.
+
+**The Complexity Reality:** 
+
+- Science not of the "atoms" (buildings, roads, people), but of the **connections** between them.
+
+:::{.fragment .highlight-red}
+**Cross-Scale Interactions**
+
+- Single street-level decisions ripples up to the metropolitan scale.
+:::
+
+
+## Systems {background-color="#FF8100"}
+:::: {.columns}
+::: {.column}
+### Complex
+- Adaptive relationships.
+- Emergent outcomes.
+- More than the sum of its parts.
+:::
+::: {.column}
+### Complicated
+- Fixed relationships.
+- Predictable outcomes.
+- The sum of its parts.
+:::
+:::: 
+
+![forest](img/forest.png){.fragment .absolute top=200 left=10 width="300" }
+![engine](img/engine.png){.fragment .absolute top=200 right=150 width="300" }
+![city](img/madrid.png){.fragment .absolute top=200 left=10 width="300" }
+![chip](img/chip.png){.fragment .absolute top=200 right=150 width="300" }
+
+
+## _The City is not a Tree_ {background-image="img/tree_alexander.png"}
+:::{.fragment}
+> “It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation ... it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” -- Christooher Alexander
+:::
+
+## Systems Thinking 101 {background-color="#40E4FF"}
+:::: {.columns}
+::: {.column .fragment} 
+#### Systems Thinking
+Seeing the **Web** of interactions
+:::
+::: {.column .fragment}
+#### Linear Thinking
+A $\rightarrow$ B (Cause and Effect)
+:::
+::::
+
+:::{.fragment .r-fit-text} 
+**FOCUS ON THE RELATIONSHIP BETWEEN PARTS**
+
+**NOT JUST PARTS THEMSELVES.**
+:::
+
+## Modeling as a Heuristic  {background-color="#40E4FF"}
+A model is not "The Truth."
+
+It is a **Heuristic**: a mental shortcut or tool for discovery.
+
+::: {.fragment .highlight-blue}
+- **_"All models are wrong, but some are useful"_** (George Box).
+:::
+
+# The Logics of Systems
+_Part II_
+
+## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
+
+:::: {.columns}
+::: {.column}
+### _The Back-end_
+
+The heuristics, logic, and models.
+:::
+::: {.column}
+### _The Front-end_
+
+Dashboards, visualizations, and stakeholder apps.
+:::
+::::
+
+:::{.fragment .r-fit-text}
+[Logic must precede display.]()
+:::
+
+
+## The Dimensions {background-gradient="linear-gradient(to bottom, #2b2b2b, #FFDC00)"}
+_of most urban logic modelling_
+
+<br> 
+
+:::: {.columns}
+::: {.column}
+#### SPATIAL
+
+#### RELATIONAL
+:::
+::: {.column}
+#### TEMPORAL
+
+#### SYSTEMIC
+:::
+:::: 
+
+
+## 1. The Spatial Dimension {background-image="img/dim_space.png"}
+
+* **The Logic of "Where":** Focuses on geometry, distance, and density.
+* **Key Question:** How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?
+* **Core Concept:** **Social Physics.** Just like gravity, "mass" (high-density jobs or housing) exerts a pull on the surrounding area.
+
+
+## 2. The Relational Dimension {background-image="img/dim_relation.png"}
+
+* **The Logic of "Connection":** Focuses on topology and network hierarchy.
+* **Key Question:** How is the city "wired"? Is it about how far you are in meters, or how many turns you are from the main network?
+* **Core Concept:** **Graph Theory.** The city as nodes and edges.
+
+## 3. The Temporal Dimension {background-image="img/dim_temp.png"}
+
+* **The Logic of "When":** Focuses on change, evolution, and path dependency.
+* **Key Question:** How did the city get here, and how fast is it changing?
+* **Core Concept:** **Dynamics.** Recognizing that an urban intervention today might take 10 years to show its true impact (_delays_).
+
+## 4. The Systemic Dimension {background-image="img/dim_systemic.png"}
+
+* **The Logic of "Why":** Focuses on causality and interdependencies.
+* **Key Question:** What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?
+* **Core Concept:** **Feedback Loops.** Circular causality where an output of a system becomes an input for the next cycle.
+
+
+## The Models {background-gradient="linear-gradient(to bottom, #2b2b2b, #FFDC00)"}
+_only some..._
+
+<br>
+
+:::{.r-fit-text}
+|**Land-Use Transport** | **Network Models** |
+|----| ----|
+| **System Dynamics** | **Agent-based Models** |
+:::
+
+
+## Land-Use Transport {.nonincremental background-image="img/gravity.jpeg"}
+LUTI 
+
+::: {.callout title="Primary Dimensions:"}
+**Spatial** (High) + **Relational** (Medium)
+:::
+
+:::: {.columns}
+::: {.column}
+### The Anatomy
+
+- Land-Use data
+- Transport
+:::
+::: {.column}
+### The Engine
+Uses gravity equations to find a state of "[Equilibrium]()" between where people live, where they work, and how they travel.
+:::
+::::
+
+
+## Land-Use Transport {background-image="img/gravity.jpeg"}
+
+>_eg. Predicting the impact of a new Metro line on residential density in a suburban area._
+
+:::: {.columns}
+::: {.column .fragment}
+#### Pros 
+Excellent for long-term strategic planning and infrastructure "stress testing."
+:::
+::: {.column .fragment}
+#### Cons 
+Highly aggregate (treats people as masses) and mostly static (ignores the "chaos" of daily life).
+:::
+::::
+
+::: {.callout .fragment title="What it lacks"}
+**Temporal and Systemic feedback.** 
+It assumes a city is a puzzle that can be "solved" into a perfect balance.
+:::
+
+---
+
+## Network Models {background-image="img/syntax_bog.png" background-opacity="0.3"}
+_NM eg. Space Syntax_
+
+::: {.callout title="Primary Dimensions:"}
+**Relational** (High) + **Spatial** (Medium)
+:::
+
+::: {.columns}
+::: {.column .fragment}
+### The Anatomy
+
+- Nodes
+- Edges
+:::
+::: {.column .fragment}
+### The Engine
+
+**Topological Analysis.** It measures "[centralities]()" to determine expected movement hierarchies.
+:::
+::: 
+
+
+## Network Models {background-image="img/syntax_bog.png" background-opacity="0.3"}
+
+> _eg. Redesigning a town center to increase footfall for local shops by improving topological connectivity._
+
+::: {.columns}
+::: {.column .fragment}
+#### Pros
+Very high correlation with real-world human movement; requires minimal data (just the map).
+:::
+::: {.column .fragment}
+#### Cons 
+Can be "blind" to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.
+:::
+::: 
+
+::: {.callout .fragment title="What it lacks"}
+**Systemic "Attractors."** 
+It prioritizes the *shape* of the container over the *content* inside it.
+:::
+
+---
+
+## System Dynamics {background-image="img/sd_background.jpg" background-opacity="0.3"}
+*SD eg. The Forrester Model*
+
+::: {.callout title="Primary Dimensions:"}
+**Temporal** (High) + **Relational** (High)
+:::
+
+::: {.columns}
+::: {.column .fragment}
+### The Anatomy
+
+* Stocks (Accumulations)
+* Flows (Rates of change)
+* Feedback Loops
+:::
+::: {.column .fragment}
+### The Engine
+
+**Differential Equations.** It simulates how quantities (stocks) change [over time]() based on rates of change (e.g., construction rate).
+:::
+:::
+
+
+## System Dynamics {background-image="img/sd_background.jpg" background-opacity="0.3"}
+> *eg. Modeling how a city-wide "Air Quality Zone" affects car ownership and public health over two decades.*
+
+:::: {.columns}
+::: {.column .fragment}
+#### Pros
+
+Powerful for identifying "Policy Resistance" and understanding long-term, non-linear consequences.
+:::
+::: {.column .fragment}
+#### Cons
+
+"Spatially Blind"—it treats the entire city (or zone) as a single bucket, ignoring internal geography.
+:::
+::::
+
+::: {.callout .fragment title="What it lacks"}
+**Spatial Granularity.** It assumes a city is a "well-mixed" vat of variables rather than a physical place with unique neighborhoods.
+:::
+
+---
+
+## Agent-Based Models {background-image="img/abm.gif" background-opacity="0.5"}
+_ABM & Celullar Automata (CA)_
+
+::: {.callout title="Primary Dimensions:"}
+ **Spatial** (High) + **Systemic** (High) + **Temporal** (Medium).
+:::
+
+
+:::: {.columns}
+::: {.column .fragment}
+### The Anatomy
+
+- Agents: (People, vehicles, firms) with unique attributes.
+- Rules: Simple "If/Then" behaviors.
+- Environment: The grid or network they inhabit.
+:::
+::: {.column .fragment}
+### The Engine
+**Bottom-up Micro-simulation.** Simple rules from the agents give rise to "[emergent]()" states from thousands of these local interactions.
+:::
+::::
+
+
+## Agent-Based Models {background-image="img/abm.gif" background-opacity="0.5"}
+
+>_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify "bottlenecks" that traditional flow models miss.
+
+:::: {.columns} 
+::: {.column .fragment}
+#### Pros
+Captures "Emergent Phenomena" and diversity; allows for the modeling of irrational or "human" behaviors. 
+::: 
+::: {.column .fragment}
+#### Cons
+Computationally expensive; very difficult to "validate" because small changes in rules can lead to wildly different outcomes. 
+:::
+::::
+
+::: {.callout .fragment title="What it lacks"} 
+Predictive Certainty. Because it is stochastic (probabilistic), it gives you a range of "possible futures" rather than a single definitive answer. 
+:::
+
+## {background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)"}
+One model strength is the other model's weakness
+
+:::{.r-fit-text}
+
+|          | **LUTI** | **NM** | **SD** | **ABM** | **CA** |
+|--------|--------|--------|--------|--------|--------|
+|**Spatial** | $\uparrow$ | ~  |        |~  |  $\uparrow$|
+|**Relational** | ~ |   $\uparrow$  |        |        |      |
+|**Systemic** |          |        | ~ | ~  |  $\uparrow$|
+|**Temporal**  |      |        |   $\uparrow$ | $\uparrow$ | ~|
+
+:::
+
+$\uparrow$ = high
+$\~$ = medium
+
+::: {.callout-important}
+Most modern models have figured out a way to incorporate (almost) all dimensions to different degrees. Yet own their heuristic limit their integration efficacy. 
+:::
+
+# Workshop
+::: {.r-fit-text}
+Mapping your wicked problem
+:::
+
+## The "Wicked" Problem {background-image="img/wicked.png" background-opacity="0.3"}
+* Urban challenges are not **puzzles** (with one right answer).
+* They are **Wicked Problems**:
+    * They are interconnected: solving one creates another.
+    * They have no "stopping rule" or perfect solution.
+    * They are better or worse, not right or wrong.
+
+## Beyond the Mental Model
+
+```{mermaid}
+flowchart LR
+
+subgraph G1["Conceptual"]
+    A["Verbal<br/>description"]
+    B["Causal-Loop<br/>Diagram"]
+end
+
+C["Model<br/>Formulation"]
+D["Model<br/>Behaviour"]
+E((("Policy<br/>Implications")))
+
+A ==> B
+B --> C
+C --> D
+D --> E
+D -..-> B 
+E -.-> B
+E -.-> A
+
+classDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;
+classDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;
+style G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px
+
+class A,B yellow
+class C,D,E gray
+
+```
+
+
+## Setting the Boundary
+A model is only as good as what you **leave out**.
+
+* **Endogenous:** Factors the system controls.
+* **Exogenous:** Factors outside our influence (the "Environment").
+
+> *The Challenge:* 
+> If you draw the boundary too small, you miss the "Wicked" side-effects.
+
+## Feedback Loops {background-image="img/sd_water.png" background-opacity="0.5"}
+
+Enable the discovery of :
+
+- `emergence`
+- `path dependency`
+- `tiping points`
+- `equilibrium` / `oscilation`
+
+
+## Feedback Loops {background-color="#ffffff"}
+[_loopy_](https://ncase.me/loopy)
+
+<iframe width="800" height="600" frameborder="0" src="https://ncase.me/loopy/v1/?embed=1&data=[[[1,298,372,0.5,%22mo'%2520money%22,4],[3,632,374,0.5,%22price%22,4],[4,786,374,0.5,%22supply%22,5],[5,452,374,0.5,%22mo'%2520problems%22,5]],[[4,3,86,-1,0],[3,4,82,1,0],[5,1,88,1,0],[1,5,85,1,0]],[[376,529,%22POSITIVE%2520FEEDBACK%2520LOOP%250Aone%2520small%2520change%2520amplifies%250Aover%2520time%253A%2520vicious%2520cycle%22],[709,527,%22NEGATIVE%2520FEEDBACK%2520LOOP%250Aany%2520change%2520will%2520be%2520resisted%250Alater%2520in%2520time%253A%2520equilibrium%22],[296,293,%22click%2520here%250A%25E2%2586%2593%22],[630,294,%22and%2520here%250A%25E2%2586%2593%22]],5%5D"></iframe>
+
+
+
+## System Archetypes {background-color="#ffffff"}
+
+::: {.panel-tabset .nonincremental}
+### Balancing & Limits
+* **Limits to Growth**: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.
+* **Eroding Goals**: Reducing environmental targets because the current infrastructure "cannot handle" the cost of meeting them.
+* **Growth and Underinvestment**: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.
+
+
+### Unintended Feedback
+* **Fixes that Fail**: Widening a road to fix traffic leads to "induced demand," creating more traffic than before.
+* **Shifting the Burden**: Using temporary "band-aid" repairs on aging water pipes instead of replacing the fundamental infrastructure.
+* **Escalation**: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.
+
+
+### Resource & Power Loops
+*  **Tragedy of the Commons**: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city's foundation.
+* **Success to the Successful**: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.
+* **Accidental Adversaries**: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other's long-term goals.
+
+:::
+
+
+## Workshop: Mapping the Logic {.nonincremental background-color="#FFDC00"}
+_Tool: [ncase.me/loopy](https://ncase.me/loopy/)_
+
+::: {.callout title="The Mission"}
+Translate your "Wicked Problem" from a vague concept into a functional **Causal Loop Diagram**.
+:::
+
+:::: {.columns}
+::: {.column}
+### 1. Set the Frame
+* **Define Boundaries:** What is *in* your system? What is exogenous "noise"?
+* **Temporal Scale:** Is this a 24-hour traffic cycle or a 20-year gentrification process?
+:::
+
+::: {.column}
+### 2. Build the Logic
+* **Extract Nodes:** Identify the 5–8 core variables (Social & Technical).
+* **Connect & Loop:** Draw the arrows. Is the relationship (+) or (-)?
+* **Find the Archetype:** Can you spot a "Fix that Fail" or "Limits to Growth"?
+:::
+::::
+
+## Workshop: What we are doing {background-color="#FFDC00"}
+
+> Focus on the **Logic**, not the math.
+
+:::: {.columns}
+::: {.column .fragment}
+#### 🎯 The Focus
+* **Relationships:** How A affects B.
+* **Feedback:** Identifying reinforcing and balancing loops.
+* **Communication:** Making the "invisible" logic visible.
+:::
+::: {.column .fragment}
+#### 🛑 Not Today
+* **Stocks:** We aren't measuring exact "buckets" of volume.
+* **Flow Rates:** We aren't calculating precise liters/people per second.
+* **Validation:** We are mapping *theories*, not yet proving them.
+:::
+::::

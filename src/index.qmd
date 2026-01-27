@@ -1,0 +1,23 @@
+---
+title: "Schedule"
+---
+
+# Smart Cities Course Schedule 2026
+
+| Unit | Date(s) | Theme | Lead by |
+|:----:|:---------|:--------------------------------------------------------------|:-------------------------|
+| 1 | 06–07/01 | Introduction to Smart Cities | — |
+| 2 | 12/01 | Introduction to Smart Cities – The Evolution of the Smart City | C. v.d. Laag |
+| 3 | 19/01 | Urban Challenges and Systems Thinking| G. Maya |
+| 4 | 26/01 | Digital Infrastructure and Digital Twins | C. v.d. Laag / M. Zarei / S. Krappmann |
+| 5 | 09/02 | Artificial Intelligence and the Smart City | G. Maya |
+| 6 | 23/02 | Ethics, Law & Planning Responsibility | C. v.d. Laag |
+| 7 | 02/03 | Project Studio and Supervision | G. Maya |
+| 8 | 09/03 | Self-study Week | — |
+| 9 | 16/03 | Excursion | C. v.d. Laag |
+| 10 | 23/03 | Governance, Policy and Planning Institutions | G. Maya |
+| 11| 13/04 | Smart Cities in Planning Practice | C. v.d. Laag / S. Krappmann |
+| 12| 20/04 | Project Studio and Supervision | G. Maya |
+| 13 | 27/04 | A Planner’s Role in the Smart City | C. v.d. Laag |
+| 14 | 04/05 | Trouble Shooting | C. v.d. Laag / G. Maya |
+| 21–24 | 18/05–10/06 | Final Group Presentations & Discussion (Exam) | — |
