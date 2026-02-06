@@ -167,7 +167,7 @@
       }</style></aside>
 </section>
 <section>
-<section id="history-evolution" class="title-slide slide level1 center" data-background-color="#2b2b2b">
+<section id="history-evolution" class="title-slide slide level1 center">
 <h1>History &amp; Evolution</h1>
 <p><em>From the Cockpit to the City</em></p>
 </section>
@@ -275,7 +275,7 @@
       }</style></aside>
 </section></section>
 <section>
-<section id="indicators-proxies" class="title-slide slide level1 center" data-background-color="#40E4FF">
+<section id="indicators-proxies" class="title-slide slide level1 center">
 <h1>Indicators &amp; Proxies</h1>
 <p><em>The Map is not the Territory</em></p>
 </section>
@@ -420,9 +420,15 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section></section>
+<section>
+<section id="dashboard-anatomy" class="title-slide slide level1 center" data-background-color="#40E4FF">
+<h1>Dashboard Anatomy</h1>
+
 </section>
-<section id="anatomy-of-a-dashboard" class="slide level2 center" data-background-color="#40E4FF">
+<section id="anatomy-of-a-dashboard" class="slide level2 center">
 <h2>Anatomy of a Dashboard</h2>
+<p><em>What makes it tick?</em></p>
 <div class="columns">
 <div class="column" style="width:33%;">
 <h3 id="indicators">1. Indicators</h3>
@@ -438,7 +444,6 @@
 <ul>
 <li>Refer to your Data Viz notes: “Identifying patterns, trends, and outliers.”</li>
 <li>In an urban context, a dashboard shouldn’t just be a “report card” of the past. It should be a “flight simulator” for the future.</li>
-<li>Example: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you “delete” a parking lot and see the CO2 drop in real-time is a Decision Support Tool.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -490,23 +495,24 @@
           display:block!important;
       }</style></aside>
 </section>
-<section id="who-is-the-pilot" class="slide level2 center" data-background-gradient="linear-gradient(to bottom, #2b2b2b, #000000)">
-<h2>Who is the Pilot?</h2>
+<section id="different-lenses-for-different-roles" class="slide level2 center" data-background-gradient="linear-gradient(to bottom, #2b2b2b, #000000)">
+<h2>Different Lenses for Different Roles</h2>
 <div class="columns">
-<div class="column fragment" style="width:30%;">
-<h3 id="high-level-ops">High-Level Ops</h3>
-<p>Real-time management (Emergency response, traffic control).</p>
-</div><div class="column fragment" style="width:30%;">
-<h3 id="strategic-planning">Strategic Planning</h3>
-<p>10–20 year horizons (Housing, Climate adaptation).</p>
-</div><div class="column fragment" style="width:40%;">
-<h3 id="public-participation">Public Participation</h3>
-<p>Transparency and “Co-design” with citizens.</p>
-</div><aside class="notes">
+<div class="column" style="width:33%;">
+<h3 id="high-level-ops">1. High-Level Ops</h3>
+<p><em>The Pilot</em> - <strong>Goal</strong>: Real-time management. - <strong>Timeframe</strong>: Seconds/Minutes. - <strong>Needs</strong>: Alerts, live status, red/green indicators.</p>
+</div><div class="column" style="width:33%;">
+<h3 id="strategic-planning">2. Strategic Planning</h3>
+<p><em>The Architect</em> - <strong>Goal</strong>: Long-term policy. - <strong>Timeframe</strong>: Years/Decades. - <strong>Needs</strong>: Trends, aggregate data, scenarios.</p>
+</div><div class="column" style="width:33%;">
+<h3 id="public-participation">3. Public Participation</h3>
+<p><em>The Citizen</em> - <strong>Goal</strong>: Transparency &amp; Input. - <strong>Timeframe</strong>: Daily life. - <strong>Needs</strong>: Relatability, localized data, feedback channels.</p>
+</div></div>
+<aside class="notes">
 <ul>
-<li>Different users need different “Front-ends.”</li>
+<li>Different users need different “Front-ends” for the SAME underlying reality.</li>
 <li>A technician needs a “Technical” viz.&nbsp;A citizen needs a “Human-centric” viz.</li>
-<li>Workshop II Preview: We will look at how to tailor your “Wicked Problem” map into a tool that a specific stakeholder can actually use to make a choice.</li>
+<li>Workshop Preview: We will look at how to tailor your tool for a specific stakeholder.</li>
 </ul>
 <style type="text/css">
         span.MJX_Assistive_MathML {
@@ -519,7 +525,194 @@
           overflow: hidden!important;
           display:block!important;
       }</style></aside>
+</section></section>
+<section>
+<section id="data-viz-best-practices" class="title-slide slide level1 center" data-background-color="#2b2b2b">
+<h1>Data Viz Best Practices</h1>
+<p><em>Principles for effective dashboards</em></p>
+</section>
+<section id="gestalt-principles" class="slide level2 center">
+<h2>Gestalt Principles</h2>
+<p><em>Why we see what we see</em></p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Principle</th>
+<th style="text-align: left;">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Proximity</strong></td>
+<td style="text-align: left;">Elements close together are seen as a group.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Similarity</strong></td>
+<td style="text-align: left;">Items sharing color/shape are seen as related.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Continuity</strong></td>
+<td style="text-align: left;">The eye follows smooth lines (trends).</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Closure</strong></td>
+<td style="text-align: left;">We fill in gaps to see whole shapes.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Connectedness</strong></td>
+<td style="text-align: left;">Lines connecting items create strong relationships.</td>
+</tr>
+</tbody>
+</table>
+<aside class="notes">
+<ul>
+<li>Quick recap of Gestalt (from the Data Viz full lecture).</li>
+<li>Use these principles to <em>group</em> content on your dashboard.</li>
+<li>Don’t just scatter charts; use proximity and similarity to create logical sections.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="choosing-the-right-chart" class="slide level2 center">
+<h2>Choosing the Right Chart</h2>
+<p><em>Match the viz to the data</em></p>
+<ul>
+<li class="fragment"><strong>Categorical</strong> (Groups): Bar charts, Pie (use sparingly!).</li>
+<li class="fragment"><strong>Numerical</strong> (Distributions): Histograms, Scatter plots (relationships), Box plots.</li>
+<li class="fragment"><strong>Temporal</strong> (Time): Line charts, Area charts.</li>
+<li class="fragment"><strong>Spatial</strong> (Geography): Choropleth maps, Point clouds.</li>
+</ul>
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
+<p><strong>Tip</strong></p>
+</div>
+<div class="callout-content">
+<p><strong>Refer to:</strong> The <a href="https://ft-interactive.github.io/visual-vocabulary/">NYTimes Visual Vocabulary</a> often.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="learning-from-mistakes" class="slide level2 center">
+<h2>Learning from Mistakes</h2>
+<p><em>What NOT to do</em></p>
+<blockquote>
+<p>“Mistakes, we’ve drawn a few.” — <em>The Economist</em></p>
+</blockquote>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="the-donts">🚫 The Don’ts</h3>
+<ul>
+<li class="fragment"><strong>Truncated Axes</strong>: Starting a bar chart at 50% to exaggerate a 1% difference.</li>
+<li class="fragment"><strong>Spaghetti Charts</strong>: Too many lines making trends unreadable.</li>
+<li class="fragment"><strong>Correlated Scales</strong>: Forcing two unrelated variables onto dual axes to imply causation.</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="the-wrong-type">🚫 The Wrong Type</h3>
+<ul>
+<li class="fragment">Using a Line Chart for categorical data (implies continuity where there is none).</li>
+<li class="fragment">Using a Pie Chart for 20 categories.</li>
+</ul>
+</div></div>
+<aside class="notes">
+<ul>
+<li>Honesty in Data Viz is crucial for Decision Support.</li>
+<li>If you truncate an axis, you might convince a Mayor to spend millions on a problem that is actually a minor fluctuation.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="workshop" class="title-slide slide level1 center" data-background-color="#FFDC00">
+<h1>Workshop</h1>
+<div class="r-fit-text">
+<p>The Green Mobility Dashboard</p>
+</div>
+</section>
+<section id="the-challenge" class="slide level2 nonincremental center" data-background-color="#FFDC00">
+<h2>The Challenge</h2>
+<p><em>Context: “Car-Free City Center” Pilot</em></p>
+<p><strong>Your Mission:</strong> Design a paper prototype of a decision support dashboard for <strong>ONE</strong> specific stakeholder.</p>
+<div class="columns">
+<div class="column" style="width:50%;">
+<h3 id="the-planner">🅰️ The Planner</h3>
+<ul>
+<li class="fragment"><strong>Needs:</strong> Technical feedback loop.</li>
+<li class="fragment"><strong>Key Qs:</strong> Displacement effects? Retail revenue impacts? Emergency response times?</li>
+</ul>
+</div><div class="column" style="width:50%;">
+<h3 id="the-citizen">🅱️ The Citizen</h3>
+<ul>
+<li class="fragment"><strong>Needs:</strong> Usability &amp; Adaptation.</li>
+<li class="fragment"><strong>Key Qs:</strong> Where do I park? How do I get delivery? Space for complaints?</li>
+</ul>
+</div></div>
+</section>
+<section id="the-menu-choose-your-data" class="slide level2 nonincremental center" data-background-color="#FFDC00">
+<h2>The Menu: Choose Your Data</h2>
+<p><em>Select 3-4 datasets to power your dashboard:</em></p>
+<ol type="1">
+<li class="fragment">🚗 <strong>Real-time Traffic Sensors</strong> (Vehicle counts/speed)</li>
+<li class="fragment">💨 <strong>Air Quality Index</strong> (PM2.5, NO2 - Street level)</li>
+<li class="fragment">💶 <strong>Retail Point-of-Sale Data</strong> (Aggregated monthly revenue)</li>
+<li class="fragment">🗣️ <strong>Social Media Sentiment</strong> (Geotagged posts)</li>
+<li class="fragment">🚑 <strong>Emergency GPS Tracks</strong> (Response times)</li>
+<li class="fragment">🚶 <strong>Pedestrian Footfall Counters</strong></li>
+<li class="fragment">🔊 <strong>Noise Level Decibels</strong></li>
+<li class="fragment">🅿️ <strong>Parking Occupancy</strong> (Real-time availability)</li>
+<li class="fragment">🚌 <strong>Public Transit Delays</strong> (Real-time feed)</li>
+<li class="fragment">🌧️ <strong>Historical Weather Data</strong></li>
+</ol>
+</section>
+<section id="step-by-step" class="slide level2 nonincremental center" data-background-color="#FFDC00">
+<h2>Step-by-Step</h2>
+<div class="columns">
+<div class="column">
+<h3 id="select-sketch-10-mins">1. Select &amp; Sketch (10 mins)</h3>
+<ul>
+<li class="fragment">Choose your <strong>Persona</strong> (Planner or Citizen).</li>
+<li class="fragment">Pick <strong>3-4 Datasets</strong>.</li>
+<li class="fragment">Sketch the layout:
+<ul>
+<li class="fragment"><strong>Indicators</strong> (What do they see first?)</li>
+<li class="fragment"><strong>Interaction</strong> (What can they click/change?)</li>
+</ul></li>
+</ul>
+</div><div class="column">
+<h3 id="pitch-1-min-per-group">2. Pitch (1 min per group)</h3>
+<ul>
+<li class="fragment">Who is it for?</li>
+<li class="fragment">What problem does it solve for <em>them</em>?</li>
+<li class="fragment">Why did you leave out the other data?</li>
+</ul>
+</div></div>
+
+
 </section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">

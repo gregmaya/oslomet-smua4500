@@ -2,42 +2,46 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/resources.html</loc>
-    <lastmod>2026-02-06T15:38:41.374Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_5/decision_support.html</loc>
+    <lastmod>2026-02-06T17:25:46.172Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/revealjs_slide_templates.html</loc>
-    <lastmod>2026-02-06T15:38:41.375Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.119Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/references.html</loc>
-    <lastmod>2026-02-06T15:38:41.430Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/data_viz.html</loc>
-    <lastmod>2026-02-06T15:38:41.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/1_system_thinking.html</loc>
-    <lastmod>2026-02-06T15:38:41.375Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gregmaya.github.io/oslomet-smua4500/index.html</loc>
-    <lastmod>2026-02-06T15:38:41.374Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.171Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/1_system_thinking_notes.html</loc>
-    <lastmod>2026-02-06T15:38:41.375Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.120Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/index.html</loc>
+    <lastmod>2026-02-06T17:25:46.119Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/1_system_thinking.html</loc>
+    <lastmod>2026-02-06T17:25:46.119Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_3/2_decision_support.html</loc>
-    <lastmod>2026-02-06T15:38:41.375Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.120Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/index.html</loc>
-    <lastmod>2026-02-06T15:38:41.374Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.119Z</lastmod>
   </url>
   <url>
     <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_5/2_ai_smart_city.html</loc>
-    <lastmod>2026-02-06T15:38:41.431Z</lastmod>
+    <lastmod>2026-02-06T17:25:46.171Z</lastmod>
+  </url>
+  <url>
+    <loc>https://gregmaya.github.io/oslomet-smua4500/src/unit_5/data_viz.html</loc>
+    <lastmod>2026-02-06T17:25:46.172Z</lastmod>
   </url>
 </urlset>
