@@ -1,0 +1,1620 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>revealjs_slide_templates – SMUA4500 - Smart Cities</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-fc33c4e26a9fd438509c940b2ebe3324.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">SMUA4500 - Smart Cities</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools tools-end">
+</div>
+          <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="../index.html" class="sidebar-logo-link">
+      <img src="../images/mini-Logo_OsloMet.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../images/mini-Logo_OsloMet.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/gregmaya/oslomet-smua4500" title="GitHub" class="quarto-navigation-tool px-1" aria-label="GitHub"><i class="bi bi-github"></i></a>
+</div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Home</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a href="../src/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Schedule</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Unit 3</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../src/unit_3/1_system_thinking.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">System Thinking</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../src/unit_3/references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Bibliography</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../resources.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Additional Resources</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#reveal.js-slide-templates-reference" id="toc-reveal.js-slide-templates-reference" class="nav-link active" data-scroll-target="#reveal.js-slide-templates-reference">Reveal.js Slide Templates Reference</a>
+  <ul class="collapse">
+  <li><a href="#smua-4500-smart-cities-course" id="toc-smua-4500-smart-cities-course" class="nav-link" data-scroll-target="#smua-4500-smart-cities-course">SMUA 4500 Smart Cities Course</a></li>
+  <li><a href="#table-of-contents" id="toc-table-of-contents" class="nav-link" data-scroll-target="#table-of-contents">Table of Contents</a></li>
+  <li><a href="#complete-template-reference" id="toc-complete-template-reference" class="nav-link" data-scroll-target="#complete-template-reference">Complete Template Reference</a></li>
+  <li><a href="#document-structure" id="toc-document-structure" class="nav-link" data-scroll-target="#document-structure">Document Structure</a>
+  <ul class="collapse">
+  <li><a href="#yaml-header-standard" id="toc-yaml-header-standard" class="nav-link" data-scroll-target="#yaml-header-standard">YAML Header (Standard)</a></li>
+  </ul></li>
+  <li><a href="#base-templates" id="toc-base-templates" class="nav-link" data-scroll-target="#base-templates">Base Templates</a>
+  <ul class="collapse">
+  <li><a href="#content-a-single-column-standard" id="toc-content-a-single-column-standard" class="nav-link" data-scroll-target="#content-a-single-column-standard">Content-A: Single Column (Standard)</a></li>
+  <li><a href="#content-b-two-column-layout" id="toc-content-b-two-column-layout" class="nav-link" data-scroll-target="#content-b-two-column-layout">Content-B: Two-Column Layout</a></li>
+  <li><a href="#content-c-three-column-layout" id="toc-content-c-three-column-layout" class="nav-link" data-scroll-target="#content-c-three-column-layout">Content-C: Three-Column Layout</a></li>
+  <li><a href="#content-d-single-column-image" id="toc-content-d-single-column-image" class="nav-link" data-scroll-target="#content-d-single-column-image">Content-D: Single Column + Image</a></li>
+  <li><a href="#header-a-session-roadmap" id="toc-header-a-session-roadmap" class="nav-link" data-scroll-target="#header-a-session-roadmap">Header-A: Session Roadmap</a></li>
+  <li><a href="#divider-a-section-break-minimalist" id="toc-divider-a-section-break-minimalist" class="nav-link" data-scroll-target="#divider-a-section-break-minimalist">Divider-A: Section Break (Minimalist)</a></li>
+  <li><a href="#divider-b-full-screen-text" id="toc-divider-b-full-screen-text" class="nav-link" data-scroll-target="#divider-b-full-screen-text">Divider-B: Full-Screen Text</a></li>
+  <li><a href="#interactive-a-tabbed-panels" id="toc-interactive-a-tabbed-panels" class="nav-link" data-scroll-target="#interactive-a-tabbed-panels">Interactive-A: Tabbed Panels</a></li>
+  <li><a href="#interactive-b-embedded-tool" id="toc-interactive-b-embedded-tool" class="nav-link" data-scroll-target="#interactive-b-embedded-tool">Interactive-B: Embedded Tool</a></li>
+  <li><a href="#workshop-a-activity-introduction" id="toc-workshop-a-activity-introduction" class="nav-link" data-scroll-target="#workshop-a-activity-introduction">Workshop-A: Activity Introduction</a></li>
+  <li><a href="#workshop-b-step-by-step-instructions" id="toc-workshop-b-step-by-step-instructions" class="nav-link" data-scroll-target="#workshop-b-step-by-step-instructions">Workshop-B: Step-by-Step Instructions</a></li>
+  <li><a href="#workshop-c-focus-statement" id="toc-workshop-c-focus-statement" class="nav-link" data-scroll-target="#workshop-c-focus-statement">Workshop-C: Focus Statement</a></li>
+  </ul></li>
+  <li><a href="#add-on-elements" id="toc-add-on-elements" class="nav-link" data-scroll-target="#add-on-elements">Add-on Elements</a>
+  <ul class="collapse">
+  <li><a href="#add-on-background-color" id="toc-add-on-background-color" class="nav-link" data-scroll-target="#add-on-background-color">Add-on: Background Color</a></li>
+  <li><a href="#add-on-background-image" id="toc-add-on-background-image" class="nav-link" data-scroll-target="#add-on-background-image">Add-on: Background Image</a></li>
+  <li><a href="#add-on-gradient-background" id="toc-add-on-gradient-background" class="nav-link" data-scroll-target="#add-on-gradient-background">Add-on: Gradient Background</a></li>
+  <li><a href="#add-on-fragment-sequential-reveal" id="toc-add-on-fragment-sequential-reveal" class="nav-link" data-scroll-target="#add-on-fragment-sequential-reveal">Add-on: Fragment (Sequential Reveal)</a></li>
+  <li><a href="#add-on-highlight" id="toc-add-on-highlight" class="nav-link" data-scroll-target="#add-on-highlight">Add-on: Highlight</a></li>
+  <li><a href="#add-on-fitted-text" id="toc-add-on-fitted-text" class="nav-link" data-scroll-target="#add-on-fitted-text">Add-on: Fitted Text</a></li>
+  <li><a href="#add-on-absolute-positioned-images" id="toc-add-on-absolute-positioned-images" class="nav-link" data-scroll-target="#add-on-absolute-positioned-images">Add-on: Absolute Positioned Images</a></li>
+  <li><a href="#add-on-stretched-media" id="toc-add-on-stretched-media" class="nav-link" data-scroll-target="#add-on-stretched-media">Add-on: Stretched Media</a></li>
+  <li><a href="#add-on-non-incremental" id="toc-add-on-non-incremental" class="nav-link" data-scroll-target="#add-on-non-incremental">Add-on: Non-Incremental</a></li>
+  <li><a href="#add-on-callout-box" id="toc-add-on-callout-box" class="nav-link" data-scroll-target="#add-on-callout-box">Add-on: Callout Box</a></li>
+  <li><a href="#add-on-block-quote" id="toc-add-on-block-quote" class="nav-link" data-scroll-target="#add-on-block-quote">Add-on: Block Quote</a></li>
+  <li><a href="#add-on-notes-always-bullets" id="toc-add-on-notes-always-bullets" class="nav-link" data-scroll-target="#add-on-notes-always-bullets">Add-on: Notes (Always Bullets)</a></li>
+  </ul></li>
+  <li><a href="#specialized-slides" id="toc-specialized-slides" class="nav-link" data-scroll-target="#specialized-slides">Specialized Slides</a>
+  <ul class="collapse">
+  <li><a href="#special-a-mermaid-diagram" id="toc-special-a-mermaid-diagram" class="nav-link" data-scroll-target="#special-a-mermaid-diagram">Special-A: Mermaid Diagram</a></li>
+  <li><a href="#special-b-comparison-table" id="toc-special-b-comparison-table" class="nav-link" data-scroll-target="#special-b-comparison-table">Special-B: Comparison Table</a></li>
+  <li><a href="#special-c-quote-with-context" id="toc-special-c-quote-with-context" class="nav-link" data-scroll-target="#special-c-quote-with-context">Special-C: Quote with Context</a></li>
+  </ul></li>
+  <li><a href="#quick-reference" id="toc-quick-reference" class="nav-link" data-scroll-target="#quick-reference">Quick Reference</a>
+  <ul class="collapse">
+  <li><a href="#base-template-selection" id="toc-base-template-selection" class="nav-link" data-scroll-target="#base-template-selection">Base Template Selection</a></li>
+  <li><a href="#add-on-element-quick-reference" id="toc-add-on-element-quick-reference" class="nav-link" data-scroll-target="#add-on-element-quick-reference">Add-on Element Quick Reference</a></li>
+  <li><a href="#common-combinations" id="toc-common-combinations" class="nav-link" data-scroll-target="#common-combinations">Common Combinations</a></li>
+  <li><a href="#decision-tree" id="toc-decision-tree" class="nav-link" data-scroll-target="#decision-tree">Decision Tree</a></li>
+  <li><a href="#notes-guidelines" id="toc-notes-guidelines" class="nav-link" data-scroll-target="#notes-guidelines">Notes Guidelines</a></li>
+  <li><a href="#file-organization" id="toc-file-organization" class="nav-link" data-scroll-target="#file-organization">File Organization</a></li>
+  <li><a href="#template-naming-convention" id="toc-template-naming-convention" class="nav-link" data-scroll-target="#template-naming-convention">Template Naming Convention</a></li>
+  </ul></li>
+  <li><a href="#how-to-use-this-system" id="toc-how-to-use-this-system" class="nav-link" data-scroll-target="#how-to-use-this-system">How to Use This System</a>
+  <ul class="collapse">
+  <li><a href="#for-creating-new-content" id="toc-for-creating-new-content" class="nav-link" data-scroll-target="#for-creating-new-content">For Creating New Content</a></li>
+  <li><a href="#for-formatting-existing-content" id="toc-for-formatting-existing-content" class="nav-link" data-scroll-target="#for-formatting-existing-content">For Formatting Existing Content</a></li>
+  <li><a href="#for-communicating-with-ai" id="toc-for-communicating-with-ai" class="nav-link" data-scroll-target="#for-communicating-with-ai">For Communicating with AI</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+<section id="reveal.js-slide-templates-reference" class="level1">
+<h1>Reveal.js Slide Templates Reference</h1>
+<section id="smua-4500-smart-cities-course" class="level2">
+<h2 class="anchored" data-anchor-id="smua-4500-smart-cities-course">SMUA 4500 Smart Cities Course</h2>
+<p>This document provides a hierarchical template system: - <strong>Base Templates</strong>: Core slide structures (column layouts, etc.) - <strong>Add-on Elements</strong>: Modifiers that enhance any base template - <strong>Specialized Slides</strong>: Pre-configured combinations for specific purposes</p>
+<p>Reference templates using: <code>Category-Letter</code> (e.g., Content-A, Interactive-B)</p>
+<hr>
+</section>
+<section id="table-of-contents" class="level2">
+<h2 class="anchored" data-anchor-id="table-of-contents">Table of Contents</h2>
+<ol type="1">
+<li><a href="#document-structure">Document Structure</a></li>
+<li><a href="#base-templates">Base Templates</a></li>
+<li><a href="#add-on-elements">Add-on Elements</a></li>
+<li><a href="#specialized-slides">Specialized Slides</a></li>
+<li><a href="#quick-reference">Quick Reference</a></li>
+</ol>
+<hr>
+</section>
+<section id="complete-template-reference" class="level2">
+<h2 class="anchored" data-anchor-id="complete-template-reference">Complete Template Reference</h2>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 32%">
+<col style="width: 36%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Base Templates</th>
+<th>Add-on Elements</th>
+<th>Specialized Slides</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Content-A</strong>: Single Column</td>
+<td>Background Color</td>
+<td><strong>Special-A</strong>: Mermaid Diagram</td>
+</tr>
+<tr class="even">
+<td><strong>Content-B</strong>: Two-Column</td>
+<td>Background Image</td>
+<td><strong>Special-B</strong>: Comparison Table</td>
+</tr>
+<tr class="odd">
+<td><strong>Content-C</strong>: Three-Column</td>
+<td>Gradient Background</td>
+<td><strong>Special-C</strong>: Quote with Context</td>
+</tr>
+<tr class="even">
+<td><strong>Content-D</strong>: Single Column + Image</td>
+<td>Fragment (Sequential Reveal)</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Header-A</strong>: Session Roadmap</td>
+<td>Highlight</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Divider-A</strong>: Section Break</td>
+<td>Fitted Text</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Divider-B</strong>: Full-Screen Text</td>
+<td>Absolute Positioned Images</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Interactive-A</strong>: Tabbed Panels</td>
+<td>Stretched Media</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Interactive-B</strong>: Embedded Tool</td>
+<td>Non-Incremental</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Workshop-A</strong>: Activity Introduction</td>
+<td>Callout Box</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Workshop-B</strong>: Step-by-Step Instructions</td>
+<td>Block Quote</td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Workshop-C</strong>: Focus Statement</td>
+<td>Notes (always bullets)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Usage:</strong> Combine one Base Template + any number of Add-on Elements to create your slide. Specialized Slides are pre-configured combinations for specific use cases.</p>
+<hr>
+</section>
+<section id="document-structure" class="level2">
+<h2 class="anchored" data-anchor-id="document-structure">Document Structure</h2>
+<section id="yaml-header-standard" class="level3">
+<h3 class="anchored" data-anchor-id="yaml-header-standard">YAML Header (Standard)</h3>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at">  </span><span class="st">"Your Title Here"</span><span class="at"> </span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">subtitle</span><span class="kw">:</span><span class="at"> Your subtitle here</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="fu">format</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">    </span><span class="fu">revealjs</span><span class="kw">:</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">slide-number</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">theme</span><span class="kw">:</span><span class="at"> ../oslomet-pres.scss</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">center</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">transition</span><span class="kw">:</span><span class="at"> fade</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">footer</span><span class="kw">:</span><span class="at"> </span><span class="st">"SMUA 4500 Smart Cities - Your Name ©"</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="at">        </span><span class="fu">incremental</span><span class="kw">:</span><span class="at"> </span><span class="ch">true</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu">title-slide-attributes</span><span class="kw">:</span><span class="at"> </span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">data-background-image</span><span class="kw">:</span><span class="at"> img/your-image.jpg</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="at">  </span><span class="fu">data-background-opacity</span><span class="kw">:</span><span class="at"> </span><span class="st">"0.5"</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Required at the start of every presentation file - Adjust title, subtitle, footer, background image as needed - <code>incremental: true</code> makes bullets appear one at a time (can override per slide)</p>
+<hr>
+</section>
+</section>
+<section id="base-templates" class="level2">
+<h2 class="anchored" data-anchor-id="base-templates">Base Templates</h2>
+<p>These are fundamental slide structures. Combine them with add-on elements for more complex slides.</p>
+<hr>
+<section id="content-a-single-column-standard" class="level3">
+<h3 class="anchored" data-anchor-id="content-a-single-column-standard">Content-A: Single Column (Standard)</h3>
+<p><strong>Purpose:</strong> Basic content slide with bullets or paragraphs</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Your Slide Title</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Main point one</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Main point two</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Main point three</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="ss">    * </span>Nested sub-point</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="ss">    * </span>Another sub-point</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Teaching point about this content</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connection to course objectives</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Timing or pacing guidance</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - General information delivery - Simple lists or concepts - When visual elements aren’t needed</p>
+<p><strong>Default behavior:</strong> - Bullets appear incrementally (one at a time) - Centered on slide</p>
+<hr>
+</section>
+<section id="content-b-two-column-layout" class="level3">
+<h3 class="anchored" data-anchor-id="content-b-two-column-layout">Content-B: Two-Column Layout</h3>
+<p><strong>Purpose:</strong> Side-by-side content (text/text, text/image, etc.)</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>::: {.column width="60%"}</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>Left column content here:</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Bullet points</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Paragraphs</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Any content</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>::: {.column width="40%"}</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>Right column content:</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>More bullets</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Or an image</span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Or a quote</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>::::::</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Why this two-column structure?</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to present left vs right</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connections between columns</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Comparisons or contrasts - Text with supporting image - Quote with book cover/portrait - Before/after scenarios</p>
+<p><strong>Variations:</strong> - Adjust column widths (50/50, 60/40, 70/30, etc.) - Can contain any content type in either column</p>
+<hr>
+</section>
+<section id="content-c-three-column-layout" class="level3">
+<h3 class="anchored" data-anchor-id="content-c-three-column-layout">Content-C: Three-Column Layout</h3>
+<p><strong>Purpose:</strong> Triple comparison or categorization</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>::: {.column width="33%"}</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="fu">### Category One</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point A</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point B</span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>::: {.column width="33%"}</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### Category Two</span></span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point C</span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point D</span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>::: {.column width="33%"}</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a><span class="fu">### Category Three</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point E</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Point F</span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>::::::</span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Relationship between three categories</span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Order of presentation</span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key distinctions to emphasize</span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Comparing three approaches/models/concepts - Past/Present/Future timelines - Three-part frameworks</p>
+<hr>
+</section>
+<section id="content-d-single-column-image" class="level3">
+<h3 class="anchored" data-anchor-id="content-d-single-column-image">Content-D: Single Column + Image</h3>
+<p><strong>Purpose:</strong> Centered content with supporting visual</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>Your main text content here as a paragraph or bullets.</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/your-image.png)</span>{height="400px" fig-alt="Description"}</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How the image supports the content</span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What to point out in the image</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connection to next slide</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Concept explanation with diagram - Process with visual representation - Example with screenshot</p>
+<p><strong>Image positioning:</strong> - Image appears below text by default - Use add-on elements for other positions</p>
+<hr>
+</section>
+<section id="header-a-session-roadmap" class="level3">
+<h3 class="anchored" data-anchor-id="header-a-session-roadmap">Header-A: Session Roadmap</h3>
+<p><strong>Purpose:</strong> Presentation opening that outlines structure</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Session Roadmap {background-image="img/your-background.jpg" background-opacity="0.5"} </span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Part I: First Major Section**</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Subsection detail</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Subsection detail</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Part II: Second Major Section**</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>Subsection detail</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>**Workshop I:** Activity name</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>**Part III: Third Major Section**</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="ss">    - </span>**Workshop II:** Activity name</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Flow and logic of session structure</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Time allocation per section</span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How sections build on each other</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - First content slide of presentation - Sets expectations for session</p>
+<p><strong>Key features:</strong> - Bold section headers - Workshop activities highlighted - Background image for context</p>
+<hr>
+</section>
+<section id="divider-a-section-break-minimalist" class="level3">
+<h3 class="anchored" data-anchor-id="divider-a-section-break-minimalist">Divider-A: Section Break (Minimalist)</h3>
+<p><strong>Purpose:</strong> Clean transition between major sections</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># The Main Section Title</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>_Part I_</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Transitioning between major parts - Resetting audience attention - Creating dramatic pause</p>
+<p><strong>No notes needed</strong> - this is purely structural</p>
+<hr>
+</section>
+<section id="divider-b-full-screen-text" class="level3">
+<h3 class="anchored" data-anchor-id="divider-b-full-screen-text">Divider-B: Full-Screen Text</h3>
+<p><strong>Purpose:</strong> Dramatic announcement or transition</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Workshop</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>::: {.r-fit-text}</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>Mapping your wicked problem</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Workshop announcements - Major topic changes - Key questions or provocations</p>
+<p><strong>Key features:</strong> - <code>.r-fit-text</code> scales text to fill screen - Maximum visual impact</p>
+<hr>
+</section>
+<section id="interactive-a-tabbed-panels" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-a-tabbed-panels">Interactive-A: Tabbed Panels</h3>
+<p><strong>Purpose:</strong> Multiple related content sections without multiple slides</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title {background-color="#ffffff"}</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>::: {.panel-tabset .nonincremental}</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">### First Tab Name</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Content for first tab</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Point one</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Point two</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="fu">### Second Tab Name</span></span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Content for second tab</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Different perspective</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Related information</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a><span class="fu">### Third Tab Name</span></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Content for third tab</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Additional examples</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Alternative view</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to navigate tabs during presentation</span>
+<span id="cb9-22"><a href="#cb9-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What each tab represents</span>
+<span id="cb9-23"><a href="#cb9-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>When to use each section</span>
+<span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key comparisons between tabs</span>
+<span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Case study variations - System archetypes examples - Multiple perspectives on same topic - Before/during/after scenarios</p>
+<p><strong>Key features:</strong> - <code>.panel-tabset</code> creates clickable navigation - <code>.nonincremental</code> shows all content in each tab at once - Each <code>###</code> becomes a tab label</p>
+<hr>
+</section>
+<section id="interactive-b-embedded-tool" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-b-embedded-tool">Interactive-B: Embedded Tool</h3>
+<p><strong>Purpose:</strong> Live web-based tool in presentation</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tool Name {background-color="#ffffff"}</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">_tool name_</span><span class="co">](https://tool-website.com)</span></span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> width</span><span class="op">=</span><span class="st">"800"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"600"</span><span class="ot"> frameborder</span><span class="op">=</span><span class="st">"0"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"https://tool-url-here"</span><span class="dt">&gt;&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Purpose of using this tool in class</span>
+<span id="cb10-8"><a href="#cb10-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What students should do/observe</span>
+<span id="cb10-9"><a href="#cb10-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to demo or facilitate interaction</span>
+<span id="cb10-10"><a href="#cb10-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Fallback if tool doesn't load</span>
+<span id="cb10-11"><a href="#cb10-11" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Interactive simulations - Mapping/diagramming tools - Live data visualizations</p>
+<p><strong>Key features:</strong> - White background prevents distraction - Link to tool provided above iframe - Adjust dimensions as needed</p>
+<hr>
+</section>
+<section id="workshop-a-activity-introduction" class="level3">
+<h3 class="anchored" data-anchor-id="workshop-a-activity-introduction">Workshop-A: Activity Introduction</h3>
+<p><strong>Purpose:</strong> Clear workshop setup and goals</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Workshop: Activity Name {.nonincremental background-color="#FFDC00"}</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>_Tool: [tool-website.com](https://tool-website.com)_</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>::: {.callout title="The Mission"}</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>Brief, clear description of what students will accomplish.</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Learning objectives for this activity</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Expected duration</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How it connects to project work</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What success looks like</span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Start of any hands-on activity - Workshop kickoff - Group exercise introduction</p>
+<p><strong>Key features:</strong> - Yellow background signals “active learning” - <code>.nonincremental</code> shows all info immediately - <code>.callout</code> box for clear mission</p>
+<hr>
+</section>
+<section id="workshop-b-step-by-step-instructions" class="level3">
+<h3 class="anchored" data-anchor-id="workshop-b-step-by-step-instructions">Workshop-B: Step-by-Step Instructions</h3>
+<p><strong>Purpose:</strong> Multi-phase workshop guidance</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Workshop: Activity Name {.nonincremental background-color="#FFDC00"}</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="fu">### 1. First Phase</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Action:** What to do</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Goal:** What this achieves</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Consideration:** What to think about</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="fu">### 2. Second Phase</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Action:** Next steps</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Goal:** Purpose</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Consideration:** Key questions</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb12-17"><a href="#cb12-17" aria-hidden="true" tabindex="-1"></a>::::::</span>
+<span id="cb12-18"><a href="#cb12-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-19"><a href="#cb12-19" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb12-20"><a href="#cb12-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Timing for each phase</span>
+<span id="cb12-21"><a href="#cb12-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Common student questions</span>
+<span id="cb12-22"><a href="#cb12-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to circulate and support</span>
+<span id="cb12-23"><a href="#cb12-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What to watch for</span>
+<span id="cb12-24"><a href="#cb12-24" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Multi-step activities - Sequenced workshop tasks - Phased group work</p>
+<p><strong>Key features:</strong> - Numbered phases for clarity - Bold labels for action/goal/consideration - Two-column keeps instructions visible</p>
+<hr>
+</section>
+<section id="workshop-c-focus-statement" class="level3">
+<h3 class="anchored" data-anchor-id="workshop-c-focus-statement">Workshop-C: Focus Statement</h3>
+<p><strong>Purpose:</strong> Clarify workshop scope and boundaries</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Workshop: What we are doing {background-color="#FFDC00"}</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Focus on the **Logic**, not the math.</span></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 🎯 The Focus</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Element One:** What we're doing</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Element Two:** Key priority</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Element Three:** Main goal</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a><span class="fu">#### 🛑 Not Today</span></span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Out of Scope One:** What to skip</span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Out of Scope Two:** Save for later</span>
+<span id="cb13-16"><a href="#cb13-16" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>**Out of Scope Three:** Ignore this</span>
+<span id="cb13-17"><a href="#cb13-17" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb13-18"><a href="#cb13-18" aria-hidden="true" tabindex="-1"></a>::::::</span>
+<span id="cb13-19"><a href="#cb13-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-20"><a href="#cb13-20" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb13-21"><a href="#cb13-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Why these boundaries matter</span>
+<span id="cb13-22"><a href="#cb13-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Managing student expectations</span>
+<span id="cb13-23"><a href="#cb13-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Common scope creep to prevent</span>
+<span id="cb13-24"><a href="#cb13-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>What comes in future sessions</span>
+<span id="cb13-25"><a href="#cb13-25" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Before complex activities - When scope confusion is likely - Setting realistic expectations</p>
+<p><strong>Key features:</strong> - Quote establishes mindset - Emoji icons for visual scanning - Fragmented reveal for emphasis</p>
+<hr>
+</section>
+</section>
+<section id="add-on-elements" class="level2">
+<h2 class="anchored" data-anchor-id="add-on-elements">Add-on Elements</h2>
+<p>These modifiers enhance any base template. Combine multiple add-ons as needed.</p>
+<hr>
+<section id="add-on-background-color" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-background-color">Add-on: Background Color</h3>
+<p><strong>Purpose:</strong> Emphasize slides with brand colors</p>
+<p><strong>Syntax:</strong> Add to slide title line</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title {background-color="#FF8100"}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Available colors:</strong> - <strong>Orange</strong> <code>#FF8100</code>: Critical concepts, warnings, “watch out” - <strong>Yellow</strong> <code>#FFDC00</code>: Workshops, active learning (default for Workshop templates) - <strong>Cyan</strong> <code>#40E4FF</code>: Core concepts, frameworks, foundations - <strong>White</strong> <code>#ffffff</code>: Tools, embedded content, clean backgrounds - <strong>Dark</strong> <code>#2b2b2b</code>: Professional, serious, technical content</p>
+<p><strong>When to use:</strong> - Content-A through Content-D: Add visual emphasis - Divider slides: Strengthen section break - Already included in Workshop templates by default</p>
+<hr>
+</section>
+<section id="add-on-background-image" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-background-image">Add-on: Background Image</h3>
+<p><strong>Purpose:</strong> Atmospheric or contextual imagery behind content</p>
+<p><strong>Syntax:</strong> Add to slide title line</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title {background-image="img/your-image.jpg" background-opacity="0.5"}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Opacity guidelines:</strong> - <code>0.3</code>: Very subtle, text-heavy slides - <code>0.5</code>: Standard balance (most common) - <code>0.7</code>: Prominent image, minimal text</p>
+<p><strong>When to use:</strong> - Header-A: Contextual imagery for roadmap - Content slides: When image reinforces concept - Quote slides: Author context or subject matter</p>
+<p><strong>Best practices:</strong> - Use images that don’t compete with text - Maintain opacity at 0.5 or below for readability - Ensure sufficient contrast</p>
+<hr>
+</section>
+<section id="add-on-gradient-background" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-gradient-background">Add-on: Gradient Background</h3>
+<p><strong>Purpose:</strong> Modern, clean background for data/tables</p>
+<p><strong>Syntax:</strong> Add to slide title line</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb16"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## {background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)"}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Tables or data matrices - Content that needs visual separation - Modern, tech-focused content</p>
+<p><strong>Note:</strong> Leave title empty (<code>##</code> with no text) for cleaner look</p>
+<hr>
+</section>
+<section id="add-on-fragment-sequential-reveal" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-fragment-sequential-reveal">Add-on: Fragment (Sequential Reveal)</h3>
+<p><strong>Purpose:</strong> Make elements appear one at a time</p>
+<p><strong>Syntax:</strong> Wrap content in fragment container</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>::: {.fragment}</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>Content appears on click</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Common uses:</strong> - Individual columns in multi-column layouts - Images or diagrams - Emphasis text or conclusions - Step-by-step reveals</p>
+<p><strong>Example with Content-B:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb18"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Comparison</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>First concept appears</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>Then second concept</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a>::::::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="add-on-highlight" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-highlight">Add-on: Highlight</h3>
+<p><strong>Purpose:</strong> Emphasize text after initial reveal</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>:::{.fragment .highlight-red}</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>**This text gets highlighted**</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Available colors:</strong> - <code>.highlight-red</code>: Critical points, warnings - <code>.highlight-blue</code>: Information, analysis - <code>.highlight-green</code>: Positive, success, growth - <code>.highlight-yellow</code>: Attention, important</p>
+<p><strong>When to use:</strong> - After explaining context, highlight key takeaway - Draw attention to specific concept - Emphasize conclusions or implications</p>
+<hr>
+</section>
+<section id="add-on-fitted-text" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-fitted-text">Add-on: Fitted Text</h3>
+<p><strong>Purpose:</strong> Scale text to fill available space</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>::: {.r-fit-text}</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>TEXT SCALES TO FIT SCREEN</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Divider-B: Already included - Emphasis statements - Key questions or provocations - Workshop titles</p>
+<p><strong>Works with:</strong> - Short phrases (2-8 words) - Single sentences - Numbers or statistics</p>
+<hr>
+</section>
+<section id="add-on-absolute-positioned-images" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-absolute-positioned-images">Add-on: Absolute Positioned Images</h3>
+<p><strong>Purpose:</strong> Images that overlay specific screen positions</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="al">![label](img/image.png)</span>{.fragment .absolute top=200 left=10 width="300"}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Position parameters:</strong> - <code>top=X</code>: Pixels from top - <code>left=X</code>: Pixels from left - <code>right=X</code>: Pixels from right - <code>width="X"</code>: Image width</p>
+<p><strong>When to use:</strong> - Before/after comparisons (images replace each other) - Examples appearing over categories - Revealing multiple related visuals</p>
+<p><strong>Example - overlapping reveals:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Categories {background-color="#FF8100"}</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a><span class="fu">### Natural Systems</span></span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a><span class="fu">### Technical Systems</span></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>::::::</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a><span class="al">![forest](img/forest.png)</span>{.fragment .absolute top=200 left=10 width="300"}</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a><span class="al">![engine](img/engine.png)</span>{.fragment .absolute top=200 right=150 width="300"}</span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a><span class="al">![city](img/city.png)</span>{.fragment .absolute top=200 left=10 width="300"}</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a><span class="al">![chip](img/chip.png)</span>{.fragment .absolute top=200 right=150 width="300"}</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Note:</strong> - Later images can occupy same position as earlier ones - Use <code>.fragment</code> to control timing - Test positions for your screen size</p>
+<hr>
+</section>
+<section id="add-on-stretched-media" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-stretched-media">Add-on: Stretched Media</h3>
+<p><strong>Purpose:</strong> Video or image fills available vertical space</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb23"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>:::{.r-stretch} </span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Embedded videos - Large demonstration images - Interactive visualizations</p>
+<p><strong>Note:</strong> - Maintains aspect ratio - Adjusts to available space after title - Works with video, images, iframes</p>
+<hr>
+</section>
+<section id="add-on-non-incremental" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-non-incremental">Add-on: Non-Incremental</h3>
+<p><strong>Purpose:</strong> Override default incremental bullets</p>
+<p><strong>Syntax:</strong> Add to slide title</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb24"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title {.nonincremental}</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Workshop templates: Already included (students need all steps) - Reference slides: Full context needed immediately - Tables: All data visible at once - Interactive-A: Tab navigation requires visibility</p>
+<p><strong>Already included in:</strong> - Workshop-A, Workshop-B, Workshop-C - Interactive-A (tabbed panels)</p>
+<hr>
+</section>
+<section id="add-on-callout-box" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-callout-box">Add-on: Callout Box</h3>
+<p><strong>Purpose:</strong> Highlight important information or goals</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>::: {.callout title="Your Title"}</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>Your highlighted content here</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Workshop goals or missions - Key definitions - Important warnings - Learning objectives</p>
+<p><strong>Already included in:</strong> - Workshop-A (for mission statement)</p>
+<hr>
+</section>
+<section id="add-on-block-quote" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-block-quote">Add-on: Block Quote</h3>
+<p><strong>Purpose:</strong> Feature scholarly quotes or important statements</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Your quotation here that can span multiple lines."</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="at">&gt;</span></span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; — *Author Name, Year*</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Content-B: Quote in one column, context in other - Scholarly references - Defining concepts through experts - Historical context</p>
+<p><strong>Formatting:</strong> - Empty line with <code>&gt;</code> before attribution - Attribution in italics with em dash</p>
+<hr>
+</section>
+<section id="add-on-notes-always-bullets" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-notes-always-bullets">Add-on: Notes (Always Bullets)</h3>
+<p><strong>Purpose:</strong> Speaker notes for every slide</p>
+<p><strong>Syntax:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>First teaching point or context</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connection to course objectives</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Anticipated student questions</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Timing or pacing guidance</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Links to other concepts or slides</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Every slide should include notes with:</strong> - Why this content matters (pedagogy) - How to present it (delivery) - What to emphasize (key points) - When/how to pause for discussion - Connections to assignments or other sessions</p>
+<p><strong>Always use bullets</strong> - no paragraph format in notes</p>
+<hr>
+</section>
+</section>
+<section id="specialized-slides" class="level2">
+<h2 class="anchored" data-anchor-id="specialized-slides">Specialized Slides</h2>
+<p>Pre-configured combinations for specific use cases.</p>
+<hr>
+<section id="special-a-mermaid-diagram" class="level3">
+<h3 class="anchored" data-anchor-id="special-a-mermaid-diagram">Special-A: Mermaid Diagram</h3>
+<p><strong>Purpose:</strong> Process flows, causal loops, conceptual relationships</p>
+<p><strong>Base:</strong> Content-A (single column) + Mermaid code block</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a><span class="in">```{mermaid}</span></span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>flowchart LR</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a>subgraph G1[<span class="ot">"</span><span class="st">Section Label</span><span class="ot">"</span>]</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>    A[<span class="ot">"</span><span class="st">Step One&lt;br/&gt;Description</span><span class="ot">"</span>]</span>
+<span id="cb28-8"><a href="#cb28-8" aria-hidden="true" tabindex="-1"></a>    B[<span class="ot">"</span><span class="st">Step Two&lt;br/&gt;Description</span><span class="ot">"</span>]</span>
+<span id="cb28-9"><a href="#cb28-9" aria-hidden="true" tabindex="-1"></a>end</span>
+<span id="cb28-10"><a href="#cb28-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-11"><a href="#cb28-11" aria-hidden="true" tabindex="-1"></a>C[<span class="ot">"</span><span class="st">Next Step</span><span class="ot">"</span>]</span>
+<span id="cb28-12"><a href="#cb28-12" aria-hidden="true" tabindex="-1"></a>D[<span class="ot">"</span><span class="st">Following Step</span><span class="ot">"</span>]</span>
+<span id="cb28-13"><a href="#cb28-13" aria-hidden="true" tabindex="-1"></a>E(((<span class="ot">"</span><span class="st">Final&lt;br/&gt;Outcome</span><span class="ot">"</span>)))</span>
+<span id="cb28-14"><a href="#cb28-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-15"><a href="#cb28-15" aria-hidden="true" tabindex="-1"></a>A ==&gt; B</span>
+<span id="cb28-16"><a href="#cb28-16" aria-hidden="true" tabindex="-1"></a>B --&gt; C</span>
+<span id="cb28-17"><a href="#cb28-17" aria-hidden="true" tabindex="-1"></a>C --&gt; D</span>
+<span id="cb28-18"><a href="#cb28-18" aria-hidden="true" tabindex="-1"></a>D --&gt; E</span>
+<span id="cb28-19"><a href="#cb28-19" aria-hidden="true" tabindex="-1"></a>D -..-&gt; B </span>
+<span id="cb28-20"><a href="#cb28-20" aria-hidden="true" tabindex="-1"></a>E -.-&gt; A</span>
+<span id="cb28-21"><a href="#cb28-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-22"><a href="#cb28-22" aria-hidden="true" tabindex="-1"></a>classDef yellow fill:<span class="co">#FFDC00,color:#2b2b2b,stroke-width:0px;</span></span>
+<span id="cb28-23"><a href="#cb28-23" aria-hidden="true" tabindex="-1"></a>classDef gray fill:<span class="co">#999999,color:#ffffff,stroke-width:0px;</span></span>
+<span id="cb28-24"><a href="#cb28-24" aria-hidden="true" tabindex="-1"></a>style G1 fill:<span class="co">#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px</span></span>
+<span id="cb28-25"><a href="#cb28-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-26"><a href="#cb28-26" aria-hidden="true" tabindex="-1"></a>class A,B yellow</span>
+<span id="cb28-27"><a href="#cb28-27" aria-hidden="true" tabindex="-1"></a>class C,D,E gray</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<pre><code>
+::: {.notes}
+- What the diagram represents
+- Key relationships to emphasize
+- How to walk through the flow
+- Connection to systems thinking concepts
+:::</code></pre>
+<p><strong>When to use:</strong> - System dynamics diagrams - Process flows - Causal loop diagrams - Conceptual frameworks</p>
+<p><strong>Styling:</strong> - Use brand colors (yellow, orange, cyan) - <code>&lt;br/&gt;</code> for line breaks in nodes - Different arrow types for different relationships</p>
+<hr>
+</section>
+<section id="special-b-comparison-table" class="level3">
+<h3 class="anchored" data-anchor-id="special-b-comparison-table">Special-B: Comparison Table</h3>
+<p><strong>Purpose:</strong> Matrix comparing multiple models/approaches</p>
+<p><strong>Base:</strong> Content-A (single column) + Gradient background + Fitted text</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## {background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)"}</span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a>Explanatory text above table</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>:::{.r-fit-text}</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Header 1 <span class="pp">|</span> Header 2 <span class="pp">|</span> Header 3 <span class="pp">|</span> Header 4 <span class="pp">|</span> Header 5 <span class="pp">|</span></span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a><span class="pp">|----------|----------|----------|----------|----------|</span></span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Data A   <span class="pp">|</span> Data B   <span class="pp">|</span> Data C   <span class="pp">|</span> Data D   <span class="pp">|</span> Data E   <span class="pp">|</span></span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Data F   <span class="pp">|</span> Data G   <span class="pp">|</span> Data H   <span class="pp">|</span> Data I   <span class="pp">|</span> Data J   <span class="pp">|</span></span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to read the table</span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key comparisons to highlight</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pattern or trend to notice</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connection to decision-making</span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Model comparisons - Framework matrices - Strengths/weaknesses - Capability charts</p>
+<p><strong>Features:</strong> - No title (cleaner presentation) - <code>.r-fit-text</code> scales table to screen - Gradient background for visual interest</p>
+<hr>
+</section>
+<section id="special-c-quote-with-context" class="level3">
+<h3 class="anchored" data-anchor-id="special-c-quote-with-context">Special-C: Quote with Context</h3>
+<p><strong>Purpose:</strong> Scholarly quote with background imagery</p>
+<p><strong>Base:</strong> Content-B (two-column) + Background image + Block quote</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide Title {background-image="img/context-image.jpg" background-opacity="0.5"}</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>_Author Name_</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>:::: {.columns}</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>Contextual setup:</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Related point one</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Related point two</span>
+<span id="cb31-10"><a href="#cb31-10" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb31-11"><a href="#cb31-11" aria-hidden="true" tabindex="-1"></a>::: {.column}</span>
+<span id="cb31-12"><a href="#cb31-12" aria-hidden="true" tabindex="-1"></a>Main concept <span class="co">[</span><span class="ot">term</span><span class="co">]()</span>:</span>
+<span id="cb31-13"><a href="#cb31-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-14"><a href="#cb31-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key explanation</span>
+<span id="cb31-15"><a href="#cb31-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Further elaboration</span>
+<span id="cb31-16"><a href="#cb31-16" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb31-17"><a href="#cb31-17" aria-hidden="true" tabindex="-1"></a>:::: </span>
+<span id="cb31-18"><a href="#cb31-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb31-19"><a href="#cb31-19" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb31-20"><a href="#cb31-20" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Who the author is and their significance</span>
+<span id="cb31-21"><a href="#cb31-21" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Historical/theoretical context</span>
+<span id="cb31-22"><a href="#cb31-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Why this quote matters for smart cities</span>
+<span id="cb31-23"><a href="#cb31-23" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>How to connect to student projects</span>
+<span id="cb31-24"><a href="#cb31-24" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>When to use:</strong> - Introducing key theoretical concepts - Scholarly foundations - Historical perspectives - Defining complex terms through experts</p>
+<p><strong>Features:</strong> - Author name in italics below title - Background image provides context - Empty link syntax <code>[term]()</code> for visual emphasis</p>
+<hr>
+</section>
+</section>
+<section id="quick-reference" class="level2">
+<h2 class="anchored" data-anchor-id="quick-reference">Quick Reference</h2>
+<section id="base-template-selection" class="level3">
+<h3 class="anchored" data-anchor-id="base-template-selection">Base Template Selection</h3>
+<p><strong>For basic content delivery:</strong> - <strong>Content-A</strong>: Single column, standard bullets - <strong>Content-B</strong>: Two columns (text/text, text/image) - <strong>Content-C</strong>: Three columns (comparisons, categories) - <strong>Content-D</strong>: Single column with supporting image</p>
+<p><strong>For structure:</strong> - <strong>Header-A</strong>: Session roadmap/opening - <strong>Divider-A</strong>: Clean section break - <strong>Divider-B</strong>: Dramatic full-screen transition</p>
+<p><strong>For interaction:</strong> - <strong>Interactive-A</strong>: Tabbed panels (multiple perspectives) - <strong>Interactive-B</strong>: Embedded web tools</p>
+<p><strong>For activities:</strong> - <strong>Workshop-A</strong>: Activity introduction and mission - <strong>Workshop-B</strong>: Step-by-step instructions - <strong>Workshop-C</strong>: Focus and scope clarification</p>
+<p><strong>For special cases:</strong> - <strong>Special-A</strong>: Mermaid diagrams/flows - <strong>Special-B</strong>: Comparison tables - <strong>Special-C</strong>: Scholarly quotes with context</p>
+<hr>
+</section>
+<section id="add-on-element-quick-reference" class="level3">
+<h3 class="anchored" data-anchor-id="add-on-element-quick-reference">Add-on Element Quick Reference</h3>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 30%">
+<col style="width: 30%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Add-on</th>
+<th>Syntax</th>
+<th>Use Case</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Background Color</strong></td>
+<td><code>{background-color="#FF8100"}</code></td>
+<td>Emphasis, categorization</td>
+</tr>
+<tr class="even">
+<td><strong>Background Image</strong></td>
+<td><code>{background-image="img/x.jpg" background-opacity="0.5"}</code></td>
+<td>Context, atmosphere</td>
+</tr>
+<tr class="odd">
+<td><strong>Gradient</strong></td>
+<td><code>{background-gradient="linear-gradient(...)"}</code></td>
+<td>Modern look, tables</td>
+</tr>
+<tr class="even">
+<td><strong>Fragment</strong></td>
+<td><code>::: {.fragment}</code></td>
+<td>Sequential reveals</td>
+</tr>
+<tr class="odd">
+<td><strong>Highlight</strong></td>
+<td><code>.highlight-red</code></td>
+<td>Emphasize after reveal</td>
+</tr>
+<tr class="even">
+<td><strong>Fitted Text</strong></td>
+<td><code>::: {.r-fit-text}</code></td>
+<td>Scale text to screen</td>
+</tr>
+<tr class="odd">
+<td><strong>Absolute Position</strong></td>
+<td><code>{.fragment .absolute top=X left=Y}</code></td>
+<td>Overlay images</td>
+</tr>
+<tr class="even">
+<td><strong>Stretched Media</strong></td>
+<td><code>::: {.r-stretch}</code></td>
+<td>Videos, large images</td>
+</tr>
+<tr class="odd">
+<td><strong>Non-Incremental</strong></td>
+<td><code>{.nonincremental}</code></td>
+<td>Show all bullets at once</td>
+</tr>
+<tr class="even">
+<td><strong>Callout</strong></td>
+<td><code>::: {.callout title="X"}</code></td>
+<td>Highlight key info</td>
+</tr>
+<tr class="odd">
+<td><strong>Block Quote</strong></td>
+<td><code>&gt; "Quote" — *Author*</code></td>
+<td>Scholarly citations</td>
+</tr>
+<tr class="even">
+<td><strong>Notes</strong></td>
+<td><code>::: {.notes}</code></td>
+<td>Speaker notes (always bullets)</td>
+</tr>
+</tbody>
+</table>
+<hr>
+</section>
+<section id="common-combinations" class="level3">
+<h3 class="anchored" data-anchor-id="common-combinations">Common Combinations</h3>
+<p><strong>Content-B + Background Color + Fragment</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Comparison {background-color="#40E4FF"}</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>First approach</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>::: {.column .fragment}</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>Second approach</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>::::::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Content-A + Background Image + Highlight</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb33"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Key Concept {background-image="img/x.jpg" background-opacity="0.5"}</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>Context explanation here</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>:::{.fragment .highlight-red}</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>**Critical takeaway**</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Content-B + Quote + Image + Notes</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb34"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Theory {background-image="img/book.jpg" background-opacity="0.3"}</span></span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>:::::: {.columns}</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a>::: {.column width="60%"}</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; "Important quote"</span></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; — *Author, Year*</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a><span class="at">::: {.column width="40%"}</span></span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a><span class="al">![](img/portrait.png)</span><span class="at">{height="400px"}</span></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a><span class="at">::::::</span></span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Context for quote</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key implications</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Connection to course</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<hr>
+</section>
+<section id="decision-tree" class="level3">
+<h3 class="anchored" data-anchor-id="decision-tree">Decision Tree</h3>
+<pre class="mermaid"><code>flowchart TD
+    Start([What's the primary&lt;br/&gt;purpose of this slide?])
+    
+    Start --&gt; Info[Delivering&lt;br/&gt;Information]
+    Start --&gt; Structure[Structuring&lt;br/&gt;Presentation]
+    Start --&gt; Engage[Engaging&lt;br/&gt;Students]
+    Start --&gt; Special[Specialized&lt;br/&gt;Content]
+    
+    Info --&gt; InfoQ{What kind?}
+    InfoQ --&gt; |One main idea| CA[Content-A]
+    InfoQ --&gt; |Comparison or&lt;br/&gt;text + image| CB[Content-B]
+    InfoQ --&gt; |Three categories| CC[Content-C]
+    InfoQ --&gt; |Concept + diagram| CD[Content-D]
+    
+    Structure --&gt; StructQ{Which type?}
+    StructQ --&gt; |Opening/roadmap| HA[Header-A]
+    StructQ --&gt; |Clean break| DA[Divider-A]
+    StructQ --&gt; |Dramatic transition| DB[Divider-B]
+    
+    Engage --&gt; EngageQ{What kind?}
+    EngageQ --&gt; |Multiple perspectives| IA[Interactive-A]
+    EngageQ --&gt; |Live tool| IB[Interactive-B]
+    EngageQ --&gt; |Starting activity| WA[Workshop-A]
+    EngageQ --&gt; |Giving instructions| WB[Workshop-B]
+    EngageQ --&gt; |Setting boundaries| WC[Workshop-C]
+    
+    Special --&gt; SpecialQ{What content?}
+    SpecialQ --&gt; |Process flow| SA[Special-A&lt;br/&gt;Mermaid]
+    SpecialQ --&gt; |Data matrix| SB[Special-B&lt;br/&gt;Table]
+    SpecialQ --&gt; |Scholarly quote| SC[Special-C&lt;br/&gt;Quote]
+    
+    CA --&gt; Enhance[Then add enhancements:]
+    CB --&gt; Enhance
+    CC --&gt; Enhance
+    CD --&gt; Enhance
+    HA --&gt; Enhance
+    DA --&gt; Enhance
+    DB --&gt; Enhance
+    IA --&gt; Enhance
+    IB --&gt; Enhance
+    WA --&gt; Enhance
+    WB --&gt; Enhance
+    WC --&gt; Enhance
+    SA --&gt; Enhance
+    SB --&gt; Enhance
+    SC --&gt; Enhance
+    
+    Enhance --&gt; E1[• Emphasis?&lt;br/&gt;→ Add background color]
+    Enhance --&gt; E2[• Context?&lt;br/&gt;→ Add background image]
+    Enhance --&gt; E3[• Sequential reveal?&lt;br/&gt;→ Add fragments]
+    Enhance --&gt; E4[• Highlighting?&lt;br/&gt;→ Add highlight]
+    Enhance --&gt; E5[• All visible at once?&lt;br/&gt;→ Add non-incremental]
+    
+    classDef startStyle fill:#40E4FF,color:#2b2b2b,stroke-width:2px
+    classDef categoryStyle fill:#FF8100,color:#ffffff,stroke-width:2px
+    classDef templateStyle fill:#FFDC00,color:#2b2b2b,stroke-width:1px
+    classDef enhanceStyle fill:#2b2b2b,color:#ffffff,stroke-width:1px
+    classDef addOnStyle fill:#999999,color:#ffffff,stroke-width:1px
+    
+    class Start startStyle
+    class Info,Structure,Engage,Special categoryStyle
+    class CA,CB,CC,CD,HA,DA,DB,IA,IB,WA,WB,WC,SA,SB,SC templateStyle
+    class Enhance enhanceStyle
+    class E1,E2,E3,E4,E5 addOnStyle</code></pre>
+<hr>
+</section>
+<section id="notes-guidelines" class="level3">
+<h3 class="anchored" data-anchor-id="notes-guidelines">Notes Guidelines</h3>
+<p><strong>Every slide should have notes with bullets covering:</strong></p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb36"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>::: {.notes}</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pedagogical context (why this matters)</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Delivery guidance (how to present)</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Key emphasis points (what to stress)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Student connections (project relevance)</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Timing/pacing (when to pause)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Common questions (anticipate confusion)</span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Links to other content (what comes before/after)</span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a>:::</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<p><strong>Always use bullet points</strong> - never paragraph format <strong>Include for every slide</strong> - even simple ones <strong>Think about teaching</strong> - not just content</p>
+<hr>
+</section>
+<section id="file-organization" class="level3">
+<h3 class="anchored" data-anchor-id="file-organization">File Organization</h3>
+<p><strong>Naming convention:</strong> - Presentation files: <code>#_topic_name_notes.qmd</code> - Image folder: <code>img/</code> - Theme file: <code>../oslomet-pres.scss</code></p>
+<p><strong>Slide structure:</strong> 1. YAML header (document structure section) 2. Header-A (roadmap slide) 3. Divider-A (section break) 4. Content slides with add-ons 5. Interactive or Workshop slides as needed 6. Divider-A (next section) 7. Repeat 4-6 as needed</p>
+<hr>
+</section>
+<section id="template-naming-convention" class="level3">
+<h3 class="anchored" data-anchor-id="template-naming-convention">Template Naming Convention</h3>
+<p><strong>Format:</strong> <code>Category-Letter</code></p>
+<p><strong>Categories:</strong> - <code>Content-X</code>: Information delivery slides - <code>Header-X</code>: Opening/roadmap slides - <code>Divider-X</code>: Section transitions - <code>Interactive-X</code>: Engagement/tools - <code>Workshop-X</code>: Activities - <code>Special-X</code>: Unique configurations</p>
+<p><strong>Examples in use:</strong> - “Use Content-B for this comparison” - “Add Workshop-A before the activity” - “Start with Header-A roadmap” - “Create Special-A diagram for the process”</p>
+<hr>
+</section>
+</section>
+<section id="how-to-use-this-system" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-this-system">How to Use This System</h2>
+<section id="for-creating-new-content" class="level3">
+<h3 class="anchored" data-anchor-id="for-creating-new-content">For Creating New Content</h3>
+<ol type="1">
+<li><strong>Choose base template</strong> from decision tree</li>
+<li><strong>Add required elements</strong> (title, content, notes)</li>
+<li><strong>Apply add-ons</strong> as needed (background, fragments, etc.)</li>
+<li><strong>Always include notes</strong> with bullets</li>
+<li><strong>Test incremental behavior</strong> (override if needed)</li>
+</ol>
+</section>
+<section id="for-formatting-existing-content" class="level3">
+<h3 class="anchored" data-anchor-id="for-formatting-existing-content">For Formatting Existing Content</h3>
+<ol type="1">
+<li><strong>Identify content structure</strong> (columns? lists? quotes?)</li>
+<li><strong>Match to base template</strong></li>
+<li><strong>Note which add-ons are already present</strong></li>
+<li><strong>Request specific formatting</strong>: “Format as Content-B with background color and fragments”</li>
+</ol>
+</section>
+<section id="for-communicating-with-ai" class="level3">
+<h3 class="anchored" data-anchor-id="for-communicating-with-ai">For Communicating with AI</h3>
+<p><strong>Clear requests:</strong> - ✅ “Format this as Content-B with orange background” - ✅ “Use Workshop-A template for this activity” - ✅ “Create Special-A Mermaid diagram showing this process”</p>
+<p><strong>Instead of:</strong> - ❌ “Make it two columns” - ❌ “Add a workshop slide” - ❌ “Create a diagram”</p>
+<hr>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/gregmaya\.github\.io\/oslomet-smua4500\/");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../LICENSE">
+<p>Content released under CC0 1.0 Universal</p>
+</a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
