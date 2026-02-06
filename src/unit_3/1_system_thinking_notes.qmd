@@ -4,7 +4,7 @@ subtitle: Cities as complex socio-technical systems
 format: 
     revealjs:
         slide-number: true
-        theme: oslomet-pres.scss
+        theme: ../oslomet-pres.scss
         center: true
         transition: fade
         footer: "SMUA 4500 Smart Cities - Greg Maya ©"

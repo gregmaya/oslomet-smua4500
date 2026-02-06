@@ -1,18 +1,18 @@
 /*-- scss:defaults --*/
 
 // --- OsloMet Brand Colors from styles.css ---
-$oslomet-yellow:    #FFDC00;
-$oslomet-red:       #E02D00;
-$oslomet-blue:      #007ACC;
+$oslomet-yellow: #FFDC00;
+$oslomet-red: #E02D00;
+$oslomet-blue: #007ACC;
 $oslomet-lightblue: #40E4FF;
-$oslomet-burgundy:  #99002B;
-$oslomet-darkblue:  #000064;
-$oslomet-orange:    #FF8100;
-$oslomet-black:     #000000;
+$oslomet-burgundy: #99002B;
+$oslomet-darkblue: #000064;
+$oslomet-orange: #FF8100;
+$oslomet-black: #000000;
 
 // --- Base Presentation Settings ---
 $body-bg: #2b2b2b; // Your preferred dark grey background
-$body-color: #eee;   // Off-white text for high contrast on dark grey
+$body-color: #eee; // Off-white text for high contrast on dark grey
 
 // --- Typography (from styles.css) ---
 // Font stack uses "Moderat" as primary brand font
@@ -29,8 +29,8 @@ $presentation-heading-font-weight: 700; // Bold headings per styles.css
 $presentation-heading-text-transform: uppercase;
 
 // --- Links & Interactivity (Mapped to OsloMet Palette) ---
-$link-color: $oslomet-lightblue;       // Using lightblue for better visibility on dark grey
-$link-color-hover: $oslomet-yellow;    // Brand yellow on hover
+$link-color: $oslomet-lightblue; // Using lightblue for better visibility on dark grey
+$link-color-hover: $oslomet-yellow; // Brand yellow on hover
 
 // --- Text Selection ---
 $selection-bg: $oslomet-blue;
@@ -48,12 +48,27 @@ $presentation-h4-font-size: 1.00em;
 .reveal .title-slide {
   background-color: $oslomet-yellow;
   color: $oslomet-black;
-  
-  h1, h2, h3, .subtitle, .author, .date {
+
+  h1,
+  h2,
+  h3,
+  .subtitle,
+  .author,
+  .date {
     color: $oslomet-black !important;
     text-shadow: none;
   }
+
+  h3 {
+    color: $oslomet-yellow !important;
+    text-shadow: none;
+  }
 }
+
+.reveal h3 {
+  color: $oslomet-yellow;
+}
+
 
 // Blockquote styling from styles.css
 .reveal blockquote {
@@ -73,11 +88,19 @@ $presentation-h4-font-size: 1.00em;
 }
 
 // Code blocks (Fira Code/Source Code Pro stack)
-.reveal pre, .reveal code {
+.reveal pre,
+.reveal code {
   font-family: "Fira Code", "Source Code Pro", Menlo, Monaco, Consolas, monospace;
 }
 
 .reveal pre {
   border: 1px solid $oslomet-blue;
   background-color: #1e1e1e; // Darker background for code on dark theme
+}
+
+
+.columns {
+  display: flex;
+  gap: 200px;
+  /* Adjust as needed */
 }

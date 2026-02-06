@@ -4,7 +4,7 @@ subtitle: Cities as complex socio-technical systems
 format: 
     revealjs:
         slide-number: true
-        theme: oslomet-pres.scss
+        theme: ../oslomet-pres.scss
         center: true
         transition: fade
         footer: "SMUA 4500 Smart Cities - Greg Maya ©"
@@ -17,7 +17,7 @@ title-slide-attributes:
 bibliography: references.bib
 ---
 
-## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5"} 
+## Session Roadmap {background-image="img/air-traffic-control-1826798.jpg" background-opacity="0.5" } 
 - **Part I: The Landscape of Urban Complexity**
     - The "Brain" of the Smart City & 4 Heuristics
 - **Part II: The Logics of Systems**
