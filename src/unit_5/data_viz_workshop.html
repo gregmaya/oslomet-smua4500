@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Visualisation Principles – SMUA4500 - Smart Cities</title>
+<title>Data Visualization Workshop – SMUA4500 - Smart Cities</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,26 +20,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -111,7 +92,7 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../src/index.html">Schedule</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/decision_support.html">Unit 5</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/data_viz.html">Data Visualization</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../src/index.html">Schedule</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/decision_support.html">Unit 5</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/data_viz_workshop.html">Workshop</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -187,13 +168,13 @@ div.csl-indent {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../src/unit_5/data_viz.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../src/unit_5/data_viz.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Data Visualization</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../src/unit_5/data_viz_workshop.html" class="sidebar-item-text sidebar-link">
+  <a href="../../src/unit_5/data_viz_workshop.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Workshop</span></a>
   </div>
 </li>
@@ -220,20 +201,11 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
+  <li><a href="#workshop" id="toc-workshop" class="nav-link active" data-scroll-target="#workshop">Workshop</a>
   <ul class="collapse">
-  <li><a href="#why-data-visualisation-matters" id="toc-why-data-visualisation-matters" class="nav-link" data-scroll-target="#why-data-visualisation-matters">Why Data Visualisation Matters</a></li>
-  </ul></li>
-  <li><a href="#tools-and-technologies" id="toc-tools-and-technologies" class="nav-link" data-scroll-target="#tools-and-technologies">Tools and Technologies</a></li>
-  <li><a href="#exploring-vs.-presenting" id="toc-exploring-vs.-presenting" class="nav-link" data-scroll-target="#exploring-vs.-presenting">Exploring vs.&nbsp;Presenting</a></li>
-  <li><a href="#principles-of-data-visualisation" id="toc-principles-of-data-visualisation" class="nav-link" data-scroll-target="#principles-of-data-visualisation">Principles of Data Visualisation</a>
-  <ul class="collapse">
-  <li><a href="#gestalt-principles" id="toc-gestalt-principles" class="nav-link" data-scroll-target="#gestalt-principles">Gestalt Principles</a></li>
-  <li><a href="#choosing-the-right-chart" id="toc-choosing-the-right-chart" class="nav-link" data-scroll-target="#choosing-the-right-chart">Choosing the Right Chart</a></li>
-  </ul></li>
-  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts">Final thoughts</a>
-  <ul class="collapse">
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#the-challenge" id="toc-the-challenge" class="nav-link" data-scroll-target="#the-challenge">The Challenge</a></li>
+  <li><a href="#the-menu-choose-your-data" id="toc-the-menu-choose-your-data" class="nav-link" data-scroll-target="#the-menu-choose-your-data">The Menu: Choose Your Data</a></li>
+  <li><a href="#step-by-step" id="toc-step-by-step" class="nav-link" data-scroll-target="#step-by-step">Step-by-Step</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -241,9 +213,9 @@ div.csl-indent {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../src/index.html">Schedule</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/decision_support.html">Unit 5</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/data_viz.html">Data Visualization</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../src/index.html">Schedule</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/decision_support.html">Unit 5</a></li><li class="breadcrumb-item"><a href="../../src/unit_5/data_viz_workshop.html">Workshop</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Data Visualisation Principles</h1>
+<h1 class="title">Data Visualization Workshop</h1>
 </div>
 
 
@@ -260,210 +232,77 @@ div.csl-indent {
 </header>
 
 
-<section id="introduction" class="level2">
-<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.<strong>By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.</strong></p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="workshop" class="level1" data-background-color="#FFDC00">
+<h1 data-background-color="#FFDC00">Workshop</h1>
+<div class="r-fit-text">
+<p>The Green Mobility Dashboard</p>
 </div>
-<div class="callout-title-container flex-fill">
-Tip
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>In this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.</p>
-</div>
-</div>
-<section id="why-data-visualisation-matters" class="level3">
-<h3 class="anchored" data-anchor-id="why-data-visualisation-matters">Why Data Visualisation Matters</h3>
-<p>The main purposes of enhancing your narrative with data can be categorised into three key areas:</p>
-<ul>
-<li>Facilitating quick understanding of complex information.</li>
-<li>Identifying patterns, trends, and outliers.</li>
-<li>Guiding decision-makers towards strategic actions aligned with your objectives.</li>
-</ul>
-</section>
-</section>
-<section id="tools-and-technologies" class="level2">
-<h2 class="anchored" data-anchor-id="tools-and-technologies">Tools and Technologies</h2>
-<p>Selecting the right tool for the job involves considering several factors, including how you plan to <strong>share</strong> the visualisations, the need for ongoing <strong>maintenance</strong>, and your own level of <strong>expertise</strong>. If the data is likely to change frequently, choosing a tool that supports dynamic updates or easy revisions is crucial. Additionally, the way you share your visualisations—whether through static reports, interactive dashboards, or embedded in web pages—will influence the tool selection. Finally, your own proficiency and familiarity with the tool should be taken into account to ensure efficiency and effectiveness in creating impactful visualisations.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 22%">
-<col style="width: 28%">
-<col style="width: 34%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Category</th>
-<th>Tools</th>
-<th style="text-align: center;"><span style="color: green;">Pros</span></th>
-<th style="text-align: center;"><span style="color: red;">Cons</span></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Classic Spreadsheets</strong></td>
-<td>Excel, Google Sheets</td>
-<td style="text-align: center;">Easy to learn and widely accessible</td>
-<td style="text-align: center;">Limited customisation and scalability</td>
-</tr>
-<tr class="even">
-<td><strong>BI Tools</strong></td>
-<td>Tableau, Power BI</td>
-<td style="text-align: center;">Powerful for interactive dashboards and reporting</td>
-<td style="text-align: center;">Can be expensive; requires learning curve for complex tasks</td>
-</tr>
-<tr class="odd">
-<td><strong>Coding Libraries</strong></td>
-<td>Python (<code>matplotlib</code>, <code>seaborn</code>), D3.js</td>
-<td style="text-align: center;">Highly customisable and flexible</td>
-<td style="text-align: center;">Steeper learning curve; requires programming knowledge</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="exploring-vs.-presenting" class="level2">
-<h2 class="anchored" data-anchor-id="exploring-vs.-presenting">Exploring vs.&nbsp;Presenting</h2>
-<blockquote class="blockquote">
-<p>“Don’t run before you can walk”</p>
-</blockquote>
-<p>Start simple and gradually build complexity. In data visualisation, it’s tempting to jump straight to advanced tools or sophisticated designs, but this can lead to confusion and inefficiency if the basics are not well understood. Begin with simple exploratory analyses to understand your data, then progressively refine and enhance your visualisations as your message becomes clearer and your narrative more defined.</p>
+<section id="the-challenge" class="level2 nonincremental" data-background-color="#FFDC00">
+<h2 class="nonincremental anchored" data-background-color="#FFDC00" data-anchor-id="the-challenge">The Challenge</h2>
+<p><em>Context: “Car-Free City Center” Pilot</em></p>
+<p><strong>Your Mission:</strong> Design a paper prototype of a decision support dashboard for <strong>ONE</strong> specific stakeholder.</p>
 <div class="columns">
-<div class="column" style="width:48%;">
-<p><strong>Exploratory data visualisation</strong><br>
-is about discovering insights, identifying patterns, and asking new questions. It is most useful during the initial stages of data analysis when the goal is to understand the data and its structure. At this stage, it’s not about perfection but about exploration and iteration.</p>
-</div><div class="column" style="width:4%;">
-
-</div><div class="column" style="width:48%;">
-<p><strong>Explanatory data visualisation</strong><br>
-on the other hand, is about communicating a specific message or insight clearly to an audience. It involves polishing the visualisation, ensuring accuracy, and crafting a narrative that guides the viewer to the intended conclusion.</p>
-</div>
-</div>
-<p>Learning when to switch from exploration to presentation is key to managing efforts effectively. Investing time in refining and polishing a visualisation is only worthwhile once the message is clear and impactful.</p>
+<div class="column" style="width:50%;">
+<section id="the-planner" class="level3">
+<h3 class="anchored" data-anchor-id="the-planner">🅰️ The Planner</h3>
+<ul>
+<li><strong>Needs:</strong> Technical feedback loop.</li>
+<li><strong>Key Qs:</strong> Displacement effects? Retail revenue impacts? Emergency response times?</li>
+</ul>
 </section>
-<section id="principles-of-data-visualisation" class="level2">
-<h2 class="anchored" data-anchor-id="principles-of-data-visualisation">Principles of Data Visualisation</h2>
-<section id="gestalt-principles" class="level3">
-<h3 class="anchored" data-anchor-id="gestalt-principles">Gestalt Principles</h3>
-<p>The Gestalt principles originate from a psychological theory developed by German psychologists in the early 20th century. <strong>These principles explain how humans naturally perceive visual elements as organized patterns or wholes, rather than as separate components</strong> (see Wagemans 2012). In data visualisation, Gestalt principles help designers arrange information in a way that is easily understood and visually appealing. By leveraging these principles, data visualisations can guide viewers to see <strong>relationships, hierarchies, and narratives within the data</strong> more intuitively.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 14%">
-<col style="width: 57%">
-<col style="width: 27%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Principle</th>
-<th>Description</th>
-<th style="text-align: center;">Example</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><strong>Proximity</strong></td>
-<td>Elements that are close to each other are perceived as a group.</td>
-<td style="text-align: center;"><img src="images2/Proximity.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="even">
-<td><strong>Similarity</strong></td>
-<td>Items that share visual characteristics are seen as related.</td>
-<td style="text-align: center;"><img src="images2/Similarity.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="odd">
-<td><strong>Continuity</strong></td>
-<td>The eye follows lines and curves smoothly without abrupt changes.</td>
-<td style="text-align: center;"><img src="images2/Continuity.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="even">
-<td><strong>Closure</strong></td>
-<td>Incomplete shapes are perceived as complete wholes.</td>
-<td style="text-align: center;"><img src="images2/Closure.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="odd">
-<td><strong>Connectedness</strong></td>
-<td>Items connected by lines or other visual cues are seen as related.</td>
-<td style="text-align: center;"><img src="images2/Connectedness.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="even">
-<td><strong>Colour</strong></td>
-<td>Utilises hues and shades to convey meaning and hierarchy.</td>
-<td style="text-align: center;"><img src="images2/Colour.png" class="img-fluid" alt="alt"></td>
-</tr>
-<tr class="odd">
-<td><strong>White Space</strong></td>
-<td>Strategic use of empty space to enhance readability and focus.</td>
-<td style="text-align: center;"><img src="images2/White Space.png" class="img-fluid" alt="alt"></td>
-</tr>
-</tbody>
-</table>
-<p>These (and many other) principles guide visual perception and interpretation by leveraging the brain’s natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer’s attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.</p>
+</div><div class="column" style="width:50%;">
+<section id="the-citizen" class="level3">
+<h3 class="anchored" data-anchor-id="the-citizen">🅱️ The Citizen</h3>
+<ul>
+<li><strong>Needs:</strong> Usability &amp; Adaptation.</li>
+<li><strong>Key Qs:</strong> Where do I park? How do I get delivery? Space for complaints?</li>
+</ul>
 </section>
-<section id="choosing-the-right-chart" class="level3">
-<h3 class="anchored" data-anchor-id="choosing-the-right-chart">Choosing the Right Chart</h3>
-<p>Matching data types to the most effective visualisation is essential for conveying the intended message clearly and accurately. Different types of data—such as categorical, numerical, and temporal data—require different visualisation approaches to effectively highlight patterns, trends, and relationships.</p>
-<ul>
-<li>Categorical data, which represents discrete groups or categories, is best displayed using bar charts, pie charts, or stacked column charts for comparing proportions or frequencies.</li>
-<li>Numerical data, especially when showing distributions or relationships, is effectively visualised through histograms, scatter plots, or line graphs.</li>
-<li>Temporal data, which involves time series or sequences, is well-suited to line charts or area charts to show trends over time.</li>
-</ul>
-<p>Selecting the right chart type enhances the narrative and helps the audience interpret the data more intuitively.</p>
-<p><a href="https://ft-interactive.github.io/visual-vocabulary/">NYTimes Visual Vocabulary</a> is a comprehensive guide for matching data types to appropriate chart styles.</p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="https://raw.githubusercontent.com/Financial-Times/chart-doctor/main/visual-vocabulary/poster.png" class="img-fluid figure-img"></p>
-<figcaption>NYTimes Chart Doctor Poster</figcaption>
-</figure>
-</div>
-<div class="callout callout-style-default callout-tip callout-titled" title="Aim for...">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Aim for…
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li><strong>Clarity and simplicity:</strong> Avoid clutter and focus on the message.</li>
-<li><strong>Accuracy and integrity:</strong> Represent data truthfully.</li>
-<li><strong>Aesthetics and engagement:</strong> Use colors, fonts, and layouts strategically.</li>
-</ul>
-</div>
-</div>
-<div class="callout callout-style-default callout-warning callout-titled" title="Common Pitfalls">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Warning</span>Common Pitfalls
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<ul>
-<li>Misleading graphs (e.g., truncated axes, improper scaling).</li>
-<li>Overcomplicating with too much information.</li>
-<li>Choosing the wrong type of visualisation for the data.</li>
-</ul>
 </div>
 </div>
 </section>
+<section id="the-menu-choose-your-data" class="level2 nonincremental" data-background-color="#FFDC00">
+<h2 class="nonincremental anchored" data-background-color="#FFDC00" data-anchor-id="the-menu-choose-your-data">The Menu: Choose Your Data</h2>
+<p><em>Select 3-4 datasets to power your dashboard:</em></p>
+<ol type="1">
+<li>🚗 <strong>Real-time Traffic Sensors</strong> (Vehicle counts/speed)</li>
+<li>💨 <strong>Air Quality Index</strong> (PM2.5, NO2 - Street level)</li>
+<li>💶 <strong>Retail Point-of-Sale Data</strong> (Aggregated monthly revenue)</li>
+<li>🗣️ <strong>Social Media Sentiment</strong> (Geotagged posts)</li>
+<li>🚑 <strong>Emergency GPS Tracks</strong> (Response times)</li>
+<li>🚶 <strong>Pedestrian Footfall Counters</strong></li>
+<li>🔊 <strong>Noise Level Decibels</strong></li>
+<li>🅿️ <strong>Parking Occupancy</strong> (Real-time availability)</li>
+<li>🚌 <strong>Public Transit Delays</strong> (Real-time feed)</li>
+<li>🌧️ <strong>Historical Weather Data</strong></li>
+</ol>
 </section>
-<section id="final-thoughts" class="level2">
-<h2 class="anchored" data-anchor-id="final-thoughts">Final thoughts</h2>
-<p>As the field continues to evolve, it is crucial to stay curious and experiment with new tools and techniques. <strong>Exploring different visualisation methods can inspire creativity and enhance your storytelling abilities.</strong> Today’s session is design to start visualising data today and adopt a flexible mindset for continuous improvement.</p>
-<section id="references" class="level3">
-<h3 class="anchored" data-anchor-id="references">References</h3>
-<div id="refs" role="list">
+<section id="step-by-step" class="level2 nonincremental" data-background-color="#FFDC00">
+<h2 class="nonincremental anchored" data-background-color="#FFDC00" data-anchor-id="step-by-step">Step-by-Step</h2>
+<div class="columns">
+<div class="column">
+<section id="select-sketch-10-mins" class="level3">
+<h3 class="anchored" data-anchor-id="select-sketch-10-mins">1. Select &amp; Sketch (10 mins)</h3>
 <ul>
-<li>Wagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., &amp; von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. <a href="https://doi.org/10.1037/a0029333">https://doi.org/10.1037/a0029333</a></li>
+<li>Choose your <strong>Persona</strong> (Planner or Citizen).</li>
+<li>Pick <strong>3-4 Datasets</strong>.</li>
+<li>Sketch the layout:
+<ul>
+<li><strong>Indicators</strong> (What do they see first?)</li>
+<li><strong>Interaction</strong> (What can they click/change?)</li>
+</ul></li>
 </ul>
+</section>
+</div><div class="column">
+<section id="pitch-1-min-per-group" class="level3">
+<h3 class="anchored" data-anchor-id="pitch-1-min-per-group">2. Pitch (1 min per group)</h3>
+<ul>
+<li>Who is it for?</li>
+<li>What problem does it solve for <em>them</em>?</li>
+<li>Why did you leave out the other data?</li>
+</ul>
+</section>
+</div>
 </div>
 
 
