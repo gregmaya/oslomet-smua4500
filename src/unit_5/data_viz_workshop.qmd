@@ -1,0 +1,59 @@
+---
+title: Data Visualization Workshop
+---
+# Workshop {background-color="#FFDC00"}
+::: {.r-fit-text}
+The Green Mobility Dashboard
+:::
+
+## The Challenge {.nonincremental background-color="#FFDC00"}
+_Context: "Car-Free City Center" Pilot_
+
+**Your Mission:**
+Design a paper prototype of a decision support dashboard for **ONE** specific stakeholder.
+
+:::::: {.columns}
+::: {.column width="50%"}
+### 🅰️ The Planner
+- **Needs:** Technical feedback loop.
+- **Key Qs:** Displacement effects? Retail revenue impacts? Emergency response times?
+:::
+::: {.column width="50%"}
+### 🅱️ The Citizen
+- **Needs:** Usability & Adaptation.
+- **Key Qs:** Where do I park? How do I get delivery? Space for complaints?
+:::
+::::::
+
+## The Menu: Choose Your Data {.nonincremental background-color="#FFDC00"}
+*Select 3-4 datasets to power your dashboard:*
+
+1.  🚗 **Real-time Traffic Sensors** (Vehicle counts/speed)
+2.  💨 **Air Quality Index** (PM2.5, NO2 - Street level)
+3.  💶 **Retail Point-of-Sale Data** (Aggregated monthly revenue)
+4.  🗣️ **Social Media Sentiment** (Geotagged posts)
+5.  🚑 **Emergency GPS Tracks** (Response times)
+6.  🚶 **Pedestrian Footfall Counters**
+7.  🔊 **Noise Level Decibels**
+8.  🅿️ **Parking Occupancy** (Real-time availability)
+9.  🚌 **Public Transit Delays** (Real-time feed)
+10. 🌧️ **Historical Weather Data**
+
+## Step-by-Step {.nonincremental background-color="#FFDC00"}
+
+:::::: {.columns}
+::: {.column}
+### 1. Select & Sketch (10 mins)
+- Choose your **Persona** (Planner or Citizen).
+- Pick **3-4 Datasets**.
+- Sketch the layout:
+    - **Indicators** (What do they see first?)
+    - **Interaction** (What can they click/change?)
+:::
+::: {.column}
+### 2. Pitch (1 min per group)
+- Who is it for?
+- What problem does it solve for *them*?
+- Why did you leave out the other data?
+:::
+::::::

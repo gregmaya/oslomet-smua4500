@@ -10,12 +10,12 @@ format:
         footer: "SMUA 4500 Smart Cities - Greg Maya ©"
         incremental: true
 title-slide-attributes: 
-  data-background-image: img/air-traffic-control-1826798.jpg
+  data-background-image: images2/air-traffic-control-1826798.jpg
   data-background-opacity: "0.5"
 
 ---
 
-## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
+## Smart City's _brain_ {background-image="images2/brain.jpg" background-opacity="0.4"}
 
 ::: {.columns}
 ::: {.column}
@@ -46,19 +46,24 @@ Dashboards, visualizations, and stakeholder apps.
 :::
 
 # History & Evolution
-_From the Cockpit to the City_
+_From the Cockpit to the City's Policy_
 
-## Origins in Business Intelligence
+## Origins: Business Intelligence {background-image="images2/cockpit.png" background-opacity="0.4"}
 _The Corporate "Cockpit"_
 
 :::::: {.columns}
-::: {.column width="60%"}
-- **KPI Culture**: "If you can't measure it, you can't manage it." (Peter Drucker).
-- **Performance Monitoring**: Dashboards were designed for CEOs to track sales, inventory, and efficiency in real-time.
-- **The Metaphor**: The city as a machine that can be "tuned" for efficiency.
+::: {.column width="60%" .fragment}
+**KPI Culture**
+
+> "If you can't measure it, you can't manage it" - Peter Drucker
+
+**Performance Monitoring**: Dashboards were designed for CEOs to track sales, inventory, and efficiency in real-time.
 :::
-::: {.column width="40%"}
-![Cockpit Metaphor](img/cockpit.jpg){height="300px"}
+
+::: {.column width="40%" .fragment}
+
+> The city as a machine that can be "tuned" for efficiency.
+
 :::
 ::::::
 
@@ -68,54 +73,65 @@ _The Corporate "Cockpit"_
 - Ask: "Does a city work like a factory?" (Hint: No).
 :::
 
-## The Shift to Urban Planning
+## The Shift to Urban Planning {.r-stretch background-image="images2/mycelium-network.webp" background-opacity="0.4"}
 _Importing the Logic_
 
+<br>
+
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="50%" .fragment}
 ### The Promise
-- **Smart Cities (2010s)**: Tech giants (IBM, Cisco) sold the idea of the "City Operating System."
+Tech giants sold the idea of the "City Operating System."
+
 - **Real-time feedback**: Moving from 5-year census data to millisecond sensor readings.
 :::
-::: {.column width="50%"}
-### The Reality
-- **Complexity**: Cities are not closed systems.
+::: {.column width="50%" .fragment}
+### The Reality 
+- **Complexity**: Cities are not closed systems, unlike factories.
 - **Wicked Problems**: Moving a variable in a city (e.g., traffic) affects everything else (pollution, retail, housing).
 :::
 ::::::
 
 ::: {.notes}
+eg. mycelium network
 - Transition: When we brought these tools to cities, we brought the "efficiency" mindset with them.
 - Challenge: Cities are open, complex systems, not closed production lines.
 - This creates tension between "optimizing flow" and "creating place."
 :::
 
-## From Monitoring to Simulating
-_The modern leap_
+## The Shift to Urban Planning {.r-stretch background-image="images2/mycelium-network.webp" background-opacity="0.4"}
 
 :::::: {.columns}
-::: {.column width="33%"}
-### 1. Monitoring
-_"What is happening now?"_
+::: {.column width="33%" .fragment}
+### Monitoring
+>"What is happening now?"
+
 - Traffic counters
 - Air quality sensors
 - Energy grids
 :::
-::: {.column width="33%"}
-### 2. Analyzing
-_"Why is it happening?"_
+::: {.column width="33%" .fragment}
+### Analyzing
+>"Why is it happening?"
+
 - Correlating data
 - Finding patterns
 - Identifying bottlenecks
 :::
-::: {.column width="33%"}
-### 3. Simulating
-_"What if we change X?"_
+::: {.column width="33%" .fragment}
+### Simulating
+> "What if we change X?"
+
 - Digital Twins
 - Impact assessment
-- **Decision Support!**
+
 :::
 ::::::
+
+::: {.fragment .r-fit-text}
+### Decision Support!
+:::
+
 
 ::: {.notes}
 - This is the key evolution. We refrain from just *looking* at the speedometer.
@@ -126,24 +142,24 @@ _"What if we change X?"_
 # Indicators & Proxies
 _The Map is not the Territory_
 
-## The Trap of Abstraction
+## The Trap of Abstraction {.r-stretch background-image="images2/abstract.jpeg" background-opacity="0.2"}
 
-> "The map is not the territory."
->
-> — *Alfred Korzybski*
+<br>
 
 :::::: {.columns}
-::: {.column}
+::: {.column .fragment}
 ### The "Index" Problem
-- **Liveability Index: 85/100**
-- **Happiness Score: 7.2**
-- **Walkability Score: 94**
+- Liveability Index: 85/100
+- Happiness Score: 7.2
+- Walkability Score: 94
 :::
-::: {.column}
+::: {.column .fragment}
 ### Why it fails
-- Mathematically sound, practically useless.
+Mathematically sound, practically useless.
+
 - If the score drops to 82, do we fix potholes or add schools?
-- **Abstract indexes hide the *levers* of change.**
+
+> Abstract indexes hide the *levers* of change.
 :::
 ::::::
 
@@ -153,17 +169,35 @@ _The Map is not the Territory_
 - An "Index" is good for ranking cities in a magazine, but bad for running a city.
 :::
 
-## The Unintended Consequences
+## The Trap of Abstraction {background-color="#40E4FF"}
+
+<br>
+
+### "The map is not the territory."
+— *Alfred Korzybski*
+
+::: {.notes}
+- The Origin: Alfred Korzybski was a scientist and philosopher who wanted to remind us that our description of reality is never the same as reality itself.
+- Defining the Map: In our context, the "Map" is the Digital Twin, the GIS layers, the census data, and the AI’s predictive model. It is an abstraction.
+- The Value of Omission: A map is only useful because it leaves things out. If a map of Oslo was as detailed as Oslo itself, it would be a 1:1 scale and completely useless.
+- The Danger for Planners: The "Trap" occurs when we start making decisions based only on the map’s logic, forgetting the territory’s complexity.
+- Example: A transport model (The Map) says a new highway will reduce commute times. But the territory (The People) responds with "induced demand," filling the road immediately. The map failed to capture human behavior.
+- AI and "Hallucinations": When an AI gives a confident but wrong answer, it is "believing its own map." It is calculating the probability of words or pixels, not the physics of the street.
+- The Planner's Duty: Our job is not just to build better maps; it is to be the person who constantly walks the territory to see what the map missed.
+- Question for the class: "If the Digital Twin shows a neighborhood is 'optimally served' by transit, but the residents feel isolated, which one is 'true'?"
+:::
+
+## The Unintended Consequences {.r-stretch background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
 _Optimizing for the wrong thing_
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="50%" .fragment}
 ### The Metric
 **"Average Vehicle Speed"** or **"Intersection Throughput"**
 
 Optimizing for *flow* efficiency.
 :::
-::: {.column width="50%"}
+::: {.column width="50%" .fragment}
 ### The Result
 **Stroads & Highways**
 
@@ -172,7 +206,7 @@ Optimizing for *flow* efficiency.
 :::
 ::::::
 
-::: {.callout title="Goodhart's Law"}
+::: {.callout title="Goodhart's Law" .fragment}
 "When a measure becomes a target, it ceases to be a good measure."
 :::
 
@@ -182,7 +216,9 @@ Optimizing for *flow* efficiency.
 - This is why choosing *what* to measure is a political act, not just technical.
 :::
 
-## Good vs. Bad Indicators
+## Good vs. Bad Indicators {background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)"}
+
+<br> 
 
 | Feature | Good Indicator | Bad Indicator |
 | :--- | :--- | :--- |
@@ -198,29 +234,33 @@ Optimizing for *flow* efficiency.
 :::
 
 
-# Dashboard Anatomy {background-color="#40E4FF"}
+# Dashboard's 101
 
-## Anatomy of a Dashboard
-_What makes it tick?_
+## Anatomy of a Dashboard {.r-stretch background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
+
+<br>
 
 :::::: {.columns}
-::: {.column width="33%"}
-### 1. Indicators
-_The "Vital Signs"_
+::: {.column width="33%".fragment}
+### Indicators
+> _The "Vital Signs"_
+
 - Real-time feeds
 - Historical trends
 - Key Performance Indicators (KPIs)
 :::
-::: {.column width="33%"}
-### 2. Simulation
-_The "What-If" Engine_
+::: {.column width="33%".fragment}
+### Simulation
+>_The "What-If" Engine_
+
 - Slider controls
 - Scenario toggles
 - Impact forecasting
 :::
-::: {.column width="33%"}
-### 3. Narrative
-_The Context_
+::: {.column width="33%".fragment}
+### Narrative
+> _The Context_
+
 - Annotations
 - Storytelling flow
 - "So what?" (Insights)
@@ -235,14 +275,14 @@ _The Context_
 ## The "Misleading" Interface {background-color="#FF8100"}
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="50%".fragment}
 ### The Aesthetic Trap
 > "If it looks high-tech, it must be true."
 
 - Shiny 3D maps and "Minority Report" interfaces can mask poor data quality.
 - **Cognitive Bias**: We trust beautiful things more than ugly truths.
 :::
-::: {.column width="50%"}
+::: {.column width="50%".fragment}
 ### The Black Box
 - **False Precision**: Displaying "Safety: 87.42%" implies a level of certainty that doesn't exist.
 - **Hidden Algorithms**: Who decided the weightings?
@@ -256,29 +296,35 @@ _The Context_
 - As curators of these tools, the students must ensure the visualization doesn't lie about the model's uncertainty.
 :::
 
-## Different Lenses for Different Roles {background-gradient="linear-gradient(to bottom, #2b2b2b, #000000)"}
+## Different Lenses for Different Roles {background-image="images2/reflection.jpeg" background-opacity="0.5"}
 
 :::::: {.columns}
-::: {.column width="33%"}
-### 1. High-Level Ops
+::: {.column width="33%" .fragment}
+### High-Level Ops
 _The Pilot_
-- **Goal**: Real-time management.
-- **Timeframe**: Seconds/Minutes.
-- **Needs**: Alerts, live status, red/green indicators.
+
+<small>- **Goal**: Real-time management.</small>
+<small>- **Timeframe**: Seconds/Minutes.</small>
+<small>- **Needs**: Alerts, live status, red/green indicators.</small>
+
 ::: 
-::: {.column width="33%"}
-### 2. Strategic Planning
+::: {.column width="33%" .r-fit-text .fragment}
+### Strategic Planning
 _The Architect_
-- **Goal**: Long-term policy.
-- **Timeframe**: Years/Decades.
-- **Needs**: Trends, aggregate data, scenarios.
+
+<small>- **Goal**: Long-term policy.</small>
+<small>- **Timeframe**: Years/Decades.</small>
+<small>- **Needs**: Trends, aggregate data, scenarios.</small>
+
 ::: 
-::: {.column width="33%"}
-### 3. Public Participation
+::: {.column width="33%" .r-fit-text .fragment}
+### Public Participation
 _The Citizen_
-- **Goal**: Transparency & Input.
-- **Timeframe**: Daily life.
-- **Needs**: Relatability, localized data, feedback channels.
+
+<small>- **Goal**: Transparency & Input.</small>
+<small>- **Timeframe**: Daily life.</small>
+<small>- **Needs**: Relatability, localized data, feedback channels.</small>
+
 ::: 
 ::::::
 
@@ -288,19 +334,22 @@ _The Citizen_
 - Workshop Preview: We will look at how to tailor your tool for a specific stakeholder.
 :::
 
-# Data Viz Best Practices {background-color="#2b2b2b"}
+# Data Viz Best Practices
 _Principles for effective dashboards_
 
-## Gestalt Principles
-_Why we see what we see_
+## Gestalt Principles {.r-stretch background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
+_Only some_
 
-| Principle | Description |
-| :--- | :--- |
-| **Proximity** | Elements close together are seen as a group. |
-| **Similarity** | Items sharing color/shape are seen as related. |
-| **Continuity** | The eye follows smooth lines (trends). |
-| **Closure** | We fill in gaps to see whole shapes. |
-| **Connectedness** | Lines connecting items create strong relationships. |
+| Principle         | Description                                                        |
+| ----------------- | ------------------------------------------------------------------ |
+| **Proximity**     | Elements that are close to each other are perceived as a group.    | 
+| **Similarity**    | Items that share visual characteristics are seen as related.       | 
+| **Continuity**    | The eye follows lines and curves smoothly without abrupt changes.  | 
+| **Closure**       | Incomplete shapes are perceived as complete wholes.                | 
+| **Connectedness** | Items connected by lines or other visual cues are seen as related. | 
+| **Colour**        | Utilises hues and shades to convey meaning and hierarchy.          | 
+| **White Space**   | Strategic use of empty space to enhance readability and focus.     | 
+
 
 ::: {.notes}
 - Quick recap of Gestalt (from the Data Viz full lecture).
@@ -308,32 +357,26 @@ _Why we see what we see_
 - Don't just scatter charts; use proximity and similarity to create logical sections.
 :::
 
-## Choosing the Right Chart
-_Match the viz to the data_
+## Choosing the Right Chart {.r-stretch background-color="#e4e4e4ff"}
 
-- **Categorical** (Groups): Bar charts, Pie (use sparingly!).
-- **Numerical** (Distributions): Histograms, Scatter plots (relationships), Box plots.
-- **Temporal** (Time): Line charts, Area charts.
-- **Spatial** (Geography): Choropleth maps, Point clouds.
+<small>[NYTimes Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/)</small>
 
-::: {.callout-tip}
-**Refer to:** The [NYTimes Visual Vocabulary](https://ft-interactive.github.io/visual-vocabulary/) often.
-:::
+<iframe src="https://ft-interactive.github.io/visual-vocabulary/" width="100%" height="600px"></iframe>
 
-## Learning from Mistakes
-_What NOT to do_
 
-> "Mistakes, we’ve drawn a few." — *The Economist*
+## What NOT to do {.r-stretch background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
+
+["Mistakes, we’ve drawn a few."](https://medium.economist.com/mistakes-weve-drawn-a-few-8cdd8a42d368)
 
 :::::: {.columns}
-::: {.column width="50%"}
-### 🚫 The Don'ts
+::: {.column width="50%" .fragment}
+### The Don'ts
 - **Truncated Axes**: Starting a bar chart at 50% to exaggerate a 1% difference.
 - **Spaghetti Charts**: Too many lines making trends unreadable.
 - **Correlated Scales**: Forcing two unrelated variables onto dual axes to imply causation.
 :::
-::: {.column width="50%"}
-### 🚫 The Wrong Type
+::: {.column width="50%" .fragment}
+### The Wrong Type
 - Using a Line Chart for categorical data (implies continuity where there is none).
 - Using a Pie Chart for 20 categories.
 :::
@@ -344,59 +387,12 @@ _What NOT to do_
 - If you truncate an axis, you might convince a Mayor to spend millions on a problem that is actually a minor fluctuation.
 :::
 
+## Narrative in the Data {.r-stretch background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
+
+{{< video https://www.youtube.com/watch?v=b5C5dV9XVKo width="900" height="600" >}}
+
+
 # Workshop {background-color="#FFDC00"}
 ::: {.r-fit-text}
 The Green Mobility Dashboard
 :::
-
-## The Challenge {.nonincremental background-color="#FFDC00"}
-_Context: "Car-Free City Center" Pilot_
-
-**Your Mission:**
-Design a paper prototype of a decision support dashboard for **ONE** specific stakeholder.
-
-:::::: {.columns}
-::: {.column width="50%"}
-### 🅰️ The Planner
-- **Needs:** Technical feedback loop.
-- **Key Qs:** Displacement effects? Retail revenue impacts? Emergency response times?
-:::
-::: {.column width="50%"}
-### 🅱️ The Citizen
-- **Needs:** Usability & Adaptation.
-- **Key Qs:** Where do I park? How do I get delivery? Space for complaints?
-:::
-::::::
-
-## The Menu: Choose Your Data {.nonincremental background-color="#FFDC00"}
-*Select 3-4 datasets to power your dashboard:*
-
-1.  🚗 **Real-time Traffic Sensors** (Vehicle counts/speed)
-2.  💨 **Air Quality Index** (PM2.5, NO2 - Street level)
-3.  💶 **Retail Point-of-Sale Data** (Aggregated monthly revenue)
-4.  🗣️ **Social Media Sentiment** (Geotagged posts)
-5.  🚑 **Emergency GPS Tracks** (Response times)
-6.  🚶 **Pedestrian Footfall Counters**
-7.  🔊 **Noise Level Decibels**
-8.  🅿️ **Parking Occupancy** (Real-time availability)
-9.  🚌 **Public Transit Delays** (Real-time feed)
-10. 🌧️ **Historical Weather Data**
-
-## Step-by-Step {.nonincremental background-color="#FFDC00"}
-
-:::::: {.columns}
-::: {.column}
-### 1. Select & Sketch (10 mins)
-- Choose your **Persona** (Planner or Citizen).
-- Pick **3-4 Datasets**.
-- Sketch the layout:
-    - **Indicators** (What do they see first?)
-    - **Interaction** (What can they click/change?)
-:::
-::: {.column}
-### 2. Pitch (1 min per group)
-- Who is it for?
-- What problem does it solve for *them*?
-- Why did you leave out the other data?
-:::
-::::::

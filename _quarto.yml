@@ -40,8 +40,10 @@ website:
                 href: src/unit_5/decision_support.qmd
               - text: Data Visualization
                 href: src/unit_5/data_viz.qmd
+              - text: Workshop
+                href: src/unit_5/data_viz_workshop.qmd
               - text: AI & Smart Cities
-                href: src/unit_5/ai_smart_cities.qmd
+            #    href: src/unit_5/ai_smart_cities.qmd
 
       - href: resources.qmd
         text : "Additional Resources"
