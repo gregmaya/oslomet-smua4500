@@ -20,7 +20,7 @@ website:
         href: https://github.com/gregmaya/oslomet-smua4500
         text: GitHub
     style: docked
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - href: index.qmd
         text: Home
