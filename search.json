@@ -14,7 +14,7 @@
     "href": "src/unit_5/data_viz_workshop.html",
     "title": "Data Visualization Workshop",
     "section": "",
-    "text": "The Green Mobility Dashboard\n\n\n\nContext: “Car-Free City Center” Pilot\nYour Mission: Design a paper prototype of a decision support dashboard for ONE specific stakeholder.\n\n\n\n\n\nNeeds: Technical feedback loop.\nKey Qs: Displacement effects? Retail revenue impacts? Emergency response times?\n\n\n\n\n\n\nNeeds: Usability & Adaptation.\nKey Qs: Where do I park? How do I get delivery? Space for complaints?\n\n\n\n\n\n\n\nSelect 3-4 datasets to power your dashboard:\n\n🚗 Real-time Traffic Sensors (Vehicle counts/speed)\n💨 Air Quality Index (PM2.5, NO2 - Street level)\n💶 Retail Point-of-Sale Data (Aggregated monthly revenue)\n🗣️ Social Media Sentiment (Geotagged posts)\n🚑 Emergency GPS Tracks (Response times)\n🚶 Pedestrian Footfall Counters\n🔊 Noise Level Decibels\n🅿️ Parking Occupancy (Real-time availability)\n🚌 Public Transit Delays (Real-time feed)\n🌧️ Historical Weather Data\n\n\n\n\n\n\n\n\n\nChoose your Persona (Planner or Citizen).\nPick 3-4 Datasets.\nSketch the layout:\n\nIndicators (What do they see first?)\nInteraction (What can they click/change?)\n\n\n\n\n\n\n\nWho is it for?\nWhat problem does it solve for them?\nWhy did you leave out the other data?",
+    "text": "Context: “Car-Free City Center” Pilot\nYour Mission: Design a paper prototype of a decision support dashboard for ONE specific stakeholder.\n\n\n\n\n\nNeeds: Technical feedback loop.\nKey Qs: Displacement effects? Retail revenue impacts? Emergency response times?\n\n\n\n\n\n\nNeeds: Usability & Adaptation.\nKey Qs: Where do I park? How do I get delivery? Space for complaints?",
     "crumbs": [
       "Schedule",
       "Unit 5",
@@ -37,8 +37,8 @@
     "objectID": "src/unit_5/data_viz_workshop.html#the-menu-choose-your-data",
     "href": "src/unit_5/data_viz_workshop.html#the-menu-choose-your-data",
     "title": "Data Visualization Workshop",
-    "section": "",
-    "text": "Select 3-4 datasets to power your dashboard:\n\n🚗 Real-time Traffic Sensors (Vehicle counts/speed)\n💨 Air Quality Index (PM2.5, NO2 - Street level)\n💶 Retail Point-of-Sale Data (Aggregated monthly revenue)\n🗣️ Social Media Sentiment (Geotagged posts)\n🚑 Emergency GPS Tracks (Response times)\n🚶 Pedestrian Footfall Counters\n🔊 Noise Level Decibels\n🅿️ Parking Occupancy (Real-time availability)\n🚌 Public Transit Delays (Real-time feed)\n🌧️ Historical Weather Data",
+    "section": "The Menu: Choose Your Data",
+    "text": "The Menu: Choose Your Data\nSelect 3-4 datasets to power your dashboard:\n\n🚗 Real-time Traffic Sensors (Vehicle counts/speed)\n💨 Air Quality Index (PM2.5, NO2 - Street level)\n💶 Retail Point-of-Sale Data (Aggregated monthly revenue)\n🗣️ Social Media Sentiment (Geotagged posts)\n🚑 Emergency GPS Tracks (Response times)\n🚶 Pedestrian Footfall Counters\n🔊 Noise Level Decibels\n🅿️ Parking Occupancy (Real-time availability)\n🚌 Public Transit Delays (Real-time feed)\n🌧️ Historical Weather Data",
     "crumbs": [
       "Schedule",
       "Unit 5",
@@ -49,8 +49,8 @@
     "objectID": "src/unit_5/data_viz_workshop.html#step-by-step",
     "href": "src/unit_5/data_viz_workshop.html#step-by-step",
     "title": "Data Visualization Workshop",
-    "section": "",
-    "text": "Choose your Persona (Planner or Citizen).\nPick 3-4 Datasets.\nSketch the layout:\n\nIndicators (What do they see first?)\nInteraction (What can they click/change?)\n\n\n\n\n\n\n\nWho is it for?\nWhat problem does it solve for them?\nWhy did you leave out the other data?",
+    "section": "Step-by-Step",
+    "text": "Step-by-Step\n\n\n\n1. Select & Sketch (10 mins)\n\nChoose your Persona (Planner or Citizen).\nPick 3-4 Datasets.\nSketch the layout:\n\nIndicators (What do they see first?)\nInteraction (What can they click/change?)\n\n\n\n\n\n2. Pitch (1 min per group)\n\nWho is it for?\nWhat problem does it solve for them?\nWhy did you leave out the other data?",
     "crumbs": [
       "Schedule",
       "Unit 5",
