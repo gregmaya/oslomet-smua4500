@@ -1110,189 +1110,324 @@
     "href": "src/unit_5/ai_smart_city.html#session-roadmap",
     "title": "AI & Smart City",
     "section": "Session Roadmap",
-    "text": "Session Roadmap\n\nAct I: The Philosophical Shift (Logic vs. Data)\nAct II: The Toolbox (ML for Planners)\nAct III: AI & The Digital Twin (The Brain and the Body)\nAct IV: The Skeptical Planner (Ethics and Limitations)\n\n\n\nThis lecture bridges the gap between the Systems Thinking session (Part I) and the practical application of AI.\nPart I was about the ‘Web of Interactions’ we can see.\nPart II is about the ‘Black Box’ we often can’t see."
+    "text": "Session Roadmap\n\nAct I: The Philosophical Shift (Logic vs. Data)\nAct II: The Toolbox (ML for Planners)\nAct III: AI & The Digital Twin (The Brain and the Body)\nAct IV: The Skeptical Planner (Ethics and Limitations)\n\n\n\nThis lecture bridges the gap between the Systems Thinking session (Part I) and the practical application of AI.\nPart I was about the ‘Web of Interactions’ we can see.\nPart II is about the ‘Black Box’ we often can’t see.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#recap",
     "href": "src/unit_5/ai_smart_city.html#recap",
     "title": "AI & Smart City",
     "section": "Recap",
-    "text": "Recap\n\n“Logic Precedes Display”\n\n\n\n\nSystems Thinking\nWe draw the arrows.\nWe define the relationships.\n\n\n\nTransparency\nEvery feedback loop is traceable.\n\n\n\nHuman Brain\nThe planner remains the architect of the system logic.\n\n\n\nRecall our previous session: ‘Logic must precede display.’\nIn traditional modeling, if the model predicts traffic, we know it’s because of the gravity equation or network topology we chose."
+    "text": "Recap\n\n“Logic Precedes Display”\n\n\n\n\nSystems Thinking\nWe draw the arrows.\nWe define the relationships.\n\n\n\nTransparency\nEvery feedback loop is traceable.\n\n\n\nHuman Brain\nThe planner remains the architect of the system logic.\n\n\n\nRecall our previous session: ‘Logic must precede display.’\nIn traditional modeling, if the model predicts traffic, we know it’s because of the gravity equation or network topology we chose.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-new-paradigm",
     "href": "src/unit_5/ai_smart_city.html#the-new-paradigm",
     "title": "AI & Smart City",
     "section": "The New Paradigm",
-    "text": "The New Paradigm\n\n“Data Precedes Logic”\n\n\n\n\nAI Shift\nWe provide the “Display” (historical data), and the AI guesses the “Logic.”\n\n\n\nInductive Reasoning\nFinding patterns without being told the rules.\n\n\n\nTrade-off\nEfficiency vs. Interpretability.\n\n\n\nChallenge the students: If the machine finds a logic we don’t understand, can we still call it ‘planning’?\nThis is a fundamental shift. We are moving from ‘Theory-led’ models to ‘Data-led’ models."
+    "text": "The New Paradigm\n\n“Data Precedes Logic”\n\n\n\n\nAI Shift\nWe provide the “Display” (historical data), and the AI guesses the “Logic.”\n\n\n\nInductive Reasoning\nFinding patterns without being told the rules.\n\n\n\nTrade-off\nEfficiency vs. Interpretability.\n\n\n\nChallenge the students: If the machine finds a logic we don’t understand, can we still call it ‘planning’?\nThis is a fundamental shift. We are moving from ‘Theory-led’ models to ‘Data-led’ models.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-new-paradigm-1",
     "href": "src/unit_5/ai_smart_city.html#the-new-paradigm-1",
     "title": "AI & Smart City",
     "section": "The New Paradigm",
-    "text": "The New Paradigm\n\n\n\n\n\n\n\n\n\n\nTraditional Models\nAI / Black Box\n\n\n\n\nSource of Logic\nHuman Expertise (Top-Down)\nData Patterns (Bottom-Up)\n\n\nTraceability\nHigh (Open Logic)\nLow (The “Black Box”)\n\n\nHandling Complexity\nSimplified for Clarity\nEmbraces Noise & Nuance\n\n\nGoal\nTo Understand why\nTo Predict what\n\n\n\n\n\nThis is the core “Challenge” slide.\nTraditional models (like Gravity models) are “Tame.” AI is built for “Wickedness” but at the cost of transparency.\nAsk: “Would you trust a city plan if the computer couldn’t explain why it moved the park?”"
+    "text": "The New Paradigm\n\n\n\n\n\n\n\n\n\n\nTraditional Models\nAI / Black Box\n\n\n\n\nSource of Logic\nHuman Expertise (Top-Down)\nData Patterns (Bottom-Up)\n\n\nTraceability\nHigh (Open Logic)\nLow (The “Black Box”)\n\n\nHandling Complexity\nSimplified for Clarity\nEmbraces Noise & Nuance\n\n\nGoal\nTo Understand why\nTo Predict what\n\n\n\n\n\nThis is the core “Challenge” slide.\nTraditional models (like Gravity models) are “Tame.” AI is built for “Wickedness” but at the cost of transparency.\nAsk: “Would you trust a city plan if the computer couldn’t explain why it moved the park?”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#what-deep-learning-is",
     "href": "src/unit_5/ai_smart_city.html#what-deep-learning-is",
     "title": "AI & Smart City",
     "section": "What DEEP LEARNING is",
-    "text": "What DEEP LEARNING is\n(and isn’t)\n\n\nIt IS\nHigh-dimensional statistics and semantic interpretation.\n\n\n\nIt is NOT\nA sentient crystal ball or “The Matrix.”\n\n\n\n\n\nPredicting the Next Move\n\n\nAI looks at a problem as a sequence of probabilities.\nhttps://jphwang-colorful-vectors.hf.space\n\n\n\n\n\n\nDemystify the ‘magic.’AI is just a very fast way of finding the ’organized complexity’ Jane Jacobs talked about, but using math instead of intuition."
+    "text": "What DEEP LEARNING is\n(and isn’t)\n\n\nIt IS\nHigh-dimensional statistics and semantic interpretation.\n\n\n\nIt is NOT\nA sentient crystal ball or “The Matrix.”\n\n\n\n\n\nPredicting the Next Move\n\n\nAI looks at a problem as a sequence of probabilities.\nhttps://jphwang-colorful-vectors.hf.space\n\n\n\n\n\n\nDemystify the ‘magic.’AI is just a very fast way of finding the ’organized complexity’ Jane Jacobs talked about, but using math instead of intuition.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#industry-vs.-regulation",
     "href": "src/unit_5/ai_smart_city.html#industry-vs.-regulation",
     "title": "AI & Smart City",
     "section": "Industry vs. Regulation",
-    "text": "Industry vs. Regulation\n\n\nThe “Test Bed”\nTech enters the city as a commercial agent first.\n\nThe Lag\nTechnology matures in the private sector before planners create the rules.\n\n\n\nMention Waymo here. It’s not just a car; it’s a private AI agent moving through public space.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point."
+    "text": "Industry vs. Regulation\n\n\nThe “Test Bed”\nTech enters the city as a commercial agent first.\n\nThe Lag\nTechnology matures in the private sector before planners create the rules.\n\n\n\nMention Waymo here. It’s not just a car; it’s a private AI agent moving through public space.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#a-real-world-example",
     "href": "src/unit_5/ai_smart_city.html#a-real-world-example",
     "title": "AI & Smart City",
     "section": "A Real World Example",
-    "text": "A Real World Example\nWAYMO in USA\n\n\n\nIt’s not just a car; it’s a private AI agent moving through public space.\nWaymo is the perfect example of “Industry First.” It isn’t waiting for a smart city plan; it is creating the data environment it needs.\nNote: This is where “Digital Twins” often fail—they are static, while commercial AI agents like Waymo are dynamic and evolving.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point."
+    "text": "A Real World Example\nWAYMO in USA\n\n\n\nIt’s not just a car; it’s a private AI agent moving through public space.\nWaymo is the perfect example of “Industry First.” It isn’t waiting for a smart city plan; it is creating the data environment it needs.\nNote: This is where “Digital Twins” often fail—they are static, while commercial AI agents like Waymo are dynamic and evolving.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-semantic-engine",
     "href": "src/unit_5/ai_smart_city.html#the-semantic-engine",
     "title": "AI & Smart City",
     "section": "The Semantic Engine",
-    "text": "The Semantic Engine\nTurning Reality into Vectors\n\nSemantic Interpretation: AI doesn’t see “cars” or “curbs”; it sees high-dimensional numbers (vectors).\nMulti-dimensional Context: It relates a “Bus Stop” to “Time of Day,” “Weather,” and “Historical Crowd Density” simultaneously.\nPredicting the Next Move: If the pattern is \\(X \\rightarrow Y \\rightarrow Z\\), the AI predicts \\(Z+1\\).\n\n\n\nCHALLENGE: Ask students: “In your mapping, you linked ‘Bus Frequency’ to ‘Resident Satisfaction.’ AI links ‘Pixel Cluster A’ to ‘Data Point B.’ Is there a difference if the result is the same?”\nExplain that AI creates a “semantic space”—a mathematical map where similar things are grouped together, even if we don’t have a word for the relationship."
+    "text": "The Semantic Engine\nTurning Reality into Vectors\n\nSemantic Interpretation: AI doesn’t see “cars” or “curbs”; it sees high-dimensional numbers (vectors).\nMulti-dimensional Context: It relates a “Bus Stop” to “Time of Day,” “Weather,” and “Historical Crowd Density” simultaneously.\nPredicting the Next Move: If the pattern is \\(X \\rightarrow Y \\rightarrow Z\\), the AI predicts \\(Z+1\\).\n\n\n\nCHALLENGE: Ask students: “In your mapping, you linked ‘Bus Frequency’ to ‘Resident Satisfaction.’ AI links ‘Pixel Cluster A’ to ‘Data Point B.’ Is there a difference if the result is the same?”\nExplain that AI creates a “semantic space”—a mathematical map where similar things are grouped together, even if we don’t have a word for the relationship.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-hierarchical-toolbox",
     "href": "src/unit_5/ai_smart_city.html#the-hierarchical-toolbox",
     "title": "AI & Smart City",
     "section": "The Hierarchical Toolbox",
-    "text": "The Hierarchical Toolbox\n\n\n\nAI is a ‘hierarchy’ of tools, each with its own strengths and weaknesses.\nMachine Learning is a ‘middle ground’ between ‘rules’ and ‘black boxes’.\nDeep Learning is the ‘black box’ of AI, but it is not the only way to build AI."
+    "text": "The Hierarchical Toolbox\n\n\n\nAI is a ‘hierarchy’ of tools, each with its own strengths and weaknesses.\nMachine Learning is a ‘middle ground’ between ‘rules’ and ‘black boxes’.\nDeep Learning is the ‘black box’ of AI, but it is not the only way to build AI.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#artificial-intelligence-ai",
     "href": "src/unit_5/ai_smart_city.html#artificial-intelligence-ai",
     "title": "AI & Smart City",
     "section": "1. Artificial Intelligence (AI)",
-    "text": "1. Artificial Intelligence (AI)\nThe Broad Umbrella\n\n\nMachines mimicking human intelligence or reasoning.\nOften “Rule-Based” in its simplest form.\n\nMaking choices based on inputs.\n\n\n\n\n\nExample: Automated Tolls\n\n\n\n\n\nDetecting a vehicle and charging a bank account.\nIt “senses” the presence of a car and executes a complex multi-step logical transaction that used to require a human in a booth.\nContrast: A simple timer on a street light isn’t AI (it’s just a clock). A sensor that adjusts the light based on a car’s presence is “Basic AI.”"
+    "text": "1. Artificial Intelligence (AI)\nThe Broad Umbrella\n\n\nMachines mimicking human intelligence or reasoning.\nOften “Rule-Based” in its simplest form.\n\nMaking choices based on inputs.\n\n\n\n\n\nExample: Automated Tolls\n\n\n\n\n\nDetecting a vehicle and charging a bank account.\nIt “senses” the presence of a car and executes a complex multi-step logical transaction that used to require a human in a booth.\nContrast: A simple timer on a street light isn’t AI (it’s just a clock). A sensor that adjusts the light based on a car’s presence is “Basic AI.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#machine-learning-ml",
     "href": "src/unit_5/ai_smart_city.html#machine-learning-ml",
     "title": "AI & Smart City",
     "section": "2. Machine Learning (ML)",
-    "text": "2. Machine Learning (ML)\n\nLearning from Patterns\n\n\n\n\n\n\n\ngraph TD\n    %% Main Branch\n    ML[ML] --&gt; SL(Supervised)\n    ML --&gt; UL(Unsupervised)\n    ML --&gt; RL(Reinforcement)\n\n %% Reinforcement Subgraph\n    subgraph ...\n        RL --&gt; RL_Goal[&lt;b&gt;Reward Optimization&lt;/b&gt;&lt;br/&gt;Finding the Best Strategy&lt;br/&gt;&lt;i&gt;e.g., Signal Timing&lt;/i&gt;]\n    end\n\n    %% Unsupervised Subgraph\n    subgraph ..\n        UL --&gt; UL_Clust[&lt;b&gt;Clustering&lt;/b&gt;&lt;br/&gt;Grouping Similar Units&lt;br/&gt;&lt;i&gt;e.g., Neighborhood Types&lt;/i&gt;]\n        UL --&gt; UL_Dim[&lt;b&gt;Dimensionality Reduction&lt;/b&gt;&lt;br/&gt;Simplifying Complex Data&lt;br/&gt;&lt;i&gt;e.g., Reducing 50 variables to 3&lt;/i&gt;]\n    end\n\n    %% Supervised Subgraph\n    subgraph .\n        SL --&gt; SL_Class[&lt;b&gt;Classification&lt;/b&gt;&lt;br/&gt;Predicting Categories&lt;br/&gt;&lt;i&gt;e.g., Land Use Type&lt;/i&gt;]\n        SL --&gt; SL_Reg[&lt;b&gt;Regression&lt;/b&gt;&lt;br/&gt;Predicting Quantities&lt;br/&gt;&lt;i&gt;e.g., House Prices&lt;/i&gt;]\n    end\n\n    %% Styling\n    style . fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style .. fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style ... fill:#c462dff,stroke:#aaaaaa,stroke-width:4px"
+    "text": "2. Machine Learning (ML)\n\nLearning from Patterns\n\n\n\n\n\n\n\ngraph TD\n    %% Main Branch\n    ML[ML] --&gt; SL(Supervised)\n    ML --&gt; UL(Unsupervised)\n    ML --&gt; RL(Reinforcement)\n\n %% Reinforcement Subgraph\n    subgraph ...\n        RL --&gt; RL_Goal[&lt;b&gt;Reward Optimization&lt;/b&gt;&lt;br/&gt;Finding the Best Strategy&lt;br/&gt;&lt;i&gt;e.g., Signal Timing&lt;/i&gt;]\n    end\n\n    %% Unsupervised Subgraph\n    subgraph ..\n        UL --&gt; UL_Clust[&lt;b&gt;Clustering&lt;/b&gt;&lt;br/&gt;Grouping Similar Units&lt;br/&gt;&lt;i&gt;e.g., Neighborhood Types&lt;/i&gt;]\n        UL --&gt; UL_Dim[&lt;b&gt;Dimensionality Reduction&lt;/b&gt;&lt;br/&gt;Simplifying Complex Data&lt;br/&gt;&lt;i&gt;e.g., Reducing 50 variables to 3&lt;/i&gt;]\n    end\n\n    %% Supervised Subgraph\n    subgraph .\n        SL --&gt; SL_Class[&lt;b&gt;Classification&lt;/b&gt;&lt;br/&gt;Predicting Categories&lt;br/&gt;&lt;i&gt;e.g., Land Use Type&lt;/i&gt;]\n        SL --&gt; SL_Reg[&lt;b&gt;Regression&lt;/b&gt;&lt;br/&gt;Predicting Quantities&lt;br/&gt;&lt;i&gt;e.g., House Prices&lt;/i&gt;]\n    end\n\n    %% Styling\n    style . fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style .. fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style ... fill:#c462dff,stroke:#aaaaaa,stroke-width:4px",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#machine-learning-ml-1",
     "href": "src/unit_5/ai_smart_city.html#machine-learning-ml-1",
     "title": "AI & Smart City",
     "section": "2. Machine Learning (ML)",
-    "text": "2. Machine Learning (ML)\nSupervised Learning\n\n\nAlgorithms trained on labeled datasets.\nIt learns the relationship between inputs (features) and a known outcome (labels).\n\nPredict labels for unseen data based on historical “ground truth.”\n\n\n\n\n\nDemand Forecasting\n\n\n\n\n\nThe Task: Predicting how many people will use a new bike-share station.\nThe Process: You feed the AI 5 years of data where every day is “labeled” with the actual number of riders, weather, and day of the week.\nOutcome: The AI learns to predict tomorrow’s ridership based on the forecast.\nThis is the most common tool. It requires a “Ground Truth” — someone has to have counted the riders first so the machine can learn what “success” looks like."
+    "text": "2. Machine Learning (ML)\nSupervised Learning\n\n\nAlgorithms trained on labeled datasets.\nIt learns the relationship between inputs (features) and a known outcome (labels).\n\nPredict labels for unseen data based on historical “ground truth.”\n\n\n\n\n\nDemand Forecasting\n\n\n\n\n\nThe Task: Predicting how many people will use a new bike-share station.\nThe Process: You feed the AI 5 years of data where every day is “labeled” with the actual number of riders, weather, and day of the week.\nOutcome: The AI learns to predict tomorrow’s ridership based on the forecast.\nThis is the most common tool. It requires a “Ground Truth” — someone has to have counted the riders first so the machine can learn what “success” looks like.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#machine-learning-ml-2",
     "href": "src/unit_5/ai_smart_city.html#machine-learning-ml-2",
     "title": "AI & Smart City",
     "section": "2. Machine Learning (ML)",
-    "text": "2. Machine Learning (ML)\nUnsupervised Learning\n\n\nAlgorithms based on unlabeled data.\nIt identifies hidden patterns, clusters, or anomalies without being told what to look for.\n\nExploratory analysis to discover “natural” groupings.\n\n\n\n\n\nNeighborhood Typologies\n\n\n\n\nUrban Example: Neighborhood Typologies - The Task: Identifying “Transit Deserts” or unique lifestyle zones. - The Process: You provide raw data on 50 variables (income, car ownership, bus frequency, tree cover) for every city block. - Outcome: The AI clusters the blocks into 8 “types” of neighborhoods, revealing spatial inequalities that weren’t visible in traditional zoning maps.\n\nUnlike supervised learning, we don’t tell the AI what the categories are. It tells us what categories exist. This is great for challenging a planner’s bias."
+    "text": "2. Machine Learning (ML)\nUnsupervised Learning\n\n\nAlgorithms based on unlabeled data.\nIt identifies hidden patterns, clusters, or anomalies without being told what to look for.\n\nExploratory analysis to discover “natural” groupings.\n\n\n\n\n\nNeighborhood Typologies\n\n\n\n\nUrban Example: Neighborhood Typologies - The Task: Identifying “Transit Deserts” or unique lifestyle zones. - The Process: You provide raw data on 50 variables (income, car ownership, bus frequency, tree cover) for every city block. - Outcome: The AI clusters the blocks into 8 “types” of neighborhoods, revealing spatial inequalities that weren’t visible in traditional zoning maps.\n\nUnlike supervised learning, we don’t tell the AI what the categories are. It tells us what categories exist. This is great for challenging a planner’s bias.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#machine-learning-ml-3",
     "href": "src/unit_5/ai_smart_city.html#machine-learning-ml-3",
     "title": "AI & Smart City",
     "section": "2. Machine Learning (ML)",
-    "text": "2. Machine Learning (ML)\nReinforcement Learning\n\n\nAlgorithms that interact with an environment to maximize a Reward Signal.\nLearning through feedback loops and penalties.\n\nFind the most efficient strategy in a changing system.\n\n\n\n\n\nHeat Island Mitigation\n\n\n\n\n\nUrban Example: Heat Island Mitigation\nThe Task: Placing 500 new trees to maximize cooling in a low-income neighborhood.\nThe Process: The AI “plants” trees in different configurations. It receives a reward for every degree the average ground temperature drops.\nOutcome: The AI finds a non-obvious “checkerboard” pattern that optimizes shade and wind flow better than a simple line of trees would.\nThis is exactly how Waymo trains in virtual cities before going on the road. It “plays” the city like a video game until it learns how not to crash or cause a jam."
+    "text": "2. Machine Learning (ML)\nReinforcement Learning\n\n\nAlgorithms that interact with an environment to maximize a Reward Signal.\nLearning through feedback loops and penalties.\n\nFind the most efficient strategy in a changing system.\n\n\n\n\n\nHeat Island Mitigation\n\n\n\n\n\nUrban Example: Heat Island Mitigation\nThe Task: Placing 500 new trees to maximize cooling in a low-income neighborhood.\nThe Process: The AI “plants” trees in different configurations. It receives a reward for every degree the average ground temperature drops.\nOutcome: The AI finds a non-obvious “checkerboard” pattern that optimizes shade and wind flow better than a simple line of trees would.\nThis is exactly how Waymo trains in virtual cities before going on the road. It “plays” the city like a video game until it learns how not to crash or cause a jam.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#a-real-world-example-1",
     "href": "src/unit_5/ai_smart_city.html#a-real-world-example-1",
     "title": "AI & Smart City",
     "section": "A Real World Example",
-    "text": "A Real World Example\nTraffic Monitoring in Pittsburgh, USA"
+    "text": "A Real World Example\nTraffic Monitoring in Pittsburgh, USA",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#deep-learning-dl",
     "href": "src/unit_5/ai_smart_city.html#deep-learning-dl",
     "title": "AI & Smart City",
     "section": "3. Deep Learning (DL)",
-    "text": "3. Deep Learning (DL)\nProcessing Complexity\n\n\nA subset of ML inspired by the human brain’s architecture (Neural Networks).\nUses multiple Hidden Layers to process high-dimensional, “messy” data like images, audio, or LiDAR.\n\nHandles non-linear relationships.\n\n\n\n\n\nHeart Health\n\n\n\n\n\nUrban Example: Predicting Heart Health\nThe Task: Identifying neighborhoods with high risks of heart disease using Street View.\nThe Process: A Neural Network analyzes thousands of street-level images. It “sees” the subtle mix of tree canopy, sidewalk quality, and building density.\nOutcome: The AI predicts cardiovascular risk levels with high accuracy, even when social data is missing. It “reads” the health of the residents from the “face” of the street.\nThis is a powerful “Black Box” example. The AI might find that a specific type of pavement + a specific tree-sky ratio = lower stress levels.\nThe Challenge: We know the AI is right, but we can’t always explain the exact “biological logic.”\nIt proves that the built environment is a “Cardiovascular Risk Modifier.”"
+    "text": "3. Deep Learning (DL)\nProcessing Complexity\n\n\nA subset of ML inspired by the human brain’s architecture (Neural Networks).\nUses multiple Hidden Layers to process high-dimensional, “messy” data like images, audio, or LiDAR.\n\nHandles non-linear relationships.\n\n\n\n\n\nHeart Health\n\n\n\n\n\nUrban Example: Predicting Heart Health\nThe Task: Identifying neighborhoods with high risks of heart disease using Street View.\nThe Process: A Neural Network analyzes thousands of street-level images. It “sees” the subtle mix of tree canopy, sidewalk quality, and building density.\nOutcome: The AI predicts cardiovascular risk levels with high accuracy, even when social data is missing. It “reads” the health of the residents from the “face” of the street.\nThis is a powerful “Black Box” example. The AI might find that a specific type of pavement + a specific tree-sky ratio = lower stress levels.\nThe Challenge: We know the AI is right, but we can’t always explain the exact “biological logic.”\nIt proves that the built environment is a “Cardiovascular Risk Modifier.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-spatial-gap",
     "href": "src/unit_5/ai_smart_city.html#the-spatial-gap",
     "title": "AI & Smart City",
     "section": "The Spatial Gap",
-    "text": "The Spatial Gap\nas of ‘today’\n\n\nText-based Training\nMost LLMs are trained on books and code, not geography.\n\n\n\nSpatial Blindness\nAI might know the word “street” but not the physics of a street.\n\n\n\nThe Horizon\nThe rise of Geo-Foundation models and satellite-based training.\n\n\n\nCrucial warning for transport students: Just because an AI can write a transport policy doesn’t mean it understands spatial proximity or ‘mass/gravity’ pull.\nRemind them that for AI to be a “Planner,” it needs a new kind of training—one based on satellite imagery and graph networks, not just Wikipedia and Reddit threads."
+    "text": "The Spatial Gap\nas of ‘today’\n\n\nText-based Training\nMost LLMs are trained on books and code, not geography.\n\n\n\nSpatial Blindness\nAI might know the word “street” but not the physics of a street.\n\n\n\nThe Horizon\nThe rise of Geo-Foundation models and satellite-based training.\n\n\n\nCrucial warning for transport students: Just because an AI can write a transport policy doesn’t mean it understands spatial proximity or ‘mass/gravity’ pull.\nRemind them that for AI to be a “Planner,” it needs a new kind of training—one based on satellite imagery and graph networks, not just Wikipedia and Reddit threads.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#demystifying-the-synergy",
     "href": "src/unit_5/ai_smart_city.html#demystifying-the-synergy",
     "title": "AI & Smart City",
     "section": "Demystifying the Synergy",
-    "text": "Demystifying the Synergy\nAI \\(\\neq\\) Digital Twin\n\n\n\nAI\nThe analytical engine that processes the data.\n\nDigital Twin\nA dynamic virtual representation of a physical asset, process, or system.\n\n\n\nThe Common Mistake: Thinking that a 3D map is a “Smart Twin.”\n\nA map is a Snapshot.\nA Twin is a Living Process.\n\nStart by addressing the buzzword trap. Students often think “AI + Digital Twin = The Matrix.”\nReiterate: Logic must precede display. A beautiful 3D model with no AI logic behind it is just “fancy misinformation.”\nA true twin requires a feedback loop between the virtual and the physical."
+    "text": "Demystifying the Synergy\nAI \\(\\neq\\) Digital Twin\n\n\n\nAI\nThe analytical engine that processes the data.\n\nDigital Twin\nA dynamic virtual representation of a physical asset, process, or system.\n\n\n\nThe Common Mistake: Thinking that a 3D map is a “Smart Twin.”\n\nA map is a Snapshot.\nA Twin is a Living Process.\n\nStart by addressing the buzzword trap. Students often think “AI + Digital Twin = The Matrix.”\nReiterate: Logic must precede display. A beautiful 3D model with no AI logic behind it is just “fancy misinformation.”\nA true twin requires a feedback loop between the virtual and the physical.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#planning-moments",
     "href": "src/unit_5/ai_smart_city.html#planning-moments",
     "title": "AI & Smart City",
     "section": "Planning Moments",
-    "text": "Planning Moments\n\n\n\nAnalysis\nWhere you identify a problem.\n\n\n\nPrediction\nIf you were to do something, then something might happen.\n\n\n\nInterpretation\nHow do you communicate this to other people.\n\n\n\n\n\n\n\n\n\nNot all Twins are created equal.\n\n\n\nNot all require AI.\nNot all need all three moments."
+    "text": "Planning Moments\n\n\n\nAnalysis\nWhere you identify a problem.\n\n\n\nPrediction\nIf you were to do something, then something might happen.\n\n\n\nInterpretation\nHow do you communicate this to other people.\n\n\n\n\n\n\n\n\n\nNot all Twins are created equal.\n\n\n\nNot all require AI.\nNot all need all three moments.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#moment-1-the-backend",
     "href": "src/unit_5/ai_smart_city.html#moment-1-the-backend",
     "title": "AI & Smart City",
     "section": "Moment 1: The Backend",
-    "text": "Moment 1: The Backend\n“The Analysis”\nCreating the Living Data Infrastructure\n\n\n1.1 The Infrastructure (Interoperability)\nCities have “siloed” data (Transport, Energy, Health all use different formats).\n\nThe AI Role:\n\nData Weaver\n\n\n\n\n\n1.2 The Analysis (Semantic Mapping)\nRaw numbers don’t explain “Urban Behavior.”\n\nThe AI Role:\n\nSemantic Interpretation\n\n\n\n\n\nVerbally explain this Use Case: “Think of a Real-time Origin-Destination map.\nIn 1.1, the AI is the janitor: it cleans GPS drift so cars don’t look like they are driving through buildings.\nIn 1.2, the AI is the analyst: it looks at those dots and says, ‘This isn’t just movement; it’s a semantic pattern of people avoiding the main road because of a perceived safety issue.’”"
+    "text": "Moment 1: The Backend\n“The Analysis”\nCreating the Living Data Infrastructure\n\n\n1.1 The Infrastructure (Interoperability)\nCities have “siloed” data (Transport, Energy, Health all use different formats).\n\nThe AI Role:\n\nData Weaver\n\n\n\n\n\n1.2 The Analysis (Semantic Mapping)\nRaw numbers don’t explain “Urban Behavior.”\n\nThe AI Role:\n\nSemantic Interpretation\n\n\n\n\n\nVerbally explain this Use Case: “Think of a Real-time Origin-Destination map.\nIn 1.1, the AI is the janitor: it cleans GPS drift so cars don’t look like they are driving through buildings.\nIn 1.2, the AI is the analyst: it looks at those dots and says, ‘This isn’t just movement; it’s a semantic pattern of people avoiding the main road because of a perceived safety issue.’”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#moment-2-operational",
     "href": "src/unit_5/ai_smart_city.html#moment-2-operational",
     "title": "AI & Smart City",
     "section": "Moment 2: Operational",
-    "text": "Moment 2: Operational\n“The Prediction”\nFrom “What is” \\(\\rightarrow\\) “What if”\n\n\nScenario Testing\nStatic models cannot account for the “Wicked” variables of a living city.\n\nThe AI Role:\n\nGenerative Engine\n\n\n\n\n\nPredictive States\nHistorical data alone doesn’t prepare a city for rare or extreme events.\n\nThe AI Role:\n\nPredictive Optimizer\n\n\n\n\n\n\n\n\n\n\nPredictions are not certainties\n\n\nMultiple outcomes can help us understand potential responses.\n\n\n\n\n\n\nVerbally explain this Use Case: “Think of Urban Reforestation or Heat Island mitigation.\nIn 2.1, the AI is the designer: It generates thousands of ‘what-if’ scenarios, planting virtual trees in different patterns to see which reduces surface temp the most.\nIn 2.2, the AI is the lookout: It predicts how a heatwave next week will affect the grid and coordinates the Twin to recommend specific cooling centers to be opened in advance.”"
+    "text": "Moment 2: Operational\n“The Prediction”\nFrom “What is” \\(\\rightarrow\\) “What if”\n\n\nScenario Testing\nStatic models cannot account for the “Wicked” variables of a living city.\n\nThe AI Role:\n\nGenerative Engine\n\n\n\n\n\nPredictive States\nHistorical data alone doesn’t prepare a city for rare or extreme events.\n\nThe AI Role:\n\nPredictive Optimizer\n\n\n\n\n\n\n\n\n\n\nPredictions are not certainties\n\n\nMultiple outcomes can help us understand potential responses.\n\n\n\n\n\n\nVerbally explain this Use Case: “Think of Urban Reforestation or Heat Island mitigation.\nIn 2.1, the AI is the designer: It generates thousands of ‘what-if’ scenarios, planting virtual trees in different patterns to see which reduces surface temp the most.\nIn 2.2, the AI is the lookout: It predicts how a heatwave next week will affect the grid and coordinates the Twin to recommend specific cooling centers to be opened in advance.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#moment-3-front-end",
     "href": "src/unit_5/ai_smart_city.html#moment-3-front-end",
     "title": "AI & Smart City",
     "section": "Moment 3: Front-End",
-    "text": "Moment 3: Front-End\n“The Interpretation”\nTranslating Complexity for Humans\n\n\nAccessibility\nComplex spatial data is often “locked” behind technical jargon or difficult software.\n\nThe AI Role:\n\nNatural Language Interface\n\n\n\n\n\nContextualization\nRaw visualizations can be misinterpreted by residents or non-technical stakeholders.\n\nThe AI Role:\n\nSemantic Translator\n\n\n\n\n\nVerbally explain this Use Case: “Think of a community meeting about a new bus lane.\nIn 3.1, the AI is the librarian: A resident can just ask, ‘How will this change my walk to the grocery store?’ and the AI queries the Twin to show that specific path.\nIn 3.2, the AI is the storyteller: It takes the ‘Black Box’ results of a traffic model and explains the logic in plain language, such as: ‘The model predicts a 10% reduction in air pollution because through-traffic is diverted away from the school zone.’”"
+    "text": "Moment 3: Front-End\n“The Interpretation”\nTranslating Complexity for Humans\n\n\nAccessibility\nComplex spatial data is often “locked” behind technical jargon or difficult software.\n\nThe AI Role:\n\nNatural Language Interface\n\n\n\n\n\nContextualization\nRaw visualizations can be misinterpreted by residents or non-technical stakeholders.\n\nThe AI Role:\n\nSemantic Translator\n\n\n\n\n\nVerbally explain this Use Case: “Think of a community meeting about a new bus lane.\nIn 3.1, the AI is the librarian: A resident can just ask, ‘How will this change my walk to the grocery store?’ and the AI queries the Twin to show that specific path.\nIn 3.2, the AI is the storyteller: It takes the ‘Black Box’ results of a traffic model and explains the logic in plain language, such as: ‘The model predicts a 10% reduction in air pollution because through-traffic is diverted away from the school zone.’”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-integration-challenge",
     "href": "src/unit_5/ai_smart_city.html#the-integration-challenge",
     "title": "AI & Smart City",
     "section": "The Integration Challenge",
-    "text": "The Integration Challenge\nIt’s Harder than it Looks\n\n\n\nInteroperability\nGetting “System A” (Transport) to talk to “System B” (Energy)\n\n\n\nData Latency\nIf the AI is too slow, the “Twin” is already showing the past, not the present.\n\n\n\nValidation\nHow do we know the Twin’s “AI Brain” is telling the truth?\n\n\n\n[cite_start]Closing thought for this section: A Digital Twin is not a “crystal ball.” [cite: 265]\nIt is a tool for exploration, not a decree of truth. [cite_start]We model to understand potentiality, not to dictate outcomes. [cite: 265]"
+    "text": "The Integration Challenge\nIt’s Harder than it Looks\n\n\n\nInteroperability\nGetting “System A” (Transport) to talk to “System B” (Energy)\n\n\n\nData Latency\nIf the AI is too slow, the “Twin” is already showing the past, not the present.\n\n\n\nValidation\nHow do we know the Twin’s “AI Brain” is telling the truth?\n\n\n\n[cite_start]Closing thought for this section: A Digital Twin is not a “crystal ball.” [cite: 265]\nIt is a tool for exploration, not a decree of truth. [cite_start]We model to understand potentiality, not to dictate outcomes. [cite: 265]",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-traceability-trade-off",
     "href": "src/unit_5/ai_smart_city.html#the-traceability-trade-off",
     "title": "AI & Smart City",
     "section": "The Traceability Trade-off",
-    "text": "The Traceability Trade-off\nExplainability vs. Performance\n\n\n\n\n\n\n\n\n\nTraceable Heuristics\nOpaque “Black Boxes”\n\n\n\n\nThe Pros\nWe can read the rules. It provides a clear “Why” for policy decisions.\nIncredible accuracy. It finds patterns humans can’t see\n\n\nThe Cons\nMay oversimplify “Wicked” complexity or miss subtle patterns.\nHigh opacity. We cannot explain the internal logic or “arrows.”\n\n\nBest for\nRegulatory permits and long-term planning.\nReal-time management and rapid data processing.\n\n\n\n\n\n\nIn a democracy, is a “perfect” prediction useful if you cannot explain its logic to the public?\n\n\n\n\nThis bridges the gap between Part I (Systems Mapping) and Part II (AI).\nIn Part I, they drew every arrow (100% Traceable). In Deep Learning, the machine draws millions of invisible arrows.\nRemind them: “The machine said so” is not a legal justification in transport planning.\nTrade-off: You gain “Accuracy” but you lose “Accountability.”"
+    "text": "The Traceability Trade-off\nExplainability vs. Performance\n\n\n\n\n\n\n\n\n\nTraceable Heuristics\nOpaque “Black Boxes”\n\n\n\n\nThe Pros\nWe can read the rules. It provides a clear “Why” for policy decisions.\nIncredible accuracy. It finds patterns humans can’t see\n\n\nThe Cons\nMay oversimplify “Wicked” complexity or miss subtle patterns.\nHigh opacity. We cannot explain the internal logic or “arrows.”\n\n\nBest for\nRegulatory permits and long-term planning.\nReal-time management and rapid data processing.\n\n\n\n\n\n\nIn a democracy, is a “perfect” prediction useful if you cannot explain its logic to the public?\n\n\n\n\nThis bridges the gap between Part I (Systems Mapping) and Part II (AI).\nIn Part I, they drew every arrow (100% Traceable). In Deep Learning, the machine draws millions of invisible arrows.\nRemind them: “The machine said so” is not a legal justification in transport planning.\nTrade-off: You gain “Accuracy” but you lose “Accountability.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#the-three-failures",
     "href": "src/unit_5/ai_smart_city.html#the-three-failures",
     "title": "AI & Smart City",
     "section": "The Three Failures",
-    "text": "The Three Failures\nLimits of the Black Box\n\n\nEthical Bias\nAI learns from the past. If our historical data is biased (e.g., unequal investment), the AI will “optimize” that inequality into the future.\n\nHallucination\nIn complex systems, AI can find “patterns” that don’t exist—creating elegant but physically impossible solutions to urban problems.\n\nAccountability\nThe “Liability Gap.” When a black box makes a mistake in a public street, we lose the clear line of responsibility required for local government.\n\n\n\nFailure 1: Mention “Garbage In, Garbage Out.” If we train an AI on 1960s car-centric data, it will never suggest a bike lane.\nFailure 2: Relate this to the “Spatial Gap.” AI might suggest a perfect route that passes through a solid brick wall because it doesn’t “know” physics.\nFailure 3: This is the most important for planners. In Part I, you owned the logic. In Part II, who owns the mistake?"
+    "text": "The Three Failures\nLimits of the Black Box\n\n\nEthical Bias\nAI learns from the past. If our historical data is biased (e.g., unequal investment), the AI will “optimize” that inequality into the future.\n\nHallucination\nIn complex systems, AI can find “patterns” that don’t exist—creating elegant but physically impossible solutions to urban problems.\n\nAccountability\nThe “Liability Gap.” When a black box makes a mistake in a public street, we lose the clear line of responsibility required for local government.\n\n\n\nFailure 1: Mention “Garbage In, Garbage Out.” If we train an AI on 1960s car-centric data, it will never suggest a bike lane.\nFailure 2: Relate this to the “Spatial Gap.” AI might suggest a perfect route that passes through a solid brick wall because it doesn’t “know” physics.\nFailure 3: This is the most important for planners. In Part I, you owned the logic. In Part II, who owns the mistake?",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#reshaping-the-planners-role",
     "href": "src/unit_5/ai_smart_city.html#reshaping-the-planners-role",
     "title": "AI & Smart City",
     "section": "Reshaping the Planner’s Role",
-    "text": "Reshaping the Planner’s Role\nWhy there is hope\n\n\n\nLiberating the Planner: AI handles the “disorganized complexity” (sorting millions of data points) so you can focus on the Ethics and Vision.\nThe Sandbox: It allows us to fail 1,000 times in a Digital Twin so we can succeed once in the real street.\n\n\n\n\n\nHuman-in-the-Loop: AI proposes, the Human disposes.\nThe Synthesis: Use AI for efficiency (the math), but keep Systems Thinking for efficacy (the goal).\n\n\n\n\nThis is the “Doom and Gloom” antidote. AI isn’t the Planner; it’s the Planner’s most powerful calculator.\nIt removes the “boring” parts of the job (cleaning data) and leaves the “wicked” parts (negotiating values) to the humans."
+    "text": "Reshaping the Planner’s Role\nWhy there is hope\n\n\n\nLiberating the Planner: AI handles the “disorganized complexity” (sorting millions of data points) so you can focus on the Ethics and Vision.\nThe Sandbox: It allows us to fail 1,000 times in a Digital Twin so we can succeed once in the real street.\n\n\n\n\n\nHuman-in-the-Loop: AI proposes, the Human disposes.\nThe Synthesis: Use AI for efficiency (the math), but keep Systems Thinking for efficacy (the goal).\n\n\n\n\nThis is the “Doom and Gloom” antidote. AI isn’t the Planner; it’s the Planner’s most powerful calculator.\nIt removes the “boring” parts of the job (cleaning data) and leaves the “wicked” parts (negotiating values) to the humans.",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/ai_smart_city.html#final-thoughts",
     "href": "src/unit_5/ai_smart_city.html#final-thoughts",
     "title": "AI & Smart City",
     "section": "Final Thoughts",
-    "text": "Final Thoughts\n\nSkepticism is a Skill: It is the bridge between a “Smart” city and a “Wise” city.\nLogic still Precedes Display: Don’t let the beauty of a Digital Twin hide the opacity of its brain.\nYour Role: You are the architect of the reward signals. What will you tell the AI to value?\n\n\n\n“AI can find the pattern, but only the Planner can give it a Purpose.”\n\n\n\nBring it full circle to Part I.\nRemind them that they are now “Translators”—they need to speak enough ‘Data’ to question the machine, and enough ‘Human’ to serve the resident.\nEnd with a call to action: “Go build the logic before you turn on the machine.”"
+    "text": "Final Thoughts\n\nSkepticism is a Skill: It is the bridge between a “Smart” city and a “Wise” city.\nLogic still Precedes Display: Don’t let the beauty of a Digital Twin hide the opacity of its brain.\nYour Role: You are the architect of the reward signals. What will you tell the AI to value?\n\n\n\n“AI can find the pattern, but only the Planner can give it a Purpose.”\n\n\n\nBring it full circle to Part I.\nRemind them that they are now “Translators”—they need to speak enough ‘Data’ to question the machine, and enough ‘Human’ to serve the resident.\nEnd with a call to action: “Go build the logic before you turn on the machine.”",
+    "crumbs": [
+      "Schedule",
+      "Unit 5",
+      "AI & Smart Cities"
+    ]
   },
   {
     "objectID": "src/unit_5/data_viz.html",
