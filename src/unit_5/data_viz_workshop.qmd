@@ -1,12 +1,8 @@
 ---
 title: Data Visualization Workshop
 ---
-# Workshop {background-color="#FFDC00"}
-::: {.r-fit-text}
-The Green Mobility Dashboard
-:::
 
-## The Challenge {.nonincremental background-color="#FFDC00"}
+## The Challenge
 _Context: "Car-Free City Center" Pilot_
 
 **Your Mission:**
@@ -25,7 +21,7 @@ Design a paper prototype of a decision support dashboard for **ONE** specific st
 :::
 ::::::
 
-## The Menu: Choose Your Data {.nonincremental background-color="#FFDC00"}
+## The Menu: Choose Your Data 
 *Select 3-4 datasets to power your dashboard:*
 
 1.  🚗 **Real-time Traffic Sensors** (Vehicle counts/speed)
@@ -39,7 +35,7 @@ Design a paper prototype of a decision support dashboard for **ONE** specific st
 9.  🚌 **Public Transit Delays** (Real-time feed)
 10. 🌧️ **Historical Weather Data**
 
-## Step-by-Step {.nonincremental background-color="#FFDC00"}
+## Step-by-Step
 
 :::::: {.columns}
 ::: {.column}
