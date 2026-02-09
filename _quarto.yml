@@ -43,7 +43,7 @@ website:
               - text: Workshop
                 href: src/unit_5/data_viz_workshop.qmd
               - text: AI & Smart Cities
-                href: src/unit_5/ai_smart_cities.qmd
+                href: src/unit_5/ai_smart_city.qmd
 
       - href: resources.qmd
         text : "Additional Resources"
