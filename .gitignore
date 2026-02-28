@@ -6,4 +6,4 @@
 docs
 
 # ignore adobe illustrator files
-*.ai
+*.ai.DS_Store

@@ -1,0 +1,934 @@
+
+## What are the SDGs?
+
+- 17 Sustainable Development Goals. One 2030 deadline.
+- Not a wishlist — a moral and political commitment made by 193 nations
+- From climate action to health to safe cities: deeply interconnected
+- SDGs are **wicked problems** (recall Unit 3): no single solution, no stopping rule
+
+::: {.callout title="The Urban Leverage Point"}
+Cities house 55% of the world's population, generate 80% of global GDP, and produce 70% of greenhouse gas emissions. Most SDGs will be won or lost here.
+:::
+
+::: {.notes}
+- SDGs adopted in 2015 as part of the UN 2030 Agenda — this is the professional mandate for planners
+- "Legally non-binding but morally binding" — useful framing for how planners should relate to this framework
+- Connect to Unit 3: SDGs are the canonical wicked problem — when is SDG 11 "done"? It never is.
+- Key function of this slide: remind students that technology is never the goal — the SDG outcome is
+- Keep this brief — students know the SDGs; this is a reminder, not a lecture
+:::
+
+## The Urban SDGs {.nonincremental background-color="#40E4FF"}
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+### SDG 11 — The Anchor
+
+**Sustainable Cities and Communities**
+
+- Affordable and adequate housing
+- Safe and sustainable transport
+- Inclusive and accessible public spaces
+- Reduced environmental impact
+- Resilience to climate and disaster
+
+:::
+::: {.column width="50%"}
+
+### The Web of Urban Goals
+
+- **SDG 3** — Good Health *(active mobility, clean air, green space)*
+- **SDG 10** — Reduced Inequalities *(access, public space as equaliser)*
+- **SDG 13** — Climate Action *(modal shift, nature-based solutions)*
+- **SDG 15** — Life on Land *(urban biodiversity, green corridors)*
+
+:::
+::::::
+
+::: {.notes}
+- SDG 11 is explicitly about cities, but it cannot be achieved in isolation
+- Demonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)
+- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes
+- Ask: "Which SDG is most relevant to your project neighbourhood? Which others does it connect to?"
+- Cyan background: this is a foundational framework to return to throughout the session
+:::
+
+## Smart Cities: A Recap
+
+_Building on Units 3–5_
+
+:::::: {.columns}
+::: {.column width="55%"}
+
+The smart city was sold as a high-tech promise:
+
+- Real-time sensor networks monitoring everything
+- AI-powered prediction and optimisation
+- Digital twins simulating urban futures
+- Seamless Mobility-as-a-Service platforms
+
+:::
+::: {.column width="45%"}
+
+**The canonical examples:**
+
+- Songdo *(South Korea)*
+- Sidewalk Toronto *(cancelled, 2020)*
+- NEOM *(under construction)*
+- Masdar City *(stalled)*
+
+*Built. Expensive. Often: half-empty.*
+
+:::
+::::::
+
+::: {.notes}
+- Callback to earlier units — students should recognise all of these tools
+- Don't linger: the point is not to criticise the tools, but to contextualise them
+- Sidewalk Toronto: Google Sidewalk Labs' smart city project, cancelled due to privacy concerns and escalating costs
+- Songdo: streets optimised for efficiency, but low occupancy for years — the optimisation that forgot human desire
+- NEOM: $500bn Saudi megaproject, highly contested on human rights and feasibility grounds
+- The framing: these are not technology failures — they are failures of starting with technology before understanding people
+:::
+
+## Smart ≠ High-Tech {background-color="#40E4FF"}
+
+::: {.r-fit-text}
+"Smart" means **effective**.
+:::
+
+- A well-placed bench that invites people to sit → smart intervention
+- A narrowed road that slows cars without a sign → smart intervention
+- A cycle lane that makes car trips optional → smart intervention
+
+::: {.fragment .highlight-red}
+**Low-tech IS smart city design — when it achieves the SDG outcome.**
+:::
+
+::: {.notes}
+- This is the key reframe for the entire session — let it land before moving on
+- Ask: "What does 'smart' mean to you?" then challenge the assumption
+- This is explicitly not anti-technology — it is pro-effectiveness
+- The test: does it achieve the SDG outcome? If yes, it is smart regardless of technical complexity
+- Connect to Unit 5: "AI can find the pattern, but only the Planner can give it purpose" — same logic applies to all tools
+:::
+
+## The Gap {background-color="#FF8100"}
+
+_Why high-tech smart city projects often underperform_
+
+:::::: {.columns}
+::: {.column .fragment}
+
+**The technology works.**
+
+- Sensors sense
+- Algorithms optimise
+- Dashboards display
+
+:::
+::: {.column .fragment}
+
+**The city doesn't change.**
+
+- People still drive
+- Pollution still rises
+- Inequality persists
+
+*The missing variable is not the system.*
+*It is the people in it.*
+
+:::
+::::::
+
+::: {.notes}
+- Orange background: this is a critical diagnostic — a rupture in the argument built so far
+- Key failure modes: digital divide (who can access smart city services?), high maintenance costs (who pays in Year 5?), top-down imposition (no community ownership), surveillance creep
+- Sidewalk Toronto: partly collapsed due to data sovereignty — people didn't want to be monitored as a precondition for urban services
+- Songdo: optimised for flow, but without human desire — result: well-connected ghost city for years
+- Pause here: "Can you think of a smart city project that measurably changed how ordinary people live?" — let students struggle with this
+- This is the bridge: we've diagnosed the problem — now Part II presents the alternative
+:::
+
+
+# Design for People
+
+::: {.r-fit-text}
+The most powerful urban tool has no processor.
+:::
+
+## What is "Low-Tech"? {.nonincremental}
+
+It is not primitive. It is **human-centred**.
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+**Low-tech design is:**
+
+- Accessible without a device or signal
+- Durable — works in 10, 20, 50 years
+- Legible — understood without a manual
+- Maintainable at low cost
+- **Fails gracefully** when it fails at all
+
+:::
+::: {.column width="50%"}
+
+**The test:**
+
+Who needs a smartphone to use a bench?
+
+Who gets excluded when the Wi-Fi goes down?
+
+Who can maintain it after the consultant leaves?
+
+*If the answer is "everyone can use it" — you have a strong foundation.*
+
+:::
+::::::
+
+::: {.notes}
+- "Fails gracefully" is critical: a broken smart sensor gives no data; a worn cobblestone still slows a car
+- This is an equity argument: low-tech is more equitable because access is not gated by digital literacy or device ownership
+- The maintenance gap: many smart city projects degrade after Year 5 when maintenance budgets are cut; low-tech ages more robustly
+- Ask: "Think of a street that works well for everyone — what makes it work? Is any of it digital?"
+- This slide establishes the evaluation criteria applied to every example that follows
+:::
+
+## Diagnose Before You Design {.nonincremental background-color="#2b2b2b"}
+
+_Solutions can be low-tech. Diagnosis can be hybrid._
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+### Phase 1: Understand
+
+**What is actually happening here?**
+
+How do people move, gather, avoid?
+What paths do they really take?
+What spaces do they never use?
+
+### Phase 2: Design
+
+**What is the minimum effective intervention?**
+
+Work with observed behaviour — not assumed behaviour.
+
+:::
+::: {.column width="50%"}
+
+### Low-Cost Diagnostic Tools
+
+- **Walking audits** — Jan Gehl methodology: go out, count, observe, record
+- **Desire line mapping** — where are paths worn?
+- **Participatory community mapping** — residents as data collectors
+- **Open data**: Sentinel satellite (free ESA), OpenStreetMap, Strava Metro cycling flows
+- **Time-lapse cameras**
+
+:::
+::::::
+
+::: {.notes}
+- This addresses the valid concern: "don't we need data before we can design well?"
+- Yes — but data doesn't require expensive custom infrastructure
+- Jan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.
+- Sentinel satellite: ESA's freely available remote sensing data — accessible to any municipality with internet access
+- Strava Metro: aggregated, anonymised cycling/running data — available to cities at low cost
+- Principle: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.
+- Connect to Unit 5: "The planner's role is gatekeeper" — gatekeeping starts with asking the right questions before choosing the tool
+:::
+
+## Desire Lines {background-image="img/desire_lines.jpg" background-opacity="0.5"}
+
+:::::: {.columns}
+::: {.column width="60%"}
+
+When planners build straight paths and people carve diagonal ones —
+
+**who is wrong?**
+
+> "Desire lines are the city's unwritten design critique."
+
+The worn path across the grass is not vandalism.
+
+It is **data**.
+
+*This is where the path should have been.*
+
+:::
+::: {.column width="40%"}
+
+**What desire lines reveal:**
+
+- How people actually navigate
+- Where friction exists in the planned environment
+- The gap between designed intent and lived experience
+
+*Some universities wait for the first winter snow to see where students walk — then pave those paths.*
+
+:::
+::::::
+
+::: {.notes}
+- Immediately recognisable to most students — they have walked desire lines without knowing the term
+- Classic images: diagonal paths worn across university lawns, or the "snow map" showing actual routes before paving
+- Some universities (e.g. Ohio State) specifically delayed paving until behaviour could be observed first
+- Connect to the diagnostic slide: desire lines are free behavioural data, visible to anyone paying attention
+- Every desire line is a planning failure — and a design opportunity waiting to be claimed
+- Ask: "Can you think of a desire line you walk regularly? What does it tell you about the original design?"
+- Image note: source a photograph of a well-worn grass desire path; aerial shots are most striking
+:::
+
+## Example: Woonerfs & Shared Space {background-image="img/woonerf_drachten.jpg" background-opacity="0.4"}
+
+_Hans Monderman, Drachten, Netherlands_
+
+> "If you treat drivers like idiots, they act like idiots."
+>
+> — *Hans Monderman, Traffic Engineer*
+
+- In 2003, Monderman removed ALL traffic lights, signs, and kerbs from a busy intersection
+- Drivers were forced to negotiate — make eye contact — pay attention
+- **Speeds dropped. Accidents fell. Pedestrians felt safer.**
+
+::: {.fragment .highlight-green}
+**Uncertainty = attention = care.** Design that reads desire rather than overriding it.
+:::
+
+::: {.notes}
+- Monderman was a traffic engineer — not a radical. His insight came from observing how drivers behave differently in unmarked rural lanes vs. heavily-signed urban roads
+- The Laweiplein intersection in Drachten: car speeds dropped from 30km/h average to under 20km/h after removal of all signals; accidents reduced
+- Woonerf (living street): Dutch concept giving pedestrians legal priority; speed controlled by design (narrowing, trees, varied paving), not signage
+- Direct link to desire lines: Monderman observed how people actually navigate before redesigning
+- Ask: "What does this tell us about the relationship between certainty and attention? About who the street is designed for?"
+- Image note: source the Laweiplein intersection in Drachten, or a woonerf street in the Netherlands
+:::
+
+## Nudge Theory & Choice Architecture
+
+> "A nudge is any aspect of the choice architecture that alters people's behaviour in a predictable way without forbidding any options or significantly changing their economic incentives."
+>
+> — *Thaler & Sunstein, Nudge (2008)*
+
+- People do not make rational choices in a vacuum
+- They respond to **defaults, framing, salience, and friction**
+- Change the environment → change the behaviour
+- No mandate. No fine. No app.
+
+::: {.notes}
+- Richard Thaler received the Nobel Prize in Economics in 2017 for behavioural economics
+- Classic non-urban examples: organ donation default switches (opt-out vs. opt-in); the fly painted in Schiphol airport urinals (reduced spillage 80%)
+- Urban implication: you don't need to convince people to make better choices; make better choices the default or the easiest option
+- A bike lane doesn't tell anyone not to drive — it makes cycling a visible, safe, obvious alternative
+- Connection to planning ethics: nudge is non-coercive, but planners must still ask: who benefits from the default we are setting?
+:::
+
+## Example: The Bench Test {background-color="#2b2b2b"}
+
+_William H. Whyte, The Social Life of Small Urban Spaces (1980)_
+
+:::::: {.columns}
+::: {.column width="55%"}
+
+Whyte filmed New York City plazas systematically for years.
+
+His findings — revolutionary in their simplicity:
+
+- **People sit where there is sun**
+- **People sit where they can watch activity** *(triangulation)*
+- **People sit where they can face each other**
+- **Movable chairs > fixed benches** *(agency matters)*
+
+*The best public spaces are designed from observation, not assumption.*
+
+:::
+::: {.column width="45%"}
+
+:::{.r-stretch}
+*[Embed video clip: "The Social Life of Small Urban Spaces" — William H. Whyte, 1988 — freely available on YouTube. Recommend 2–3 minute excerpt.]*
+:::
+
+:::
+::::::
+
+::: {.notes}
+- Strongly recommended to embed a 2–3 minute clip — the Whyte film is both charming and scientifically rigorous; students respond well to it
+- Whyte's method: time-lapse cameras, behavioural observers, systematic annotation — all available in 1980, zero digital technology required
+- Conclusion: plazas that ignored sun angles, sightlines, and seat movability consistently failed; the fix was almost always cheap
+- Direct application of nudge theory: the bench IS the choice architecture — where it points, what it faces, whether it can move all shape behaviour without any instructions
+- Ask: "What does a city designer learn from this that an AI could not?"
+- The Whyte film is available on YouTube under that title; embed the direct link before presenting
+:::
+
+## Four Levers of Behavioural Change {.nonincremental background-color="#40E4FF"}
+
+_EAST Framework — Behavioural Insights Team (UK)_
+
+:::::: {.columns}
+::: {.column width="25%"}
+
+### E — Easy
+
+Remove friction from the desired behaviour.
+
+*Protected bike lane over shared road.*
+
+:::
+::: {.column width="25%"}
+
+### A — Attractive
+
+Make the good option visible and appealing.
+
+*A tree-lined street invites walking.*
+
+:::
+::: {.column width="25%"}
+
+### S — Social
+
+Leverage norms: what do others do here?
+
+*Visible cyclists normalise cycling.*
+
+:::
+::: {.column width="25%"}
+
+### T — Timely
+
+Intervene at the right moment.
+
+*Infrastructure ready when a new neighbourhood opens.*
+
+:::
+::::::
+
+*These are the levers planners pull — with or without technology.*
+
+::: {.notes}
+- The Behavioural Insights Team (BIT) was set up by the UK Government in 2010 — the original "Nudge Unit"
+- EAST emerged from applying behavioural economics to public policy across dozens of domains
+- For urban design: EASY = protected cycling lane (not sharing with lorries). ATTRACTIVE = well-lit, tree-lined route. SOCIAL = seeing other cyclists/pedestrians making the same choice. TIMELY = infrastructure present when someone moves to a new neighbourhood before car habits form.
+- Ask students to apply EAST to a local Oslo example — this grounds the framework quickly
+- Columns can be revealed sequentially with fragments if preferred
+:::
+
+## Example: Bogotá's Ciclovía {background-image="img/ciclovia.avif" background-opacity="0.4"}
+
+_Every Sunday, a city transforms_
+
+:::::: {.columns}
+::: {.column width="60%"}
+
+Every Sunday, **75 km of streets** close to motor traffic.
+
+**2 million people** walk, cycle, dance, and exercise.
+
+No app. No sensor. No algorithm.
+
+Just: *a policy decision + a bollard.*
+
+> "A city is democratic when cyclists feel as safe as those in cars."
+> — *Enrique Peñalosa, Mayor of Bogotá*
+
+:::
+::: {.column width="40%"}
+
+**EAST in action:**
+
+- **E**: Streets are safe — cars excluded
+- **A**: Festive, colourful, communal
+- **S**: Everyone is here — 2 million people
+- **T**: Weekly ritual — it is just what Sundays mean
+
+*Started in 1976. Still running. Zero technology required.*
+
+:::
+::::::
+
+::: {.notes}
+- Ciclovía predates the smartphone, the smart city concept, and the SDGs — and achieves multiple SDG outcomes every week
+- Cost: coordination staff and bollards = tiny fraction of any smart mobility initiative
+- Measurable impact: improved cardiovascular health, reduced Sunday emissions, public space equity (anyone can participate regardless of income or device)
+- The political lesson: Ciclovía required a mayor willing to take road space from cars — not a tech problem, a political will problem
+- Replicated in 100+ cities worldwide under the "Open Streets" model
+- Ask: "Could an app achieve what Ciclovía achieves? Why or why not?"
+- Image note: source a wide-angle shot of Ciclovía in action — the scale of participation is visually striking
+:::
+
+## Eyes on the Street {background-image="img/mixed_use_street.jpg" background-opacity="0.4"}
+
+_Jane Jacobs, The Death and Life of Great American Cities (1961)_
+
+> "The bedrock attribute of a successful city district is that a person must feel personally safe and secure on the street among all these strangers."
+>
+> — *Jane Jacobs*
+
+- Mixed use creates **continuous activity** at different hours — always someone watching
+- Short blocks create **more intersections**, more movement, more eyes
+- Active frontages: shops, cafés, entrances at street level
+- **Safety without cameras** — natural surveillance as emergent design property
+
+::: {.notes}
+- Jane Jacobs: introduced in Unit 3, echo here to show continuity
+- Writing in 1961 against Robert Moses and the urban renewal movement destroying mixed-use neighbourhoods for highways and towers
+- The "sidewalk ballet": the informal, choreographed mix of people that makes streets safe emerges from mixed use — not from surveillance cameras
+- Contrast: suburban cul-de-sacs designed for cars, empty of people for most hours — paradoxically less safe than a busy mixed-use street
+- SDG 11 (sustainable cities) and SDG 10 (equality): the street as universal public space, but it only works if people are in it
+- Ask: "Compare the feeling of walking on a busy mixed-use street at 9pm vs. a suburban cul-de-sac. What design choices created those feelings?"
+- Image note: source a photograph of a lively, mixed-use street — ideally a European high street at evening
+:::
+
+## Example: Tactical Urbanism {background-color="#2b2b2b"}
+
+_Cheap. Reversible. Testable._
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+**PARK(ing) Day** *(San Francisco, 2005)*:
+
+- 1 parking space → micro-park for one day
+- Originally guerrilla activism; now a global annual event in 1,000+ cities
+
+**Paint-on bike lanes** *(Bogotá, NYC Broadway)*:
+
+- Test a cycle route with paint before committing to concrete
+- Measure use. Adjust. Then build.
+
+:::
+::: {.column width="50%"}
+
+**Times Square, New York:**
+
+2009 — NYC DOT temporarily closed Broadway to cars.
+
+Result: foot traffic increased, air quality improved, businesses reported higher sales.
+
+*2010: made permanent.*
+
+**Activate the street first. Then build.**
+
+:::
+::::::
+
+::: {.notes}
+- Tactical urbanism: low-cost, high-speed, temporary interventions that generate behavioural data and community buy-in before major investment
+- Rebar studio (San Francisco) created PARK(ing) Day to demonstrate that street space could be reclaimed cheaply; it became a global movement
+- Times Square: the transformation was tested before full investment — a politically risky decision made reversible by starting small
+- Connection to desire lines and the diagnostic phase: tactical urbanism IS a combined diagnostic and design method — you learn what works by testing cheaply
+- Ask: "What could you test in your project neighbourhood with a few cones, some chairs, and paint?"
+:::
+
+## The 15-Minute City {background-color="#2b2b2b"}
+
+_Carlos Moreno — Paris_
+
+:::::: {.columns}
+::: {.column width="55%"}
+
+**The idea:** every essential service within 15 minutes on foot or bicycle.
+
+Not a technology. Not an app.
+
+A **zoning and density policy**.
+
+When the destination is reachable,
+the car becomes optional.
+
+**Behaviour changes without mandating it.**
+
+:::
+::: {.column width="45%"}
+
+**The six urban functions:**
+
+- Living
+- Working
+- Commerce
+- Healthcare
+- Education
+- Entertainment
+
+*Within 15 minutes. On foot or by bicycle.*
+
+*This is how cities were built before cars.*
+
+:::
+::::::
+
+::: {.notes}
+- Carlos Moreno, professor at the Sorbonne, formalised the concept; Paris Mayor Hidalgo adopted it as city policy after COVID-19
+- Key insight: the car was not always necessary — it was made necessary by planning decisions (zoning separation, suburban sprawl). Reverse the decisions, reduce the car.
+- This is restoration, not innovation: it describes the structure of pre-automobile European cities including Oslo's older neighbourhoods
+- Some controversy: right-wing commentators labelled it a "15-minute prison" — worth acknowledging and discussing
+- The tool is the land use plan and zoning code — no smart city platform needed
+- Connect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)
+:::
+
+## Example: Copenhagen's Cycling Revolution {background-image="img/copenhagen_cycling.gif" background-opacity="0.4"}
+
+:::::: {.columns}
+::: {.column width="60%"}
+
+**62% of Copenhagen residents cycle daily.**
+
+This did not happen because of a routing app.
+
+It happened because of **40 years of sustained investment** in cycling infrastructure — beginning with the 1970s oil crisis.
+
+- Protected lanes on every major street
+- Cyclist-priority traffic signals
+- Integration with public transport
+- Annual "Cycling Account" measuring returns
+
+:::
+::: {.column width="40%"}
+
+**The sequence that matters:**
+
+1. *Build the infrastructure*
+2. Behaviour shifts
+3. Culture normalises
+4. *Then* monitor and optimise
+
+**Technology followed the behaviour.**
+**Behaviour followed the design.**
+
+*Each km cycled: €0.23 net benefit.*
+
+:::
+::::::
+
+::: {.notes}
+- In 1970, most Copenhageners drove. The 1973 oil crisis was the political catalyst for a decision to invest in cycling.
+- Each year: more infrastructure, higher cycling share. By the 1990s cycling was culturally normal. By 2010, majority choice.
+- The lesson: don't start with the monitoring platform; start with the infrastructure
+- Copenhagen "Cycling Account": annual report measuring health, economic, and environmental returns — a model for evidence-based planning
+- SDG 3 (health), SDG 11 (sustainable transport), SDG 13 (reduced emissions): achieved through asphalt, paint, and political will over 40 years
+- Ask: "What would Norwegian cities need to do in the next decade to achieve what Copenhagen achieved in 40 years?"
+- Image note: source a wide street-level photo of Copenhagen cycling infrastructure with large numbers of cyclists
+:::
+
+## Biophilic Design {background-color="#2b2b2b"}
+
+> "We are in the fullest sense a biological species and will find little ultimate meaning apart from the remainder of life."
+>
+> — *E.O. Wilson, Biophilia (1984)*
+
+**What the evidence shows:**
+
+- Access to green space measurably reduces **cortisol** (stress hormone)
+- Trees and greenery increase **social cohesion** and community trust
+- Views of nature improve **recovery** from illness and reduce pain medication needs *(Ulrich, 1984)*
+- Urban biodiversity contributes to **mental health** resilience
+
+*This is not decoration. This is public health infrastructure.*
+
+::: {.notes}
+- E.O. Wilson coined "biophilia" — the evolutionary argument that humans are innately drawn to nature and other living things
+- Roger Ulrich's 1984 study: hospital patients with window views of trees recovered 1 day faster on average and needed fewer pain medications than those facing a brick wall; published in Science
+- "Prospect and refuge" theory: humans evolved to prefer spaces where they can see without being seen — direct implications for park and street design
+- Cost comparison: a street tree is cheaper per year than a smart sensor and provides measurably more value per year of life (cooling, air quality, mental health, social cohesion)
+- Ask: "How do you design a city for people who will never see the inside of a hospital — but who need the same restorative qualities that nature provides?"
+:::
+
+## Example: Seoul's Cheonggyecheon Stream {background-image="img/cheonggyecheon.webp" background-opacity="0.4"}
+
+:::::: {.columns}
+::: {.column width="60%"}
+
+In 2005, Seoul removed an **elevated 6-lane highway**.
+
+Beneath it: a buried stream, the Cheonggyecheon, covered since 1958.
+
+The stream was restored.
+
+**The results:**
+
+- Temperatures in the corridor dropped **3.6°C**
+- 639 animal species returned
+- Foot traffic to the area increased dramatically
+- Land values rose
+- Car traffic redistributed — without a prediction model
+
+:::
+::: {.column width="40%"}
+
+What replaced a 6-lane highway:
+
+*Water. Plants. People.*
+
+No algorithm predicted this outcome.
+
+No sensor optimised the transition.
+
+*Nature did the work.*
+
+**SDG 3. SDG 11. SDG 13. SDG 15.**
+*In one 5.8 km stream.*
+
+:::
+::::::
+
+::: {.notes}
+- Mayor Lee Myung-bak's flagship project — politically controversial (the highway carried 170,000 vehicles/day)
+- Traffic engineers predicted gridlock; instead car trips redistributed and some were suppressed entirely (induced demand in reverse)
+- The urban heat island reduction: the stream corridor is measurably cooler than surrounding streets
+- Cost approximately $380m — comparable to a major smart city platform investment, but returns compound as the ecosystem develops
+- Nature-based solutions do not depreciate — they appreciate; ecosystems grow richer with age
+- Ask: "Could a digital twin have designed this? Could AI have predicted that removing a highway would cool a city by 3.6°C?"
+- Image note: a before/after pair (the elevated highway vs. the restored stream) is extremely powerful for this slide
+:::
+
+## Nature-Based Solutions {background-color="#40E4FF"}
+
+_Working with natural processes — not engineering around them_
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+**Hard infrastructure:**
+
+- Concrete drainage channels
+- Underground stormwater tunnels
+- Sensor networks managing flow
+- High maintenance cost
+- Single function
+
+:::
+::: {.column width="50%"}
+
+**Nature-Based Solutions:**
+
+- Bioswales and retention ponds
+- Green roofs and permeable surfaces
+- Urban forests as flood buffers
+- Lower long-term maintenance cost
+- **Multi-functional**: flood control + cooling + biodiversity + wellbeing
+
+:::
+::::::
+
+::: {.notes}
+- NbS (Nature-Based Solutions) is now EU policy — the EU Biodiversity Strategy mandates urban greening targets
+- Key argument: hard infrastructure does one thing and requires continuous maintenance; NbS provides multiple co-benefits and tends to improve over time
+- The "sponge city" concept: piloted in Wuhan (China), mandated by the Chinese government as a response to flooding — permeable surfaces, wetlands, parks as flood infrastructure
+- SDG 11 (urban resilience), SDG 13 (climate adaptation), SDG 15 (biodiversity): NbS achieves all three simultaneously — the kind of multi-goal leverage that sensor systems rarely match
+:::
+
+## Example: Copenhagen's Cloudburst Management {background-color="#2b2b2b"}
+
+After devastating floods in 2011, Copenhagen made a choice:
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+### Option A: Smart Drainage
+
+- Sensors throughout the network
+- AI-predicted stormwater routing
+- Real-time flow management
+- High capital and maintenance cost
+- One function: handle water
+
+:::
+::: {.column width="50%"}
+
+### Option B: Green Infrastructure ✓
+
+- Sunken courtyards that flood deliberately
+- Permeable streets and green roofs
+- Water retained where it falls
+- Lower long-term cost
+- Also: parks, cooling, social space, biodiversity
+
+*The world's most celebrated cloudburst management plan.*
+
+:::
+::::::
+
+::: {.notes}
+- The 2011 Copenhagen floods caused €800m in damage — a once-in-a-century event projected to become more frequent
+- The Copenhagen Cloudburst Management Plan (2012) is now a global reference for climate adaptation, studied in planning schools worldwide
+- 300+ individual cloudburst projects across the city — each one simultaneously a park, sports ground, or community space
+- Tåsinge Plads: a former car park transformed into a cloudburst plaza that handles 150mm/hour of rain — also one of the city's most loved small parks
+- Political lesson: the city chose the more legible, community-friendly option; residents can see and use the investment; a sensor network is invisible until it fails
+- Ask: "How do you measure the value of a park that also stops your basement from flooding?"
+:::
+
+## Urban Acupuncture {background-color="#2b2b2b"}
+
+_Jaime Lerner_
+
+> "The city is not a problem. The city is a solution."
+>
+> — *Jaime Lerner, Mayor of Curitiba*
+
+- The city is an **organism** — not a machine to be optimised
+- Small, precise interventions in the right place trigger **systemic responses**
+- You don't need to rebuild everything — find the **pressure point**
+- Low-tech, high-leverage: the opposite of total systems redesign
+
+::: {.notes}
+- Jaime Lerner: mayor of Curitiba (Brazil) three times, then governor of Paraná — architect and urban planner
+- Curitiba under Lerner: transformed through low-cost, high-creativity interventions on a developing city budget — Bus Rapid Transit tube stations, recycling-for-food programmes, parks on flood plains
+- The acupuncture metaphor: a skilled practitioner finds the point where a small needle creates cascading relief across the whole organism
+- This concept unifies all the examples seen so far: each was a targeted intervention, not a total redesign
+- Connect to Unit 3's systems thinking: leverage points and feedback loops in complex systems
+- Ask: "Where is the acupuncture point in your project neighbourhood? What small change might have the largest systemic effect?"
+:::
+
+## Example: Medellín & Barcelona {.nonincremental}
+
+:::::: {.columns}
+::: {.column width="50%"}
+
+### Medellín — Social Urbanism
+
+**Cable cars + escalators** in the hillside comunas
+
+Physical infrastructure that transformed **social mobility**:
+
+- 90 minutes of daily commute eliminated
+- School attendance rose
+- Crime fell measurably
+- Economic activity increased
+
+*Connecting people — not monitoring them.*
+
+:::
+::: {.column width="50%"}
+
+### Barcelona — Superblocks
+
+**9-block clusters** restricting car access
+
+Small design change → systemic outcomes:
+
+- Air quality improved significantly
+- Urban temperature reduced
+- Social cohesion increased
+- **310 superblocks planned by 2030**
+
+*Replicable at low cost. No algorithm required.*
+
+:::
+::::::
+
+::: {.notes}
+- Medellín in the 1990s: one of the most violent cities in the world; the turnaround was social urbanism — public libraries, parks, schools, and physical connectivity built in the most marginalised areas
+- The Metrocable (2004) and outdoor escalators in San Javier (2011): connected hillside communities physically isolated from the city for decades, saving 90 minutes of daily commuting
+- Barcelona Superblocks (Superilles): designed by urbanist Salvador Rueda, implemented from 2016; each superblock reclaims approximately 60% of street space from cars for plazas and cycling
+- Diagnostic question in both cases: not "how do we optimise the system?" but "who is being excluded, and why?" — then design to remove that exclusion
+- Both interventions had high political friction; both succeeded because outcomes were visible and legible to residents
+:::
+
+## Synthesis: The Pattern {.nonincremental}
+
+:::::: {.columns}
+::: {.column width="33%"}
+
+### Understand
+
+*Diagnose without a six-figure platform:*
+
+- Walking audits
+- Desire line reading
+- Community observation
+- Open data
+
+:::
+::: {.column width="33%"}
+
+### Design
+
+*Work with human behaviour:*
+
+- Nudge, don't mandate
+- Make the good option easy
+- Add nature as infrastructure
+- Test cheaply before building
+
+:::
+::: {.column width="33%"}
+
+### Achieve
+
+*The SDG outcome:*
+
+- Healthier people (SDG 3)
+- Accessible space (SDG 10)
+- Sustainable mobility (SDG 11)
+- Climate resilience (SDG 13)
+
+:::
+::::::
+
+::: {.fragment}
+*"Each of these interventions achieved an SDG outcome. None of them required a server."*
+:::
+
+::: {.notes}
+- This is the synthesis slide — bring together everything from the session
+- The three columns mirror the course's own logic: understand → design → achieve outcomes
+- The fragmented quote is the final beat — let it land before the last two slides
+- Ask: "Is there an example we discussed that couldn't have been designed without technology?" — honest answer: no, but technology could help monitor and evaluate faster
+- Emphasise: this is not anti-tech; it is pro-purposeful choice; the planner needs both registers
+:::
+
+## When Low-Tech Outperforms High-Tech {background-gradient="linear-gradient(to bottom, #2b2b2b, #FF8100)"}
+
+:::{.r-fit-text}
+
+| | Low-Tech | High-Tech |
+|---|---|---|
+| **Durability** | Decades | 5–10 year cycles |
+| **Accessibility** | Universal | Requires device / data literacy |
+| **Maintenance** | Low | High (and often cut) |
+| **Failure mode** | Graceful | Catastrophic |
+| **Legibility** | Intuitive | Requires training |
+| **SDG equity** | Reaches all residents | May exclude the vulnerable |
+
+:::
+
+::: {.notes}
+- This table is meant to inform professional decision-making — not to prescribe, but to structure the choice
+- "Graceful failure": a worn cobblestone still slows a car; a broken enforcement camera enforces nothing
+- "Maintenance often cut": smart city infrastructure frequently degrades after Year 5 when maintenance budgets are reduced — well-documented in early smart city deployments
+- The equity row is crucial: the populations most affected by urban challenges are often those most excluded from high-tech service delivery
+- Both low-tech and high-tech have a legitimate place in the planner's toolkit; the professional skill is knowing when to use which
+:::
+
+## Design for the 2030 Agenda {.nonincremental background-color="#40E4FF"}
+
+The principles of low-tech design are not nostalgic. They are **the most durable path** to the commitments we made.
+
+:::::: {.columns}
+::: {.column width="55%"}
+
+1. **SDGs frame the *why*.** Design determines the *how*. Evaluate every intervention against its SDG contribution — not its technical sophistication.
+
+2. **Human psychology is the core competency.** Desire, nudge, legibility, nature — these determine whether an intervention changes behaviour.
+
+:::
+::: {.column width="45%"}
+
+3. **Low-tech interventions are often the most durable, equitable, and impactful.** The bench. The bike lane. The stream. They outlast the platform.
+
+4. **"Smart" means effective — not digital.** A city that works for all its inhabitants — with or without a signal — is a smart city.
+
+:::
+::::::
+
+::: {.notes}
+- Final slide — keep it clean and memorable; let the four points land without rushing
+- The four takeaways map directly to the four themes of the session
+- Encourage students to apply this to their projects: "What is the low-tech argument for your intervention? What happens if the technology layer fails?"
+- The course arc closes: spectrum from AI and digital twins (Unit 5) through human-centred low-tech design (Unit 7); professional planners navigate both registers
+- Strong closing question: "What is the single low-tech intervention you would make in your project neighbourhood — and which SDG does it serve?"
+:::
