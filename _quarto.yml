@@ -20,13 +20,13 @@ website:
         href: https://github.com/gregmaya/oslomet-smua4500
         text: GitHub
     style: docked
-    collapse-level: 2
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Home
       # Main weekly expansion happening here
-      - section: Schedule
-        href: src/index.qmd
+      - section: Lectures
+       # href: src/index.qmd
         contents:
           - text: System Thinking
             href: src/unit_3/1_system_thinking.qmd
@@ -50,7 +50,7 @@ website:
   page-footer:
     center:
       - text: "Content released under CC0 1.0 Universal"
-        href: LICENSE  # or "LICENSE.html" or the CC0 URL
+        href: LICENSE 
 
 
 format:

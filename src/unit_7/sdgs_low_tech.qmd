@@ -71,7 +71,7 @@ SDGs are **wicked problems** — no single solution, no stopping rule
 ## The Urban SDGs {.nonincremental background-color="#40E4FF"}
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="60%"}
 
 ### SDG 11
 _The Anchor_
@@ -85,7 +85,7 @@ _The Anchor_
 - Resilience to climate and disaster
 
 :::
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 <br> 
 
@@ -105,7 +105,7 @@ _The Anchor_
 ## The Urban SDGs {.nonincremental background-color="#40E4FF"}
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="60%"}
 
 ### Connected Urban Goals
 
@@ -119,11 +119,11 @@ _The Anchor_
     <small>*(urban biodiversity, green corridors)*</small>
 
 :::
-::: {.column width="50%"}
+::: {.column width="40%"}
 
 <br> 
 
-![Interconnected challenges](img/sdg11.png)
+![](img/sdg11.png)
 
 :::
 ::::::
@@ -282,7 +282,6 @@ It is not primitive. It is **human-centred**.
 ::: {.column width="40%" .fragment}
 
 <br>
-<br>
 
 <small>
 
@@ -399,18 +398,16 @@ When planners build straight paths and people carve diagonal ones
 
 > "Desire lines are the city's unwritten design critique."
 
-The worn path across the grass is not vandalism. /arr It is **data**.
-
-*This is where the path should have been.*
+The worn path across the grass is not vandalism. → It is **data**.
 
 :::
 ::: {.column width="10%"}
 
 :::
 
-::: {.column width="40%"}
+::: {.column width="40%" .fragment}
 
-**What desire lines reveal:**
+**What desire lines reveal**
 
 - How people actually navigate
 - Where friction exists in the planned environment
@@ -428,23 +425,26 @@ The worn path across the grass is not vandalism. /arr It is **data**.
 - Ask: "Can you think of a desire line you walk regularly? What does it tell you about the original design?"
 :::
 
-## Example: Woonerfs & Shared Space {background-image="img/woonerf_drachten.jpg" background-opacity="0.4"}
+## Woonerfs & Shared Space {background-image="img/woonerf_drachten.jpg" background-opacity="0.4"}
 
-_Hans Monderman, Drachten, Netherlands_
 
 > "If you treat drivers like idiots, they act like idiots."
 >
-> — *Hans Monderman, Traffic Engineer*
+> <small>*Hans Monderman, Traffic Engineer (Netherlands)*</small>
 
-- In 2003, Monderman removed ALL traffic lights, signs, and kerbs from a busy intersection
-- Drivers were forced to negotiate — make eye contact — pay attention
-- **Speeds dropped. Accidents fell. Pedestrians felt safer.**
+- 2003: removed **ALL** traffic lights, signs, and kerbs from busy intersections
+- Drivers were forced to negotiate <small>— make eye contact — pay attention</small>
 
-::: {.fragment .highlight-green}
-**Uncertainty = attention = care.** Design that reads desire rather than overriding it.
+:::: {.fragment}
+**Speeds dropped. Accidents fell. Pedestrians felt safer.**
+
+>**Uncertainty = attention = care.** 
 :::
 
+
 ::: {.notes}
+Design that reads desire rather than overriding it.
+
 - Monderman was a traffic engineer — not a radical. His insight came from observing how drivers behave differently in unmarked rural lanes vs. heavily-signed urban roads
 - The Laweiplein intersection in Drachten: car speeds dropped from 30km/h average to under 20km/h after removal of all signals; accidents reduced
 - Woonerf (living street): Dutch concept giving pedestrians legal priority; speed controlled by design (narrowing, trees, varied paving), not signage
@@ -452,16 +452,27 @@ _Hans Monderman, Drachten, Netherlands_
 - Ask: "What does this tell us about the relationship between certainty and attention? About who the street is designed for?"
 :::
 
-## Nudge Theory & Choice Architecture
+## Nudge Theory
 
-> "A nudge is any aspect of the choice architecture that alters people's behaviour in a predictable way without forbidding any options or significantly changing their economic incentives."
->
-> — *Thaler & Sunstein, Nudge (2008)*
+> <small> "A nudge is any aspect of the choice [...] that alters people's behaviour in a predictable way without forbidding any options or significantly changing their [...] incentives."</small>
+
+::: {.columns}
+::: {.column width=65% .fragment}
 
 - People do not make rational choices in a vacuum
 - They respond to **defaults, framing, salience, and friction**
 - Change the environment → change the behaviour
 - No mandate. No fine. No app.
+
+:::
+::: {.column width=35%}
+
+![Thaler & Sunstein, Nudge (2008)](img/nudge.jpg){height=300}
+
+:::
+:::
+<!-- end columns -->
+
 
 ::: {.notes}
 - Richard Thaler received the Nobel Prize in Economics in 2017 for behavioural economics
@@ -471,87 +482,67 @@ _Hans Monderman, Drachten, Netherlands_
 - Connection to planning ethics: nudge is non-coercive, but planners must still ask: who benefits from the default we are setting?
 :::
 
-## Example: The Bench Test {background-color="#2b2b2b"}
+## The Bench Test {background-image="img/white_ny.webp" background-opacity="0.5"}
 
-_William H. Whyte, The Social Life of Small Urban Spaces (1980)_
+<small>_William H. Whyte, The Social Life of Small Urban Spaces (1980)_</small>
 
-:::::: {.columns}
-::: {.column width="55%"}
+Filmed New York City plazas systematically for years.
 
-Whyte filmed New York City plazas systematically for years.
-
-His findings — revolutionary in their simplicity:
+Revolutionary findings for their simplicity:
 
 - **People sit where there is sun**
-- **People sit where they can watch activity** *(triangulation)*
+- **People sit where they can watch activity**
 - **People sit where they can face each other**
-- **Movable chairs > fixed benches** *(agency matters)*
+- **Movable chairs > fixed benches** <small>agency matters</small>
 
-*The best public spaces are designed from observation, not assumption.*
+>The best public spaces are designed from observation, not assumption.
 
-:::
-::: {.column width="45%"}
-
-:::{.r-stretch}
-*[Embed video clip: "The Social Life of Small Urban Spaces" — William H. Whyte, 1988 — freely available on YouTube. Recommend 2–3 minute excerpt.]*
-:::
-
-:::
-::::::
 
 ::: {.notes}
-- Strongly recommended to embed a 2–3 minute clip — the Whyte film is both charming and scientifically rigorous; students respond well to it
 - Whyte's method: time-lapse cameras, behavioural observers, systematic annotation — all available in 1980, zero digital technology required
 - Conclusion: plazas that ignored sun angles, sightlines, and seat movability consistently failed; the fix was almost always cheap
 - Direct application of nudge theory: the bench IS the choice architecture — where it points, what it faces, whether it can move all shape behaviour without any instructions
-- Ask: "What does a city designer learn from this that an AI could not?"
-- The Whyte film is available on YouTube under that title; embed the direct link before presenting
 :::
 
-## Four Levers of Behavioural Change {.nonincremental background-color="#40E4FF"}
 
-_EAST Framework — Behavioural Insights Team (UK)_
+---
+
+<iframe width="1000" height="650" src="https://www.youtube-nocookie.com/embed/JPJkro5SBC0?si=wCuTMO30ErE3ncU0&amp;controls=0&amp;start=631" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+## Levers of Behavioural Change {.nonincremental background-color="#40E4FF"}
+
+<small>_EAST Framework — Behavioural Insights Team (UK)_</small>
+
+**These are the levers planners pull — with or without technology.**
 
 :::::: {.columns}
-::: {.column width="25%"}
+::: {.column width="60%"}
 
-### E — Easy
+<br>
 
-Remove friction from the desired behaviour.
+- **E — Easy**
+<small>Remove friction from the desired behaviour.</small>
 
-*Protected bike lane over shared road.*
+- **A — Attractive**
+<small>Make the good option visible and appealing.</small>
 
-:::
-::: {.column width="25%"}
+- **S — Social**
+<small>Leverage norms: what do others do here?</small>
 
-### A — Attractive
-
-Make the good option visible and appealing.
-
-*A tree-lined street invites walking.*
-
-:::
-::: {.column width="25%"}
-
-### S — Social
-
-Leverage norms: what do others do here?
-
-*Visible cyclists normalise cycling.*
+- **T — Timely**
+<small>Intervene at the right moment.</small>
 
 :::
-::: {.column width="25%"}
+::: {.column width="40%"}
 
-### T — Timely
-
-Intervene at the right moment.
-
-*Infrastructure ready when a new neighbourhood opens.*
+![](img/east.png)
 
 :::
 ::::::
 
-*These are the levers planners pull — with or without technology.*
 
 ::: {.notes}
 - The Behavioural Insights Team (BIT) was set up by the UK Government in 2010 — the original "Nudge Unit"
@@ -561,9 +552,7 @@ Intervene at the right moment.
 - Columns can be revealed sequentially with fragments if preferred
 :::
 
-## Example: Bogotá's Ciclovía {background-image="img/ciclovia.avif" background-opacity="0.4"}
-
-_Every Sunday, a city transforms_
+## Bogotá's Ciclovía {background-image="img/ciclovia.avif" background-opacity="0.4"}
 
 :::::: {.columns}
 ::: {.column width="60%"}
@@ -572,22 +561,26 @@ Every Sunday, **75 km of streets** close to motor traffic.
 
 **2 million people** walk, cycle, dance, and exercise.
 
+:::{.fragment .highlight-green}
 No app. No sensor. No algorithm.
 
 Just: *a policy decision + a bollard.*
+:::
 
-> "A city is democratic when cyclists feel as safe as those in cars."
-> — *Enrique Peñalosa, Mayor of Bogotá*
 
 :::
-::: {.column width="40%"}
+::: {.column width="40%" .fragment}
 
-**EAST in action:**
+**EAST in action**
 
-- **E**: Streets are safe — cars excluded
-- **A**: Festive, colourful, communal
-- **S**: Everyone is here — 2 million people
-- **T**: Weekly ritual — it is just what Sundays mean
+<small>
+<ul>
+    <li>**E**: Streets are safe — cars excluded</li>
+    <li>**A**: Festive, colourful, communal</li>
+    <li>**S**: Everyone is here — 2 million people</li>
+    <li>**T**: Weekly ritual — it is just what Sundays mean</li>
+</ul>
+</small>
 
 *Started in 1976. Still running. Zero technology required.*
 
@@ -603,21 +596,23 @@ Just: *a policy decision + a bollard.*
 - Ask: "Could an app achieve what Ciclovía achieves? Why or why not?"
 :::
 
-## Eyes on the Street {background-color="#2b2b2b"}
-
-_Jane Jacobs, The Death and Life of Great American Cities (1961)_
+## Eyes on the Street {background-image="img/jacobs_bike.jpg" background-opacity="0.4"}
+<small>
 
 > "The bedrock attribute of a successful city district is that a person must feel personally safe and secure on the street among all these strangers."
 >
-> — *Jane Jacobs*
+> — _Jane Jacobs, The Death and Life of Great American Cities (1961)_
+</small>
 
 - Mixed use creates **continuous activity** at different hours — always someone watching
 - Short blocks create **more intersections**, more movement, more eyes
 - Active frontages: shops, cafés, entrances at street level
-- **Safety without cameras** — natural surveillance as emergent design property
+
+::: {.fragment .highlight-green}
+**Safety without cameras** — natural surveillance as emergent design property
+:::
 
 ::: {.notes}
-- Jane Jacobs: introduced in Unit 3, echo here to show continuity
 - Writing in 1961 against Robert Moses and the urban renewal movement destroying mixed-use neighbourhoods for highways and towers
 - The "sidewalk ballet": the informal, choreographed mix of people that makes streets safe emerges from mixed use — not from surveillance cameras
 - Contrast: suburban cul-de-sacs designed for cars, empty of people for most hours — paradoxically less safe than a busy mixed-use street
@@ -625,38 +620,31 @@ _Jane Jacobs, The Death and Life of Great American Cities (1961)_
 - Ask: "Compare the feeling of walking on a busy mixed-use street at 9pm vs. a suburban cul-de-sac. What design choices created those feelings?"
 :::
 
-## Example: Tactical Urbanism {background-color="#2b2b2b"}
+## Tactical Urbanism {background-image="img/tactical.webp" background-opacity="0.4" .nonincremental}
 
-_Cheap. Reversible. Testable._
+> _Cheap. Reversible. Testable._
+>
+> **Activate the street first. Then build.**
 
-:::::: {.columns}
-::: {.column width="50%"}
+<small>
 
-**PARK(ing) Day** *(San Francisco, 2005)*:
-
+#### PARK(ing) Day
+(San Francisco, 2005)
 - 1 parking space → micro-park for one day
 - Originally guerrilla activism; now a global annual event in 1,000+ cities
 
-**Paint-on bike lanes** *(Bogotá, NYC Broadway)*:
-
+#### Paint-on bike lanes
+(Bogotá, NYC Broadway, etc..)
 - Test a cycle route with paint before committing to concrete
 - Measure use. Adjust. Then build.
 
-:::
-::: {.column width="50%"}
-
-**Times Square, New York:**
-
-2009 — NYC DOT temporarily closed Broadway to cars.
-
+#### Times Square, NY
+2009 — NYC DOT temporarily closed Broadway to cars. (J.SadiK Khan)
 Result: foot traffic increased, air quality improved, businesses reported higher sales.
-
 *2010: made permanent.*
 
-**Activate the street first. Then build.**
+</small>
 
-:::
-::::::
 
 ::: {.notes}
 - Tactical urbanism: low-cost, high-speed, temporary interventions that generate behavioural data and community buy-in before major investment
@@ -666,42 +654,26 @@ Result: foot traffic increased, air quality improved, businesses reported higher
 - Ask: "What could you test in your project neighbourhood with a few cones, some chairs, and paint?"
 :::
 
-## The 15-Minute City {background-color="#2b2b2b"}
+## The 15-Minute City {background-image="img/paris_15.avif" background-opacity="0.4"}
 
-_Carlos Moreno — Paris_
-
-:::::: {.columns}
-::: {.column width="55%"}
+<small>_Carlos Moreno — Paris_</small>
 
 **The idea:** every essential service within 15 minutes on foot or bicycle.
 
 Not a technology. Not an app.
 
+::: {.fragment .highlight-green}
 A **zoning and density policy**.
+:::
+
+<br>
 
 When the destination is reachable,
 the car becomes optional.
 
+::: {.fragment .highlight-green}
 **Behaviour changes without mandating it.**
-
 :::
-::: {.column width="45%"}
-
-**The six urban functions:**
-
-- Living
-- Working
-- Commerce
-- Healthcare
-- Education
-- Entertainment
-
-*Within 15 minutes. On foot or by bicycle.*
-
-*This is how cities were built before cars.*
-
-:::
-::::::
 
 ::: {.notes}
 - Carlos Moreno, professor at the Sorbonne, formalised the concept; Paris Mayor Hidalgo adopted it as city policy after COVID-19
@@ -712,7 +684,7 @@ the car becomes optional.
 - Connect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)
 :::
 
-## Example: Copenhagen's Cycling Revolution {background-image="img/copenhagen_cycling.gif" background-opacity="0.4"}
+## Copenhagen's Cycling Revolution {background-image="img/copenhagen_cycling.gif" background-opacity="0.4"}
 
 :::::: {.columns}
 ::: {.column width="60%"}
@@ -740,8 +712,6 @@ It happened because of **40 years of sustained investment** in cycling infrastru
 
 **Technology followed the behaviour.**
 **Behaviour followed the design.**
-
-*Each km cycled: €0.23 net benefit.*
 
 :::
 ::::::
