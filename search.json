@@ -258,8 +258,7 @@
     "section": "",
     "text": "Alexander, Christopher. 1965. A City Is Not a Tree. Design Council.\n\n\nBatty, Michael. 2013. The New Science of Cities. MIT Press.\n\n\nBettencourt, Luis MA. 2021. Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems. MIT Press.\n\n\nBraun, William. 2002. “The System Archetypes.” The Systems Modeling Library 2002. https://www.researchgate.net/publication/265348674_The_System_Archetypes_The_System_Archetypes.\n\n\nConklin, Jeff. 2005. Dialogue Mapping: Building Shared Understanding of Wicked Problems. Chichester, UK: John Wiley & Sons.\n\n\nForrester, Jay W. 1969. Urban Dynamics. MIT Press.\n\n\nHillier, Bill, and Julienne Hanson. 1984. The Social Logic of Space. Cambridge University Press.\n\n\nJacobs, Jane. 1961. The Death and Life of Great American Cities. Random House.\n\n\nMeadows, Donella H. 2008. Thinking in Systems: A Primer. Chelsea Green Publishing.\n\n\nRittel, Horst WJ, and Melvin M Webber. 1973. “Dilemmas in a General Theory of Planning.” Policy Sciences 4 (2): 155–69.",
     "crumbs": [
-      "Schedule",
-      "Unit 3",
+      "Workshops & Other",
       "Bibliography"
     ]
   },
@@ -270,8 +269,7 @@
     "section": "",
     "text": "Alexander, Christopher. 1965. A City Is Not a Tree. Design Council.\n\n\nBatty, Michael. 2013. The New Science of Cities. MIT Press.\n\n\nBettencourt, Luis MA. 2021. Introduction to Urban Science: Evidence and Theory of Cities as Complex Systems. MIT Press.\n\n\nBraun, William. 2002. “The System Archetypes.” The Systems Modeling Library 2002. https://www.researchgate.net/publication/265348674_The_System_Archetypes_The_System_Archetypes.\n\n\nConklin, Jeff. 2005. Dialogue Mapping: Building Shared Understanding of Wicked Problems. Chichester, UK: John Wiley & Sons.\n\n\nForrester, Jay W. 1969. Urban Dynamics. MIT Press.\n\n\nHillier, Bill, and Julienne Hanson. 1984. The Social Logic of Space. Cambridge University Press.\n\n\nJacobs, Jane. 1961. The Death and Life of Great American Cities. Random House.\n\n\nMeadows, Donella H. 2008. Thinking in Systems: A Primer. Chelsea Green Publishing.\n\n\nRittel, Horst WJ, and Melvin M Webber. 1973. “Dilemmas in a General Theory of Planning.” Policy Sciences 4 (2): 155–69.",
     "crumbs": [
-      "Schedule",
-      "Unit 3",
+      "Workshops & Other",
       "Bibliography"
     ]
   },
@@ -542,7 +540,6 @@
     "text": "Session Roadmap\n\nAct I: The Philosophical Shift (Logic vs. Data)\nAct II: The Toolbox (ML for Planners)\nAct III: AI & The Digital Twin (The Brain and the Body)\nAct IV: The Skeptical Planner (Ethics and Limitations)\n\n\n\nThis lecture bridges the gap between the Systems Thinking session (Part I) and the practical application of AI.\nPart I was about the ‘Web of Interactions’ we can see.\nPart II is about the ‘Black Box’ we often can’t see.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -554,7 +551,6 @@
     "text": "Recap\n\n“Logic Precedes Display”\n\n\n\n\nSystems Thinking\nWe draw the arrows.\nWe define the relationships.\n\n\n\nTransparency\nEvery feedback loop is traceable.\n\n\n\nHuman Brain\nThe planner remains the architect of the system logic.\n\n\n\nRecall our previous session: ‘Logic must precede display.’\nIn traditional modeling, if the model predicts traffic, we know it’s because of the gravity equation or network topology we chose.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -566,7 +562,6 @@
     "text": "The New Paradigm\n\n“Data Precedes Logic”\n\n\n\n\nAI Shift\nWe provide the “Display” (historical data), and the AI guesses the “Logic.”\n\n\n\nInductive Reasoning\nFinding patterns without being told the rules.\n\n\n\nTrade-off\nEfficiency vs. Interpretability.\n\n\n\nChallenge the students: If the machine finds a logic we don’t understand, can we still call it ‘planning’?\nThis is a fundamental shift. We are moving from ‘Theory-led’ models to ‘Data-led’ models.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -578,7 +573,6 @@
     "text": "The New Paradigm\n\n\n\n\n\n\n\n\n\n\nTraditional Models\nAI / Black Box\n\n\n\n\nSource of Logic\nHuman Expertise (Top-Down)\nData Patterns (Bottom-Up)\n\n\nTraceability\nHigh (Open Logic)\nLow (The “Black Box”)\n\n\nHandling Complexity\nSimplified for Clarity\nEmbraces Noise & Nuance\n\n\nGoal\nTo Understand why\nTo Predict what\n\n\n\n\n\nThis is the core “Challenge” slide.\nTraditional models (like Gravity models) are “Tame.” AI is built for “Wickedness” but at the cost of transparency.\nAsk: “Would you trust a city plan if the computer couldn’t explain why it moved the park?”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -590,7 +584,6 @@
     "text": "What DEEP LEARNING is\n(and isn’t)\n\n\nIt IS\nHigh-dimensional statistics and semantic interpretation.\n\n\n\nIt is NOT\nA sentient crystal ball or “The Matrix.”\n\n\n\n\n\nPredicting the Next Move\n\n\nAI looks at a problem as a sequence of probabilities.\nhttps://jphwang-colorful-vectors.hf.space\n\n\n\n\n\n\nDemystify the ‘magic.’AI is just a very fast way of finding the ’organized complexity’ Jane Jacobs talked about, but using math instead of intuition.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -602,7 +595,6 @@
     "text": "Industry vs. Regulation\n\n\nThe “Test Bed”\nTech enters the city as a commercial agent first.\n\nThe Lag\nTechnology matures in the private sector before planners create the rules.\n\n\n\nMention Waymo here. It’s not just a car; it’s a private AI agent moving through public space.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -614,7 +606,6 @@
     "text": "A Real World Example\nWAYMO in USA\n\n\n\nIt’s not just a car; it’s a private AI agent moving through public space.\nWaymo is the perfect example of “Industry First.” It isn’t waiting for a smart city plan; it is creating the data environment it needs.\nNote: This is where “Digital Twins” often fail—they are static, while commercial AI agents like Waymo are dynamic and evolving.\nWicked Problems: Commercial AI operates in a “living process” with unpredictable reactions.\nIt highlights how AI enters the ‘wicked problem’ of the city from a non-regulatory entry point.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -626,7 +617,6 @@
     "text": "The Semantic Engine\nTurning Reality into Vectors\n\nSemantic Interpretation: AI doesn’t see “cars” or “curbs”; it sees high-dimensional numbers (vectors).\nMulti-dimensional Context: It relates a “Bus Stop” to “Time of Day,” “Weather,” and “Historical Crowd Density” simultaneously.\nPredicting the Next Move: If the pattern is \\(X \\rightarrow Y \\rightarrow Z\\), the AI predicts \\(Z+1\\).\n\n\n\nCHALLENGE: Ask students: “In your mapping, you linked ‘Bus Frequency’ to ‘Resident Satisfaction.’ AI links ‘Pixel Cluster A’ to ‘Data Point B.’ Is there a difference if the result is the same?”\nExplain that AI creates a “semantic space”—a mathematical map where similar things are grouped together, even if we don’t have a word for the relationship.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -638,7 +628,6 @@
     "text": "The Hierarchical Toolbox\n\n\n\nAI is a ‘hierarchy’ of tools, each with its own strengths and weaknesses.\nMachine Learning is a ‘middle ground’ between ‘rules’ and ‘black boxes’.\nDeep Learning is the ‘black box’ of AI, but it is not the only way to build AI.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -650,7 +639,6 @@
     "text": "1. Artificial Intelligence (AI)\nThe Broad Umbrella\n\n\nMachines mimicking human intelligence or reasoning.\nOften “Rule-Based” in its simplest form.\n\nMaking choices based on inputs.\n\n\n\n\n\nExample: Automated Tolls\n\n\n\n\n\nDetecting a vehicle and charging a bank account.\nIt “senses” the presence of a car and executes a complex multi-step logical transaction that used to require a human in a booth.\nContrast: A simple timer on a street light isn’t AI (it’s just a clock). A sensor that adjusts the light based on a car’s presence is “Basic AI.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -662,7 +650,6 @@
     "text": "2. Machine Learning (ML)\n\nLearning from Patterns\n\n\n\n\n\n\n\ngraph TD\n    %% Main Branch\n    ML[ML] --&gt; SL(Supervised)\n    ML --&gt; UL(Unsupervised)\n    ML --&gt; RL(Reinforcement)\n\n %% Reinforcement Subgraph\n    subgraph ...\n        RL --&gt; RL_Goal[&lt;b&gt;Reward Optimization&lt;/b&gt;&lt;br/&gt;Finding the Best Strategy&lt;br/&gt;&lt;i&gt;e.g., Signal Timing&lt;/i&gt;]\n    end\n\n    %% Unsupervised Subgraph\n    subgraph ..\n        UL --&gt; UL_Clust[&lt;b&gt;Clustering&lt;/b&gt;&lt;br/&gt;Grouping Similar Units&lt;br/&gt;&lt;i&gt;e.g., Neighborhood Types&lt;/i&gt;]\n        UL --&gt; UL_Dim[&lt;b&gt;Dimensionality Reduction&lt;/b&gt;&lt;br/&gt;Simplifying Complex Data&lt;br/&gt;&lt;i&gt;e.g., Reducing 50 variables to 3&lt;/i&gt;]\n    end\n\n    %% Supervised Subgraph\n    subgraph .\n        SL --&gt; SL_Class[&lt;b&gt;Classification&lt;/b&gt;&lt;br/&gt;Predicting Categories&lt;br/&gt;&lt;i&gt;e.g., Land Use Type&lt;/i&gt;]\n        SL --&gt; SL_Reg[&lt;b&gt;Regression&lt;/b&gt;&lt;br/&gt;Predicting Quantities&lt;br/&gt;&lt;i&gt;e.g., House Prices&lt;/i&gt;]\n    end\n\n    %% Styling\n    style . fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style .. fill:#c462dff,stroke:#aaaaaa,stroke-width:4px\n    style ... fill:#c462dff,stroke:#aaaaaa,stroke-width:4px",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -674,7 +661,6 @@
     "text": "2. Machine Learning (ML)\nSupervised Learning\n\n\nAlgorithms trained on labeled datasets.\nIt learns the relationship between inputs (features) and a known outcome (labels).\n\nPredict labels for unseen data based on historical “ground truth.”\n\n\n\n\n\nDemand Forecasting\n\n\n\n\n\nThe Task: Predicting how many people will use a new bike-share station.\nThe Process: You feed the AI 5 years of data where every day is “labeled” with the actual number of riders, weather, and day of the week.\nOutcome: The AI learns to predict tomorrow’s ridership based on the forecast.\nThis is the most common tool. It requires a “Ground Truth” — someone has to have counted the riders first so the machine can learn what “success” looks like.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -686,7 +672,6 @@
     "text": "2. Machine Learning (ML)\nUnsupervised Learning\n\n\nAlgorithms based on unlabeled data.\nIt identifies hidden patterns, clusters, or anomalies without being told what to look for.\n\nExploratory analysis to discover “natural” groupings.\n\n\n\n\n\nNeighborhood Typologies\n\n\n\n\nUrban Example: Neighborhood Typologies - The Task: Identifying “Transit Deserts” or unique lifestyle zones. - The Process: You provide raw data on 50 variables (income, car ownership, bus frequency, tree cover) for every city block. - Outcome: The AI clusters the blocks into 8 “types” of neighborhoods, revealing spatial inequalities that weren’t visible in traditional zoning maps.\n\nUnlike supervised learning, we don’t tell the AI what the categories are. It tells us what categories exist. This is great for challenging a planner’s bias.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -698,7 +683,6 @@
     "text": "2. Machine Learning (ML)\nReinforcement Learning\n\n\nAlgorithms that interact with an environment to maximize a Reward Signal.\nLearning through feedback loops and penalties.\n\nFind the most efficient strategy in a changing system.\n\n\n\n\n\nHeat Island Mitigation\n\n\n\n\n\nUrban Example: Heat Island Mitigation\nThe Task: Placing 500 new trees to maximize cooling in a low-income neighborhood.\nThe Process: The AI “plants” trees in different configurations. It receives a reward for every degree the average ground temperature drops.\nOutcome: The AI finds a non-obvious “checkerboard” pattern that optimizes shade and wind flow better than a simple line of trees would.\nThis is exactly how Waymo trains in virtual cities before going on the road. It “plays” the city like a video game until it learns how not to crash or cause a jam.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -710,7 +694,6 @@
     "text": "A Real World Example\nTraffic Monitoring in Pittsburgh, USA",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -722,7 +705,6 @@
     "text": "3. Deep Learning (DL)\nProcessing Complexity\n\n\nA subset of ML inspired by the human brain’s architecture (Neural Networks).\nUses multiple Hidden Layers to process high-dimensional, “messy” data like images, audio, or LiDAR.\n\nHandles non-linear relationships.\n\n\n\n\n\nHeart Health\n\n\n\n\n\nUrban Example: Predicting Heart Health\nThe Task: Identifying neighborhoods with high risks of heart disease using Street View.\nThe Process: A Neural Network analyzes thousands of street-level images. It “sees” the subtle mix of tree canopy, sidewalk quality, and building density.\nOutcome: The AI predicts cardiovascular risk levels with high accuracy, even when social data is missing. It “reads” the health of the residents from the “face” of the street.\nThis is a powerful “Black Box” example. The AI might find that a specific type of pavement + a specific tree-sky ratio = lower stress levels.\nThe Challenge: We know the AI is right, but we can’t always explain the exact “biological logic.”\nIt proves that the built environment is a “Cardiovascular Risk Modifier.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -734,7 +716,6 @@
     "text": "The Spatial Gap\nas of ‘today’\n\n\nText-based Training\nMost LLMs are trained on books and code, not geography.\n\n\n\nSpatial Blindness\nAI might know the word “street” but not the physics of a street.\n\n\n\nThe Horizon\nThe rise of Geo-Foundation models and satellite-based training.\n\n\n\nCrucial warning for transport students: Just because an AI can write a transport policy doesn’t mean it understands spatial proximity or ‘mass/gravity’ pull.\nRemind them that for AI to be a “Planner,” it needs a new kind of training—one based on satellite imagery and graph networks, not just Wikipedia and Reddit threads.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -746,7 +727,6 @@
     "text": "Demystifying the Synergy\nAI \\(\\neq\\) Digital Twin\n\n\n\nAI\nThe analytical engine that processes the data.\n\nDigital Twin\nA dynamic virtual representation of a physical asset, process, or system.\n\n\n\nThe Common Mistake: Thinking that a 3D map is a “Smart Twin.”\n\nA map is a Snapshot.\nA Twin is a Living Process.\n\nStart by addressing the buzzword trap. Students often think “AI + Digital Twin = The Matrix.”\nReiterate: Logic must precede display. A beautiful 3D model with no AI logic behind it is just “fancy misinformation.”\nA true twin requires a feedback loop between the virtual and the physical.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -758,7 +738,6 @@
     "text": "Planning Moments\n\n\n\nAnalysis\nWhere you identify a problem.\n\n\n\nPrediction\nIf you were to do something, then something might happen.\n\n\n\nInterpretation\nHow do you communicate this to other people.\n\n\n\n\n\n\n\n\n\nNot all Twins are created equal.\n\n\n\nNot all require AI.\nNot all need all three moments.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -770,7 +749,6 @@
     "text": "Moment 1: The Backend\n“The Analysis”\nCreating the Living Data Infrastructure\n\n\n1.1 The Infrastructure (Interoperability)\nCities have “siloed” data (Transport, Energy, Health all use different formats).\n\nThe AI Role:\n\nData Weaver\n\n\n\n\n\n1.2 The Analysis (Semantic Mapping)\nRaw numbers don’t explain “Urban Behavior.”\n\nThe AI Role:\n\nSemantic Interpretation\n\n\n\n\n\nVerbally explain this Use Case: “Think of a Real-time Origin-Destination map.\nIn 1.1, the AI is the janitor: it cleans GPS drift so cars don’t look like they are driving through buildings.\nIn 1.2, the AI is the analyst: it looks at those dots and says, ‘This isn’t just movement; it’s a semantic pattern of people avoiding the main road because of a perceived safety issue.’”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -782,7 +760,6 @@
     "text": "Moment 2: Operational\n“The Prediction”\nFrom “What is” \\(\\rightarrow\\) “What if”\n\n\nScenario Testing\nStatic models cannot account for the “Wicked” variables of a living city.\n\nThe AI Role:\n\nGenerative Engine\n\n\n\n\n\nPredictive States\nHistorical data alone doesn’t prepare a city for rare or extreme events.\n\nThe AI Role:\n\nPredictive Optimizer\n\n\n\n\n\n\n\n\n\n\nPredictions are not certainties\n\n\nMultiple outcomes can help us understand potential responses.\n\n\n\n\n\n\nVerbally explain this Use Case: “Think of Urban Reforestation or Heat Island mitigation.\nIn 2.1, the AI is the designer: It generates thousands of ‘what-if’ scenarios, planting virtual trees in different patterns to see which reduces surface temp the most.\nIn 2.2, the AI is the lookout: It predicts how a heatwave next week will affect the grid and coordinates the Twin to recommend specific cooling centers to be opened in advance.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -794,7 +771,6 @@
     "text": "Moment 3: Front-End\n“The Interpretation”\nTranslating Complexity for Humans\n\n\nAccessibility\nComplex spatial data is often “locked” behind technical jargon or difficult software.\n\nThe AI Role:\n\nNatural Language Interface\n\n\n\n\n\nContextualization\nRaw visualizations can be misinterpreted by residents or non-technical stakeholders.\n\nThe AI Role:\n\nSemantic Translator\n\n\n\n\n\nVerbally explain this Use Case: “Think of a community meeting about a new bus lane.\nIn 3.1, the AI is the librarian: A resident can just ask, ‘How will this change my walk to the grocery store?’ and the AI queries the Twin to show that specific path.\nIn 3.2, the AI is the storyteller: It takes the ‘Black Box’ results of a traffic model and explains the logic in plain language, such as: ‘The model predicts a 10% reduction in air pollution because through-traffic is diverted away from the school zone.’”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -806,7 +782,6 @@
     "text": "The Integration Challenge\nIt’s Harder than it Looks\n\n\n\nInteroperability\nGetting “System A” (Transport) to talk to “System B” (Energy)\n\n\n\nData Latency\nIf the AI is too slow, the “Twin” is already showing the past, not the present.\n\n\n\nValidation\nHow do we know the Twin’s “AI Brain” is telling the truth?\n\n\n\n[cite_start]Closing thought for this section: A Digital Twin is not a “crystal ball.” [cite: 265]\nIt is a tool for exploration, not a decree of truth. [cite_start]We model to understand potentiality, not to dictate outcomes. [cite: 265]",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -818,7 +793,6 @@
     "text": "The Traceability Trade-off\nExplainability vs. Performance\n\n\n\n\n\n\n\n\n\nTraceable Heuristics\nOpaque “Black Boxes”\n\n\n\n\nThe Pros\nWe can read the rules. It provides a clear “Why” for policy decisions.\nIncredible accuracy. It finds patterns humans can’t see\n\n\nThe Cons\nMay oversimplify “Wicked” complexity or miss subtle patterns.\nHigh opacity. We cannot explain the internal logic or “arrows.”\n\n\nBest for\nRegulatory permits and long-term planning.\nReal-time management and rapid data processing.\n\n\n\n\n\n\nIn a democracy, is a “perfect” prediction useful if you cannot explain its logic to the public?\n\n\n\n\nThis bridges the gap between Part I (Systems Mapping) and Part II (AI).\nIn Part I, they drew every arrow (100% Traceable). In Deep Learning, the machine draws millions of invisible arrows.\nRemind them: “The machine said so” is not a legal justification in transport planning.\nTrade-off: You gain “Accuracy” but you lose “Accountability.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -830,7 +804,6 @@
     "text": "The Three Failures\nLimits of the Black Box\n\n\nEthical Bias\nAI learns from the past. If our historical data is biased (e.g., unequal investment), the AI will “optimize” that inequality into the future.\n\nHallucination\nIn complex systems, AI can find “patterns” that don’t exist—creating elegant but physically impossible solutions to urban problems.\n\nAccountability\nThe “Liability Gap.” When a black box makes a mistake in a public street, we lose the clear line of responsibility required for local government.\n\n\n\nFailure 1: Mention “Garbage In, Garbage Out.” If we train an AI on 1960s car-centric data, it will never suggest a bike lane.\nFailure 2: Relate this to the “Spatial Gap.” AI might suggest a perfect route that passes through a solid brick wall because it doesn’t “know” physics.\nFailure 3: This is the most important for planners. In Part I, you owned the logic. In Part II, who owns the mistake?",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -842,7 +815,6 @@
     "text": "Reshaping the Planner’s Role\nWhy there is hope\n\n\n\nLiberating the Planner: AI handles the “disorganized complexity” (sorting millions of data points) so you can focus on the Ethics and Vision.\nThe Sandbox: It allows us to fail 1,000 times in a Digital Twin so we can succeed once in the real street.\n\n\n\n\n\nHuman-in-the-Loop: AI proposes, the Human disposes.\nThe Synthesis: Use AI for efficiency (the math), but keep Systems Thinking for efficacy (the goal).\n\n\n\n\nThis is the “Doom and Gloom” antidote. AI isn’t the Planner; it’s the Planner’s most powerful calculator.\nIt removes the “boring” parts of the job (cleaning data) and leaves the “wicked” parts (negotiating values) to the humans.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -854,7 +826,6 @@
     "text": "Final Thoughts\n\nSkepticism is a Skill: It is the bridge between a “Smart” city and a “Wise” city.\nLogic still Precedes Display: Don’t let the beauty of a Digital Twin hide the opacity of its brain.\nYour Role: You are the architect of the reward signals. What will you tell the AI to value?\n\n\n\n“AI can find the pattern, but only the Planner can give it a Purpose.”\n\n\n\nBring it full circle to Part I.\nRemind them that they are now “Translators”—they need to speak enough ‘Data’ to question the machine, and enough ‘Human’ to serve the resident.\nEnd with a call to action: “Go build the logic before you turn on the machine.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "AI & Smart Cities"
     ]
   },
@@ -866,7 +837,6 @@
     "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nGOAL\nTo reduce the “Cognitive Load”\nwithout oversimplifying the “Wicked” reality.\n\n\n\nRemind them of the “Brain” analogy. A brain is useless if it can’t move the body.\nDecision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say “If we do X, then Y happens.”\nCrucial point: A good DST doesn’t hide complexity; it manages it.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -878,7 +848,6 @@
     "text": "Origins: Business Intelligence\nThe Corporate “Cockpit”\n\n\nKPI Culture\n\n“If you can’t measure it, you can’t manage it” - Peter Drucker\n\nPerformance Monitoring: Dashboards were designed for CEOs to track sales, inventory, and efficiency in real-time.\n\n\nThe city as a machine that can be “tuned” for efficiency.\n\n\n\n\nStart with the roots. Dashboards didn’t start in cities; they started in factories and boardrooms.\nThe goal was efficiency and profit maximization.\nAsk: “Does a city work like a factory?” (Hint: No).",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -890,7 +859,6 @@
     "text": "The Shift to Urban Planning\nImporting the Logic\n\n\n\nThe Promise\nTech giants sold the idea of the “City Operating System.”\n\nReal-time feedback: Moving from 5-year census data to millisecond sensor readings.\n\n\nThe Reality\n\nComplexity: Cities are not closed systems, unlike factories.\nWicked Problems: Moving a variable in a city (e.g., traffic) affects everything else (pollution, retail, housing).\n\n\n\neg. mycelium network - Transition: When we brought these tools to cities, we brought the “efficiency” mindset with them. - Challenge: Cities are open, complex systems, not closed production lines. - This creates tension between “optimizing flow” and “creating place.”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -902,7 +870,6 @@
     "text": "The Shift to Urban Planning\n\n\nMonitoring\n\n“What is happening now?”\n\n\nTraffic counters\nAir quality sensors\nEnergy grids\n\n\nAnalyzing\n\n“Why is it happening?”\n\n\nCorrelating data\nFinding patterns\nIdentifying bottlenecks\n\n\nSimulating\n\n“What if we change X?”\n\n\nDigital Twins\nImpact assessment\n\n\n\nDecision Support!\n\n\n\nThis is the key evolution. We refrain from just looking at the speedometer.\nWe are now building “Flight Simulators” where we can crash the plane (city) safely in digital space before making changes in physical space.\nThis is the definition of a Decision Support Tool.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -914,7 +881,6 @@
     "text": "The Trap of Abstraction\n\n\n\nThe “Index” Problem\n\nLiveability Index: 85/100\nHappiness Score: 7.2\nWalkability Score: 94\n\n\nWhy it fails\nMathematically sound, practically useless.\n\nIf the score drops to 82, do we fix potholes or add schools?\n\n\nAbstract indexes hide the levers of change.\n\n\n\n\nExplain the difference between an Indicator (raw, valid signal) and an Index (aggregated, abstract score).\nIdeally, we want indicators that point to specific physical actions.\nAn “Index” is good for ranking cities in a magazine, but bad for running a city.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -926,7 +892,6 @@
     "text": "The Trap of Abstraction\n\n“The map is not the territory.”\n— Alfred Korzybski\n\n\nThe Origin: Alfred Korzybski was a scientist and philosopher who wanted to remind us that our description of reality is never the same as reality itself.\nDefining the Map: In our context, the “Map” is the Digital Twin, the GIS layers, the census data, and the AI’s predictive model. It is an abstraction.\nThe Value of Omission: A map is only useful because it leaves things out. If a map of Oslo was as detailed as Oslo itself, it would be a 1:1 scale and completely useless.\nThe Danger for Planners: The “Trap” occurs when we start making decisions based only on the map’s logic, forgetting the territory’s complexity.\nExample: A transport model (The Map) says a new highway will reduce commute times. But the territory (The People) responds with “induced demand,” filling the road immediately. The map failed to capture human behavior.\nAI and “Hallucinations”: When an AI gives a confident but wrong answer, it is “believing its own map.” It is calculating the probability of words or pixels, not the physics of the street.\nThe Planner’s Duty: Our job is not just to build better maps; it is to be the person who constantly walks the territory to see what the map missed.\nQuestion for the class: “If the Digital Twin shows a neighborhood is ‘optimally served’ by transit, but the residents feel isolated, which one is ‘true’?”",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -938,7 +903,6 @@
     "text": "The Unintended Consequences\nOptimizing for the wrong thing\n\n\nThe Metric\n“Average Vehicle Speed” or “Intersection Throughput”\nOptimizing for flow efficiency.\n\nThe Result\nStroads & Highways\n\nHigh speed = Low interaction.\nA street with “perfect flow” has no life (commerce, lingering, playing).\n\n\n\n\n\n\nGoodhart’s Law\n\n\n“When a measure becomes a target, it ceases to be a good measure.”\n\n\n\n\n\n\nExample of Traffic vs Place.\nIf you optimize for one variable (speed), you inadvertently kill another (place quality).\nThis is why choosing what to measure is a political act, not just technical.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -950,7 +914,6 @@
     "text": "Good vs. Bad Indicators\n\n\n\n\n\n\n\n\n\nFeature\nGood Indicator\nBad Indicator\n\n\n\n\nActionable\n“Potholes per km” (We can fill them)\n“Road Quality Index” (Vague)\n\n\nRelevant\nMeasures what matters to stakeholders\nMeasures what is easy to count\n\n\nComparable\nStandardized units (kg, m, $)\nArbitrary scales (1-5 stars)\n\n\nTransparent\nClear calculation method\n“Black Box” algorithm\n\n\n\n\n\nGo through the criteria.\nEmphasize “Proxy”: Sometimes we can’t measure the thing (e.g., Safety), so we measure a proxy (e.g., Streetlight lux levels).\nAlways ask: Is the proxy actually correlated?",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -962,7 +925,6 @@
     "text": "Anatomy of a Dashboard\n\n\n\nIndicators\n\nThe “Vital Signs”\n\n\nReal-time feeds\nHistorical trends\nKey Performance Indicators (KPIs)\n\n\nSimulation\n\nThe “What-If” Engine\n\n\nSlider controls\nScenario toggles\nImpact forecasting\n\n\nNarrative\n\nThe Context\n\n\nAnnotations\nStorytelling flow\n“So what?” (Insights)\n\n\n\n\nRefer to your Data Viz notes: “Identifying patterns, trends, and outliers.”\nIn an urban context, a dashboard shouldn’t just be a “report card” of the past. It should be a “flight simulator” for the future.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -974,7 +936,6 @@
     "text": "The “Misleading” Interface\n\n\nThe Aesthetic Trap\n\n“If it looks high-tech, it must be true.”\n\n\nShiny 3D maps and “Minority Report” interfaces can mask poor data quality.\nCognitive Bias: We trust beautiful things more than ugly truths.\n\n\nThe Black Box\n\nFalse Precision: Displaying “Safety: 87.42%” implies a level of certainty that doesn’t exist.\nHidden Algorithms: Who decided the weightings?\nTruncated Realities: What is not lying on the dashboard? (e.g., happiness, social capital).\n\n\n\n\nConnect this to your Viz Pitfalls: “Misleading graphs, improper scaling.”\nIn Smart Cities, there is a risk of “Technological Solutionism.”\nAs curators of these tools, the students must ensure the visualization doesn’t lie about the model’s uncertainty.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -986,7 +947,6 @@
     "text": "Different Lenses for Different Roles\n\n\nHigh-Level Ops\nThe Pilot\n- Goal: Real-time management. - Timeframe: Seconds/Minutes. - Needs: Alerts, live status, red/green indicators.\n\nStrategic Planning\nThe Architect\n- Goal: Long-term policy. - Timeframe: Years/Decades. - Needs: Trends, aggregate data, scenarios.\n\nPublic Participation\nThe Citizen\n- Goal: Transparency & Input. - Timeframe: Daily life. - Needs: Relatability, localized data, feedback channels.\n\n\n\nDifferent users need different “Front-ends” for the SAME underlying reality.\nA technician needs a “Technical” viz. A citizen needs a “Human-centric” viz.\nWorkshop Preview: We will look at how to tailor your tool for a specific stakeholder.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -998,7 +958,6 @@
     "text": "Gestalt Principles\nOnly some\n\n\n\n\n\n\n\nPrinciple\nDescription\n\n\n\n\nProximity\nElements that are close to each other are perceived as a group.\n\n\nSimilarity\nItems that share visual characteristics are seen as related.\n\n\nContinuity\nThe eye follows lines and curves smoothly without abrupt changes.\n\n\nClosure\nIncomplete shapes are perceived as complete wholes.\n\n\nConnectedness\nItems connected by lines or other visual cues are seen as related.\n\n\nColour\nUtilises hues and shades to convey meaning and hierarchy.\n\n\nWhite Space\nStrategic use of empty space to enhance readability and focus.\n\n\n\n\n\nQuick recap of Gestalt (from the Data Viz full lecture).\nUse these principles to group content on your dashboard.\nDon’t just scatter charts; use proximity and similarity to create logical sections.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -1010,7 +969,6 @@
     "text": "Choosing the Right Chart\nNYTimes Visual Vocabulary",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -1022,7 +980,6 @@
     "text": "What NOT to do\n“Mistakes, we’ve drawn a few.”\n\n\nThe Don’ts\n\nTruncated Axes: Starting a bar chart at 50% to exaggerate a 1% difference.\nSpaghetti Charts: Too many lines making trends unreadable.\nCorrelated Scales: Forcing two unrelated variables onto dual axes to imply causation.\n\n\nThe Wrong Type\n\nUsing a Line Chart for categorical data (implies continuity where there is none).\nUsing a Pie Chart for 20 categories.\n\n\n\n\nHonesty in Data Viz is crucial for Decision Support.\nIf you truncate an axis, you might convince a Mayor to spend millions on a problem that is actually a minor fluctuation.",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -1034,7 +991,6 @@
     "text": "Narrative in the Data",
     "crumbs": [
       "Schedule",
-      "Unit 5",
       "Decision Support"
     ]
   },
@@ -1075,8 +1031,7 @@
     "section": "",
     "text": "Context: “Car-Free City Center” Pilot\nYour Mission: Design a paper prototype of a decision support dashboard for ONE specific stakeholder.\n\n\n\n\n\nNeeds: Technical feedback loop.\nKey Qs: Displacement effects? Retail revenue impacts? Emergency response times?\n\n\n\n\n\n\nNeeds: Usability & Adaptation.\nKey Qs: Where do I park? How do I get delivery? Space for complaints?",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Workshop"
     ]
   },
@@ -1087,8 +1042,7 @@
     "section": "",
     "text": "Context: “Car-Free City Center” Pilot\nYour Mission: Design a paper prototype of a decision support dashboard for ONE specific stakeholder.\n\n\n\n\n\nNeeds: Technical feedback loop.\nKey Qs: Displacement effects? Retail revenue impacts? Emergency response times?\n\n\n\n\n\n\nNeeds: Usability & Adaptation.\nKey Qs: Where do I park? How do I get delivery? Space for complaints?",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Workshop"
     ]
   },
@@ -1099,8 +1053,7 @@
     "section": "The Menu: Choose Your Data",
     "text": "The Menu: Choose Your Data\nSelect 3-4 datasets to power your dashboard:\n\n🚗 Real-time Traffic Sensors (Vehicle counts/speed)\n💨 Air Quality Index (PM2.5, NO2 - Street level)\n💶 Retail Point-of-Sale Data (Aggregated monthly revenue)\n🗣️ Social Media Sentiment (Geotagged posts)\n🚑 Emergency GPS Tracks (Response times)\n🚶 Pedestrian Footfall Counters\n🔊 Noise Level Decibels\n🅿️ Parking Occupancy (Real-time availability)\n🚌 Public Transit Delays (Real-time feed)\n🌧️ Historical Weather Data",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Workshop"
     ]
   },
@@ -1111,8 +1064,7 @@
     "section": "Step-by-Step",
     "text": "Step-by-Step\n\n\n\n1. Select & Sketch (10 mins)\n\nChoose your Persona (Planner or Citizen).\nPick 3-4 Datasets.\nSketch the layout:\n\nIndicators (What do they see first?)\nInteraction (What can they click/change?)\n\n\n\n\n\n2. Pitch (1 min per group)\n\nWho is it for?\nWhat problem does it solve for them?\nWhy did you leave out the other data?",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Workshop"
     ]
   },
@@ -1123,8 +1075,7 @@
     "section": "",
     "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1135,8 +1086,7 @@
     "section": "",
     "text": "Data visualisation plays a crucial role in modern decision-making by transforming complex datasets into accessible visual narratives. In an era where data-driven decisions shape industries, effective visualisations help stakeholders quickly grasp insights and patterns, leading to informed and strategic choices.By turning abstract numbers into visual stories, data visualisation enhances understanding, fosters communication, and drives impactful actions.\n\n\n\n\n\n\nTip\n\n\n\nIn this session we will mostly focus on non-spatial visualisation, but many of the principles also apply to the times when you will be creating maps to be part of your stories.\n\n\n\n\nThe main purposes of enhancing your narrative with data can be categorised into three key areas:\n\nFacilitating quick understanding of complex information.\nIdentifying patterns, trends, and outliers.\nGuiding decision-makers towards strategic actions aligned with your objectives.",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1147,8 +1097,7 @@
     "section": "Tools and Technologies",
     "text": "Tools and Technologies\nSelecting the right tool for the job involves considering several factors, including how you plan to share the visualisations, the need for ongoing maintenance, and your own level of expertise. If the data is likely to change frequently, choosing a tool that supports dynamic updates or easy revisions is crucial. Additionally, the way you share your visualisations—whether through static reports, interactive dashboards, or embedded in web pages—will influence the tool selection. Finally, your own proficiency and familiarity with the tool should be taken into account to ensure efficiency and effectiveness in creating impactful visualisations.\n\n\n\n\n\n\n\n\n\nCategory\nTools\nPros\nCons\n\n\n\n\nClassic Spreadsheets\nExcel, Google Sheets\nEasy to learn and widely accessible\nLimited customisation and scalability\n\n\nBI Tools\nTableau, Power BI\nPowerful for interactive dashboards and reporting\nCan be expensive; requires learning curve for complex tasks\n\n\nCoding Libraries\nPython (matplotlib, seaborn), D3.js\nHighly customisable and flexible\nSteeper learning curve; requires programming knowledge",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1159,8 +1108,7 @@
     "section": "Exploring vs. Presenting",
     "text": "Exploring vs. Presenting\n\n“Don’t run before you can walk”\n\nStart simple and gradually build complexity. In data visualisation, it’s tempting to jump straight to advanced tools or sophisticated designs, but this can lead to confusion and inefficiency if the basics are not well understood. Begin with simple exploratory analyses to understand your data, then progressively refine and enhance your visualisations as your message becomes clearer and your narrative more defined.\n\n\nExploratory data visualisation\nis about discovering insights, identifying patterns, and asking new questions. It is most useful during the initial stages of data analysis when the goal is to understand the data and its structure. At this stage, it’s not about perfection but about exploration and iteration.\n\n\n\nExplanatory data visualisation\non the other hand, is about communicating a specific message or insight clearly to an audience. It involves polishing the visualisation, ensuring accuracy, and crafting a narrative that guides the viewer to the intended conclusion.\n\n\nLearning when to switch from exploration to presentation is key to managing efforts effectively. Investing time in refining and polishing a visualisation is only worthwhile once the message is clear and impactful.",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1171,8 +1119,7 @@
     "section": "Principles of Data Visualisation",
     "text": "Principles of Data Visualisation\n\nGestalt Principles\nThe Gestalt principles originate from a psychological theory developed by German psychologists in the early 20th century. These principles explain how humans naturally perceive visual elements as organized patterns or wholes, rather than as separate components (see Wagemans 2012). In data visualisation, Gestalt principles help designers arrange information in a way that is easily understood and visually appealing. By leveraging these principles, data visualisations can guide viewers to see relationships, hierarchies, and narratives within the data more intuitively.\n\n\n\n\n\n\n\n\nPrinciple\nDescription\nExample\n\n\n\n\nProximity\nElements that are close to each other are perceived as a group.\n\n\n\nSimilarity\nItems that share visual characteristics are seen as related.\n\n\n\nContinuity\nThe eye follows lines and curves smoothly without abrupt changes.\n\n\n\nClosure\nIncomplete shapes are perceived as complete wholes.\n\n\n\nConnectedness\nItems connected by lines or other visual cues are seen as related.\n\n\n\nColour\nUtilises hues and shades to convey meaning and hierarchy.\n\n\n\nWhite Space\nStrategic use of empty space to enhance readability and focus.\n\n\n\n\nThese (and many other) principles guide visual perception and interpretation by leveraging the brain’s natural tendencies to group similar elements, follow continuous lines, and fill in gaps to perceive complete shapes. By applying these principles, designers can direct the viewer’s attention, create visual hierarchies, and improve the overall user experience. This strategic arrangement of visual elements not only enhances comprehension but also makes complex data more approachable and meaningful.\n\n\nChoosing the Right Chart\nMatching data types to the most effective visualisation is essential for conveying the intended message clearly and accurately. Different types of data—such as categorical, numerical, and temporal data—require different visualisation approaches to effectively highlight patterns, trends, and relationships.\n\nCategorical data, which represents discrete groups or categories, is best displayed using bar charts, pie charts, or stacked column charts for comparing proportions or frequencies.\nNumerical data, especially when showing distributions or relationships, is effectively visualised through histograms, scatter plots, or line graphs.\nTemporal data, which involves time series or sequences, is well-suited to line charts or area charts to show trends over time.\n\nSelecting the right chart type enhances the narrative and helps the audience interpret the data more intuitively.\nNYTimes Visual Vocabulary is a comprehensive guide for matching data types to appropriate chart styles.\n\n\n\nNYTimes Chart Doctor Poster\n\n\n\n\n\n\n\n\nTipAim for…\n\n\n\n\nClarity and simplicity: Avoid clutter and focus on the message.\nAccuracy and integrity: Represent data truthfully.\nAesthetics and engagement: Use colors, fonts, and layouts strategically.\n\n\n\n\n\n\n\n\n\nWarningCommon Pitfalls\n\n\n\n\nMisleading graphs (e.g., truncated axes, improper scaling).\nOvercomplicating with too much information.\nChoosing the wrong type of visualisation for the data.",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1183,8 +1130,7 @@
     "section": "Final thoughts",
     "text": "Final thoughts\nAs the field continues to evolve, it is crucial to stay curious and experiment with new tools and techniques. Exploring different visualisation methods can inspire creativity and enhance your storytelling abilities. Today’s session is design to start visualising data today and adopt a flexible mindset for continuous improvement.\n\nReferences\n\n\nWagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure–ground organization. Psychological Bulletin, 138(6), 1172–1217. https://doi.org/10.1037/a0029333",
     "crumbs": [
-      "Schedule",
-      "Unit 5",
+      "Workshops & Other",
       "Data Visualization"
     ]
   },
@@ -1193,203 +1139,319 @@
     "href": "src/unit_7/sdgs_low_tech.html#session-roadmap",
     "title": "Smart Cities & the SDGs",
     "section": "Session Roadmap",
-    "text": "Session Roadmap\n\nPart I: SDGs, Smart Cities & the Gap\n\nWhat the SDGs ask of cities\nRevisiting smart cities — low-tech is smart too\nThe gap between technology and behavioural change\n\nPart II: Design for People\n\nHow to diagnose before you design\n8 behavioural concepts — each with a real-world example\n\nClosing: Synthesis & SDG Reconnection\n\n\n\nThis session is the deliberate counterpoint to Units 3–5: we’ve spent the semester learning powerful high-tech tools; now we ask whether they are always the most effective\nThe central provocation: “smart” means effective, not digital\nPart I is brief — it sets the frame. Part II is the core of the session, concept by concept.\nAsk students to keep their project neighbourhood in mind throughout — they will recognise these patterns\nThis is not anti-technology; it is pro-purposeful choice"
+    "text": "Session Roadmap\n\nPart I: SDGs, Smart Cities & the Gap\n\nWhat the SDGs ask of cities\nRevisiting smart cities — low-tech is smart too\nThe gap between technology and behavioural change\n\nPart II: Design for People\n\nHow to diagnose before you design\n8 behavioural concepts — each with a real-world example\n\nClosing: Synthesis & SDG Reconnection\n\n\n\nThis session is the deliberate counterpoint to Units 3–5: we’ve spent the semester learning powerful high-tech tools; now we ask whether they are always the most effective\nThe central provocation: “smart” means effective, not digital\nPart I is brief — it sets the frame. Part II is the core of the session, concept by concept.\nAsk students to keep their project neighbourhood in mind throughout — they will recognise these patterns\nThis is not anti-technology; it is pro-purposeful choice",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#what-are-the-sdgs",
     "href": "src/unit_7/sdgs_low_tech.html#what-are-the-sdgs",
     "title": "Smart Cities & the SDGs",
     "section": "What are the SDGs?",
-    "text": "What are the SDGs?\n\n17 Sustainable Development Goals. One 2030 deadline.\nNot a wishlist — a moral and political commitment made by 193 nations\n\n\n\n\n\nSDGs are wicked problems — no single solution, no stopping rule\n\n\n\n\n\n\nCities house 55% of the world’s population, generate 80% of global GDP, and produce 70% of greenhouse gas emissions. Most SDGs will be won or lost here.\n\n\n\n\nSDGs adopted in 2015 as part of the UN 2030 Agenda — this is the professional mandate for planners\n“Legally non-binding but morally binding” — useful framing for how planners should relate to this framework\nConnect to Unit 3: SDGs are the canonical wicked problem — when is SDG 11 “done”? It never is.\nKey function of this slide: remind students that technology is never the goal — the SDG outcome is\nKeep this brief — students know the SDGs; this is a reminder, not a lecture"
+    "text": "What are the SDGs?\n\n17 Sustainable Development Goals. One 2030 deadline.\nNot a wishlist — a moral and political commitment made by 193 nations\n\n\n\n\n\nSDGs are wicked problems — no single solution, no stopping rule\n\n\n\n\n\n\nCities house 55% of the world’s population, generate 80% of global GDP, and produce 70% of greenhouse gas emissions. Most SDGs will be won or lost here.\n\n\n\n\nSDGs adopted in 2015 as part of the UN 2030 Agenda — this is the professional mandate for planners\n“Legally non-binding but morally binding” — useful framing for how planners should relate to this framework\nConnect to Unit 3: SDGs are the canonical wicked problem — when is SDG 11 “done”? It never is.\nKey function of this slide: remind students that technology is never the goal — the SDG outcome is\nKeep this brief — students know the SDGs; this is a reminder, not a lecture",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#the-urban-sdgs",
     "href": "src/unit_7/sdgs_low_tech.html#the-urban-sdgs",
     "title": "Smart Cities & the SDGs",
     "section": "The Urban SDGs",
-    "text": "The Urban SDGs\n\n\nSDG 11\nThe Anchor\nSustainable Cities and Communities\n\nAffordable and adequate housing\nSafe and sustainable transport\nInclusive and accessible public spaces\nReduced environmental impact\nResilience to climate and disaster\n\n\n\n\n\n\n\nSDG 11 is explicitly about cities, but it cannot be achieved in isolation\nDemonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)\nThis is why urban design has outsized SDG leverage — one intervention, multiple outcomes\nAsk: “Which SDG is most relevant to your project neighbourhood? Which others does it connect to?”\nCyan background: this is a foundational framework to return to throughout the session"
+    "text": "The Urban SDGs\n\n\nSDG 11\nThe Anchor\nSustainable Cities and Communities\n\nAffordable and adequate housing\nSafe and sustainable transport\nInclusive and accessible public spaces\nReduced environmental impact\nResilience to climate and disaster\n\n\n\n\n\n\n\nSDG 11 is explicitly about cities, but it cannot be achieved in isolation\nDemonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)\nThis is why urban design has outsized SDG leverage — one intervention, multiple outcomes\nAsk: “Which SDG is most relevant to your project neighbourhood? Which others does it connect to?”\nCyan background: this is a foundational framework to return to throughout the session",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#the-urban-sdgs-1",
     "href": "src/unit_7/sdgs_low_tech.html#the-urban-sdgs-1",
     "title": "Smart Cities & the SDGs",
     "section": "The Urban SDGs",
-    "text": "The Urban SDGs\n\n\nConnected Urban Goals\n\nSDG 3 — Good Health (active mobility, clean air, green space)\nSDG 10 — Reduced Inequalities (access, public space as equaliser)\nSDG 13 — Climate Action (modal shift, nature-based solutions)\nSDG 15 — Life on Land (urban biodiversity, green corridors)\n\n\n\n\n\n\nInterconnected challenges\n\n\n\n\n\nSDG 11 is explicitly about cities, but it cannot be achieved in isolation\nDemonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)\nThis is why urban design has outsized SDG leverage — one intervention, multiple outcomes\nAsk: “Which SDG is most relevant to your project neighbourhood? Which others does it connect to?”\nCyan background: this is a foundational framework to return to throughout the session"
+    "text": "The Urban SDGs\n\n\nConnected Urban Goals\n\nSDG 3 — Good Health (active mobility, clean air, green space)\nSDG 10 — Reduced Inequalities (access, public space as equaliser)\nSDG 13 — Climate Action (modal shift, nature-based solutions)\nSDG 15 — Life on Land (urban biodiversity, green corridors)\n\n\n\n\n\n\nInterconnected challenges\n\n\n\n\n\nSDG 11 is explicitly about cities, but it cannot be achieved in isolation\nDemonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)\nThis is why urban design has outsized SDG leverage — one intervention, multiple outcomes\nAsk: “Which SDG is most relevant to your project neighbourhood? Which others does it connect to?”\nCyan background: this is a foundational framework to return to throughout the session",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#smart-cities-a-recap",
     "href": "src/unit_7/sdgs_low_tech.html#smart-cities-a-recap",
     "title": "Smart Cities & the SDGs",
     "section": "Smart Cities: A Recap",
-    "text": "Smart Cities: A Recap\n\n\nSold as a high-tech promise:\n\nReal-time sensor networks monitoring everything\nAI-powered prediction and optimisation\nDigital twins simulating urban futures\nSeamless Mobility-as-a-Service platforms\n\n\nThe canonical examples:\n\nBuilt. Expensive.\nOften: half-empty.\n\n\n\n\n\nSongdo (South Korea)\n\n\nSidewalk Toronto (cancelled, 2020)\n\n\nNEOM (under construction)\n\n\nMasdar City (stalled)\n\n\n\n\n\n\nCallback to earlier units — students should recognise all of these tools\nDon’t linger: the point is not to criticise the tools, but to contextualise them\nSidewalk Toronto: Google Sidewalk Labs’ smart city project, cancelled due to privacy concerns and escalating costs\nSongdo: streets optimised for efficiency, but low occupancy for years — the optimisation that forgot human desire\nNEOM: $500bn Saudi megaproject, highly contested on human rights and feasibility grounds The framing: these are not technology failures — they are failures of starting with technology before understanding people"
+    "text": "Smart Cities: A Recap\n\n\nSold as a high-tech promise:\n\nReal-time sensor networks monitoring everything\nAI-powered prediction and optimisation\nDigital twins simulating urban futures\nSeamless Mobility-as-a-Service platforms\n\n\nThe canonical examples:\n\nBuilt. Expensive.\nOften: half-empty.\n\n\n\n\n\nSongdo (South Korea)\n\n\nSidewalk Toronto (cancelled, 2020)\n\n\nNEOM (under construction)\n\n\nMasdar City (stalled)\n\n\n\n\n\n\nCallback to earlier units — students should recognise all of these tools\nDon’t linger: the point is not to criticise the tools, but to contextualise them\nSidewalk Toronto: Google Sidewalk Labs’ smart city project, cancelled due to privacy concerns and escalating costs\nSongdo: streets optimised for efficiency, but low occupancy for years — the optimisation that forgot human desire\nNEOM: $500bn Saudi megaproject, highly contested on human rights and feasibility grounds The framing: these are not technology failures — they are failures of starting with technology before understanding people",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#smart-high-tech",
     "href": "src/unit_7/sdgs_low_tech.html#smart-high-tech",
     "title": "Smart Cities & the SDGs",
     "section": "Smart ≠ High-Tech",
-    "text": "Smart ≠ High-Tech\n\n“Smart” means effective.\n\n\nA well-placed bench that invites people to sit → smart intervention\nA narrowed road that slows cars without a sign → smart intervention\nA cycle lane that makes car trips optional → smart intervention\n\n\nLow-tech IS smart city design — when it achieves the SDG outcome.\n\n\n\nThis is the key reframe for the entire session — let it land before moving on\nAsk: “What does ‘smart’ mean to you?” then challenge the assumption\nThis is explicitly not anti-technology — it is pro-effectiveness\nThe test: does it achieve the SDG outcome? If yes, it is smart regardless of technical complexity\nConnect to Unit 5: “AI can find the pattern, but only the Planner can give it purpose” — same logic applies to all tools"
+    "text": "Smart ≠ High-Tech\n\n“Smart” means effective.\n\n\nA well-placed bench that invites people to sit → smart intervention\nA narrowed road that slows cars without a sign → smart intervention\nA cycle lane that makes car trips optional → smart intervention\n\n\nLow-tech IS smart city design — when it achieves the SDG outcome.\n\n\n\nThis is the key reframe for the entire session — let it land before moving on\nAsk: “What does ‘smart’ mean to you?” then challenge the assumption\nThis is explicitly not anti-technology — it is pro-effectiveness\nThe test: does it achieve the SDG outcome? If yes, it is smart regardless of technical complexity\nConnect to Unit 5: “AI can find the pattern, but only the Planner can give it purpose” — same logic applies to all tools",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#the-gap",
     "href": "src/unit_7/sdgs_low_tech.html#the-gap",
     "title": "Smart Cities & the SDGs",
     "section": "The Gap",
-    "text": "The Gap\nHigh-tech smart city projects often underperform\n\n\nThe technology works.\n\nSensors sense\nAlgorithms optimise\nDashboards display etc..\n\n\nThe city doesn’t change.\n\nPeople still drive\nPollution still rises\nInequality persists\n\n\n\n\nThe missing variable is not the system.\nIt is the people in it.\n\n\n\n\nThis is a critical diagnostic — a rupture in the argument built so far\nKey failure modes: digital divide (who can access smart city services?), high maintenance costs (who pays in Year 5?), top-down imposition (no community ownership), surveillance creep\nSidewalk Toronto: partly collapsed due to data sovereignty — people didn’t want to be monitored as a precondition for urban services\nSongdo: optimised for flow, but without human desire — result: well-connected ghost city for years\nPause here: “Can you think of a smart city project that measurably changed how ordinary people live?” — let students struggle with this\nThis is the bridge: we’ve diagnosed the problem — now Part II presents the alternative"
+    "text": "The Gap\nHigh-tech smart city projects often underperform\n\n\nThe technology works.\n\nSensors sense\nAlgorithms optimise\nDashboards display etc..\n\n\nThe city doesn’t change.\n\nPeople still drive\nPollution still rises\nInequality persists\n\n\n\n\nThe missing variable is not the system.\nIt is the people in it.\n\n\n\n\nThis is a critical diagnostic — a rupture in the argument built so far\nKey failure modes: digital divide (who can access smart city services?), high maintenance costs (who pays in Year 5?), top-down imposition (no community ownership), surveillance creep\nSidewalk Toronto: partly collapsed due to data sovereignty — people didn’t want to be monitored as a precondition for urban services\nSongdo: optimised for flow, but without human desire — result: well-connected ghost city for years\nPause here: “Can you think of a smart city project that measurably changed how ordinary people live?” — let students struggle with this\nThis is the bridge: we’ve diagnosed the problem — now Part II presents the alternative",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#what-is-low-tech",
     "href": "src/unit_7/sdgs_low_tech.html#what-is-low-tech",
     "title": "Smart Cities & the SDGs",
     "section": "What is “Low-Tech”?",
-    "text": "What is “Low-Tech”?\nIt is not primitive. It is human-centred.\n\n\nLow-tech design is:\n\nAccessible without a device or signal\nDurable works in 10, 20, 50 years\nLegible understood without a manual\nMaintainable at low cost\n\n\n\nFails gracefully when it fails at all\n\n\n\n\n\n \n\n\nWho needs a smartphone to use a bench?\n\n\nWho gets excluded when the Wi-Fi goes down?\n\n\nWho can maintain it after the consultant leaves?\n\n\n\n\nIf the answer is “everyone can use it” — you have a strong foundation.\n\n“Fails gracefully” is critical: a broken smart sensor gives no data; a worn cobblestone still slows a car\nThis is an equity argument: low-tech is more equitable because access is not gated by digital literacy or device ownership\nThe maintenance gap: many smart city projects degrade after Year 5 when maintenance budgets are cut; low-tech ages more robustly\nAsk: “Think of a street that works well for everyone — what makes it work? Is any of it digital?”\nThis slide establishes the evaluation criteria applied to every example that follows"
+    "text": "What is “Low-Tech”?\nIt is not primitive. It is human-centred.\n\n\nLow-tech design is:\n\nAccessible without a device or signal\nDurable works in 10, 20, 50 years\nLegible understood without a manual\nMaintainable at low cost\n\n\n\nFails gracefully when it fails at all\n\n\n\n\n\n \n\n\nWho needs a smartphone to use a bench?\n\n\nWho gets excluded when the Wi-Fi goes down?\n\n\nWho can maintain it after the consultant leaves?\n\n\n\n\nIf the answer is “everyone can use it” — you have a strong foundation.\n\n“Fails gracefully” is critical: a broken smart sensor gives no data; a worn cobblestone still slows a car\nThis is an equity argument: low-tech is more equitable because access is not gated by digital literacy or device ownership\nThe maintenance gap: many smart city projects degrade after Year 5 when maintenance budgets are cut; low-tech ages more robustly\nAsk: “Think of a street that works well for everyone — what makes it work? Is any of it digital?”\nThis slide establishes the evaluation criteria applied to every example that follows",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#diagnose-before-you-design",
     "href": "src/unit_7/sdgs_low_tech.html#diagnose-before-you-design",
     "title": "Smart Cities & the SDGs",
     "section": "Diagnose Before You Design",
-    "text": "Diagnose Before You Design\nSolutions can be low-tech. Diagnosis can be hybrid.\n\n\nPhase 1: Understand\nWhat is actually happening here?\n  How do people move, gather, avoid? What paths do they really take? What spaces do they never use? \n\nPhase 2: Design\nWhat is the minimum effective intervention?\n  Work with observed behaviour — not assumed behaviour. \n\n\n\nThis addresses the valid concern: “don’t we need data before we can design well?”\nYes — but data doesn’t require expensive custom infrastructure\nJan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.\nSentinel satellite: ESA’s freely available remote sensing data — accessible to any municipality with internet access\nStrava Metro: aggregated, anonymised cycling/running data — available to cities at low cost\nPrinciple: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.\nConnect to Unit 5: “The planner’s role is gatekeeper” — gatekeeping starts with asking the right questions before choosing the tool"
+    "text": "Diagnose Before You Design\nSolutions can be low-tech. Diagnosis can be hybrid.\n\n\nPhase 1: Understand\nWhat is actually happening here?\n  How do people move, gather, avoid? What paths do they really take? What spaces do they never use? \n\nPhase 2: Design\nWhat is the minimum effective intervention?\n  Work with observed behaviour — not assumed behaviour. \n\n\n\nThis addresses the valid concern: “don’t we need data before we can design well?”\nYes — but data doesn’t require expensive custom infrastructure\nJan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.\nSentinel satellite: ESA’s freely available remote sensing data — accessible to any municipality with internet access\nStrava Metro: aggregated, anonymised cycling/running data — available to cities at low cost\nPrinciple: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.\nConnect to Unit 5: “The planner’s role is gatekeeper” — gatekeeping starts with asking the right questions before choosing the tool",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#diagnose-before-you-design-1",
     "href": "src/unit_7/sdgs_low_tech.html#diagnose-before-you-design-1",
     "title": "Smart Cities & the SDGs",
     "section": "Diagnose Before You Design",
-    "text": "Diagnose Before You Design\nSolutions can be low-tech. Diagnosis can be hybrid.\nLow-Cost Diagnostic Tools\n\nWalking audits\n— J. Gehl methodology: go out, count, observe, record \nDesire line mapping\n— where are paths worn?\nParticipatory community mapping\n— residents as data collectors\nOpen data\nSentinel satellite (free ESA), OpenStreetMap, Strava Metro cycling flows\nTime-lapse cameras\n\n\n\nThis addresses the valid concern: “don’t we need data before we can design well?”\nYes — but data doesn’t require expensive custom infrastructure\nJan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.\nSentinel satellite: ESA’s freely available remote sensing data — accessible to any municipality with internet access\nStrava Metro: aggregated, anonymised cycling/running data — available to cities at low cost\nPrinciple: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.\nConnect to Unit 5: “The planner’s role is gatekeeper” — gatekeeping starts with asking the right questions before choosing the tool"
+    "text": "Diagnose Before You Design\nSolutions can be low-tech. Diagnosis can be hybrid.\nLow-Cost Diagnostic Tools\n\nWalking audits\n— J. Gehl methodology: go out, count, observe, record \nDesire line mapping\n— where are paths worn?\nParticipatory community mapping\n— residents as data collectors\nOpen data\nSentinel satellite (free ESA), OpenStreetMap, Strava Metro cycling flows\nTime-lapse cameras\n\n\n\nThis addresses the valid concern: “don’t we need data before we can design well?”\nYes — but data doesn’t require expensive custom infrastructure\nJan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.\nSentinel satellite: ESA’s freely available remote sensing data — accessible to any municipality with internet access\nStrava Metro: aggregated, anonymised cycling/running data — available to cities at low cost\nPrinciple: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.\nConnect to Unit 5: “The planner’s role is gatekeeper” — gatekeeping starts with asking the right questions before choosing the tool",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#desire-lines",
     "href": "src/unit_7/sdgs_low_tech.html#desire-lines",
     "title": "Smart Cities & the SDGs",
     "section": "Desire Lines",
-    "text": "Desire Lines\n When planners build straight paths and people carve diagonal ones \n\n\nWho is wrong?\n\n“Desire lines are the city’s unwritten design critique.”\n\nThe worn path across the grass is not vandalism. /arr It is data.\nThis is where the path should have been.\n\n\n\nWhat desire lines reveal:\n\nHow people actually navigate\nWhere friction exists in the planned environment\nThe gap between designed intent and lived experience\n\n\n\n\nImmediately recognisable to most students — they have walked desire lines without knowing the term\nClassic images: diagonal paths worn across university lawns, or the “snow map” showing actual routes before paving\nSome universities (e.g. Ohio State) specifically delayed paving until behaviour could be observed first\nConnect to the diagnostic slide: desire lines are free behavioural data, visible to anyone paying attention\nEvery desire line is a planning failure — and a design opportunity waiting to be claimed\nAsk: “Can you think of a desire line you walk regularly? What does it tell you about the original design?”"
+    "text": "Desire Lines\n When planners build straight paths and people carve diagonal ones \n\n\nWho is wrong?\n\n“Desire lines are the city’s unwritten design critique.”\n\nThe worn path across the grass is not vandalism. /arr It is data.\nThis is where the path should have been.\n\n\n\nWhat desire lines reveal:\n\nHow people actually navigate\nWhere friction exists in the planned environment\nThe gap between designed intent and lived experience\n\n\n\n\nImmediately recognisable to most students — they have walked desire lines without knowing the term\nClassic images: diagonal paths worn across university lawns, or the “snow map” showing actual routes before paving\nSome universities (e.g. Ohio State) specifically delayed paving until behaviour could be observed first\nConnect to the diagnostic slide: desire lines are free behavioural data, visible to anyone paying attention\nEvery desire line is a planning failure — and a design opportunity waiting to be claimed\nAsk: “Can you think of a desire line you walk regularly? What does it tell you about the original design?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-woonerfs-shared-space",
     "href": "src/unit_7/sdgs_low_tech.html#example-woonerfs-shared-space",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Woonerfs & Shared Space",
-    "text": "Example: Woonerfs & Shared Space\nHans Monderman, Drachten, Netherlands\n\n“If you treat drivers like idiots, they act like idiots.”\n— Hans Monderman, Traffic Engineer\n\n\nIn 2003, Monderman removed ALL traffic lights, signs, and kerbs from a busy intersection\nDrivers were forced to negotiate — make eye contact — pay attention\nSpeeds dropped. Accidents fell. Pedestrians felt safer.\n\n\nUncertainty = attention = care. Design that reads desire rather than overriding it.\n\n\n\nMonderman was a traffic engineer — not a radical. His insight came from observing how drivers behave differently in unmarked rural lanes vs. heavily-signed urban roads\nThe Laweiplein intersection in Drachten: car speeds dropped from 30km/h average to under 20km/h after removal of all signals; accidents reduced\nWoonerf (living street): Dutch concept giving pedestrians legal priority; speed controlled by design (narrowing, trees, varied paving), not signage\nDirect link to desire lines: Monderman observed how people actually navigate before redesigning\nAsk: “What does this tell us about the relationship between certainty and attention? About who the street is designed for?”"
+    "text": "Example: Woonerfs & Shared Space\nHans Monderman, Drachten, Netherlands\n\n“If you treat drivers like idiots, they act like idiots.”\n— Hans Monderman, Traffic Engineer\n\n\nIn 2003, Monderman removed ALL traffic lights, signs, and kerbs from a busy intersection\nDrivers were forced to negotiate — make eye contact — pay attention\nSpeeds dropped. Accidents fell. Pedestrians felt safer.\n\n\nUncertainty = attention = care. Design that reads desire rather than overriding it.\n\n\n\nMonderman was a traffic engineer — not a radical. His insight came from observing how drivers behave differently in unmarked rural lanes vs. heavily-signed urban roads\nThe Laweiplein intersection in Drachten: car speeds dropped from 30km/h average to under 20km/h after removal of all signals; accidents reduced\nWoonerf (living street): Dutch concept giving pedestrians legal priority; speed controlled by design (narrowing, trees, varied paving), not signage\nDirect link to desire lines: Monderman observed how people actually navigate before redesigning\nAsk: “What does this tell us about the relationship between certainty and attention? About who the street is designed for?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#nudge-theory-choice-architecture",
     "href": "src/unit_7/sdgs_low_tech.html#nudge-theory-choice-architecture",
     "title": "Smart Cities & the SDGs",
     "section": "Nudge Theory & Choice Architecture",
-    "text": "Nudge Theory & Choice Architecture\n\n“A nudge is any aspect of the choice architecture that alters people’s behaviour in a predictable way without forbidding any options or significantly changing their economic incentives.”\n— Thaler & Sunstein, Nudge (2008)\n\n\nPeople do not make rational choices in a vacuum\nThey respond to defaults, framing, salience, and friction\nChange the environment → change the behaviour\nNo mandate. No fine. No app.\n\n\n\nRichard Thaler received the Nobel Prize in Economics in 2017 for behavioural economics\nClassic non-urban examples: organ donation default switches (opt-out vs. opt-in); the fly painted in Schiphol airport urinals (reduced spillage 80%)\nUrban implication: you don’t need to convince people to make better choices; make better choices the default or the easiest option\nA bike lane doesn’t tell anyone not to drive — it makes cycling a visible, safe, obvious alternative\nConnection to planning ethics: nudge is non-coercive, but planners must still ask: who benefits from the default we are setting?"
+    "text": "Nudge Theory & Choice Architecture\n\n“A nudge is any aspect of the choice architecture that alters people’s behaviour in a predictable way without forbidding any options or significantly changing their economic incentives.”\n— Thaler & Sunstein, Nudge (2008)\n\n\nPeople do not make rational choices in a vacuum\nThey respond to defaults, framing, salience, and friction\nChange the environment → change the behaviour\nNo mandate. No fine. No app.\n\n\n\nRichard Thaler received the Nobel Prize in Economics in 2017 for behavioural economics\nClassic non-urban examples: organ donation default switches (opt-out vs. opt-in); the fly painted in Schiphol airport urinals (reduced spillage 80%)\nUrban implication: you don’t need to convince people to make better choices; make better choices the default or the easiest option\nA bike lane doesn’t tell anyone not to drive — it makes cycling a visible, safe, obvious alternative\nConnection to planning ethics: nudge is non-coercive, but planners must still ask: who benefits from the default we are setting?",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-the-bench-test",
     "href": "src/unit_7/sdgs_low_tech.html#example-the-bench-test",
     "title": "Smart Cities & the SDGs",
     "section": "Example: The Bench Test",
-    "text": "Example: The Bench Test\nWilliam H. Whyte, The Social Life of Small Urban Spaces (1980)\n\n\nWhyte filmed New York City plazas systematically for years.\nHis findings — revolutionary in their simplicity:\n\nPeople sit where there is sun\nPeople sit where they can watch activity (triangulation)\nPeople sit where they can face each other\nMovable chairs &gt; fixed benches (agency matters)\n\nThe best public spaces are designed from observation, not assumption.\n\n\n[Embed video clip: “The Social Life of Small Urban Spaces” — William H. Whyte, 1988 — freely available on YouTube. Recommend 2–3 minute excerpt.]\n\n\n\n\nStrongly recommended to embed a 2–3 minute clip — the Whyte film is both charming and scientifically rigorous; students respond well to it\nWhyte’s method: time-lapse cameras, behavioural observers, systematic annotation — all available in 1980, zero digital technology required\nConclusion: plazas that ignored sun angles, sightlines, and seat movability consistently failed; the fix was almost always cheap\nDirect application of nudge theory: the bench IS the choice architecture — where it points, what it faces, whether it can move all shape behaviour without any instructions\nAsk: “What does a city designer learn from this that an AI could not?”\nThe Whyte film is available on YouTube under that title; embed the direct link before presenting"
+    "text": "Example: The Bench Test\nWilliam H. Whyte, The Social Life of Small Urban Spaces (1980)\n\n\nWhyte filmed New York City plazas systematically for years.\nHis findings — revolutionary in their simplicity:\n\nPeople sit where there is sun\nPeople sit where they can watch activity (triangulation)\nPeople sit where they can face each other\nMovable chairs &gt; fixed benches (agency matters)\n\nThe best public spaces are designed from observation, not assumption.\n\n\n[Embed video clip: “The Social Life of Small Urban Spaces” — William H. Whyte, 1988 — freely available on YouTube. Recommend 2–3 minute excerpt.]\n\n\n\n\nStrongly recommended to embed a 2–3 minute clip — the Whyte film is both charming and scientifically rigorous; students respond well to it\nWhyte’s method: time-lapse cameras, behavioural observers, systematic annotation — all available in 1980, zero digital technology required\nConclusion: plazas that ignored sun angles, sightlines, and seat movability consistently failed; the fix was almost always cheap\nDirect application of nudge theory: the bench IS the choice architecture — where it points, what it faces, whether it can move all shape behaviour without any instructions\nAsk: “What does a city designer learn from this that an AI could not?”\nThe Whyte film is available on YouTube under that title; embed the direct link before presenting",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#four-levers-of-behavioural-change",
     "href": "src/unit_7/sdgs_low_tech.html#four-levers-of-behavioural-change",
     "title": "Smart Cities & the SDGs",
     "section": "Four Levers of Behavioural Change",
-    "text": "Four Levers of Behavioural Change\nEAST Framework — Behavioural Insights Team (UK)\n\n\nE — Easy\nRemove friction from the desired behaviour.\nProtected bike lane over shared road.\n\nA — Attractive\nMake the good option visible and appealing.\nA tree-lined street invites walking.\n\nS — Social\nLeverage norms: what do others do here?\nVisible cyclists normalise cycling.\n\nT — Timely\nIntervene at the right moment.\nInfrastructure ready when a new neighbourhood opens.\n\nThese are the levers planners pull — with or without technology.\n\n\nThe Behavioural Insights Team (BIT) was set up by the UK Government in 2010 — the original “Nudge Unit”\nEAST emerged from applying behavioural economics to public policy across dozens of domains\nFor urban design: EASY = protected cycling lane (not sharing with lorries). ATTRACTIVE = well-lit, tree-lined route. SOCIAL = seeing other cyclists/pedestrians making the same choice. TIMELY = infrastructure present when someone moves to a new neighbourhood before car habits form.\nAsk students to apply EAST to a local Oslo example — this grounds the framework quickly\nColumns can be revealed sequentially with fragments if preferred"
+    "text": "Four Levers of Behavioural Change\nEAST Framework — Behavioural Insights Team (UK)\n\n\nE — Easy\nRemove friction from the desired behaviour.\nProtected bike lane over shared road.\n\nA — Attractive\nMake the good option visible and appealing.\nA tree-lined street invites walking.\n\nS — Social\nLeverage norms: what do others do here?\nVisible cyclists normalise cycling.\n\nT — Timely\nIntervene at the right moment.\nInfrastructure ready when a new neighbourhood opens.\n\nThese are the levers planners pull — with or without technology.\n\n\nThe Behavioural Insights Team (BIT) was set up by the UK Government in 2010 — the original “Nudge Unit”\nEAST emerged from applying behavioural economics to public policy across dozens of domains\nFor urban design: EASY = protected cycling lane (not sharing with lorries). ATTRACTIVE = well-lit, tree-lined route. SOCIAL = seeing other cyclists/pedestrians making the same choice. TIMELY = infrastructure present when someone moves to a new neighbourhood before car habits form.\nAsk students to apply EAST to a local Oslo example — this grounds the framework quickly\nColumns can be revealed sequentially with fragments if preferred",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-bogotás-ciclovía",
     "href": "src/unit_7/sdgs_low_tech.html#example-bogotás-ciclovía",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Bogotá’s Ciclovía",
-    "text": "Example: Bogotá’s Ciclovía\nEvery Sunday, a city transforms\n\n\nEvery Sunday, 75 km of streets close to motor traffic.\n2 million people walk, cycle, dance, and exercise.\nNo app. No sensor. No algorithm.\nJust: a policy decision + a bollard.\n\n“A city is democratic when cyclists feel as safe as those in cars.” — Enrique Peñalosa, Mayor of Bogotá\n\n\nEAST in action:\n\nE: Streets are safe — cars excluded\nA: Festive, colourful, communal\nS: Everyone is here — 2 million people\nT: Weekly ritual — it is just what Sundays mean\n\nStarted in 1976. Still running. Zero technology required.\n\n\n\nCiclovía predates the smartphone, the smart city concept, and the SDGs — and achieves multiple SDG outcomes every week\nCost: coordination staff and bollards = tiny fraction of any smart mobility initiative\nMeasurable impact: improved cardiovascular health, reduced Sunday emissions, public space equity (anyone can participate regardless of income or device)\nThe political lesson: Ciclovía required a mayor willing to take road space from cars — not a tech problem, a political will problem\nReplicated in 100+ cities worldwide under the “Open Streets” model\nAsk: “Could an app achieve what Ciclovía achieves? Why or why not?”"
+    "text": "Example: Bogotá’s Ciclovía\nEvery Sunday, a city transforms\n\n\nEvery Sunday, 75 km of streets close to motor traffic.\n2 million people walk, cycle, dance, and exercise.\nNo app. No sensor. No algorithm.\nJust: a policy decision + a bollard.\n\n“A city is democratic when cyclists feel as safe as those in cars.” — Enrique Peñalosa, Mayor of Bogotá\n\n\nEAST in action:\n\nE: Streets are safe — cars excluded\nA: Festive, colourful, communal\nS: Everyone is here — 2 million people\nT: Weekly ritual — it is just what Sundays mean\n\nStarted in 1976. Still running. Zero technology required.\n\n\n\nCiclovía predates the smartphone, the smart city concept, and the SDGs — and achieves multiple SDG outcomes every week\nCost: coordination staff and bollards = tiny fraction of any smart mobility initiative\nMeasurable impact: improved cardiovascular health, reduced Sunday emissions, public space equity (anyone can participate regardless of income or device)\nThe political lesson: Ciclovía required a mayor willing to take road space from cars — not a tech problem, a political will problem\nReplicated in 100+ cities worldwide under the “Open Streets” model\nAsk: “Could an app achieve what Ciclovía achieves? Why or why not?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#eyes-on-the-street",
     "href": "src/unit_7/sdgs_low_tech.html#eyes-on-the-street",
     "title": "Smart Cities & the SDGs",
     "section": "Eyes on the Street",
-    "text": "Eyes on the Street\nJane Jacobs, The Death and Life of Great American Cities (1961)\n\n“The bedrock attribute of a successful city district is that a person must feel personally safe and secure on the street among all these strangers.”\n— Jane Jacobs\n\n\nMixed use creates continuous activity at different hours — always someone watching\nShort blocks create more intersections, more movement, more eyes\nActive frontages: shops, cafés, entrances at street level\nSafety without cameras — natural surveillance as emergent design property\n\n\n\nJane Jacobs: introduced in Unit 3, echo here to show continuity\nWriting in 1961 against Robert Moses and the urban renewal movement destroying mixed-use neighbourhoods for highways and towers\nThe “sidewalk ballet”: the informal, choreographed mix of people that makes streets safe emerges from mixed use — not from surveillance cameras\nContrast: suburban cul-de-sacs designed for cars, empty of people for most hours — paradoxically less safe than a busy mixed-use street\nSDG 11 (sustainable cities) and SDG 10 (equality): the street as universal public space, but it only works if people are in it\nAsk: “Compare the feeling of walking on a busy mixed-use street at 9pm vs. a suburban cul-de-sac. What design choices created those feelings?”"
+    "text": "Eyes on the Street\nJane Jacobs, The Death and Life of Great American Cities (1961)\n\n“The bedrock attribute of a successful city district is that a person must feel personally safe and secure on the street among all these strangers.”\n— Jane Jacobs\n\n\nMixed use creates continuous activity at different hours — always someone watching\nShort blocks create more intersections, more movement, more eyes\nActive frontages: shops, cafés, entrances at street level\nSafety without cameras — natural surveillance as emergent design property\n\n\n\nJane Jacobs: introduced in Unit 3, echo here to show continuity\nWriting in 1961 against Robert Moses and the urban renewal movement destroying mixed-use neighbourhoods for highways and towers\nThe “sidewalk ballet”: the informal, choreographed mix of people that makes streets safe emerges from mixed use — not from surveillance cameras\nContrast: suburban cul-de-sacs designed for cars, empty of people for most hours — paradoxically less safe than a busy mixed-use street\nSDG 11 (sustainable cities) and SDG 10 (equality): the street as universal public space, but it only works if people are in it\nAsk: “Compare the feeling of walking on a busy mixed-use street at 9pm vs. a suburban cul-de-sac. What design choices created those feelings?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-tactical-urbanism",
     "href": "src/unit_7/sdgs_low_tech.html#example-tactical-urbanism",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Tactical Urbanism",
-    "text": "Example: Tactical Urbanism\nCheap. Reversible. Testable.\n\n\nPARK(ing) Day (San Francisco, 2005):\n\n1 parking space → micro-park for one day\nOriginally guerrilla activism; now a global annual event in 1,000+ cities\n\nPaint-on bike lanes (Bogotá, NYC Broadway):\n\nTest a cycle route with paint before committing to concrete\nMeasure use. Adjust. Then build.\n\n\nTimes Square, New York:\n2009 — NYC DOT temporarily closed Broadway to cars.\nResult: foot traffic increased, air quality improved, businesses reported higher sales.\n2010: made permanent.\nActivate the street first. Then build.\n\n\n\nTactical urbanism: low-cost, high-speed, temporary interventions that generate behavioural data and community buy-in before major investment\nRebar studio (San Francisco) created PARK(ing) Day to demonstrate that street space could be reclaimed cheaply; it became a global movement\nTimes Square: the transformation was tested before full investment — a politically risky decision made reversible by starting small\nConnection to desire lines and the diagnostic phase: tactical urbanism IS a combined diagnostic and design method — you learn what works by testing cheaply\nAsk: “What could you test in your project neighbourhood with a few cones, some chairs, and paint?”"
+    "text": "Example: Tactical Urbanism\nCheap. Reversible. Testable.\n\n\nPARK(ing) Day (San Francisco, 2005):\n\n1 parking space → micro-park for one day\nOriginally guerrilla activism; now a global annual event in 1,000+ cities\n\nPaint-on bike lanes (Bogotá, NYC Broadway):\n\nTest a cycle route with paint before committing to concrete\nMeasure use. Adjust. Then build.\n\n\nTimes Square, New York:\n2009 — NYC DOT temporarily closed Broadway to cars.\nResult: foot traffic increased, air quality improved, businesses reported higher sales.\n2010: made permanent.\nActivate the street first. Then build.\n\n\n\nTactical urbanism: low-cost, high-speed, temporary interventions that generate behavioural data and community buy-in before major investment\nRebar studio (San Francisco) created PARK(ing) Day to demonstrate that street space could be reclaimed cheaply; it became a global movement\nTimes Square: the transformation was tested before full investment — a politically risky decision made reversible by starting small\nConnection to desire lines and the diagnostic phase: tactical urbanism IS a combined diagnostic and design method — you learn what works by testing cheaply\nAsk: “What could you test in your project neighbourhood with a few cones, some chairs, and paint?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#the-15-minute-city",
     "href": "src/unit_7/sdgs_low_tech.html#the-15-minute-city",
     "title": "Smart Cities & the SDGs",
     "section": "The 15-Minute City",
-    "text": "The 15-Minute City\nCarlos Moreno — Paris\n\n\nThe idea: every essential service within 15 minutes on foot or bicycle.\nNot a technology. Not an app.\nA zoning and density policy.\nWhen the destination is reachable, the car becomes optional.\nBehaviour changes without mandating it.\n\nThe six urban functions:\n\nLiving\nWorking\nCommerce\nHealthcare\nEducation\nEntertainment\n\nWithin 15 minutes. On foot or by bicycle.\nThis is how cities were built before cars.\n\n\n\nCarlos Moreno, professor at the Sorbonne, formalised the concept; Paris Mayor Hidalgo adopted it as city policy after COVID-19\nKey insight: the car was not always necessary — it was made necessary by planning decisions (zoning separation, suburban sprawl). Reverse the decisions, reduce the car.\nThis is restoration, not innovation: it describes the structure of pre-automobile European cities including Oslo’s older neighbourhoods\nSome controversy: right-wing commentators labelled it a “15-minute prison” — worth acknowledging and discussing\nThe tool is the land use plan and zoning code — no smart city platform needed\nConnect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)"
+    "text": "The 15-Minute City\nCarlos Moreno — Paris\n\n\nThe idea: every essential service within 15 minutes on foot or bicycle.\nNot a technology. Not an app.\nA zoning and density policy.\nWhen the destination is reachable, the car becomes optional.\nBehaviour changes without mandating it.\n\nThe six urban functions:\n\nLiving\nWorking\nCommerce\nHealthcare\nEducation\nEntertainment\n\nWithin 15 minutes. On foot or by bicycle.\nThis is how cities were built before cars.\n\n\n\nCarlos Moreno, professor at the Sorbonne, formalised the concept; Paris Mayor Hidalgo adopted it as city policy after COVID-19\nKey insight: the car was not always necessary — it was made necessary by planning decisions (zoning separation, suburban sprawl). Reverse the decisions, reduce the car.\nThis is restoration, not innovation: it describes the structure of pre-automobile European cities including Oslo’s older neighbourhoods\nSome controversy: right-wing commentators labelled it a “15-minute prison” — worth acknowledging and discussing\nThe tool is the land use plan and zoning code — no smart city platform needed\nConnect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-copenhagens-cycling-revolution",
     "href": "src/unit_7/sdgs_low_tech.html#example-copenhagens-cycling-revolution",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Copenhagen’s Cycling Revolution",
-    "text": "Example: Copenhagen’s Cycling Revolution\n\n\n62% of Copenhagen residents cycle daily.\nThis did not happen because of a routing app.\nIt happened because of 40 years of sustained investment in cycling infrastructure — beginning with the 1970s oil crisis.\n\nProtected lanes on every major street\nCyclist-priority traffic signals\nIntegration with public transport\nAnnual “Cycling Account” measuring returns\n\n\nThe sequence that matters:\n\nBuild the infrastructure\nBehaviour shifts\nCulture normalises\nThen monitor and optimise\n\nTechnology followed the behaviour. Behaviour followed the design.\nEach km cycled: €0.23 net benefit.\n\n\n\nIn 1970, most Copenhageners drove. The 1973 oil crisis was the political catalyst for a decision to invest in cycling.\nEach year: more infrastructure, higher cycling share. By the 1990s cycling was culturally normal. By 2010, majority choice.\nThe lesson: don’t start with the monitoring platform; start with the infrastructure\nCopenhagen “Cycling Account”: annual report measuring health, economic, and environmental returns — a model for evidence-based planning\nSDG 3 (health), SDG 11 (sustainable transport), SDG 13 (reduced emissions): achieved through asphalt, paint, and political will over 40 years\nAsk: “What would Norwegian cities need to do in the next decade to achieve what Copenhagen achieved in 40 years?”"
+    "text": "Example: Copenhagen’s Cycling Revolution\n\n\n62% of Copenhagen residents cycle daily.\nThis did not happen because of a routing app.\nIt happened because of 40 years of sustained investment in cycling infrastructure — beginning with the 1970s oil crisis.\n\nProtected lanes on every major street\nCyclist-priority traffic signals\nIntegration with public transport\nAnnual “Cycling Account” measuring returns\n\n\nThe sequence that matters:\n\nBuild the infrastructure\nBehaviour shifts\nCulture normalises\nThen monitor and optimise\n\nTechnology followed the behaviour. Behaviour followed the design.\nEach km cycled: €0.23 net benefit.\n\n\n\nIn 1970, most Copenhageners drove. The 1973 oil crisis was the political catalyst for a decision to invest in cycling.\nEach year: more infrastructure, higher cycling share. By the 1990s cycling was culturally normal. By 2010, majority choice.\nThe lesson: don’t start with the monitoring platform; start with the infrastructure\nCopenhagen “Cycling Account”: annual report measuring health, economic, and environmental returns — a model for evidence-based planning\nSDG 3 (health), SDG 11 (sustainable transport), SDG 13 (reduced emissions): achieved through asphalt, paint, and political will over 40 years\nAsk: “What would Norwegian cities need to do in the next decade to achieve what Copenhagen achieved in 40 years?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#biophilic-design",
     "href": "src/unit_7/sdgs_low_tech.html#biophilic-design",
     "title": "Smart Cities & the SDGs",
     "section": "Biophilic Design",
-    "text": "Biophilic Design\n\n“We are in the fullest sense a biological species and will find little ultimate meaning apart from the remainder of life.”\n— E.O. Wilson, Biophilia (1984)\n\nWhat the evidence shows:\n\nAccess to green space measurably reduces cortisol (stress hormone)\nTrees and greenery increase social cohesion and community trust\nViews of nature improve recovery from illness and reduce pain medication needs (Ulrich, 1984)\nUrban biodiversity contributes to mental health resilience\n\nThis is not decoration. This is public health infrastructure.\n\n\nE.O. Wilson coined “biophilia” — the evolutionary argument that humans are innately drawn to nature and other living things\nRoger Ulrich’s 1984 study: hospital patients with window views of trees recovered 1 day faster on average and needed fewer pain medications than those facing a brick wall; published in Science\n“Prospect and refuge” theory: humans evolved to prefer spaces where they can see without being seen — direct implications for park and street design\nCost comparison: a street tree is cheaper per year than a smart sensor and provides measurably more value per year of life (cooling, air quality, mental health, social cohesion)\nAsk: “How do you design a city for people who will never see the inside of a hospital — but who need the same restorative qualities that nature provides?”"
+    "text": "Biophilic Design\n\n“We are in the fullest sense a biological species and will find little ultimate meaning apart from the remainder of life.”\n— E.O. Wilson, Biophilia (1984)\n\nWhat the evidence shows:\n\nAccess to green space measurably reduces cortisol (stress hormone)\nTrees and greenery increase social cohesion and community trust\nViews of nature improve recovery from illness and reduce pain medication needs (Ulrich, 1984)\nUrban biodiversity contributes to mental health resilience\n\nThis is not decoration. This is public health infrastructure.\n\n\nE.O. Wilson coined “biophilia” — the evolutionary argument that humans are innately drawn to nature and other living things\nRoger Ulrich’s 1984 study: hospital patients with window views of trees recovered 1 day faster on average and needed fewer pain medications than those facing a brick wall; published in Science\n“Prospect and refuge” theory: humans evolved to prefer spaces where they can see without being seen — direct implications for park and street design\nCost comparison: a street tree is cheaper per year than a smart sensor and provides measurably more value per year of life (cooling, air quality, mental health, social cohesion)\nAsk: “How do you design a city for people who will never see the inside of a hospital — but who need the same restorative qualities that nature provides?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-seouls-cheonggyecheon-stream",
     "href": "src/unit_7/sdgs_low_tech.html#example-seouls-cheonggyecheon-stream",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Seoul’s Cheonggyecheon Stream",
-    "text": "Example: Seoul’s Cheonggyecheon Stream\n\n\nIn 2005, Seoul removed an elevated 6-lane highway.\nBeneath it: a buried stream, the Cheonggyecheon, covered since 1958.\nThe stream was restored.\nThe results:\n\nTemperatures in the corridor dropped 3.6°C\n639 animal species returned\nFoot traffic to the area increased dramatically\nLand values rose\nCar traffic redistributed — without a prediction model\n\n\nWhat replaced a 6-lane highway:\nWater. Plants. People.\nNo algorithm predicted this outcome.\nNo sensor optimised the transition.\nNature did the work.\nSDG 3. SDG 11. SDG 13. SDG 15. In one 5.8 km stream.\n\n\n\nMayor Lee Myung-bak’s flagship project — politically controversial (the highway carried 170,000 vehicles/day)\nTraffic engineers predicted gridlock; instead car trips redistributed and some were suppressed entirely (induced demand in reverse)\nThe urban heat island reduction: the stream corridor is measurably cooler than surrounding streets\nCost approximately $380m — comparable to a major smart city platform investment, but returns compound as the ecosystem develops\nNature-based solutions do not depreciate — they appreciate; ecosystems grow richer with age\nAsk: “Could a digital twin have designed this? Could AI have predicted that removing a highway would cool a city by 3.6°C?”"
+    "text": "Example: Seoul’s Cheonggyecheon Stream\n\n\nIn 2005, Seoul removed an elevated 6-lane highway.\nBeneath it: a buried stream, the Cheonggyecheon, covered since 1958.\nThe stream was restored.\nThe results:\n\nTemperatures in the corridor dropped 3.6°C\n639 animal species returned\nFoot traffic to the area increased dramatically\nLand values rose\nCar traffic redistributed — without a prediction model\n\n\nWhat replaced a 6-lane highway:\nWater. Plants. People.\nNo algorithm predicted this outcome.\nNo sensor optimised the transition.\nNature did the work.\nSDG 3. SDG 11. SDG 13. SDG 15. In one 5.8 km stream.\n\n\n\nMayor Lee Myung-bak’s flagship project — politically controversial (the highway carried 170,000 vehicles/day)\nTraffic engineers predicted gridlock; instead car trips redistributed and some were suppressed entirely (induced demand in reverse)\nThe urban heat island reduction: the stream corridor is measurably cooler than surrounding streets\nCost approximately $380m — comparable to a major smart city platform investment, but returns compound as the ecosystem develops\nNature-based solutions do not depreciate — they appreciate; ecosystems grow richer with age\nAsk: “Could a digital twin have designed this? Could AI have predicted that removing a highway would cool a city by 3.6°C?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#nature-based-solutions",
     "href": "src/unit_7/sdgs_low_tech.html#nature-based-solutions",
     "title": "Smart Cities & the SDGs",
     "section": "Nature-Based Solutions",
-    "text": "Nature-Based Solutions\nWorking with natural processes — not engineering around them\n\n\nHard infrastructure:\n\nConcrete drainage channels\nUnderground stormwater tunnels\nSensor networks managing flow\nHigh maintenance cost\nSingle function\n\n\nNature-Based Solutions:\n\nBioswales and retention ponds\nGreen roofs and permeable surfaces\nUrban forests as flood buffers\nLower long-term maintenance cost\nMulti-functional: flood control + cooling + biodiversity + wellbeing\n\n\n\n\nNbS (Nature-Based Solutions) is now EU policy — the EU Biodiversity Strategy mandates urban greening targets\nKey argument: hard infrastructure does one thing and requires continuous maintenance; NbS provides multiple co-benefits and tends to improve over time\nThe “sponge city” concept: piloted in Wuhan (China), mandated by the Chinese government as a response to flooding — permeable surfaces, wetlands, parks as flood infrastructure\nSDG 11 (urban resilience), SDG 13 (climate adaptation), SDG 15 (biodiversity): NbS achieves all three simultaneously — the kind of multi-goal leverage that sensor systems rarely match"
+    "text": "Nature-Based Solutions\nWorking with natural processes — not engineering around them\n\n\nHard infrastructure:\n\nConcrete drainage channels\nUnderground stormwater tunnels\nSensor networks managing flow\nHigh maintenance cost\nSingle function\n\n\nNature-Based Solutions:\n\nBioswales and retention ponds\nGreen roofs and permeable surfaces\nUrban forests as flood buffers\nLower long-term maintenance cost\nMulti-functional: flood control + cooling + biodiversity + wellbeing\n\n\n\n\nNbS (Nature-Based Solutions) is now EU policy — the EU Biodiversity Strategy mandates urban greening targets\nKey argument: hard infrastructure does one thing and requires continuous maintenance; NbS provides multiple co-benefits and tends to improve over time\nThe “sponge city” concept: piloted in Wuhan (China), mandated by the Chinese government as a response to flooding — permeable surfaces, wetlands, parks as flood infrastructure\nSDG 11 (urban resilience), SDG 13 (climate adaptation), SDG 15 (biodiversity): NbS achieves all three simultaneously — the kind of multi-goal leverage that sensor systems rarely match",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-copenhagens-cloudburst-management",
     "href": "src/unit_7/sdgs_low_tech.html#example-copenhagens-cloudburst-management",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Copenhagen’s Cloudburst Management",
-    "text": "Example: Copenhagen’s Cloudburst Management\nAfter devastating floods in 2011, Copenhagen made a choice:\n\n\nOption A: Smart Drainage\n\nSensors throughout the network\nAI-predicted stormwater routing\nReal-time flow management\nHigh capital and maintenance cost\nOne function: handle water\n\n\nOption B: Green Infrastructure ✓\n\nSunken courtyards that flood deliberately\nPermeable streets and green roofs\nWater retained where it falls\nLower long-term cost\nAlso: parks, cooling, social space, biodiversity\n\nThe world’s most celebrated cloudburst management plan.\n\n\n\nThe 2011 Copenhagen floods caused €800m in damage — a once-in-a-century event projected to become more frequent\nThe Copenhagen Cloudburst Management Plan (2012) is now a global reference for climate adaptation, studied in planning schools worldwide\n300+ individual cloudburst projects across the city — each one simultaneously a park, sports ground, or community space\nTåsinge Plads: a former car park transformed into a cloudburst plaza that handles 150mm/hour of rain — also one of the city’s most loved small parks\nPolitical lesson: the city chose the more legible, community-friendly option; residents can see and use the investment; a sensor network is invisible until it fails\nAsk: “How do you measure the value of a park that also stops your basement from flooding?”"
+    "text": "Example: Copenhagen’s Cloudburst Management\nAfter devastating floods in 2011, Copenhagen made a choice:\n\n\nOption A: Smart Drainage\n\nSensors throughout the network\nAI-predicted stormwater routing\nReal-time flow management\nHigh capital and maintenance cost\nOne function: handle water\n\n\nOption B: Green Infrastructure ✓\n\nSunken courtyards that flood deliberately\nPermeable streets and green roofs\nWater retained where it falls\nLower long-term cost\nAlso: parks, cooling, social space, biodiversity\n\nThe world’s most celebrated cloudburst management plan.\n\n\n\nThe 2011 Copenhagen floods caused €800m in damage — a once-in-a-century event projected to become more frequent\nThe Copenhagen Cloudburst Management Plan (2012) is now a global reference for climate adaptation, studied in planning schools worldwide\n300+ individual cloudburst projects across the city — each one simultaneously a park, sports ground, or community space\nTåsinge Plads: a former car park transformed into a cloudburst plaza that handles 150mm/hour of rain — also one of the city’s most loved small parks\nPolitical lesson: the city chose the more legible, community-friendly option; residents can see and use the investment; a sensor network is invisible until it fails\nAsk: “How do you measure the value of a park that also stops your basement from flooding?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#urban-acupuncture",
     "href": "src/unit_7/sdgs_low_tech.html#urban-acupuncture",
     "title": "Smart Cities & the SDGs",
     "section": "Urban Acupuncture",
-    "text": "Urban Acupuncture\nJaime Lerner\n\n“The city is not a problem. The city is a solution.”\n— Jaime Lerner, Mayor of Curitiba\n\n\nThe city is an organism — not a machine to be optimised\nSmall, precise interventions in the right place trigger systemic responses\nYou don’t need to rebuild everything — find the pressure point\nLow-tech, high-leverage: the opposite of total systems redesign\n\n\n\nJaime Lerner: mayor of Curitiba (Brazil) three times, then governor of Paraná — architect and urban planner\nCuritiba under Lerner: transformed through low-cost, high-creativity interventions on a developing city budget — Bus Rapid Transit tube stations, recycling-for-food programmes, parks on flood plains\nThe acupuncture metaphor: a skilled practitioner finds the point where a small needle creates cascading relief across the whole organism\nThis concept unifies all the examples seen so far: each was a targeted intervention, not a total redesign\nConnect to Unit 3’s systems thinking: leverage points and feedback loops in complex systems\nAsk: “Where is the acupuncture point in your project neighbourhood? What small change might have the largest systemic effect?”"
+    "text": "Urban Acupuncture\nJaime Lerner\n\n“The city is not a problem. The city is a solution.”\n— Jaime Lerner, Mayor of Curitiba\n\n\nThe city is an organism — not a machine to be optimised\nSmall, precise interventions in the right place trigger systemic responses\nYou don’t need to rebuild everything — find the pressure point\nLow-tech, high-leverage: the opposite of total systems redesign\n\n\n\nJaime Lerner: mayor of Curitiba (Brazil) three times, then governor of Paraná — architect and urban planner\nCuritiba under Lerner: transformed through low-cost, high-creativity interventions on a developing city budget — Bus Rapid Transit tube stations, recycling-for-food programmes, parks on flood plains\nThe acupuncture metaphor: a skilled practitioner finds the point where a small needle creates cascading relief across the whole organism\nThis concept unifies all the examples seen so far: each was a targeted intervention, not a total redesign\nConnect to Unit 3’s systems thinking: leverage points and feedback loops in complex systems\nAsk: “Where is the acupuncture point in your project neighbourhood? What small change might have the largest systemic effect?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#example-medellín-barcelona",
     "href": "src/unit_7/sdgs_low_tech.html#example-medellín-barcelona",
     "title": "Smart Cities & the SDGs",
     "section": "Example: Medellín & Barcelona",
-    "text": "Example: Medellín & Barcelona\n\n\nMedellín — Social Urbanism\nCable cars + escalators in the hillside comunas\nPhysical infrastructure that transformed social mobility:\n\n90 minutes of daily commute eliminated\nSchool attendance rose\nCrime fell measurably\nEconomic activity increased\n\nConnecting people — not monitoring them.\n\nBarcelona — Superblocks\n9-block clusters restricting car access\nSmall design change → systemic outcomes:\n\nAir quality improved significantly\nUrban temperature reduced\nSocial cohesion increased\n310 superblocks planned by 2030\n\nReplicable at low cost. No algorithm required.\n\n\n\nMedellín in the 1990s: one of the most violent cities in the world; the turnaround was social urbanism — public libraries, parks, schools, and physical connectivity built in the most marginalised areas\nThe Metrocable (2004) and outdoor escalators in San Javier (2011): connected hillside communities physically isolated from the city for decades, saving 90 minutes of daily commuting\nBarcelona Superblocks (Superilles): designed by urbanist Salvador Rueda, implemented from 2016; each superblock reclaims approximately 60% of street space from cars for plazas and cycling\nDiagnostic question in both cases: not “how do we optimise the system?” but “who is being excluded, and why?” — then design to remove that exclusion\nBoth interventions had high political friction; both succeeded because outcomes were visible and legible to residents"
+    "text": "Example: Medellín & Barcelona\n\n\nMedellín — Social Urbanism\nCable cars + escalators in the hillside comunas\nPhysical infrastructure that transformed social mobility:\n\n90 minutes of daily commute eliminated\nSchool attendance rose\nCrime fell measurably\nEconomic activity increased\n\nConnecting people — not monitoring them.\n\nBarcelona — Superblocks\n9-block clusters restricting car access\nSmall design change → systemic outcomes:\n\nAir quality improved significantly\nUrban temperature reduced\nSocial cohesion increased\n310 superblocks planned by 2030\n\nReplicable at low cost. No algorithm required.\n\n\n\nMedellín in the 1990s: one of the most violent cities in the world; the turnaround was social urbanism — public libraries, parks, schools, and physical connectivity built in the most marginalised areas\nThe Metrocable (2004) and outdoor escalators in San Javier (2011): connected hillside communities physically isolated from the city for decades, saving 90 minutes of daily commuting\nBarcelona Superblocks (Superilles): designed by urbanist Salvador Rueda, implemented from 2016; each superblock reclaims approximately 60% of street space from cars for plazas and cycling\nDiagnostic question in both cases: not “how do we optimise the system?” but “who is being excluded, and why?” — then design to remove that exclusion\nBoth interventions had high political friction; both succeeded because outcomes were visible and legible to residents",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#synthesis-the-pattern",
     "href": "src/unit_7/sdgs_low_tech.html#synthesis-the-pattern",
     "title": "Smart Cities & the SDGs",
     "section": "Synthesis: The Pattern",
-    "text": "Synthesis: The Pattern\n\n\nUnderstand\nDiagnose without a six-figure platform:\n\nWalking audits\nDesire line reading\nCommunity observation\nOpen data\n\n\nDesign\nWork with human behaviour:\n\nNudge, don’t mandate\nMake the good option easy\nAdd nature as infrastructure\nTest cheaply before building\n\n\nAchieve\nThe SDG outcome:\n\nHealthier people (SDG 3)\nAccessible space (SDG 10)\nSustainable mobility (SDG 11)\nClimate resilience (SDG 13)\n\n\n\n“Each of these interventions achieved an SDG outcome. None of them required a server.”\n\n\n\nThis is the synthesis slide — bring together everything from the session\nThe three columns mirror the course’s own logic: understand → design → achieve outcomes\nThe fragmented quote is the final beat — let it land before the last two slides\nAsk: “Is there an example we discussed that couldn’t have been designed without technology?” — honest answer: no, but technology could help monitor and evaluate faster\nEmphasise: this is not anti-tech; it is pro-purposeful choice; the planner needs both registers"
+    "text": "Synthesis: The Pattern\n\n\nUnderstand\nDiagnose without a six-figure platform:\n\nWalking audits\nDesire line reading\nCommunity observation\nOpen data\n\n\nDesign\nWork with human behaviour:\n\nNudge, don’t mandate\nMake the good option easy\nAdd nature as infrastructure\nTest cheaply before building\n\n\nAchieve\nThe SDG outcome:\n\nHealthier people (SDG 3)\nAccessible space (SDG 10)\nSustainable mobility (SDG 11)\nClimate resilience (SDG 13)\n\n\n\n“Each of these interventions achieved an SDG outcome. None of them required a server.”\n\n\n\nThis is the synthesis slide — bring together everything from the session\nThe three columns mirror the course’s own logic: understand → design → achieve outcomes\nThe fragmented quote is the final beat — let it land before the last two slides\nAsk: “Is there an example we discussed that couldn’t have been designed without technology?” — honest answer: no, but technology could help monitor and evaluate faster\nEmphasise: this is not anti-tech; it is pro-purposeful choice; the planner needs both registers",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#when-low-tech-outperforms-high-tech",
     "href": "src/unit_7/sdgs_low_tech.html#when-low-tech-outperforms-high-tech",
     "title": "Smart Cities & the SDGs",
     "section": "When Low-Tech Outperforms High-Tech",
-    "text": "When Low-Tech Outperforms High-Tech\n\n\n\n\n\nLow-Tech\nHigh-Tech\n\n\n\n\nDurability\nDecades\n5–10 year cycles\n\n\nAccessibility\nUniversal\nRequires device / data literacy\n\n\nMaintenance\nLow\nHigh (and often cut)\n\n\nFailure mode\nGraceful\nCatastrophic\n\n\nLegibility\nIntuitive\nRequires training\n\n\nSDG equity\nReaches all residents\nMay exclude the vulnerable\n\n\n\n\n\n\nThis table is meant to inform professional decision-making — not to prescribe, but to structure the choice\n“Graceful failure”: a worn cobblestone still slows a car; a broken enforcement camera enforces nothing\n“Maintenance often cut”: smart city infrastructure frequently degrades after Year 5 when maintenance budgets are reduced — well-documented in early smart city deployments\nThe equity row is crucial: the populations most affected by urban challenges are often those most excluded from high-tech service delivery\nBoth low-tech and high-tech have a legitimate place in the planner’s toolkit; the professional skill is knowing when to use which"
+    "text": "When Low-Tech Outperforms High-Tech\n\n\n\n\n\nLow-Tech\nHigh-Tech\n\n\n\n\nDurability\nDecades\n5–10 year cycles\n\n\nAccessibility\nUniversal\nRequires device / data literacy\n\n\nMaintenance\nLow\nHigh (and often cut)\n\n\nFailure mode\nGraceful\nCatastrophic\n\n\nLegibility\nIntuitive\nRequires training\n\n\nSDG equity\nReaches all residents\nMay exclude the vulnerable\n\n\n\n\n\n\nThis table is meant to inform professional decision-making — not to prescribe, but to structure the choice\n“Graceful failure”: a worn cobblestone still slows a car; a broken enforcement camera enforces nothing\n“Maintenance often cut”: smart city infrastructure frequently degrades after Year 5 when maintenance budgets are reduced — well-documented in early smart city deployments\nThe equity row is crucial: the populations most affected by urban challenges are often those most excluded from high-tech service delivery\nBoth low-tech and high-tech have a legitimate place in the planner’s toolkit; the professional skill is knowing when to use which",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_7/sdgs_low_tech.html#design-for-the-2030-agenda",
     "href": "src/unit_7/sdgs_low_tech.html#design-for-the-2030-agenda",
     "title": "Smart Cities & the SDGs",
     "section": "Design for the 2030 Agenda",
-    "text": "Design for the 2030 Agenda\nThe principles of low-tech design are not nostalgic. They are the most durable path to the commitments we made.\n\n\n\nSDGs frame the why. Design determines the how. Evaluate every intervention against its SDG contribution — not its technical sophistication.\nHuman psychology is the core competency. Desire, nudge, legibility, nature — these determine whether an intervention changes behaviour.\n\n\n\nLow-tech interventions are often the most durable, equitable, and impactful. The bench. The bike lane. The stream. They outlast the platform.\n“Smart” means effective — not digital. A city that works for all its inhabitants — with or without a signal — is a smart city.\n\n\n\n\nFinal slide — keep it clean and memorable; let the four points land without rushing\nThe four takeaways map directly to the four themes of the session\nEncourage students to apply this to their projects: “What is the low-tech argument for your intervention? What happens if the technology layer fails?”\nThe course arc closes: spectrum from AI and digital twins (Unit 5) through human-centred low-tech design (Unit 7); professional planners navigate both registers\nStrong closing question: “What is the single low-tech intervention you would make in your project neighbourhood — and which SDG does it serve?”"
+    "text": "Design for the 2030 Agenda\nThe principles of low-tech design are not nostalgic. They are the most durable path to the commitments we made.\n\n\n\nSDGs frame the why. Design determines the how. Evaluate every intervention against its SDG contribution — not its technical sophistication.\nHuman psychology is the core competency. Desire, nudge, legibility, nature — these determine whether an intervention changes behaviour.\n\n\n\nLow-tech interventions are often the most durable, equitable, and impactful. The bench. The bike lane. The stream. They outlast the platform.\n“Smart” means effective — not digital. A city that works for all its inhabitants — with or without a signal — is a smart city.\n\n\n\n\nFinal slide — keep it clean and memorable; let the four points land without rushing\nThe four takeaways map directly to the four themes of the session\nEncourage students to apply this to their projects: “What is the low-tech argument for your intervention? What happens if the technology layer fails?”\nThe course arc closes: spectrum from AI and digital twins (Unit 5) through human-centred low-tech design (Unit 7); professional planners navigate both registers\nStrong closing question: “What is the single low-tech intervention you would make in your project neighbourhood — and which SDG does it serve?”",
+    "crumbs": [
+      "Schedule",
+      "Smart Cities & SDGs"
+    ]
   },
   {
     "objectID": "src/unit_3/1_system_thinking.html#session-roadmap",
@@ -1399,7 +1461,6 @@
     "text": "Session Roadmap\n\nPart I: The Landscape of Urban Complexity\n\nThe “Brain” of the Smart City & 4 Heuristics\n\nPart II: The Logics of Systems\n\nDeep Dive into Feedback Loops\nWorkshop I: Mapping Your Wicked Problem\n\nPart III: Decision Support Tools\n\nWorkshop II: Stakeholders and Data",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1411,7 +1472,6 @@
     "text": "The City = Complex Systems\n\nA city is decomposable into semi-predictable parts.\nIt is a dynamic process of organized complexity.\nThe Smart City Paradox:\n\nWe have new technical capabilities (Big Data, sensors, AI).\nBut they rely on modelling techniques devised decades ago to solve social problems.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1423,7 +1483,6 @@
     "text": "Complexity alive",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1435,7 +1494,6 @@
     "text": "What the Smart City is NOT\n\nIt is not a crystal ball for perfect prediction.\nIt is not a digital twin that is the reality.\nThe Map is not the Territory:\n\nModels are simplified representations.\nIn a complex system, “Total Control” is an illusion.\nWe model to understand potentiality, not to dictate outcomes.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1447,7 +1505,6 @@
     "text": "The Science of Cities\n\n\n\n“…cities must now be looked at as constellations of interactions, communications, relations, flows, and networks rather … than locations […] location is, in effect, a synthesis of interactions.”\n— Michael Batty, 2013",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1459,7 +1516,6 @@
     "text": "Organized Complexity\nJane Jacobs\n\n\nCities are not:\n\nProblems of Simplicity\nProblems of Disorganized Complexity (millions of random variables).\n\n\nThey are problems of Organized Complexity:\n\nA huge number of factors which are interrelated into an organic whole.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1471,7 +1527,6 @@
     "text": "The Interconnection of Parts\n\n“The city is not a work of art… the city is a process.” – J.Jacobs\n\n\nIt is a Bottom-Up system.\nSmall, local interactions \\(\\rightarrow\\) Large, global patterns.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1483,7 +1538,6 @@
     "text": "Complexity Science\nThe Reductionist Shortcut:\n\nA mental habit of breaking the city into isolated “parts” to make it easier to manage.\n\nThe Complexity Reality:\n\nScience not of the “atoms” (buildings, roads, people), but of the connections between them.\n\n\nCross-Scale Interactions\n\nSingle street-level decisions ripples up to the metropolitan scale.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1495,7 +1549,6 @@
     "text": "Systems\n\n\nComplex\n\nAdaptive relationships.\nEmergent outcomes.\nMore than the sum of its parts.\n\n\nComplicated\n\nFixed relationships.\nPredictable outcomes.\nThe sum of its parts.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1507,7 +1560,6 @@
     "text": "The City is not a Tree\n\n\n“It is for this reason - because the mind’s first function is to reduce the ambiguity and overlap in a confusing situation … it is endowed with a basic intolerance for ambiguity - that structures like the city, which do require overlapping sets within them, are nevertheless persistently conceived as trees.” – Christooher Alexander",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1519,7 +1571,6 @@
     "text": "Systems Thinking 101\n\n\nSystems Thinking\nSeeing the Web of interactions\n\nLinear Thinking\nA \\(\\rightarrow\\) B (Cause and Effect)\n\n\nFOCUS ON THE RELATIONSHIP BETWEEN PARTS\nNOT JUST PARTS THEMSELVES.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1531,7 +1582,6 @@
     "text": "Modeling as a Heuristic\nA model is not “The Truth.”\nIt is a Heuristic: a mental shortcut or tool for discovery.\n\n\n“All models are wrong, but some are useful” (George Box).",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1543,7 +1593,6 @@
     "text": "Smart City’s brain\n\n\nThe Back-end\nThe heuristics, logic, and models.\n\nThe Front-end\nDashboards, visualizations, and stakeholder apps.\n\n\nLogic must precede display.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1555,7 +1604,6 @@
     "text": "The Dimensions\nof most urban logic modelling\n\n\n\nSPATIAL\nRELATIONAL\n\nTEMPORAL\nSYSTEMIC",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1567,7 +1615,6 @@
     "text": "1. The Spatial Dimension\n\nThe Logic of “Where”: Focuses on geometry, distance, and density.\nKey Question: How does the physical arrangement of assets (buildings, parks, roads) determine urban performance?\nCore Concept: Social Physics. Just like gravity, “mass” (high-density jobs or housing) exerts a pull on the surrounding area.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1579,7 +1626,6 @@
     "text": "2. The Relational Dimension\n\nThe Logic of “Connection”: Focuses on topology and network hierarchy.\nKey Question: How is the city “wired”? Is it about how far you are in meters, or how many turns you are from the main network?\nCore Concept: Graph Theory. The city as nodes and edges.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1591,7 +1637,6 @@
     "text": "3. The Temporal Dimension\n\nThe Logic of “When”: Focuses on change, evolution, and path dependency.\nKey Question: How did the city get here, and how fast is it changing?\nCore Concept: Dynamics. Recognizing that an urban intervention today might take 10 years to show its true impact (delays).",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1603,7 +1648,6 @@
     "text": "4. The Systemic Dimension\n\nThe Logic of “Why”: Focuses on causality and interdependencies.\nKey Question: What are the unintended consequences? If we improve transport, does it inadvertently raise rents and displace the people it was meant to help?\nCore Concept: Feedback Loops. Circular causality where an output of a system becomes an input for the next cycle.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1615,7 +1659,6 @@
     "text": "The Models\nonly some…\n\n\n\n\n\nLand-Use Transport\nNetwork Models\n\n\n\n\nSystem Dynamics\nAgent-based Models",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1627,7 +1670,6 @@
     "text": "Land-Use Transport\nLUTI\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Relational (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nLand-Use data\nTransport\n\n\nThe Engine\nUses gravity equations to find a state of “Equilibrium” between where people live, where they work, and how they travel.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1639,7 +1681,6 @@
     "text": "Land-Use Transport\n\neg. Predicting the impact of a new Metro line on residential density in a suburban area.\n\n\n\nPros\nExcellent for long-term strategic planning and infrastructure “stress testing.”\n\nCons\nHighly aggregate (treats people as masses) and mostly static (ignores the “chaos” of daily life).\n\n\n\n\n\nWhat it lacks\n\n\nTemporal and Systemic feedback. It assumes a city is a puzzle that can be “solved” into a perfect balance.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1651,7 +1692,6 @@
     "text": "Network Models\nNM eg. Space Syntax\n\n\n\n\nPrimary Dimensions:\n\n\nRelational (High) + Spatial (Medium)\n\n\n\n\n\n\nThe Anatomy\n\nNodes\nEdges\n\n\nThe Engine\nTopological Analysis. It measures “centralities” to determine expected movement hierarchies.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1663,7 +1703,6 @@
     "text": "Network Models\n\neg. Redesigning a town center to increase footfall for local shops by improving topological connectivity.\n\n\n\nPros\nVery high correlation with real-world human movement; requires minimal data (just the map).\n\nCons\nCan be “blind” to land use. It might predict high movement on a street that is topologically central but has no reason for people to go there.\n\n\n\n\n\nWhat it lacks\n\n\nSystemic “Attractors.” It prioritizes the shape of the container over the content inside it.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1675,7 +1714,6 @@
     "text": "System Dynamics\nSD eg. The Forrester Model\n\n\n\n\nPrimary Dimensions:\n\n\nTemporal (High) + Relational (High)\n\n\n\n\n\n\nThe Anatomy\n\nStocks (Accumulations)\nFlows (Rates of change)\nFeedback Loops\n\n\nThe Engine\nDifferential Equations. It simulates how quantities (stocks) change over time based on rates of change (e.g., construction rate).",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1687,7 +1725,6 @@
     "text": "System Dynamics\n\neg. Modeling how a city-wide “Air Quality Zone” affects car ownership and public health over two decades.\n\n\n\nPros\nPowerful for identifying “Policy Resistance” and understanding long-term, non-linear consequences.\n\nCons\n“Spatially Blind”—it treats the entire city (or zone) as a single bucket, ignoring internal geography.\n\n\n\n\n\nWhat it lacks\n\n\nSpatial Granularity. It assumes a city is a “well-mixed” vat of variables rather than a physical place with unique neighborhoods.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1699,7 +1736,6 @@
     "text": "Agent-Based Models\nABM & Celullar Automata (CA)\n\n\n\n\nPrimary Dimensions:\n\n\nSpatial (High) + Systemic (High) + Temporal (Medium).\n\n\n\n\n\n\nThe Anatomy\n\nAgents: (People, vehicles, firms) with unique attributes.\nRules: Simple “If/Then” behaviors.\nEnvironment: The grid or network they inhabit.\n\n\nThe Engine\nBottom-up Micro-simulation. Simple rules from the agents give rise to “emergent” states from thousands of these local interactions.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1711,7 +1747,6 @@
     "text": "Agent-Based Models\n\n_eg. Simulating pedestrian evacuation patterns in a high-density transit hub to identify “bottlenecks” that traditional flow models miss.\n\n\n\nPros\nCaptures “Emergent Phenomena” and diversity; allows for the modeling of irrational or “human” behaviors.\n\nCons\nComputationally expensive; very difficult to “validate” because small changes in rules can lead to wildly different outcomes.\n\n\n\n\n\nWhat it lacks\n\n\nPredictive Certainty. Because it is stochastic (probabilistic), it gives you a range of “possible futures” rather than a single definitive answer.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1723,7 +1758,6 @@
     "text": "One model strength is the other model’s weakness\n\n\n\n\n\nLUTI\nNM\nSD\nABM\nCA\n\n\n\n\nSpatial\n\\(\\uparrow\\)\n~\n\n~\n\\(\\uparrow\\)\n\n\nRelational\n~\n\\(\\uparrow\\)\n\n\n\n\n\nSystemic\n\n\n~\n~\n\\(\\uparrow\\)\n\n\nTemporal\n\n\n\\(\\uparrow\\)\n\\(\\uparrow\\)\n~\n\n\n\n\n\\(\\uparrow\\) = high \\(\\~\\) = medium\n\n\n\n\n\n\nImportant\n\n\nMost modern models have figured out a way to incorporate (almost) all dimensions to different degrees. Yet own their heuristic limit their integration efficacy.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1735,7 +1769,6 @@
     "text": "The “Wicked” Problem\n\nUrban challenges are not puzzles (with one right answer).\nThey are Wicked Problems:\n\nThey are interconnected: solving one creates another.\nThey have no “stopping rule” or perfect solution.\nThey are better or worse, not right or wrong.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1747,7 +1780,6 @@
     "text": "Beyond the Mental Model\n\n\n\n\n\nflowchart LR\n\nsubgraph G1[\"Conceptual\"]\n    A[\"Verbal&lt;br/&gt;description\"]\n    B[\"Causal-Loop&lt;br/&gt;Diagram\"]\nend\n\nC[\"Model&lt;br/&gt;Formulation\"]\nD[\"Model&lt;br/&gt;Behaviour\"]\nE(((\"Policy&lt;br/&gt;Implications\")))\n\nA ==&gt; B\nB --&gt; C\nC --&gt; D\nD --&gt; E\nD -..-&gt; B \nE -.-&gt; B\nE -.-&gt; A\n\nclassDef yellow fill:#FFDC00,color:#2b2b2b,stroke-width:0px,text-align:center;\nclassDef gray fill:#999999,color:#ffffff,stroke-width:0px,text-align:center;\nstyle G1 fill:#2b2b2b,color:#ffffff,stroke:#eee,stroke-width:2px\n\nclass A,B yellow\nclass C,D,E gray",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1759,7 +1791,6 @@
     "text": "Setting the Boundary\nA model is only as good as what you leave out.\n\nEndogenous: Factors the system controls.\nExogenous: Factors outside our influence (the “Environment”).\n\n\nThe Challenge: If you draw the boundary too small, you miss the “Wicked” side-effects.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1771,7 +1802,6 @@
     "text": "Feedback Loops\nEnable the discovery of :\n\nemergence\npath dependency\ntiping points\nequilibrium / oscilation",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1783,7 +1813,6 @@
     "text": "Feedback Loops\nloopy",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1795,7 +1824,6 @@
     "text": "System Archetypes\n\nBalancing & LimitsUnintended FeedbackResource & Power Loops\n\n\n\nLimits to Growth: A tech-hub grows fast until housing prices drive out the talent, hitting a plateau.\nEroding Goals: Reducing environmental targets because the current infrastructure “cannot handle” the cost of meeting them.\nGrowth and Underinvestment: Demand for public transit grows, but the city delays purchasing new trains, leading to a collapse in service quality.\n\n\n\n\nFixes that Fail: Widening a road to fix traffic leads to “induced demand,” creating more traffic than before.\nShifting the Burden: Using temporary “band-aid” repairs on aging water pipes instead of replacing the fundamental infrastructure.\nEscalation: Two neighboring districts compete to offer the lowest taxes to attract firms, eventually bankrupting their own public services.\n\n\n\n\nTragedy of the Commons: Unregulated groundwater extraction by individual buildings leading to the sinking of the entire city’s foundation.\nSuccess to the Successful: High-income neighborhoods receive the best schools, which increases property values and further concentrates educational funding there.\nAccidental Adversaries: A transit agency and a housing department both try to optimize their own KPIs, but end up blocking each other’s long-term goals.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1807,7 +1835,6 @@
     "text": "Workshop: Mapping the Logic\nTool: ncase.me/loopy\n\n\n\n\nThe Mission\n\n\nTranslate your “Wicked Problem” from a vague concept into a functional Causal Loop Diagram.\n\n\n\n\n\n\n1. Set the Frame\n\nDefine Boundaries: What is in your system? What is exogenous “noise”?\nTemporal Scale: Is this a 24-hour traffic cycle or a 20-year gentrification process?\n\n\n2. Build the Logic\n\nExtract Nodes: Identify the 5–8 core variables (Social & Technical).\nConnect & Loop: Draw the arrows. Is the relationship (+) or (-)?\nFind the Archetype: Can you spot a “Fix that Fail” or “Limits to Growth”?",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
@@ -1819,7 +1846,6 @@
     "text": "Workshop: What we are doing\n\nFocus on the Logic, not the math.\n\n\n\n🎯 The Focus\n\nRelationships: How A affects B.\nFeedback: Identifying reinforcing and balancing loops.\nCommunication: Making the “invisible” logic visible.\n\n\n🛑 Not Today\n\nStocks: We aren’t measuring exact “buckets” of volume.\nFlow Rates: We aren’t calculating precise liters/people per second.\nValidation: We are mapping theories, not yet proving them.",
     "crumbs": [
       "Schedule",
-      "Unit 3",
       "System Thinking"
     ]
   },
