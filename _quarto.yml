@@ -27,23 +27,23 @@ website:
       # Main weekly expansion happening here
       - section: Schedule
         href: src/index.qmd
-        contents: 
-          - section: "Unit 3"
-            contents:
-              - text: System Thinking
-                href: src/unit_3/1_system_thinking.qmd
-              - text : Bibliography
-                href: src/unit_3/references.qmd
-          - section: "Unit 5"
-            contents:
-              - text: Decision Support
-                href: src/unit_5/decision_support.qmd
-              - text: Data Visualization
-                href: src/unit_5/data_viz.qmd
-              - text: Workshop
-                href: src/unit_5/data_viz_workshop.qmd
-              - text: AI & Smart Cities
-                href: src/unit_5/ai_smart_city.qmd
+        contents:
+          - text: System Thinking
+            href: src/unit_3/1_system_thinking.qmd
+          - text: Decision Support
+            href: src/unit_5/decision_support.qmd
+          - text: AI & Smart Cities
+            href: src/unit_5/ai_smart_city.qmd
+          - text: Smart Cities & SDGs
+            href: src/unit_7/sdgs_low_tech.qmd
+      - section: "Workshops & Other"
+        contents:
+          - text: Workshop
+            href: src/unit_5/data_viz_workshop.qmd
+          - text: Data Visualization
+            href: src/unit_5/data_viz.qmd
+          - text: Bibliography
+            href: src/unit_3/references.qmd
 
       - href: resources.qmd
         text : "Additional Resources"
