@@ -41,7 +41,7 @@ title-slide-attributes:
 Let's remember **why** we're building them.
 :::
 
-##
+## {fullscreen=true}
 
 {{< video https://www.youtube.com/watch?v=0XTBYMfZyrM& width="900" height="600" >}}
 
@@ -684,24 +684,28 @@ the car becomes optional.
 - Connect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)
 :::
 
-## Copenhagen's Cycling Revolution {background-image="img/copenhagen_cycling.gif" background-opacity="0.4"}
-
-:::::: {.columns}
-::: {.column width="60%"}
+## CPH Cycling Revolution {background-image="img/copenhagen_cycling.gif" background-opacity="0.4"}
 
 **62% of Copenhagen residents cycle daily.**
 
+:::::: {.columns}
+::: {.column width="50%"}
+
+<small>
 This did not happen because of a routing app.
 
-It happened because of **40 years of sustained investment** in cycling infrastructure — beginning with the 1970s oil crisis.
-
-- Protected lanes on every major street
-- Cyclist-priority traffic signals
-- Integration with public transport
-- Annual "Cycling Account" measuring returns
+It happened because of **40 years of sustained investment** in cycling infrastructure
+beginning with the 1970s oil crisis.
+<ul>
+    <li>Protected lanes on every major street</li>
+    <li>Cyclist-priority traffic signals</li>
+    <li>Integration with public transport</li>
+    <li>Annual "Cycling Account" measuring returns</li>
+</ul>
+</small>
 
 :::
-::: {.column width="40%"}
+::: {.column width="50%" .fragment}
 
 **The sequence that matters:**
 
@@ -710,8 +714,10 @@ It happened because of **40 years of sustained investment** in cycling infrastru
 3. Culture normalises
 4. *Then* monitor and optimise
 
-**Technology followed the behaviour.**
-**Behaviour followed the design.**
+
+>**Technology followed the behaviour.**
+>
+>**Behaviour followed the design.**
 
 :::
 ::::::
@@ -725,82 +731,13 @@ It happened because of **40 years of sustained investment** in cycling infrastru
 - Ask: "What would Norwegian cities need to do in the next decade to achieve what Copenhagen achieved in 40 years?"
 :::
 
-## Biophilic Design {background-color="#2b2b2b"}
 
-> "We are in the fullest sense a biological species and will find little ultimate meaning apart from the remainder of life."
->
-> — *E.O. Wilson, Biophilia (1984)*
-
-**What the evidence shows:**
-
-- Access to green space measurably reduces **cortisol** (stress hormone)
-- Trees and greenery increase **social cohesion** and community trust
-- Views of nature improve **recovery** from illness and reduce pain medication needs *(Ulrich, 1984)*
-- Urban biodiversity contributes to **mental health** resilience
-
-*This is not decoration. This is public health infrastructure.*
-
-::: {.notes}
-- E.O. Wilson coined "biophilia" — the evolutionary argument that humans are innately drawn to nature and other living things
-- Roger Ulrich's 1984 study: hospital patients with window views of trees recovered 1 day faster on average and needed fewer pain medications than those facing a brick wall; published in Science
-- "Prospect and refuge" theory: humans evolved to prefer spaces where they can see without being seen — direct implications for park and street design
-- Cost comparison: a street tree is cheaper per year than a smart sensor and provides measurably more value per year of life (cooling, air quality, mental health, social cohesion)
-- Ask: "How do you design a city for people who will never see the inside of a hospital — but who need the same restorative qualities that nature provides?"
-:::
-
-## Example: Seoul's Cheonggyecheon Stream {background-image="img/cheonggye.webp" background-opacity="0.4"}
-
-:::::: {.columns}
-::: {.column width="60%"}
-
-In 2005, Seoul removed an **elevated 6-lane highway**.
-
-Beneath it: a buried stream, the Cheonggyecheon, covered since 1958.
-
-The stream was restored.
-
-**The results:**
-
-- Temperatures in the corridor dropped **3.6°C**
-- 639 animal species returned
-- Foot traffic to the area increased dramatically
-- Land values rose
-- Car traffic redistributed — without a prediction model
-
-:::
-::: {.column width="40%"}
-
-What replaced a 6-lane highway:
-
-*Water. Plants. People.*
-
-No algorithm predicted this outcome.
-
-No sensor optimised the transition.
-
-*Nature did the work.*
-
-**SDG 3. SDG 11. SDG 13. SDG 15.**
-*In one 5.8 km stream.*
-
-:::
-::::::
-
-::: {.notes}
-- Mayor Lee Myung-bak's flagship project — politically controversial (the highway carried 170,000 vehicles/day)
-- Traffic engineers predicted gridlock; instead car trips redistributed and some were suppressed entirely (induced demand in reverse)
-- The urban heat island reduction: the stream corridor is measurably cooler than surrounding streets
-- Cost approximately $380m — comparable to a major smart city platform investment, but returns compound as the ecosystem develops
-- Nature-based solutions do not depreciate — they appreciate; ecosystems grow richer with age
-- Ask: "Could a digital twin have designed this? Could AI have predicted that removing a highway would cool a city by 3.6°C?"
-:::
-
-## Nature-Based Solutions {background-color="#40E4FF"}
+## Nature-Based Solutions {background-image="img/nbs_oslo.jpg" background-opacity="0.4"}
 
 _Working with natural processes — not engineering around them_
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="50%" .nonincremental}
 
 **Hard infrastructure:**
 
@@ -811,7 +748,7 @@ _Working with natural processes — not engineering around them_
 - Single function
 
 :::
-::: {.column width="50%"}
+::: {.column width="50%" .nonincremental}
 
 **Nature-Based Solutions:**
 
@@ -831,14 +768,15 @@ _Working with natural processes — not engineering around them_
 - SDG 11 (urban resilience), SDG 13 (climate adaptation), SDG 15 (biodiversity): NbS achieves all three simultaneously — the kind of multi-goal leverage that sensor systems rarely match
 :::
 
-## Example: Copenhagen's Cloudburst Management {background-color="#2b2b2b"}
+## CPH Cloudburst Management {background-image="img/couldburst.jpg" background-opacity="0.4"}
 
-After devastating floods in 2011, Copenhagen made a choice:
+>*The world's most celebrated cloudburst management plan.*
 
 :::::: {.columns}
-::: {.column width="50%"}
+::: {.column width="40%" .fragment .nonincremental}
+<small>
 
-### Option A: Smart Drainage
+### Option A: _Smart Drainage_
 
 - Sensors throughout the network
 - AI-predicted stormwater routing
@@ -846,8 +784,14 @@ After devastating floods in 2011, Copenhagen made a choice:
 - High capital and maintenance cost
 - One function: handle water
 
+</small>
+
 :::
-::: {.column width="50%"}
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%" .fragment .nonincremental}
 
 ### Option B: Green Infrastructure ✓
 
@@ -857,12 +801,12 @@ After devastating floods in 2011, Copenhagen made a choice:
 - Lower long-term cost
 - Also: parks, cooling, social space, biodiversity
 
-*The world's most celebrated cloudburst management plan.*
-
 :::
 ::::::
 
 ::: {.notes}
+After devastating floods in 2011, Copenhagen made a choice:
+
 - The 2011 Copenhagen floods caused €800m in damage — a once-in-a-century event projected to become more frequent
 - The Copenhagen Cloudburst Management Plan (2012) is now a global reference for climate adaptation, studied in planning schools worldwide
 - 300+ individual cloudburst projects across the city — each one simultaneously a park, sports ground, or community space
@@ -871,116 +815,64 @@ After devastating floods in 2011, Copenhagen made a choice:
 - Ask: "How do you measure the value of a park that also stops your basement from flooding?"
 :::
 
-## Urban Acupuncture {background-color="#2b2b2b"}
 
-_Jaime Lerner_
-
-> "The city is not a problem. The city is a solution."
->
-> — *Jaime Lerner, Mayor of Curitiba*
-
-- The city is an **organism** — not a machine to be optimised
-- Small, precise interventions in the right place trigger **systemic responses**
-- You don't need to rebuild everything — find the **pressure point**
-- Low-tech, high-leverage: the opposite of total systems redesign
-
-::: {.notes}
-- Jaime Lerner: mayor of Curitiba (Brazil) three times, then governor of Paraná — architect and urban planner
-- Curitiba under Lerner: transformed through low-cost, high-creativity interventions on a developing city budget — Bus Rapid Transit tube stations, recycling-for-food programmes, parks on flood plains
-- The acupuncture metaphor: a skilled practitioner finds the point where a small needle creates cascading relief across the whole organism
-- This concept unifies all the examples seen so far: each was a targeted intervention, not a total redesign
-- Connect to Unit 3's systems thinking: leverage points and feedback loops in complex systems
-- Ask: "Where is the acupuncture point in your project neighbourhood? What small change might have the largest systemic effect?"
-:::
-
-## Example: Medellín & Barcelona {.nonincremental}
-
-:::::: {.columns}
-::: {.column width="50%"}
-
-### Medellín — Social Urbanism
-
-**Cable cars + escalators** in the hillside comunas
-
-Physical infrastructure that transformed **social mobility**:
-
-- 90 minutes of daily commute eliminated
-- School attendance rose
-- Crime fell measurably
-- Economic activity increased
-
-*Connecting people — not monitoring them.*
-
-:::
-::: {.column width="50%"}
-
-### Barcelona — Superblocks
-
-**9-block clusters** restricting car access
-
-Small design change → systemic outcomes:
-
-- Air quality improved significantly
-- Urban temperature reduced
-- Social cohesion increased
-- **310 superblocks planned by 2030**
-
-*Replicable at low cost. No algorithm required.*
-
-:::
-::::::
-
-::: {.notes}
-- Medellín in the 1990s: one of the most violent cities in the world; the turnaround was social urbanism — public libraries, parks, schools, and physical connectivity built in the most marginalised areas
-- The Metrocable (2004) and outdoor escalators in San Javier (2011): connected hillside communities physically isolated from the city for decades, saving 90 minutes of daily commuting
-- Barcelona Superblocks (Superilles): designed by urbanist Salvador Rueda, implemented from 2016; each superblock reclaims approximately 60% of street space from cars for plazas and cycling
-- Diagnostic question in both cases: not "how do we optimise the system?" but "who is being excluded, and why?" — then design to remove that exclusion
-- Both interventions had high political friction; both succeeded because outcomes were visible and legible to residents
-:::
-
-## Synthesis: The Pattern {.nonincremental}
+## Synthesis {background-color="#40E4FF" .nonincremental}
 
 :::::: {.columns}
 ::: {.column width="33%"}
 
 ### Understand
 
-*Diagnose without a six-figure platform:*
+*Diagnose without a six-figure platform*
 
-- Walking audits
-- Desire line reading
-- Community observation
-- Open data
+<small>
+<ul>
+    <li>Walking audits</li>
+    <li>Desire line reading</li>
+    <li>Community observation</li>
+    <li>Open data</li>
+</ul>
+</small>
 
 :::
 ::: {.column width="33%"}
 
 ### Design
 
-*Work with human behaviour:*
+*Work with human behaviour*
 
-- Nudge, don't mandate
-- Make the good option easy
-- Add nature as infrastructure
-- Test cheaply before building
+<small>
+<ul>
+    <li>Nudge, don't mandate</li>
+    <li>Make the good option easy</li>
+    <li>Add nature as infrastructure</li>
+    <li>Test cheaply before building</li>
+</ul>
+</small>
 
 :::
 ::: {.column width="33%"}
 
 ### Achieve
 
-*The SDG outcome:*
+*The SDG outcome*
 
-- Healthier people (SDG 3)
-- Accessible space (SDG 10)
-- Sustainable mobility (SDG 11)
-- Climate resilience (SDG 13)
+<small>
+<ul>
+    <li>Healthier people (SDG 3)</li>
+    <li>Accessible space (SDG 10)</li>
+    <li>Sustainable mobility (SDG 11)</li>
+    <li>Climate resilience (SDG 13)</li>
+</ul>
+</small>
 
 :::
 ::::::
 
-::: {.fragment}
-*"Each of these interventions achieved an SDG outcome. None of them required a server."*
+::: {.fragment .r-fit-text .highlight-red}
+**Each of these interventions achieved an SDG outcome.**
+
+**None of them required a server.**
 :::
 
 ::: {.notes}
@@ -991,7 +883,7 @@ Small design change → systemic outcomes:
 - Emphasise: this is not anti-tech; it is pro-purposeful choice; the planner needs both registers
 :::
 
-## When Low-Tech Outperforms High-Tech {background-color="#2b2b2b"}
+## Low-Tech Outperforming High-Tech {background-color="#2b2b2b"}
 
 :::{.r-fit-text}
 
@@ -1014,29 +906,47 @@ Small design change → systemic outcomes:
 - Both low-tech and high-tech have a legitimate place in the planner's toolkit; the professional skill is knowing when to use which
 :::
 
-## Design for the 2030 Agenda {.nonincremental background-color="#40E4FF"}
+## Design for the 2030 Agenda {background-image="img/sdg-wheel.jpg" background-opacity="0.5"}
 
-The principles of low-tech design are not nostalgic. They are **the most durable path** to the commitments we made.
+<small>
+The principles of low-tech design are not nostalgic. 
+They are **the most durable path** to the commitments we made.
+</small>
 
-:::::: {.columns}
-::: {.column width="55%"}
-
-1. **SDGs frame the *why*.** Design determines the *how*. Evaluate every intervention against its SDG contribution — not its technical sophistication.
-
-2. **Human psychology is the core competency.** Desire, nudge, legibility, nature — these determine whether an intervention changes behaviour.
-
-:::
-::: {.column width="45%"}
-
-3. **Low-tech interventions are often the most durable, equitable, and impactful.** The bench. The bike lane. The stream. They outlast the platform.
-
-4. **"Smart" means effective — not digital.** A city that works for all its inhabitants — with or without a signal — is a smart city.
+::: {.fragment }
+1. **SDGs frame the *why*.** 
+<small>
+Design determines the *how*. Evaluate every intervention against its SDG contribution — not its technical sophistication.
+</small>
 
 :::
-::::::
+
+::: {.fragment }
+2. **Human psychology is the core competency.**
+<small>
+Desire, nudge, legibility, nature — these determine whether an intervention changes behaviour.
+</small>
+
+:::
+
+::: {.fragment}
+3. **Low-tech interventions are often the most durable, equitable, and impactful.**
+<small>
+The bench. The bike lane. The stream. They outlast the platform.
+</small>
+
+:::
+
+::: {.fragment}
+4. **"Smart" means effective — not digital.**
+<small>
+A city that works for all its inhabitants — with or without a signal — is a smart city.
+</small>
+
+:::
+
 
 ::: {.notes}
-- Final slide — keep it clean and memorable; let the four points land without rushing
 - The four takeaways map directly to the four themes of the session
 - Encourage students to apply this to their projects: "What is the low-tech argument for your intervention? What happens if the technology layer fails?"
 - The course arc closes: spectrum from AI and digital twins (Unit 5) through human-centred low-tech design (Unit 7); professional planners navigate both registers
