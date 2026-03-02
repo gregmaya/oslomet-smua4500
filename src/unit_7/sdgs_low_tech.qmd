@@ -63,9 +63,8 @@ SDGs are **wicked problems** — no single solution, no stopping rule
 ::: {.notes}
 - SDGs adopted in 2015 as part of the UN 2030 Agenda — this is the professional mandate for planners
 - "Legally non-binding but morally binding" — useful framing for how planners should relate to this framework
-- Connect to Unit 3: SDGs are the canonical wicked problem — when is SDG 11 "done"? It never is.
-- Key function of this slide: remind students that technology is never the goal — the SDG outcome is
-- Keep this brief — students know the SDGs; this is a reminder, not a lecture
+- Unit 3: SDGs are the canonical wicked problem — when is SDG 11 "done"? It never is.
+- technology is never the goal — the SDG outcome is
 :::
 
 ## The Urban SDGs {.nonincremental background-color="#40E4FF"}
@@ -96,10 +95,8 @@ _The Anchor_
 
 ::: {.notes}
 - SDG 11 is explicitly about cities, but it cannot be achieved in isolation
-- Demonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)
-- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes
 - Ask: "Which SDG is most relevant to your project neighbourhood? Which others does it connect to?"
-- Cyan background: this is a foundational framework to return to throughout the session
+
 :::
 
 ## The Urban SDGs {.nonincremental background-color="#40E4FF"}
@@ -129,12 +126,8 @@ _The Anchor_
 ::::::
 
 ::: {.notes}
-- SDG 11 is explicitly about cities, but it cannot be achieved in isolation
 - Demonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)
-- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes
-- Ask: "Which SDG is most relevant to your project neighbourhood? Which others does it connect to?"
-- Cyan background: this is a foundational framework to return to throughout the session
-:::
+- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes:::
 
 
 
@@ -176,12 +169,14 @@ Sold as a high-tech promise:
 ::::::
 
 ::: {.notes}
-- Callback to earlier units — students should recognise all of these tools
-- Don't linger: the point is not to criticise the tools, but to contextualise them
-- Sidewalk Toronto: Google Sidewalk Labs' smart city project, cancelled due to privacy concerns and escalating costs
+- the point is not to criticise the tools, but to contextualise them
+
+These are not technology failures — they are failures of starting with technology before understanding people
+
 - Songdo: streets optimised for efficiency, but low occupancy for years — the optimisation that forgot human desire
+- Sidewalk Toronto: Google Sidewalk Labs' smart city project, cancelled due to privacy concerns and escalating costs
 - NEOM: $500bn Saudi megaproject, highly contested on human rights and feasibility grounds
-The framing: these are not technology failures — they are failures of starting with technology before understanding people
+
 :::
 
 ## Smart ≠ High-Tech {background-color="#40E4FF"}
@@ -199,11 +194,10 @@ The framing: these are not technology failures — they are failures of starting
 :::
 
 ::: {.notes}
-- This is the key reframe for the entire session — let it land before moving on
 - Ask: "What does 'smart' mean to you?" then challenge the assumption
-- This is explicitly not anti-technology — it is pro-effectiveness
+- This is explicitly not anti-technology — it is **pro-effectiveness**
 - The test: does it achieve the SDG outcome? If yes, it is smart regardless of technical complexity
-- Connect to Unit 5: "AI can find the pattern, but only the Planner can give it purpose" — same logic applies to all tools
+- Unit 5: "AI can find the pattern, but only the Planner can give it purpose" — same logic applies to all tools
 :::
 
 ## The Gap {background-color="#FF8100"}
@@ -239,11 +233,12 @@ _etc.._
 :::
 
 ::: {.notes}
-- This is a critical diagnostic — a rupture in the argument built so far
 - Key failure modes: digital divide (who can access smart city services?), high maintenance costs (who pays in Year 5?), top-down imposition (no community ownership), surveillance creep
+
 - Sidewalk Toronto: partly collapsed due to data sovereignty — people didn't want to be monitored as a precondition for urban services
 - Songdo: optimised for flow, but without human desire — result: well-connected ghost city for years
-- Pause here: "Can you think of a smart city project that measurably changed how ordinary people live?" — let students struggle with this
+
+- Pause here: "Can you think of a smart city project that measurably changed how ordinary people live?"
 - This is the bridge: we've diagnosed the problem — now Part II presents the alternative
 :::
 
@@ -303,7 +298,6 @@ It is not primitive. It is **human-centred**.
 - This is an equity argument: low-tech is more equitable because access is not gated by digital literacy or device ownership
 - The maintenance gap: many smart city projects degrade after Year 5 when maintenance budgets are cut; low-tech ages more robustly
 - Ask: "Think of a street that works well for everyone — what makes it work? Is any of it digital?"
-- This slide establishes the evaluation criteria applied to every example that follows
 :::
 
 ## Diagnose Before You Design {background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
@@ -340,13 +334,11 @@ Work with observed behaviour — not assumed behaviour.
 ::::::
 
 ::: {.notes}
-- This addresses the valid concern: "don't we need data before we can design well?"
+"don't we need data before we can design well?"
 - Yes — but data doesn't require expensive custom infrastructure
-- Jan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.
-- Sentinel satellite: ESA's freely available remote sensing data — accessible to any municipality with internet access
-- Strava Metro: aggregated, anonymised cycling/running data — available to cities at low cost
+
 - Principle: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.
-- Connect to Unit 5: "The planner's role is gatekeeper" — gatekeeping starts with asking the right questions before choosing the tool
+- "The planner's role is gatekeeper" — gatekeeping starts with asking the right questions before choosing the tool
 :::
 
 ## Diagnose Before You Design {background-gradient="linear-gradient(to bottom, #2b2b2b, #4c462dff)"}
@@ -376,13 +368,9 @@ _Solutions can be low-tech. Diagnosis can be hybrid._
 
 
 ::: {.notes}
-- This addresses the valid concern: "don't we need data before we can design well?"
-- Yes — but data doesn't require expensive custom infrastructure
 - Jan Gehl Architects: trained observers with clipboards, recording behaviour at different times of day. Simple, rigorous, replicable. Used in cities worldwide including Oslo.
 - Sentinel satellite: ESA's freely available remote sensing data — accessible to any municipality with internet access
 - Strava Metro: aggregated, anonymised cycling/running data — available to cities at low cost
-- Principle: appropriate technology at each phase. Diagnosis may use lightweight data tools; the intervention itself can still be human-centred.
-- Connect to Unit 5: "The planner's role is gatekeeper" — gatekeeping starts with asking the right questions before choosing the tool
 :::
 
 ## Desire Lines {background-image="img/desire_lines.jpg" background-opacity="0.5"}
@@ -417,11 +405,12 @@ The worn path across the grass is not vandalism. → It is **data**.
 ::::::
 
 ::: {.notes}
-- Immediately recognisable to most students — they have walked desire lines without knowing the term
-- Classic images: diagonal paths worn across university lawns, or the "snow map" showing actual routes before paving
+
 - Some universities (e.g. Ohio State) specifically delayed paving until behaviour could be observed first
+
 - Connect to the diagnostic slide: desire lines are free behavioural data, visible to anyone paying attention
 - Every desire line is a planning failure — and a design opportunity waiting to be claimed
+
 - Ask: "Can you think of a desire line you walk regularly? What does it tell you about the original design?"
 :::
 
