@@ -127,7 +127,8 @@ _The Anchor_
 
 ::: {.notes}
 - Demonstrate the connections: a cycling lane simultaneously achieves SDG 3 (health), SDG 10 (access), SDG 11 (sustainable transport), SDG 13 (emissions), SDG 15 (if tree-lined)
-- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes:::
+- This is why urban design has outsized SDG leverage — one intervention, multiple outcomes
+:::
 
 
 
