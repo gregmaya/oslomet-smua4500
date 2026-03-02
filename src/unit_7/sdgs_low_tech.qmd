@@ -437,8 +437,9 @@ Design that reads desire rather than overriding it.
 - Monderman was a traffic engineer — not a radical. His insight came from observing how drivers behave differently in unmarked rural lanes vs. heavily-signed urban roads
 - The Laweiplein intersection in Drachten: car speeds dropped from 30km/h average to under 20km/h after removal of all signals; accidents reduced
 - Woonerf (living street): Dutch concept giving pedestrians legal priority; speed controlled by design (narrowing, trees, varied paving), not signage
+
 - Direct link to desire lines: Monderman observed how people actually navigate before redesigning
-- Ask: "What does this tell us about the relationship between certainty and attention? About who the street is designed for?"
+
 :::
 
 ## Nudge Theory
@@ -466,6 +467,7 @@ Design that reads desire rather than overriding it.
 ::: {.notes}
 - Richard Thaler received the Nobel Prize in Economics in 2017 for behavioural economics
 - Classic non-urban examples: organ donation default switches (opt-out vs. opt-in); the fly painted in Schiphol airport urinals (reduced spillage 80%)
+
 - Urban implication: you don't need to convince people to make better choices; make better choices the default or the easiest option
 - A bike lane doesn't tell anyone not to drive — it makes cycling a visible, safe, obvious alternative
 - Connection to planning ethics: nudge is non-coercive, but planners must still ask: who benefits from the default we are setting?
@@ -538,7 +540,7 @@ Revolutionary findings for their simplicity:
 - EAST emerged from applying behavioural economics to public policy across dozens of domains
 - For urban design: EASY = protected cycling lane (not sharing with lorries). ATTRACTIVE = well-lit, tree-lined route. SOCIAL = seeing other cyclists/pedestrians making the same choice. TIMELY = infrastructure present when someone moves to a new neighbourhood before car habits form.
 - Ask students to apply EAST to a local Oslo example — this grounds the framework quickly
-- Columns can be revealed sequentially with fragments if preferred
+
 :::
 
 ## Bogotá's Ciclovía {background-image="img/ciclovia.avif" background-opacity="0.4"}
