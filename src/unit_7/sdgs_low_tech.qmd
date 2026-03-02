@@ -584,6 +584,7 @@ Just: *a policy decision + a bollard.*
 - Measurable impact: improved cardiovascular health, reduced Sunday emissions, public space equity (anyone can participate regardless of income or device)
 - The political lesson: Ciclovía required a mayor willing to take road space from cars — not a tech problem, a political will problem
 - Replicated in 100+ cities worldwide under the "Open Streets" model
+
 - Ask: "Could an app achieve what Ciclovía achieves? Why or why not?"
 :::
 
@@ -606,9 +607,10 @@ Just: *a policy decision + a bollard.*
 ::: {.notes}
 - Writing in 1961 against Robert Moses and the urban renewal movement destroying mixed-use neighbourhoods for highways and towers
 - The "sidewalk ballet": the informal, choreographed mix of people that makes streets safe emerges from mixed use — not from surveillance cameras
+
 - Contrast: suburban cul-de-sacs designed for cars, empty of people for most hours — paradoxically less safe than a busy mixed-use street
 - SDG 11 (sustainable cities) and SDG 10 (equality): the street as universal public space, but it only works if people are in it
-- Ask: "Compare the feeling of walking on a busy mixed-use street at 9pm vs. a suburban cul-de-sac. What design choices created those feelings?"
+
 :::
 
 ## Tactical Urbanism {background-image="img/tactical.webp" background-opacity="0.4" .nonincremental}
@@ -642,6 +644,7 @@ Result: foot traffic increased, air quality improved, businesses reported higher
 - Rebar studio (San Francisco) created PARK(ing) Day to demonstrate that street space could be reclaimed cheaply; it became a global movement
 - Times Square: the transformation was tested before full investment — a politically risky decision made reversible by starting small
 - Connection to desire lines and the diagnostic phase: tactical urbanism IS a combined diagnostic and design method — you learn what works by testing cheaply
+
 - Ask: "What could you test in your project neighbourhood with a few cones, some chairs, and paint?"
 :::
 
@@ -669,9 +672,10 @@ the car becomes optional.
 ::: {.notes}
 - Carlos Moreno, professor at the Sorbonne, formalised the concept; Paris Mayor Hidalgo adopted it as city policy after COVID-19
 - Key insight: the car was not always necessary — it was made necessary by planning decisions (zoning separation, suburban sprawl). Reverse the decisions, reduce the car.
+
 - This is restoration, not innovation: it describes the structure of pre-automobile European cities including Oslo's older neighbourhoods
 - Some controversy: right-wing commentators labelled it a "15-minute prison" — worth acknowledging and discussing
-- The tool is the land use plan and zoning code — no smart city platform needed
+
 - Connect to SDG 3 (health through active transport), SDG 13 (reduced emissions), SDG 11 (sustainable mobility)
 :::
 
@@ -717,9 +721,10 @@ beginning with the 1970s oil crisis.
 - In 1970, most Copenhageners drove. The 1973 oil crisis was the political catalyst for a decision to invest in cycling.
 - Each year: more infrastructure, higher cycling share. By the 1990s cycling was culturally normal. By 2010, majority choice.
 - The lesson: don't start with the monitoring platform; start with the infrastructure
+
 - Copenhagen "Cycling Account": annual report measuring health, economic, and environmental returns — a model for evidence-based planning
 - SDG 3 (health), SDG 11 (sustainable transport), SDG 13 (reduced emissions): achieved through asphalt, paint, and political will over 40 years
-- Ask: "What would Norwegian cities need to do in the next decade to achieve what Copenhagen achieved in 40 years?"
+
 :::
 
 
@@ -801,9 +806,10 @@ After devastating floods in 2011, Copenhagen made a choice:
 - The 2011 Copenhagen floods caused €800m in damage — a once-in-a-century event projected to become more frequent
 - The Copenhagen Cloudburst Management Plan (2012) is now a global reference for climate adaptation, studied in planning schools worldwide
 - 300+ individual cloudburst projects across the city — each one simultaneously a park, sports ground, or community space
+
 - Tåsinge Plads: a former car park transformed into a cloudburst plaza that handles 150mm/hour of rain — also one of the city's most loved small parks
 - Political lesson: the city chose the more legible, community-friendly option; residents can see and use the investment; a sensor network is invisible until it fails
-- Ask: "How do you measure the value of a park that also stops your basement from flooding?"
+
 :::
 
 
@@ -867,9 +873,8 @@ After devastating floods in 2011, Copenhagen made a choice:
 :::
 
 ::: {.notes}
-- This is the synthesis slide — bring together everything from the session
 - The three columns mirror the course's own logic: understand → design → achieve outcomes
-- The fragmented quote is the final beat — let it land before the last two slides
+
 - Ask: "Is there an example we discussed that couldn't have been designed without technology?" — honest answer: no, but technology could help monitor and evaluate faster
 - Emphasise: this is not anti-tech; it is pro-purposeful choice; the planner needs both registers
 :::
@@ -890,7 +895,7 @@ After devastating floods in 2011, Copenhagen made a choice:
 :::
 
 ::: {.notes}
-- This table is meant to inform professional decision-making — not to prescribe, but to structure the choice
+
 - "Graceful failure": a worn cobblestone still slows a car; a broken enforcement camera enforces nothing
 - "Maintenance often cut": smart city infrastructure frequently degrades after Year 5 when maintenance budgets are reduced — well-documented in early smart city deployments
 - The equity row is crucial: the populations most affected by urban challenges are often those most excluded from high-tech service delivery
@@ -938,8 +943,6 @@ A city that works for all its inhabitants — with or without a signal — is a 
 
 
 ::: {.notes}
-- The four takeaways map directly to the four themes of the session
 - Encourage students to apply this to their projects: "What is the low-tech argument for your intervention? What happens if the technology layer fails?"
 - The course arc closes: spectrum from AI and digital twins (Unit 5) through human-centred low-tech design (Unit 7); professional planners navigate both registers
-- Strong closing question: "What is the single low-tech intervention you would make in your project neighbourhood — and which SDG does it serve?"
 :::
