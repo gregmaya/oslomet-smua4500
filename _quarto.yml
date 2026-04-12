@@ -36,12 +36,16 @@ website:
             href: src/unit_5/ai_smart_city.qmd
           - text: Smart Cities & SDGs
             href: src/unit_7/sdgs_low_tech.qmd
+          - text: EU Smart City Cases
+            href: src/unit_11/european_cases.qmd
       - section: "Workshops & Other"
         contents:
           - text: Workshop
             href: src/unit_5/data_viz_workshop.qmd
           - text: Data Visualization
             href: src/unit_5/data_viz.qmd
+          - text: Reference Cases
+            href: src/unit_11/cases_reference.qmd
           - text: Bibliography
             href: src/unit_3/references.qmd
 
