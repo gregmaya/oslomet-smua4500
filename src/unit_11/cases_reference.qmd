@@ -1,7 +1,6 @@
 ---
 title: "European Smart City Cases: A Reference Guide"
 subtitle: "Success, Failures, and What They Tell Us"
-author: "SMUA 4500 Smart Cities — OsloMet"
 date: "2026-04-13"
 format:
   html:
