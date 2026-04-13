@@ -62,7 +62,6 @@ _When cities plan for the climate they have, not the one they wish for_
 
 ::: {.notes}
 - Stress: these create obligations and funding streams, not aspirations
-- Ask students: is your city signed up to the Covenant of Mayors? What does that commitment require?
 - The Mission Cities programme has a built-in exclusion risk — well-resourced cities qualify; smaller ones don't
 :::
 
@@ -107,7 +106,6 @@ _When cities plan for the climate they have, not the one they wish for_
 
 ::: {.notes}
 - No need to name a specific city — this is a pattern, not an exception
-- Ask students: what would need to be in place BEFORE you buy the platform?
 - The failure was not technical. The procurement happened before the governance question was answered.
 :::
 
@@ -244,7 +242,7 @@ _Who the street is for_
 
 ## Ghent: same logic, different scale {background-color="#000000" .nonincremental}
 
-<iframe width="100%" height="500" src="https://www.youtube.com/embed/_-ooCbgIiyo?si=VHVDkZKOHjxZDVsf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/sEOA_Tcq2XA?si=ja7XdTQXRq1jgnWF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ::: {.notes}
 - Streetfilms — filmed at the 2024 Velo-City conference in Ghent
