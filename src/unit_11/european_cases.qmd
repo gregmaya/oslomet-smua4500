@@ -7,7 +7,7 @@ format:
         theme: ../oslomet-pres.scss
         center: true
         transition: fade
-        footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+        footer: "SMUA 4500 Smart Cities - Greg Maya © &nbsp;|&nbsp; <a href='../../index.html' style='color:inherit;opacity:0.7;'>↩ Back to course</a>"
         incremental: true
 title-slide-attributes:
   data-background-image: img/eu-smart-cities.webp
@@ -31,9 +31,9 @@ title-slide-attributes:
 ## How this session works {background-color="#FFDC00" .nonincremental}
 
 ::: {style="color:#2b2b2b"}
-1. **9:00–10:00** — Lecture: six categories, one anchor case each, one contrast each
-2. **10:00–11:30** — Group work: browse the reference list, pick 1–2 cases, build 3–4 slides
-3. **11:30–12:30** — Presentations: 7 min per group — your project + why these cases matter to it
+1. **Lecture**: six categories, one anchor case each, one contrast each
+2. **Group work**: browse the reference list, pick 1–2 cases, build 3–4 slides
+3. **Presentations**: 7 min per group — your project + why these cases matter to it
 :::
 
 ::: {.fragment style="color:#2b2b2b; font-style: italic;"}
@@ -503,7 +503,7 @@ _The city as ecosystem_
 - Ask students: does your project area have a green infrastructure strategy? What does the Nature Restoration Law require it to do?
 :::
 
-## Stuttgart Klimaatlas Green Corridors {background-image="img/stuttgrart.jpg" background-opacity="0.5"}
+## Stuttgart Klimaatlas Green Corridors {background-image="img/stuttgart.jpg" background-opacity="0.5"}
 
 ### Evidence-based urban ecology before "smart" was a word 
 
@@ -600,7 +600,7 @@ Technology is the last mile. **Governance is the whole road.**
 
 # Your turn.
 ::: {.r-fit-text}
-Group work: 90 minutes
+Group work: ~ 90 minutes
 :::
 
 ---

@@ -7,7 +7,7 @@ format:
         theme: ../oslomet-pres.scss
         center: true
         transition: fade
-        footer: "SMUA 4500 Smart Cities - Greg Maya ©"
+        footer: "SMUA 4500 Smart Cities - Greg Maya © &nbsp;|&nbsp; <a href='../../index.html' style='color:inherit;opacity:0.7;'>↩ Back to course</a>"
         incremental: true
 title-slide-attributes: 
   data-background-image: "images/digital_twins.jpg"
