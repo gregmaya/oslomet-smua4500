@@ -1,0 +1,649 @@
+---
+title: "European Smart Cities in Practice"
+subtitle: Cases, Failures, and What They Tell Us
+format:
+    revealjs:
+        slide-number: true
+        theme: ../oslomet-pres.scss
+        center: true
+        transition: fade
+        footer: "SMUA 4500 Smart Cities - Greg Maya © &nbsp;|&nbsp; <a href='../../index.html' style='color:inherit;opacity:0.7;'>↩ Back to course</a>"
+        incremental: true
+title-slide-attributes:
+  data-background-image: img/eu-smart-cities.webp
+  data-background-opacity: "0.4"
+---
+
+## By the end of this session {background-image="img/eu-smart-cities.webp" background-opacity="0.2"}
+
+::: {.nonincremental}
+- [Recognise]{style="color:#40E4FF"} why smart city initiatives succeed or fail through governance, equity, and institutional factors — not just technology
+- [Navigate]{style="color:#40E4FF"} EU policy frameworks as the structural context behind planning decisions
+- [Apply]{style="color:#40E4FF"} case evidence critically to support a research or planning argument
+:::
+
+::: {.notes}
+- These goals are designed to be reusable year to year — the cases are tools, not the point
+- Emphasise: today is not about memorising cases. It is about learning to read them critically
+- The third goal connects directly to the group project — students will use these cases as evidence in their final work
+:::
+
+## How this session works {background-color="#FFDC00" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+1. **Lecture**: six categories, one anchor case each, one contrast each
+2. **Group work**: browse the reference list, pick 1–2 cases, build 3–4 slides
+3. **Presentations**: 7 min per group — your project + why these cases matter to it
+:::
+
+::: {.fragment style="color:#2b2b2b; font-style: italic;"}
+During the lecture: note which cases feel relevant to your project. You do not need to understand everything — you need to find your entry point.
+:::
+
+
+---
+
+# Climate Adaptation & Resilience
+_When cities plan for the climate they have, not the one they wish for_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **EU Climate Law** | 2021 | Legally binding: net-zero by 2050, 55% reduction by 2030 |
+| **EU Adaptation Strategy** | 2021 | Smarter, faster, systemic adaptation; NbS and data-informed planning |
+| **Covenant of Mayors** | Ongoing | 10,000+ cities; each must produce a Sustainable Energy and Climate Action Plan (SECAP) |
+| **EU Mission: 100 Smart Cities** | 2021 | 100 cities to climate neutrality by 2030 as "lighthouses" |
+| **Cohesion Policy / ERDF** | Ongoing | Major funding stream for climate infrastructure |
+:::
+
+::: {.notes}
+- Stress: these create obligations and funding streams, not aspirations
+- The Mission Cities programme has a built-in exclusion risk — well-resourced cities qualify; smaller ones don't
+:::
+
+## Copenhagen Cloudburst Management Plan (2012)  {background-image="img/cloudburst.jpg" background-opacity="0.4"}
+
+> A flood becomes a planning opportunity
+
+- **2011**: record cloudburst causes DKK 6bn damage in a single afternoon
+- Copenhagen responds with a **20-year, DKK 14bn** climate adaptation masterplan
+- Combines sensor-based rainfall monitoring, green-blue corridors, retention basins, redesigned streets
+- The plan is **public infrastructure with a maintenance model** — not a pilot, not a product
+- Participatory process embedded from the start — residents shaped route priorities
+
+
+::: {.notes}
+- Now the reference case for data-informed, NbS-integrated climate adaptation in Europe
+- The tech only works because the institution had capacity to act on the data
+- Key framing: the cloudburst plan is also an urban design project — streets, parks, and squares were redesigned. Smart ≠ invisible.
+- Connect to Unit 3: the plan creates a new feedback loop between rainfall data and infrastructure investment decisions
+:::
+
+## Copenhagen Cloudburst Management Plan (2012) {background-color="#000000" .nonincremental}
+
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/CvPT9PJPUgk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## The Vendor Trap in Climate Tech {background-color="#FF8100"}
+
+### Technology delivered. Decisions didn't change.
+
+::: {.nonincremental}
+- Several EU cities purchased real-time flood monitoring platforms (2015–2020)
+- Sensors installed, dashboards built, data flowing
+- But: **no integration** with planning workflows
+- No staff trained to act on alerts; no political mandate to adapt infrastructure
+- Platform contracts expired — cities returned to the same flood risk as before
+:::
+
+::: {.fragment}
+> Data without institutional capacity is decoration.
+:::
+
+::: {.notes}
+- No need to name a specific city — this is a pattern, not an exception
+- The failure was not technical. The procurement happened before the governance question was answered.
+:::
+
+## Climate adaptation is a governance problem with a data layer {background-color="#2b2b2b"}
+
+> not the reverse!
+
+---
+
+# Energy Transition & Buildings
+_Smart grids, renovations, and who benefits_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **EU Renovation Wave** | 2020 | Double renovation rate by 2030; 35 million buildings. Buildings = 40% of EU energy use. |
+| **Energy Performance of Buildings Directive (EPBD)** | 2024 | All new buildings zero-emission from 2028; mandatory EPC labelling; digital building logbooks |
+| **Energy Communities Directive** | 2018 | Citizens have the legal right to collectively produce, consume, and share renewable energy |
+| **REPowerEU** | 2022 | Accelerated renewable deployment; energy security post-Ukraine |
+| **EU Digital Decade 2030** | 2021 | 10,000 climate-neutral data centres; smart grid targets linked to 5G |
+:::
+
+::: {.notes}
+- The Renovation Wave is the single largest intervention point for urban energy — not sensors, not platforms
+- The Energy Communities Directive enables the prosumer model — this is the legal basis for citizen-owned energy
+:::
+
+## Vienna Seestadt Aspern {background-image="img/vienna.jpg" background-opacity="0.5"}
+
+> What public ownership of smart infrastructure looks like 
+
+
+<!-- IMAGE NEEDED: Aerial or street-level photo of Seestadt Aspern district -->
+
+- Vienna's largest urban development: **240 hectares, 20,000 planned residents**
+- Municipally led — the city owns the land, the energy infrastructure, and the data platform
+- Integrates: social housing (30% affordable), district energy network, smart mobility hub, open data
+- **No vendor lock-in**: open standards specified in contracts from day one
+- Digital infrastructure managed by Wien Energie (city-owned utility), not a private tech company
+- Under construction since 2014; phased delivery through 2028
+
+::: {.notes}
+- Vienna's institutional model is exceptional — most cities lack comparable municipal ownership capacity
+- Key question for students: what would need to change in your city's governance model to replicate this?
+- Connect to Energy Communities Directive: Seestadt residents are prosumers, not consumers
+- Ask: why does ownership matter? Because it determines who benefits from the data, the energy savings, and the long-term value
+:::
+
+## UK National Smart Meter Rollout {background-color="#FF8100"}
+
+### 50 million meters installed. Behaviour largely unchanged. 
+
+::: {.nonincremental}
+- UK government mandated smart meters for all households: 2011–2025
+- **£13 billion programme** — 33 million meters installed by 2024
+- Original promise: real-time data would shift consumption and enable demand-response
+- Reality: most households check the display once, then ignore it
+- Demand-response participation remains marginal; grid benefits unrealised at scale
+:::
+
+::: {.fragment}
+> **The political and behavioural design was never built. Only the infrastructure was.**
+:::
+
+
+::: {.notes}
+- Pattern across smart city tech: deployment is measurable; behaviour change is hard
+- Connect to Unit 7 (nudge theory): a smart meter display is a nudge. But nudges require friction removal, not just information
+- The lesson is not that smart meters are bad — it is that infrastructure without a theory of change fails quietly
+:::
+
+## Energy transition requires a renovation strategy and a behavioural model {background-color="#2b2b2b"}
+
+> not just a smart grid
+
+---
+
+# Mobility & Public Space
+_Who the street is for_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **EU Urban Mobility Framework** | 2021 | SUMPs required for cities >100,000 to access EU transport funding; active travel, public transport, multimodality |
+| **EU Cycling Declaration** | 2023 | Double cycling share by 2030; cycling infrastructure funded through Cohesion Policy |
+| **Trans-European Transport Network (TEN-T)** | 2021 | Urban nodes must integrate with TEN-T standards; multimodal hubs |
+| **Clean Vehicles Directive** | 2019 | Procurement thresholds for zero-emission buses and cars in public fleets |
+| **European Green Deal** | 2019 | 90% reduction in transport emissions by 2050; shift from road to rail |
+:::
+
+::: {.notes}
+- SUMPs are the most direct tool: cities with a SUMP get EU funding and are committed to modal shift targets
+- The Cycling Declaration is new (2023) and politically significant — cycling is now a funded EU priority
+- Ask students: does your project city have a SUMP? What modal shift targets has it committed to?
+:::
+
+
+
+## Barcelona Superilles (Superblocks) {background-image="img/barcelona.jpg" background-opacity="0.5"}
+
+### Reclaiming the street without a platform
+
+- Barcelona divides the city into 9-block superblocks — **through-traffic removed** from interior streets
+- Interior streets become public space: playgrounds, seating, planting, markets
+- **Low-tech start**: paint, planters, signage. No sensors required to begin.
+- Data used for: air quality monitoring, pedestrian flow analysis, health outcome tracking
+- Results: NO₂ down 25%, temperature down 2–3°C, resident wellbeing measurably improved
+- Now being scaled across the city with a **10-year implementation plan**
+
+::: {.notes}
+- The superblock works because the political decision came first — "this street belongs to people" — and the data confirmed and refined it
+- Contrast with approaches that begin with data collection and never arrive at a decision
+- Connect to Unit 7 (tactical urbanism, desire lines, Jane Jacobs): the superblock is "eyes on the street" at urban scale
+- Key insight: the data role here is evaluative and adaptive, not generative. The intervention came first.
+:::
+
+## Barcelona Superilles (Superblocks)  {background-color="#000000" .nonincremental}
+
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/phRzo7v8xiU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+::: {.notes}
+- EIT Urban Mobility — Salvador Rueda, the inventor of the superblock concept
+- Part 4 of 5: focuses specifically on equity — how superblocks address who the city is designed for
+- 2–3 minutes gives enough context before moving to the failure case
+:::
+
+## Ghent: same logic, different scale {background-color="#000000" .nonincremental}
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/sEOA_Tcq2XA?si=ja7XdTQXRq1jgnWF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+::: {.notes}
+- Streetfilms — filmed at the 2024 Velo-City conference in Ghent
+- Street-level interviews with residents and planners; shows the circulation plan working in practice
+- Contrast with Barcelona: smaller city, more gradual rollout, strong political management of opposition
+:::
+
+## MaaS Global / Whim (Helsinki, 2016–2023)  {background-color="#FF8100"}
+
+### The platform that was going to replace car ownership
+
+::: {.nonincremental}
+- Launched 2016: one subscription for all transport modes — bus, train, taxi, bike, car rental
+- Raised **€50m+** in investment; expanded to Antwerp, Birmingham, Vienna
+- Vision: replace personal car ownership with a monthly subscription
+- **Went bankrupt in 2023**
+- Served people already using multiple modes; did not convert car-dependent users
+:::
+
+::: {.fragment}
+> Technically sophisticated. Solved a problem most users didn't have.
+:::
+
+::: {.notes}
+- Canonical tech solutionism case: the platform was the product, not the mobility problem
+- The mobility problem (car dependency) requires infrastructure investment and land use change, not an app
+- data and AI: the failure was not a data problem. It was a theory-of-change problem.
+:::
+
+## Mobility change follows infrastructure and political decisions.{background-color="#2b2b2b"}
+
+> Apps consolidate change. 
+> They don't create it.
+
+
+---
+
+# Data Governance & Digital Rights
+_Who controls the data controls the city_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **GDPR** | 2018 | Hard limits on data collection, profiling, and automated decisions. Gives EU cities a legal advantage over US and Chinese models. Directly enforceable. |
+| **AI Act** | 2024 | World's first binding AI regulation. Predictive policing = banned. Welfare and infrastructure decisions = high risk (audit, transparency, human oversight required). |
+| **Digital Services Act / Digital Markets Act** | 2022 | Platform accountability; affects algorithmic systems in urban contexts |
+| **EU Data Governance Act** | 2022 | Data sharing across sectors and borders; relevant to city platforms and digital twins |
+| **Open Data Directive** | 2019 | Public bodies must make data available for reuse; foundation for open smart city infrastructure |
+:::
+
+::: {.notes}
+- The AI Act is the most urgent policy right now — came into force 2024 with phased implementation
+- Cities deploying algorithmic systems in welfare, policing, or infrastructure management are directly affected
+- GDPR gives European cities a genuine governance advantage — worth emphasising to students comparing EU to non-EU cases
+:::
+
+
+##  Amsterdam AI Register 
+
+### Transparency as a governance principle {background-color="#2b2b2b"}
+
+- Amsterdam publishes a **public inventory of every algorithmic system** used in city governance
+- Each entry: what it does, who built it, what data it uses, what decisions it informs, who is accountable
+- Written in plain language — accessible to any citizen, not just technologists
+- Covers: parking enforcement, social benefit allocation, public space monitoring, traffic management
+- Not just a list — includes links to impact assessments and audit results
+- Now a reference model for other EU cities and the European Commission
+
+::: {.notes}
+- The register doesn't prevent algorithmic governance — it makes it legible and contestable
+- This is the minimum a city should do before deploying any automated decision system
+- Connect to the Five Critical Questions framework: the register answers "who governs the data" and "who is accountable"
+- Ask students: if your project city deployed a smart system, what would its AI Register entry look like?
+:::
+
+## The Amsterdam Algorithm Register — live {background-image="img/registry.png" background-opacity="0.5" .nonincremental}
+
+
+::: {style="text-align: center; margin-top: 1.5em;"}
+[algoritmes.overheid.nl/en/algoritme](https://algoritmes.overheid.nl/en/algoritme){style="color:#40E4FF; font-size: 1.4em;"}
+:::
+
+::: {style="margin-top: 1em; font-style: italic; color: #aaaaaa;"}
+Pick any entry. Read what it does, who built it, what data it uses, who is accountable.
+This is what transparency as a governance practice looks like.
+:::
+
+::: {.notes}
+- Worth 2 minutes in class — open the register live and browse an entry together
+- The contrast with SyRI (next slide) lands much harder after students have just seen what accountability looks like when it works
+:::
+
+
+
+## SyRI — Netherlands (2020) {background-color="#FF8100"}
+
+### A welfare fraud algorithm overturned in court 
+
+::: {.nonincremental}
+- SyRI (System Risk Indication): Dutch government algorithm predicting welfare fraud
+- Cross-referenced **17 data sources**: tax, employment, housing, healthcare, and more
+- Deployed only in **low-income neighbourhoods** — structurally targeting poorer communities
+- 2020: Dutch court ruled SyRI violated GDPR and the European Convention on Human Rights
+:::
+
+::: {.fragment}
+**First European court ruling to strike down an algorithmic government system** on human rights grounds
+:::
+
+::: {.notes}
+- The system was not a technical failure.
+It was a political and ethical failure **operating as** technical infrastructure.
+
+- This shows GDPR enforcement working as intended — but only after deployment, not before
+- The AI Act's high-risk classification now requires pre-deployment impact assessment for systems like this
+- Ask students: what would an Amsterdam-style AI Register entry for SyRI have looked like? Would it have been approved?
+- The geographic targeting pattern is not unique to SyRI — it appears in predictive policing worldwide
+:::
+
+## Data governance is not a privacy problem. It is a power problem.{background-color="#2b2b2b"}
+
+> GDPR and the AI Act are the EU's answer — imperfect, but real.
+
+
+---
+
+# Citizen Participation & Co-governance
+_The right to shape the city, not just inhabit it_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **Aarhus Convention (EU ratified)** | 1998 / 2005 | Legally binding: right to access environmental information, participate in decisions, access justice. Applies directly to smart city environmental data. |
+| **Leipzig Charter (revised)** | 2020 | Integrated urban development; 2020 revision adds "just city" pillar requiring citizen engagement in transformation |
+| **New Urban Agenda (Habitat III)** | 2016 | UN framework; participatory, inclusive, sustainable urbanisation |
+| **EU Mission Cities — Climate City Contracts** | 2021 | Participating cities must co-develop contracts with citizens and local stakeholders |
+| **Cohesion Policy / ERDF** | Ongoing | Structural funds increasingly require evidence of participatory needs assessment |
+:::
+
+::: {.notes}
+- The Aarhus Convention is legally binding and enforceable — not aspirational
+- Critical point: cities that collect environmental data through smart infrastructure may have an obligation to make it accessible to citizens under Aarhus
+- Ask: if your project city runs air quality sensors, who can access that data? Are they legally required to share it?
+:::
+
+
+
+## Barcelona DECIDE + DECODE {background-color="#2b2b2b"}
+
+### Citizens as stakeholders in digital infrastructure 
+
+:::::: {.columns}
+::: {.column width="50%"}
+**DECIDE / Decidim**
+
+- Open-source participatory democracy platform
+- Citizens propose, debate, and vote on city policies and budget allocations
+- 40,000+ registered users; deployed in **70+ cities globally** including the European Commission
+- Open-source: any city can deploy it, not dependent on a vendor
+:::
+::: {.column width="50%" .fragment}
+**DECODE (EU Horizon 2020)**
+
+- Citizen-controlled personal data sovereignty
+- Citizens decide what data they share with the city and on what terms
+- Counter-model to surveillance capitalism: data is **offered selectively**, not extracted
+:::
+::::::
+
+::: {.fragment style="margin-top: 1em; font-style: italic;"}
+Together: Barcelona treats citizens as co-producers of the city, not users of city services.
+:::
+
+::: {.notes}
+- Decidim is now used by the European Commission — the open-source model is the key
+- Connect to Lefebvre's "right to the city": this is what it looks like in practice
+- The open-source choice is a governance decision: participation infrastructure should be public, not proprietary
+- Ask students: what is the difference between a survey and a vote? Between consultation and co-governance?
+:::
+
+
+## Barcelona DECIDE + DECODE {background-color="#2b2b2b"}
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/_-ooCbgIiyo?si=EPDQgERppZspcDiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+## Songdo, South Korea {background-color="#FF8100"}
+
+### A city without citizens
+
+::: {.nonincremental}
+- Purpose-built smart city on reclaimed land; **$40 billion** investment
+- Technically complete: pneumatic waste collection, sensor networks, centralised city operating system
+- Designed for **300,000 residents** — chronically underoccupied (~100,000 as of 2024)
+- No participatory process — designed by engineers and real estate developers
+- Residents describe it as "sterile" and "soulless"
+:::
+
+::: {.fragment}
+> Technology works perfectly.
+> Community never formed.
+:::
+
+::: {.notes}
+- Non-European case, but the canonical reference in European planning education
+- Proves that technology does not generate community — community generates community
+- Ask students: what is the difference between a city and a real estate product with sensors?
+- Songdo optimised individual components and got a dysfunctional system
+:::
+
+## Songdo, South Korea {background-color="#000000" .nonincremental}
+
+<iframe width="100%" height="550" src="https://www.youtube.com/embed/-lFNWGRtGu4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+::: {.notes}
+- Watch for: the emptiness of the streets, the gap between technical infrastructure and social life
+- The visual evidence makes the case more powerfully than any statistic
+- After watching: ask students what's missing here — what does a city have that Songdo doesn't?
+:::
+
+## Participation is not a consultation phase. It is a design condition. {background-color="#2b2b2b"}
+
+> Cities built without it work technically and fail socially.
+
+
+---
+
+# Nature-Based Solutions & Green Infrastructure
+_The city as ecosystem_
+
+---
+
+## The EU legislative context {background-color="#40E4FF" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+| Framework | Year | What it requires |
+|-----------|------|-----------------|
+| **Nature Restoration Law** | 2024 | Legally binding restoration targets for degraded ecosystems, **including urban areas**. Landmark — passed after significant political resistance. |
+| **EU Biodiversity Strategy 2030** | 2020 | 30% of land and sea protected; urban greening targets; mandatory green space in new developments |
+| **EU Green Infrastructure Strategy** | 2013 / updated | NbS as primary tool for climate adaptation, biodiversity, and human health |
+| **EU Adaptation Strategy** | 2021 | Urban Greening Plans as part of city climate adaptation strategies by 2030 |
+| **European Green Deal** | 2019 | NbS positioned as cost-effective alternative to grey infrastructure |
+:::
+
+::: {.notes}
+- The Nature Restoration Law (2024) is genuinely new legal territory — first binding urban ecology obligations in Europe
+- Cities that have already mapped their green infrastructure digitally (as Stuttgart has done for decades) are better positioned to comply
+- Ask students: does your project area have a green infrastructure strategy? What does the Nature Restoration Law require it to do?
+:::
+
+## Stuttgart Klimaatlas Green Corridors {background-image="img/stuttgart.jpg" background-opacity="0.5"}
+
+### Evidence-based urban ecology before "smart" was a word 
+
+- Stuttgart sits in a valley — poor air circulation, chronic urban heat island
+- Since the 1970s: city has mapped **cold-air ventilation corridors** (Kaltluftabfluss) — routes through which cool air flows from surrounding forests into the city at night
+- Klimaatlas: a digital planning tool integrating wind flow, temperature, greenery, and development data
+- **Planning rule: no development that blocks a corridor is approved.** The map has legal force.
+- Used to plan new parks, street trees, and building orientations
+- Stuttgart measurably cooler than comparable German cities; asthma rates lower in corridor-adjacent areas
+
+::: {.notes}
+- This case predates the smart city label by decades — but it is exactly what smart, evidence-based planning looks like
+- The key: the map has legal force. Data is not advisory — it constrains decisions.
+- Connect to Unit 3 (systems thinking): the cold-air corridor system is a feedback loop between land use, climate, and health
+- Connect to Unit 5 (digital twins): Klimaatlas is an early prototype of what a city digital twin should actually be used for
+:::
+
+## Green Gentrification {background-color="#FF8100"}
+
+### Good ecology, bad equity 
+
+::: {.nonincremental}
+- NbS investments — parks, greenways, urban forests — **consistently raise surrounding property values**
+- Evidence across Barcelona, Amsterdam, London, Leipzig: green infrastructure investment correlates with displacement of lower-income residents
+:::
+
+::: {.fragment}
+The pattern:
+
+City invests in NbS → area becomes more desirable → rents rise → original residents displaced → **the people most exposed to pollution and heat are displaced from the solution**
+:::
+
+::: {.fragment}
+> EU Biodiversity Strategy and Nature Restoration Law **do not yet contain binding equity safeguards**.
+:::
+
+::: {.notes}
+- This is not an argument against NbS — it is an argument for doing NbS with tenure protection, community land trusts, and anti-displacement policy built in
+- Ask students: if EU green infrastructure investment displaces vulnerable communities, is it still a success?
+- Connect to the Five Critical Questions: who benefits, who bears the costs?
+- Green Deal goals and social justice goals are in tension here — this is not a technical problem
+:::
+
+##  Nature-based solutions work ecologically. {background-color="#2b2b2b"}
+
+> Whether they work for equity depends on who governs them and who is protected from displacement.
+
+
+---
+
+# What do all six cases have in common?
+
+---
+
+## The pattern across success and failure {background-color="#40E4FF" .nonincremental}
+
+:::::: {.columns}
+::: {.column width="48%"}
+**The successful cases have:**
+
+- Locally defined problems
+- Public institutional capacity to act on data
+- Open standards from the start
+- Equity built in — not bolted on
+- A clear theory of change before the technology
+:::
+::: {.column width="4%"}
+:::
+::: {.column width="48%"}
+**The failures have:**
+
+- Vendor-defined problems
+- Infrastructure without behavioural design
+- Technically correct solutions to the wrong question
+- No maintenance model beyond the pilot
+:::
+::::::
+
+::: {.fragment style="margin-top: 1em; text-align: center; font-style: italic; color: #FF8100;"}
+EU policy frameworks create the obligations and funding streams.
+They do not guarantee good governance.
+:::
+
+::: {.fragment style="text-align: center;"}
+Technology is the last mile. **Governance is the whole road.**
+:::
+
+::: {.notes}
+- Ask: which of your project's conditions for success are currently in place? Which are missing?
+- The synthesis slide is also a diagnostic tool for their own projects
+:::
+
+---
+
+# Your turn.
+::: {.r-fit-text}
+Group work: ~ 90 minutes
+:::
+
+---
+
+## Group work instructions {background-color="#FFDC00" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+
+1. Open the reference list (next slides, or `cases_reference.qmd` in the course materials)
+2. Browse the cases across the six categories
+3. **Pick 1–2 cases** that connect to your project — success or failure, European or not
+4. Build **3–4 slides** using the template on the following slide
+5. Present: **what is your project, and why do these cases matter to it?**
+
+:::
+
+::: {.fragment style="color:#2b2b2b; font-style: italic;"}
+You are not looking for a perfect match. You are looking for something that illuminates your project — a condition, a failure mode, a governance model worth examining.
+:::
+
+::: {.notes}
+- Circulate during group work if possible
+- Common problem: groups pick the "nicest" case that superficially resembles their project. Encourage them to also pick a failure case.
+- Remind them: Slide 4 (The Gap) is optional but often the most interesting one
+:::
+
+## Your presentation template {background-color="#FFDC00" .nonincremental}
+
+::: {style="color:#2b2b2b"}
+**Slide 1 — Your Project**
+One sentence: the problem. City, country, scale. What kind of smart city challenge is this?
+
+**Slide 2 — Your Case(s)**
+Name and location. What happened (3 bullets max). Which EU framework does it connect to?
+
+**Slide 3 — Why It Connects**
+What can your project learn? Positive model or cautionary one? Are the conditions present in your context?
+
+**Slide 4 — The Gap** _(optional but recommended)_
+What is different between the case context and your project? What would need to change for the lessons to transfer? What question does the case leave unanswered?
+:::
+
+::: {.notes}
+- Keep the template brief — groups should spend time thinking, not formatting
+- The Gap slide is where the best insights usually emerge: understanding why something worked elsewhere but might not work in their context
+:::
+
+---

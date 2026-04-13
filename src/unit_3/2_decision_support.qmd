@@ -1,0 +1,280 @@
+---
+title : Decision support tools 
+subtitle : Approaching urban challenges with indicators, dashboards, and decision support
+format: 
+    revealjs:
+        slide-number: true
+        theme: ../oslomet-pres.scss
+        center: true
+        transition: fade
+        footer: "SMUA 4500 Smart Cities - Greg Maya © &nbsp;|&nbsp; <a href='../../index.html' style='color:inherit;opacity:0.7;'>↩ Back to course</a>"
+        incremental: true
+title-slide-attributes: 
+  data-background-image: img/air-traffic-control-1826798.jpg
+  data-background-opacity: "0.5"
+
+---
+
+## Smart City's _brain_ {background-image="img/brain.jpg" background-opacity="0.4"}
+
+::: {.columns}
+::: {.column}
+### _The Back-end_
+
+The heuristics, logic, and models.
+:::
+::: {.column}
+### _The Front-end_
+
+Dashboards, visualizations, and stakeholder apps.
+:::
+:::
+
+:::{.fragment .r-fit-text}
+### GOAL
+
+[To reduce the "Cognitive Load"]()
+
+[without oversimplifying the "Wicked" reality.]()
+:::
+
+
+::: {.notes}
+- Remind them of the "Brain" analogy. A brain is useless if it can't move the body.
+- Decision Support Tools are the nervous system. They take the data from our models and present it so a Mayor, a Planner, or a Citizen can say "If we do X, then Y happens."
+- Crucial point: A good DST doesn't hide complexity; it manages it.
+:::
+
+# History & Evolution {background-color="#2b2b2b"}
+_From the Cockpit to the City_
+
+## Origins in Business Intelligence
+_The Corporate "Cockpit"_
+
+:::::: {.columns}
+::: {.column width="60%"}
+- **KPI Culture**: "If you can't measure it, you can't manage it." (Peter Drucker).
+- **Performance Monitoring**: Dashboards were designed for CEOs to track sales, inventory, and efficiency in real-time.
+- **The Metaphor**: The city as a machine that can be "tuned" for efficiency.
+:::
+::: {.column width="40%"}
+![Cockpit Metaphor](img/cockpit.jpg){height="300px"}
+:::
+::::::
+
+::: {.notes}
+- Start with the roots. Dashboards didn't start in cities; they started in factories and boardrooms.
+- The goal was efficiency and profit maximization.
+- Ask: "Does a city work like a factory?" (Hint: No).
+:::
+
+## The Shift to Urban Planning
+_Importing the Logic_
+
+:::::: {.columns}
+::: {.column width="50%"}
+### The Promise
+- **Smart Cities (2010s)**: Tech giants (IBM, Cisco) sold the idea of the "City Operating System."
+- **Real-time feedback**: Moving from 5-year census data to millisecond sensor readings.
+:::
+::: {.column width="50%"}
+### The Reality
+- **Complexity**: Cities are not closed systems.
+- **Wicked Problems**: Moving a variable in a city (e.g., traffic) affects everything else (pollution, retail, housing).
+:::
+::::::
+
+::: {.notes}
+- Transition: When we brought these tools to cities, we brought the "efficiency" mindset with them.
+- Challenge: Cities are open, complex systems, not closed production lines.
+- This creates tension between "optimizing flow" and "creating place."
+:::
+
+## From Monitoring to Simulating
+_The modern leap_
+
+:::::: {.columns}
+::: {.column width="33%"}
+### 1. Monitoring
+_"What is happening now?"_
+- Traffic counters
+- Air quality sensors
+- Energy grids
+:::
+::: {.column width="33%"}
+### 2. Analyzing
+_"Why is it happening?"_
+- Correlating data
+- Finding patterns
+- Identifying bottlenecks
+:::
+::: {.column width="33%"}
+### 3. Simulating
+_"What if we change X?"_
+- Digital Twins
+- Impact assessment
+- **Decision Support!**
+:::
+::::::
+
+::: {.notes}
+- This is the key evolution. We refrain from just *looking* at the speedometer.
+- We are now building "Flight Simulators" where we can crash the plane (city) safely in digital space before making changes in physical space.
+- This is the definition of a Decision Support Tool.
+:::
+
+# Indicators & Proxies {background-color="#40E4FF"}
+_The Map is not the Territory_
+
+## The Trap of Abstraction
+
+> "The map is not the territory."
+>
+> — *Alfred Korzybski*
+
+:::::: {.columns}
+::: {.column}
+### The "Index" Problem
+- **Liveability Index: 85/100**
+- **Happiness Score: 7.2**
+- **Walkability Score: 94**
+:::
+::: {.column}
+### Why it fails
+- Mathematically sound, practically useless.
+- If the score drops to 82, do we fix potholes or add schools?
+- **Abstract indexes hide the *levers* of change.**
+:::
+::::::
+
+::: {.notes}
+- Explain the difference between an Indicator (raw, valid signal) and an Index (aggregated, abstract score).
+- Ideally, we want indicators that point to specific physical actions.
+- An "Index" is good for ranking cities in a magazine, but bad for running a city.
+:::
+
+## The Unintended Consequences
+_Optimizing for the wrong thing_
+
+:::::: {.columns}
+::: {.column width="50%"}
+### The Metric
+**"Average Vehicle Speed"** or **"Intersection Throughput"**
+
+Optimizing for *flow* efficiency.
+:::
+::: {.column width="50%"}
+### The Result
+**Stroads & Highways**
+
+- High speed = Low interaction.
+- A street with "perfect flow" has no life (commerce, lingering, playing).
+:::
+::::::
+
+::: {.callout title="Goodhart's Law"}
+"When a measure becomes a target, it ceases to be a good measure."
+:::
+
+::: {.notes}
+- Example of Traffic vs Place.
+- If you optimize for one variable (speed), you inadvertently kill another (place quality).
+- This is why choosing *what* to measure is a political act, not just technical.
+:::
+
+## Good vs. Bad Indicators
+
+| Feature | Good Indicator | Bad Indicator |
+| :--- | :--- | :--- |
+| **Actionable** | "Potholes per km" (We can fill them) | "Road Quality Index" (Vague) |
+| **Relevant** | Measures what matters to stakeholders | Measures what is easy to count |
+| **Comparable** | Standardized units (kg, m, $) | Arbitrary scales (1-5 stars) |
+| **Transparent** | Clear calculation method | "Black Box" algorithm |
+
+::: {.notes}
+- Go through the criteria.
+- Emphasize "Proxy": Sometimes we can't measure the thing (e.g., Safety), so we measure a proxy (e.g., Streetlight lux levels).
+- Always ask: Is the proxy actually correlated?
+:::
+
+
+## Anatomy of a Dashboard {background-color="#40E4FF"}
+
+:::::: {.columns}
+::: {.column width="33%"}
+### 1. Indicators
+_The "Vital Signs"_
+- Real-time feeds
+- Historical trends
+- Key Performance Indicators (KPIs)
+:::
+::: {.column width="33%"}
+### 2. Simulation
+_The "What-If" Engine_
+- Slider controls
+- Scenario toggles
+- Impact forecasting
+:::
+::: {.column width="33%"}
+### 3. Narrative
+_The Context_
+- Annotations
+- Storytelling flow
+- "So what?" (Insights)
+:::
+::::::
+
+::: {.notes}
+- Refer to your Data Viz notes: "Identifying patterns, trends, and outliers."
+- In an urban context, a dashboard shouldn't just be a "report card" of the past. It should be a "flight simulator" for the future.
+- Example: A dashboard that shows current CO2 levels is a viz; a dashboard that lets you "delete" a parking lot and see the CO2 drop in real-time is a Decision Support Tool.
+:::
+
+## The "Misleading" Interface {background-color="#FF8100"}
+
+:::::: {.columns}
+::: {.column width="50%"}
+### The Aesthetic Trap
+> "If it looks high-tech, it must be true."
+
+- Shiny 3D maps and "Minority Report" interfaces can mask poor data quality.
+- **Cognitive Bias**: We trust beautiful things more than ugly truths.
+:::
+::: {.column width="50%"}
+### The Black Box
+- **False Precision**: Displaying "Safety: 87.42%" implies a level of certainty that doesn't exist.
+- **Hidden Algorithms**: Who decided the weightings?
+- **Truncated Realities**: What is *not* lying on the dashboard? (e.g., happiness, social capital).
+:::
+::::::
+
+::: {.notes}
+- Connect this to your Viz Pitfalls: "Misleading graphs, improper scaling."
+- In Smart Cities, there is a risk of "Technological Solutionism."
+- As curators of these tools, the students must ensure the visualization doesn't lie about the model's uncertainty.
+:::
+
+## Who is the Pilot?  {background-gradient="linear-gradient(to bottom, #2b2b2b, #000000)"}
+
+::: {.columns }
+::: {.column .fragment width=30%}
+### High-Level Ops
+
+Real-time management (Emergency response, traffic control).
+::: 
+::: {.column .fragment width=30%}
+### Strategic Planning
+
+10–20 year horizons (Housing, Climate adaptation).
+::: 
+::: {.column .fragment width=40%}
+### Public Participation
+
+Transparency and "Co-design" with citizens.
+::: 
+
+::: {.notes}
+- Different users need different "Front-ends." 
+- A technician needs a "Technical" viz. A citizen needs a "Human-centric" viz.
+- Workshop II Preview: We will look at how to tailor your "Wicked Problem" map into a tool that a specific stakeholder can actually use to make a choice.
+:::
